@@ -103,16 +103,16 @@ body {
   background-color: #70a8d3
 }
 .accordion-item:nth-of-type(26)  .accordion-button {
-  background-color: #7aa1d2
+  background-color: #97bdde
 }
 .accordion-item:nth-of-type(27) .accordion-button {
-  background-color: #729cd1
+  background-color: #bad3e9
 }
 .accordion-item:nth-of-type(28) .accordion-button {
-  background-color: #6a96d1
+  background-color: #dde9f4
 }
 .accordion-item:nth-of-type(29) .accordion-button {
-  background-color: #5c8bcf
+  background-color: #ffffff
 }
 *::-webkit-scrollbar {
   width: 3vw;
