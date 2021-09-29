@@ -132,6 +132,11 @@ body {
 .carousel-caption {
   filter: invert(100%);
 }
+.carousel-caption {
+  position: relative !important;
+  left: auto !important;
+  right: auto !important;
+}
 .carousel-item img {
   max-width: 75vw
 }

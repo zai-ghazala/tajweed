@@ -175,6 +175,14 @@ roots of the top front teeth.</p>
       <Accordion.Body>
       
       <p><strong>Tongue letter.</strong> Tip of the tongue touching the bottom edges of the front two teeth.</p> <p>Flat tongue as normal.</p>
+      <Carousel nextLabel={null} prevLabel={null}>
+<Carousel.Item>
+  <img
+    className="d-block mx-auto"
+    src={img27}
+  />
+</Carousel.Item>
+</Carousel>
       </Accordion.Body>
     </Accordion.Item>
     <Accordion.Item eventKey="9">
