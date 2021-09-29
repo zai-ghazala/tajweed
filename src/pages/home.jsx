@@ -115,7 +115,7 @@ export default function Home() {
           </p>
 
           <p>
-            <strong>الاطباق Sound is not retained in the mouth.</strong> - All
+            <strong>الاطباق Sound is not retained in the mouth</strong> - All
             letters except ص ض ط ظ
           </p>
 
@@ -153,7 +153,7 @@ export default function Home() {
             - All letters except خص ضغط قظ
           </p>
           <p>
-            <strong>الاطباق Sound is not retained in the mouth.</strong> - All
+            <strong>الاطباق Sound is not retained in the mouth</strong> - All
             letters except ص ض ط ظ
           </p>
           <img className="d-block mx-auto" src={img28} />
@@ -191,7 +191,7 @@ export default function Home() {
             - All letters except خص ضغط قظ
           </p>
           <p>
-            <strong>الاطباق Sound is not retained in the mouth.</strong> - All
+            <strong>الاطباق Sound is not retained in the mouth</strong> - All
             letters except ص ض ط ظ
           </p>
           <img className="d-block mx-auto" src={img27} />
@@ -230,7 +230,7 @@ export default function Home() {
             - All letters except خص ضغط قظ
           </p>
           <p>
-            <strong>الاطباق Sound is not retained in the mouth.</strong> - All
+            <strong>الاطباق Sound is not retained in the mouth</strong> - All
             letters except ص ض ط ظ
           </p>
           <img className="d-block mx-auto" src={img11b} />
@@ -267,7 +267,7 @@ export default function Home() {
             - All letters except خص ضغط قظ
           </p>
           <p>
-            <strong>الاطباق Sound is not retained in the mouth.</strong> - All
+            <strong>الاطباق Sound is not retained in the mouth</strong> - All
             letters except ص ض ط ظ
           </p>
           <img className="d-block mx-auto" src={img5} />
@@ -305,7 +305,7 @@ export default function Home() {
             - The following letters خص ضغط قظ
           </p>
           <p>
-            <strong>الاطباق Sound is not retained in the mouth.</strong> - All
+            <strong>الاطباق Sound is not retained in the mouth</strong> - All
             letters except ص ض ط ظ
           </p>
           <img className="d-block mx-auto" src={img6} />
@@ -345,7 +345,7 @@ export default function Home() {
             - All letters except خص ضغط قظ
           </p>
           <p>
-            <strong>الاطباق Sound is not retained in the mouth.</strong> - All
+            <strong>الاطباق Sound is not retained in the mouth</strong> - All
             letters except ص ض ط ظ
           </p>
           <img className="d-block mx-auto" src={img28} />
@@ -381,7 +381,7 @@ export default function Home() {
             - All letters except خص ضغط قظ
           </p>
           <p>
-            <strong>الاطباق Sound is not retained in the mouth.</strong> - All
+            <strong>الاطباق Sound is not retained in the mouth</strong> - All
             letters except ص ض ط ظ
           </p>
           <img className="d-block mx-auto" src={img27} />
@@ -435,7 +435,7 @@ export default function Home() {
             - All letters except خص ضغط قظ
           </p>
           <p>
-            <strong>الاطباق Sound is not retained in the mouth.</strong> - All
+            <strong>الاطباق Sound is not retained in the mouth</strong> - All
             letters except ص ض ط ظ
           </p>
           <Carousel nextLabel={null} prevLabel={null}>
@@ -497,7 +497,7 @@ export default function Home() {
             - All letters except خص ضغط قظ
           </p>
           <p>
-            <strong>الاطباق Sound is not retained in the mouth.</strong> - All
+            <strong>الاطباق Sound is not retained in the mouth</strong> - All
             letters except ص ض ط ظ
           </p>
           <img className="d-block mx-auto" src={img26} />
@@ -537,7 +537,7 @@ export default function Home() {
             - All letters except خص ضغط قظ
           </p>
           <p>
-            <strong>الاطباق Sound is not retained in the mouth.</strong> - All
+            <strong>الاطباق Sound is not retained in the mouth</strong> - All
             letters except ص ض ط ظ
           </p>
           <img className="d-block mx-auto" src={img26} />
@@ -576,7 +576,7 @@ export default function Home() {
             - All letters except خص ضغط قظ
           </p>
           <p>
-            <strong>الاطباق Sound is not retained in the mouth.</strong> - All
+            <strong>الاطباق Sound is not retained in the mouth</strong> - All
             letters except ص ض ط ظ
           </p>
           <img className="d-block mx-auto" src={img11a} />
@@ -803,7 +803,7 @@ export default function Home() {
             The letters لن عمر “Lin ‘Umar”
           </p>
           <p>
-            <strong>الاطباق Sound is not retained in the mouth.</strong> - All
+            <strong>الاطباق Sound is not retained in the mouth</strong> - All
             letters except ص ض ط ظ
           </p>
           <img className="d-block mx-auto" src={img5a} />
@@ -842,7 +842,7 @@ export default function Home() {
             - The following letters خص ضغط قظ
           </p>
           <p>
-            <strong>الاطباق Sound is not retained in the mouth.</strong> - All
+            <strong>الاطباق Sound is not retained in the mouth</strong> - All
             letters except ص ض ط ظ
           </p>
           <img className="d-block mx-auto" src={img6a} />
@@ -881,7 +881,7 @@ export default function Home() {
             - All letters except خص ضغط قظ
           </p>
           <p>
-            <strong>الاطباق Sound is not retained in the mouth.</strong> - All
+            <strong>الاطباق Sound is not retained in the mouth</strong> - All
             letters except ص ض ط ظ
           </p>
           <img className="d-block mx-auto" src={img29} />
@@ -923,7 +923,7 @@ export default function Home() {
             - The following letters خص ضغط قظ
           </p>
           <p>
-            <strong>الاطباق Sound is not retained in the mouth.</strong> - All
+            <strong>الاطباق Sound is not retained in the mouth</strong> - All
             letters except ص ض ط ظ
           </p>
           <img className="d-block mx-auto" src={img7} />
@@ -958,7 +958,7 @@ export default function Home() {
             - All letters except خص ضغط قظ
           </p>
           <p>
-            <strong>الاطباق Sound is not retained in the mouth.</strong> - All
+            <strong>الاطباق Sound is not retained in the mouth</strong> - All
             letters except ص ض ط ظ
           </p>
           <img className="d-block mx-auto" src={img8} />
@@ -1006,7 +1006,7 @@ export default function Home() {
             - All letters except خص ضغط قظ
           </p>
           <p>
-            <strong>الاطباق Sound is not retained in the mouth.</strong> - All
+            <strong>الاطباق Sound is not retained in the mouth</strong> - All
             letters except ص ض ط ظ
           </p>
           <Carousel nextLabel={null} prevLabel={null}>
@@ -1071,7 +1071,7 @@ export default function Home() {
             - All letters except خص ضغط قظ
           </p>
           <p>
-            <strong>الاطباق Sound is not retained in the mouth.</strong> - All
+            <strong>الاطباق Sound is not retained in the mouth</strong> - All
             letters except ص ض ط ظ
           </p>
           <img className="d-block mx-auto" src={img33} />
@@ -1118,7 +1118,7 @@ export default function Home() {
             - The following letters خص ضغط قظ
           </p>
           <p>
-            <strong>الاطباق Sound is not retained in the mouth.</strong> - All
+            <strong>الاطباق Sound is not retained in the mouth</strong> - All
             letters except ص ض ط ظ
           </p>
           <img className="d-block mx-auto" src={img22} />
@@ -1199,7 +1199,7 @@ export default function Home() {
             - All letters except خص ضغط قظ
           </p>
           <p>
-            <strong>الاطباق Sound is not retained in the mouth.</strong> - All
+            <strong>الاطباق Sound is not retained in the mouth</strong> - All
             letters except ص ض ط ظ
           </p>
           <Carousel nextLabel={null} prevLabel={null}>
@@ -1250,7 +1250,7 @@ export default function Home() {
             - All letters except خص ضغط قظ
           </p>
           <p>
-            <strong>الاطباق Sound is not retained in the mouth.</strong> - All
+            <strong>الاطباق Sound is not retained in the mouth</strong> - All
             letters except ص ض ط ظ
           </p>
           <Carousel nextLabel={null} prevLabel={null}>
@@ -1301,7 +1301,7 @@ export default function Home() {
             - All letters except خص ضغط قظ
           </p>
           <p>
-            <strong>الاطباق Sound is not retained in the mouth.</strong> - All
+            <strong>الاطباق Sound is not retained in the mouth</strong> - All
             letters except ص ض ط ظ
           </p>
           <img className="d-block mx-auto" src={img11} />
