@@ -136,13 +136,19 @@ body {
   position: relative !important;
   left: auto !important;
   right: auto !important;
-  padding-top: 2.25rem !important;
+  padding-top: 2.25rem !important
 }
 .carousel-indicators {
   display: none !important;
 }
 .accordion-body  img {
   max-width: 75vw
+}
+hr {
+  border: none;
+  height: 2px !important;
+  background: var(--color-primary) !important;
+  color:  var(--color-primary) !important
 }
 @media (min-width: 481px) and (orientation: landscape) { 
   .accordion-body img {

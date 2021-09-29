@@ -68,7 +68,6 @@ import smallHaa from "../assets/audio/small-haa.mp3";
 import hamzah from "../assets/audio/hamzah.mp3";
 import yaa from "../assets/audio/yaa.mp3";
 
-
 export default function Home() {
   return (
     <Accordion>
@@ -81,10 +80,11 @@ export default function Home() {
       <Accordion.Item eventKey="1">
         <Accordion.Header>ب</Accordion.Header>
         <Accordion.Body>
-        <audio controls>
-          <source src={baa} type="audio/mp3"/>
-          Your browser does not support the audio element.
-        </audio>
+          <audio controls>
+            <source src={baa} type="audio/mp3" />
+            Your browser does not support the audio element.
+          </audio>
+
           <p>
             <strong>Lip letter.</strong> Lips come together then move apart for
             ب creating a bounce.
@@ -95,46 +95,115 @@ export default function Home() {
             sound from the makhraj in these sakinah letters after shiddah
             occurs.
           </p>
+
+          <hr />
+
+          <p>
+            <strong>الجحر No airflow</strong> - All letters except فحثه شخص سكت
+            “Fa-hathu-hu shakhsun sakath”
+          </p>
+          <p>
+            <strong>الشدۃ Sound is not allowed to flow</strong> - أَجِدْ قَطٍ
+            بَكَتْ “Ajid Qatin Bakath”
+          </p>
+          <p>
+            <strong>
+              استفعال Sound is directed downwards and outwards which gives the
+              sound the quality of tarqeeq which is a lightness
+            </strong>{" "}
+            - All letters except خص ضغط قظ
+          </p>
+
+          <p>
+            <strong>الاطباق Sound is not retained in the mouth.</strong> - All
+            letters except ص ض ط ظ
+          </p>
+
           <img className="d-block mx-auto" src={img32} />
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="2">
         <Accordion.Header>ت</Accordion.Header>
         <Accordion.Body>
-        <audio controls>
-          <source src={taa} type="audio/mp3"/>
-          Your browser does not support the audio element.
-        </audio>
+          <audio controls>
+            <source src={taa} type="audio/mp3" />
+            Your browser does not support the audio element.
+          </audio>
           <p>
             <strong>Tongue letter.</strong> Where the extreme tip of the tongue
             touches the roots of the top front teeth.
           </p>
           <p>Tongue relaxed as normal.</p>
+
+          <hr />
+
+          <p>
+            <strong>الحمص With airflow</strong> - فحثه شخص سكت “Fa-hathu-hu
+            shakhsun sakath”
+          </p>
+          <p>
+            <strong>الشدۃ Sound is not allowed to flow</strong> - أَجِدْ قَطٍ
+            بَكَتْ “Ajid Qatin Bakath”
+          </p>
+          <p>
+            <strong>
+              استفعال Sound is directed downwards and outwards which gives the
+              sound the quality of tarqeeq which is a lightness
+            </strong>{" "}
+            - All letters except خص ضغط قظ
+          </p>
+          <p>
+            <strong>الاطباق Sound is not retained in the mouth.</strong> - All
+            letters except ص ض ط ظ
+          </p>
           <img className="d-block mx-auto" src={img28} />
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="3">
         <Accordion.Header>ث</Accordion.Header>
         <Accordion.Body>
-        <audio controls>
-          <source src={saa} type="audio/mp3"/>
-          Your browser does not support the audio element.
-        </audio>
+          <audio controls>
+            <source src={saa} type="audio/mp3" />
+            Your browser does not support the audio element.
+          </audio>
           <p>
             <strong>Tongue letter.</strong> Tip of the tongue touching the
             bottom edges of the front two teeth.
           </p>
           <p>Flat tongue as normal.</p>
+
+          <hr />
+
+          <p>
+            <strong>الحمص With airflow</strong> - فحثه شخص سكت “Fa-hathu-hu
+            shakhsun sakath”
+          </p>
+          <p>
+            <strong>الرخاوة Sound is allowed to flow</strong> - Except أَجِدْ
+            قَطٍ بَكَتْ “Ajid Qatin Bakath” and لن عمر “Lin ‘Umar” all the
+            remaining letters.
+          </p>
+          <p>
+            <strong>
+              استفعال Sound is directed downwards and outwards which gives the
+              sound the quality of tarqeeq which is a lightness
+            </strong>{" "}
+            - All letters except خص ضغط قظ
+          </p>
+          <p>
+            <strong>الاطباق Sound is not retained in the mouth.</strong> - All
+            letters except ص ض ط ظ
+          </p>
           <img className="d-block mx-auto" src={img27} />
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="4">
         <Accordion.Header>ج</Accordion.Header>
         <Accordion.Body>
-        <audio controls>
-          <source src={jeem} type="audio/mp3"/>
-          Your browser does not support the audio element.
-        </audio>
+          <audio controls>
+            <source src={jeem} type="audio/mp3" />
+            Your browser does not support the audio element.
+          </audio>
           <p>
             <strong>Tongue letter.</strong> Middle of the tongue with the middle
             of the roof of the mouth.
@@ -144,31 +213,73 @@ export default function Home() {
             sound from the makhraj in these sakinah letters after shiddah
             occurs.
           </p>
+          <hr />
+          <p>
+            <strong>الجحر No airflow</strong> - All letters except فحثه شخص سكت
+            “Fa-hathu-hu shakhsun sakath”
+          </p>
+          <p>
+            <strong>الشدۃ Sound is not allowed to flow</strong> - أَجِدْ قَطٍ
+            بَكَتْ “Ajid Qatin Bakath”
+          </p>
+          <p>
+            <strong>
+              استفعال Sound is directed downwards and outwards which gives the
+              sound the quality of tarqeeq which is a lightness
+            </strong>{" "}
+            - All letters except خص ضغط قظ
+          </p>
+          <p>
+            <strong>الاطباق Sound is not retained in the mouth.</strong> - All
+            letters except ص ض ط ظ
+          </p>
           <img className="d-block mx-auto" src={img11b} />
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="5">
         <Accordion.Header>ح</Accordion.Header>
         <Accordion.Body>
-        <audio controls>
-          <source src={haa} type="audio/mp3"/>
-          Your browser does not support the audio element.
-        </audio>
+          <audio controls>
+            <source src={haa} type="audio/mp3" />
+            Your browser does not support the audio element.
+          </audio>
           <p>
             <strong>Throat letter.</strong> Middle of the throat, epiglottis,
             what stops food going into our windpipe when we eat.
           </p>
+
           <p>Tongue is flat.</p>
+          <hr />
+          <p>
+            <strong>الحمص With airflow</strong> - فحثه شخص سكت “Fa-hathu-hu
+            shakhsun sakath”
+          </p>
+          <p>
+            <strong>الرخاوة Sound is allowed to flow</strong> - Except أَجِدْ
+            قَطٍ بَكَتْ “Ajid Qatin Bakath” and لن عمر “Lin ‘Umar” all the
+            remaining letters.
+          </p>
+          <p>
+            <strong>
+              استفعال Sound is directed downwards and outwards which gives the
+              sound the quality of tarqeeq which is a lightness
+            </strong>{" "}
+            - All letters except خص ضغط قظ
+          </p>
+          <p>
+            <strong>الاطباق Sound is not retained in the mouth.</strong> - All
+            letters except ص ض ط ظ
+          </p>
           <img className="d-block mx-auto" src={img5} />
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="6">
         <Accordion.Header>خ</Accordion.Header>
         <Accordion.Body>
-        <audio controls>
-          <source src={khaa} type="audio/mp3"/>
-          Your browser does not support the audio element.
-        </audio>
+          <audio controls>
+            <source src={khaa} type="audio/mp3" />
+            Your browser does not support the audio element.
+          </audio>
           <p>
             <strong>Throat letter.</strong> Closest to the mouth.
           </p>
@@ -176,17 +287,37 @@ export default function Home() {
             Note that the tongue is dipped in the middle so the sound is
             directed up to produce a heavy sound.
           </p>
-
+          <hr />
+          <p>
+            <strong>الحمص With airflow</strong> - فحثه شخص سكت “Fa-hathu-hu
+            shakhsun sakath”
+          </p>
+          <p>
+            <strong>الشدۃ Sound is not allowed to flow</strong> - أَجِدْ قَطٍ
+            بَكَتْ “Ajid Qatin Bakath”
+          </p>
+          <p>
+            <strong>
+              الإستــعلاء Sound is directed upwards between the tongue and the
+              top palate. (Up and inside) This gives the letter the quality of
+              tafkheem which is a thick heaviness.
+            </strong>{" "}
+            - The following letters خص ضغط قظ
+          </p>
+          <p>
+            <strong>الاطباق Sound is not retained in the mouth.</strong> - All
+            letters except ص ض ط ظ
+          </p>
           <img className="d-block mx-auto" src={img6} />
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="7">
         <Accordion.Header>د</Accordion.Header>
         <Accordion.Body>
-        <audio controls>
-          <source src={daal} type="audio/mp3"/>
-          Your browser does not support the audio element.
-        </audio>
+          <audio controls>
+            <source src={daal} type="audio/mp3" />
+            Your browser does not support the audio element.
+          </audio>
           <p>
             <strong>Tongue letter.</strong> Where the extreme tip of the tongue
             touches the roots of the top front teeth.
@@ -197,31 +328,72 @@ export default function Home() {
             sound from the makhraj in these sakinah letters after shiddah
             occurs.
           </p>
+          <hr />
+          <p>
+            <strong>الجحر No airflow</strong> - All letters except فحثه شخص سكت
+            “Fa-hathu-hu shakhsun sakath”
+          </p>
+          <p>
+            <strong>الشدۃ Sound is not allowed to flow</strong> - أَجِدْ قَطٍ
+            بَكَتْ “Ajid Qatin Bakath”
+          </p>
+          <p>
+            <strong>
+              استفعال Sound is directed downwards and outwards which gives the
+              sound the quality of tarqeeq which is a lightness
+            </strong>{" "}
+            - All letters except خص ضغط قظ
+          </p>
+          <p>
+            <strong>الاطباق Sound is not retained in the mouth.</strong> - All
+            letters except ص ض ط ظ
+          </p>
           <img className="d-block mx-auto" src={img28} />
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="8">
         <Accordion.Header>ذ</Accordion.Header>
         <Accordion.Body>
-        <audio controls>
-          <source src={zaal} type="audio/mp3"/>
-          Your browser does not support the audio element.
-        </audio>
+          <audio controls>
+            <source src={zaal} type="audio/mp3" />
+            Your browser does not support the audio element.
+          </audio>
           <p>
             <strong>Tongue letter.</strong> Tip of the tongue touching the
             bottom edges of the front two teeth.
           </p>{" "}
           <p>Flat tongue as normal.</p>
+          <hr />
+          <p>
+            <strong>الجحر No airflow</strong> - All letters except فحثه شخص سكت
+            “Fa-hathu-hu shakhsun sakath”
+          </p>
+          <p>
+            <strong>الرخاوة Sound is allowed to flow</strong> - Except أَجِدْ
+            قَطٍ بَكَتْ “Ajid Qatin Bakath” and لن عمر “Lin ‘Umar” all the
+            remaining letters.
+          </p>
+          <p>
+            <strong>
+              استفعال Sound is directed downwards and outwards which gives the
+              sound the quality of tarqeeq which is a lightness
+            </strong>{" "}
+            - All letters except خص ضغط قظ
+          </p>
+          <p>
+            <strong>الاطباق Sound is not retained in the mouth.</strong> - All
+            letters except ص ض ط ظ
+          </p>
           <img className="d-block mx-auto" src={img27} />
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="9">
         <Accordion.Header>ر</Accordion.Header>
         <Accordion.Body>
-        <audio controls>
-          <source src={raa} type="audio/mp3"/>
-          Your browser does not support the audio element.
-        </audio>
+          <audio controls>
+            <source src={raa} type="audio/mp3" />
+            Your browser does not support the audio element.
+          </audio>
           <p>
             <strong>Tongue letter.</strong> Tip of the tongue.
           </p>
@@ -249,6 +421,22 @@ export default function Home() {
             <strong>الانحراف Al Inharaf</strong> - ر and ل Diverting the sound
             of a letter away from its makhraj. Laam is read away from its
             makhraj and raa moves to a point in its makhraj.
+          </p>
+          <hr />
+          <p>
+            <strong>الجحر No airflow</strong> - All letters except فحثه شخص سكت
+            “Fa-hathu-hu shakhsun sakath”
+          </p>
+          <p>
+            <strong>
+              استفعال Sound is directed downwards and outwards which gives the
+              sound the quality of tarqeeq which is a lightness
+            </strong>{" "}
+            - All letters except خص ضغط قظ
+          </p>
+          <p>
+            <strong>الاطباق Sound is not retained in the mouth.</strong> - All
+            letters except ص ض ط ظ
           </p>
           <Carousel nextLabel={null} prevLabel={null}>
             <Carousel.Item>
@@ -278,10 +466,10 @@ export default function Home() {
       <Accordion.Item eventKey="10">
         <Accordion.Header>ز</Accordion.Header>
         <Accordion.Body>
-        <audio controls>
-          <source src={zaai} type="audio/mp3"/>
-          Your browser does not support the audio element.
-        </audio>
+          <audio controls>
+            <source src={zaai} type="audio/mp3" />
+            Your browser does not support the audio element.
+          </audio>
           <p>
             <strong>Tongue letter.</strong> Extreme tip of the tongue touching
             the inner surface at the lower end of the bottom two front teeth.
@@ -290,6 +478,27 @@ export default function Home() {
           <p>
             <strong>الصفیر As Safeer</strong> - س ص ز Sound that is caused due
             to the narrow gap above the tongue.
+          </p>
+          <hr />
+          <p>
+            <strong>الحمص With airflow</strong> - فحثه شخص سكت “Fa-hathu-hu
+            shakhsun sakath”
+          </p>
+          <p>
+            <strong>الرخاوة Sound is allowed to flow</strong> - Except أَجِدْ
+            قَطٍ بَكَتْ “Ajid Qatin Bakath” and لن عمر “Lin ‘Umar” all the
+            remaining letters.
+          </p>
+          <p>
+            <strong>
+              استفعال Sound is directed downwards and outwards which gives the
+              sound the quality of tarqeeq which is a lightness
+            </strong>{" "}
+            - All letters except خص ضغط قظ
+          </p>
+          <p>
+            <strong>الاطباق Sound is not retained in the mouth.</strong> - All
+            letters except ص ض ط ظ
           </p>
           <img className="d-block mx-auto" src={img26} />
         </Accordion.Body>
@@ -297,10 +506,10 @@ export default function Home() {
       <Accordion.Item eventKey="11">
         <Accordion.Header>س</Accordion.Header>
         <Accordion.Body>
-        <audio controls>
-          <source src={seen} type="audio/mp3"/>
-          Your browser does not support the audio element.
-        </audio>
+          <audio controls>
+            <source src={seen} type="audio/mp3" />
+            Your browser does not support the audio element.
+          </audio>
           <p>
             <strong>Tongue letter.</strong> Extreme tip of the tongue touching
             the inner surface at the lower end of the bottom two front teeth.
@@ -310,16 +519,37 @@ export default function Home() {
             <strong>الصفیر As Safeer</strong> - س ص ز Sound that is caused due
             to the narrow gap above the tongue.
           </p>
+          <hr />
+          <p>
+            <strong>الحمص With airflow</strong> - فحثه شخص سكت “Fa-hathu-hu
+            shakhsun sakath”
+          </p>
+          <p>
+            <strong>الرخاوة Sound is allowed to flow</strong> - Except أَجِدْ
+            قَطٍ بَكَتْ “Ajid Qatin Bakath” and لن عمر “Lin ‘Umar” all the
+            remaining letters.
+          </p>
+          <p>
+            <strong>
+              استفعال Sound is directed downwards and outwards which gives the
+              sound the quality of tarqeeq which is a lightness
+            </strong>{" "}
+            - All letters except خص ضغط قظ
+          </p>
+          <p>
+            <strong>الاطباق Sound is not retained in the mouth.</strong> - All
+            letters except ص ض ط ظ
+          </p>
           <img className="d-block mx-auto" src={img26} />
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="12">
         <Accordion.Header>ش</Accordion.Header>
         <Accordion.Body>
-        <audio controls>
-          <source src={sheen} type="audio/mp3"/>
-          Your browser does not support the audio element.
-        </audio>
+          <audio controls>
+            <source src={sheen} type="audio/mp3" />
+            Your browser does not support the audio element.
+          </audio>
           <p>
             <strong>Tongue letter.</strong> Middle of the tongue with the middle
             of the roof of the mouth.
@@ -328,17 +558,37 @@ export default function Home() {
             <strong>التفشي Al Tafashi</strong> - The sound and breath spreads
             through the mouth.
           </p>
-
+          <hr />
+          <p>
+            <strong>الحمص With airflow</strong> - فحثه شخص سكت “Fa-hathu-hu
+            shakhsun sakath”
+          </p>
+          <p>
+            <strong>الرخاوة Sound is allowed to flow</strong> - Except أَجِدْ
+            قَطٍ بَكَتْ “Ajid Qatin Bakath” and لن عمر “Lin ‘Umar” all the
+            remaining letters.
+          </p>
+          <p>
+            <strong>
+              استفعال Sound is directed downwards and outwards which gives the
+              sound the quality of tarqeeq which is a lightness
+            </strong>{" "}
+            - All letters except خص ضغط قظ
+          </p>
+          <p>
+            <strong>الاطباق Sound is not retained in the mouth.</strong> - All
+            letters except ص ض ط ظ
+          </p>
           <img className="d-block mx-auto" src={img11a} />
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="13">
         <Accordion.Header>ص</Accordion.Header>
         <Accordion.Body>
-        <audio controls>
-          <source src={suad} type="audio/mp3"/>
-          Your browser does not support the audio element.
-        </audio>
+          <audio controls>
+            <source src={suad} type="audio/mp3" />
+            Your browser does not support the audio element.
+          </audio>
           <p>
             <strong>Tongue letter.</strong> Extreme tip of the tongue touching
             the inner surface at the lower end of the bottom two front teeth.
@@ -351,17 +601,40 @@ export default function Home() {
             <strong>الصفیر As Safeer</strong> - س ص ز Sound that is caused due
             to the narrow gap above the tongue.
           </p>
-
+          <hr />
+          <p>
+            <strong>الحمص With airflow</strong> - فحثه شخص سكت “Fa-hathu-hu
+            shakhsun sakath”
+          </p>
+          <p>
+            <strong>الرخاوة Sound is allowed to flow</strong> - Except أَجِدْ
+            قَطٍ بَكَتْ “Ajid Qatin Bakath” and لن عمر “Lin ‘Umar” all the
+            remaining letters.
+          </p>
+          <p>
+            <strong>
+              الإستــعلاء Sound is directed upwards between the tongue and the
+              top palate. (Up and inside) This gives the letter the quality of
+              tafkheem which is a thick heaviness.
+            </strong>{" "}
+            - The following letters خص ضغط قظ
+          </p>
+          <p>
+            <strong>
+              الاطباق Sound is retained between tongue and top palate.
+            </strong>{" "}
+            - ص ض ط ظ
+          </p>
           <img className="d-block mx-auto" src={img26a} />
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="14">
         <Accordion.Header>ض</Accordion.Header>
         <Accordion.Body>
-        <audio controls>
-          <source src={duad} type="audio/mp3"/>
-          Your browser does not support the audio element.
-        </audio>
+          <audio controls>
+            <source src={duad} type="audio/mp3" />
+            Your browser does not support the audio element.
+          </audio>
           <p>
             <strong>Tongue letter.</strong> Sides of the tongue.
           </p>
@@ -381,6 +654,30 @@ export default function Home() {
             <strong>الاستطال Al Istitaala</strong> - The forward movement of the
             tongue stretching from the back to the front.
           </p>
+          <hr />
+          <p>
+            <strong>الجحر No airflow</strong> - All letters except فحثه شخص سكت
+            “Fa-hathu-hu shakhsun sakath”
+          </p>
+          <p>
+            <strong>الرخاوة Sound is allowed to flow</strong> - Except أَجِدْ
+            قَطٍ بَكَتْ “Ajid Qatin Bakath” and لن عمر “Lin ‘Umar” all the
+            remaining letters.
+          </p>
+          <p>
+            <strong>
+              الإستــعلاء Sound is directed upwards between the tongue and the
+              top palate. (Up and inside) This gives the letter the quality of
+              tafkheem which is a thick heaviness.
+            </strong>{" "}
+            - The following letters خص ضغط قظ
+          </p>
+          <p>
+            <strong>
+              الاطباق Sound is retained between tongue and top palate.
+            </strong>{" "}
+            - ص ض ط ظ
+          </p>
           <Carousel nextLabel={null} prevLabel={null}>
             <Carousel.Item>
               <img className="d-block mx-auto" src={img20} />
@@ -399,10 +696,10 @@ export default function Home() {
       <Accordion.Item eventKey="15">
         <Accordion.Header>ط</Accordion.Header>
         <Accordion.Body>
-        <audio controls>
-          <source src={taaHeavy} type="audio/mp3"/>
-          Your browser does not support the audio element.
-        </audio>
+          <audio controls>
+            <source src={taaHeavy} type="audio/mp3" />
+            Your browser does not support the audio element.
+          </audio>
           <p>
             <strong>Tongue letter.</strong> Where the extreme tip of the tongue
             touches the roots of the top front teeth.
@@ -416,16 +713,39 @@ export default function Home() {
             sound from the makhraj in these sakinah letters after shiddah
             occurs.
           </p>
+          <hr />
+          <p>
+            <strong>الجحر No airflow</strong> - All letters except فحثه شخص سكت
+            “Fa-hathu-hu shakhsun sakath”
+          </p>
+          <p>
+            <strong>الشدۃ Sound is not allowed to flow</strong> - أَجِدْ قَطٍ
+            بَكَتْ “Ajid Qatin Bakath”
+          </p>
+          <p>
+            <strong>
+              الإستــعلاء Sound is directed upwards between the tongue and the
+              top palate. (Up and inside) This gives the letter the quality of
+              tafkheem which is a thick heaviness.
+            </strong>{" "}
+            - The following letters خص ضغط قظ
+          </p>
+          <p>
+            <strong>
+              الاطباق Sound is retained between tongue and top palate.
+            </strong>{" "}
+            - ص ض ط ظ
+          </p>
           <img className="d-block mx-auto" src={img27a} />
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="16">
         <Accordion.Header>ظ</Accordion.Header>
         <Accordion.Body>
-        <audio controls>
-          <source src={zaaHeavy} type="audio/mp3"/>
-          Your browser does not support the audio element.
-        </audio>
+          <audio controls>
+            <source src={zaaHeavy} type="audio/mp3" />
+            Your browser does not support the audio element.
+          </audio>
           <p>
             <strong>Tongue letter.</strong> Tip of the tongue touching the
             bottom edges of the front two teeth.
@@ -434,32 +754,68 @@ export default function Home() {
             Tongue dipped in middle, sound is directed to the top of the mouth
             so is heavy and trapped.
           </p>
+          <hr />
+          <p>
+            <strong>الجحر No airflow</strong> - All letters except فحثه شخص سكت
+            “Fa-hathu-hu shakhsun sakath”
+          </p>
+          <p>
+            <strong>الرخاوة Sound is allowed to flow</strong> - Except أَجِدْ
+            قَطٍ بَكَتْ “Ajid Qatin Bakath” and لن عمر “Lin ‘Umar” all the
+            remaining letters.
+          </p>
+          <p>
+            <strong>
+              الإستــعلاء Sound is directed upwards between the tongue and the
+              top palate. (Up and inside) This gives the letter the quality of
+              tafkheem which is a thick heaviness.
+            </strong>{" "}
+            - The following letters خص ضغط قظ
+          </p>
+          <p>
+            <strong>
+              الاطباق Sound is retained between tongue and top palate.
+            </strong>{" "}
+            - ص ض ط ظ
+          </p>
           <img className="d-block mx-auto" src={img28a} />
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="17">
         <Accordion.Header>ع</Accordion.Header>
         <Accordion.Body>
-        <audio controls>
-          <source src={ain} type="audio/mp3"/>
-          Your browser does not support the audio element.
-        </audio>
+          <audio controls>
+            <source src={ain} type="audio/mp3" />
+            Your browser does not support the audio element.
+          </audio>
           <p>
             <strong>Throat letter.</strong> Middle of the throat, epiglottis,
             what stops food going into our windpipe when we eat.
           </p>
           <p>Tongue is flat.</p>
-
+          <hr />
+          <p>
+            <strong>الجحر No airflow</strong> - All letters except فحثه شخص سكت
+            “Fa-hathu-hu shakhsun sakath”
+          </p>
+          <p>
+            <strong>توسط Sound is not allowed to flow nor shortened.</strong> -
+            The letters لن عمر “Lin ‘Umar”
+          </p>
+          <p>
+            <strong>الاطباق Sound is not retained in the mouth.</strong> - All
+            letters except ص ض ط ظ
+          </p>
           <img className="d-block mx-auto" src={img5a} />
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="18">
         <Accordion.Header>غ</Accordion.Header>
         <Accordion.Body>
-        <audio controls>
-          <source src={gain} type="audio/mp3"/>
-          Your browser does not support the audio element.
-        </audio>
+          <audio controls>
+            <source src={gain} type="audio/mp3" />
+            Your browser does not support the audio element.
+          </audio>
           <p>
             <strong>Throat letter.</strong> Closest to the mouth.
           </p>
@@ -467,32 +823,77 @@ export default function Home() {
             Note that the tongue is dipped in the middle so the sound is
             directed up to produce a heavy sound.
           </p>
-
+          <hr />
+          <p>
+            <strong>الجحر No airflow</strong> - All letters except فحثه شخص سكت
+            “Fa-hathu-hu shakhsun sakath”
+          </p>
+          <p>
+            <strong>الرخاوة Sound is allowed to flow</strong> - Except أَجِدْ
+            قَطٍ بَكَتْ “Ajid Qatin Bakath” and لن عمر “Lin ‘Umar” all the
+            remaining letters.
+          </p>
+          <p>
+            <strong>
+              الإستــعلاء Sound is directed upwards between the tongue and the
+              top palate. (Up and inside) This gives the letter the quality of
+              tafkheem which is a thick heaviness.
+            </strong>{" "}
+            - The following letters خص ضغط قظ
+          </p>
+          <p>
+            <strong>الاطباق Sound is not retained in the mouth.</strong> - All
+            letters except ص ض ط ظ
+          </p>
           <img className="d-block mx-auto" src={img6a} />
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="19">
         <Accordion.Header>ف</Accordion.Header>
         <Accordion.Body>
-        <audio controls>
-          <source src={faa} type="audio/mp3"/>
-          Your browser does not support the audio element.
-        </audio>
+          <audio controls>
+            <source src={faa} type="audio/mp3" />
+            Your browser does not support the audio element.
+          </audio>
           <p>
             <strong>Lip letter.</strong> The edge of the front top teeth
             touching the inside lower lip.
           </p>
-
+          <p>
+            <strong>الحمص With airflow</strong> - فحثه شخص سكت “Fa-hathu-hu
+            shakhsun sakath”
+          </p>
+          <hr />
+          <p>
+            <strong>الجحر No airflow</strong> - All letters except فحثه شخص سكت
+            “Fa-hathu-hu shakhsun sakath”
+          </p>
+          <p>
+            <strong>الرخاوة Sound is allowed to flow</strong> - Except أَجِدْ
+            قَطٍ بَكَتْ “Ajid Qatin Bakath” and لن عمر “Lin ‘Umar” all the
+            remaining letters.
+          </p>
+          <p>
+            <strong>
+              استفعال Sound is directed downwards and outwards which gives the
+              sound the quality of tarqeeq which is a lightness
+            </strong>{" "}
+            - All letters except خص ضغط قظ
+          </p>
+          <p>
+            <strong>الاطباق Sound is not retained in the mouth.</strong> - All
+            letters except ص ض ط ظ
+          </p>
           <img className="d-block mx-auto" src={img29} />
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="20">
         <Accordion.Header>ق</Accordion.Header>
         <Accordion.Body>
-        <audio controls>
-          <source src={qaaf} type="audio/mp3"/>
-          Your browser does not support the audio element.
-        </audio>
+          <audio controls>
+            <source src={qaaf} type="audio/mp3" />
+            Your browser does not support the audio element.
+          </audio>
           <p>
             <strong>Tongue letter.</strong> Back of the tongue touching the soft
             fleshy part of roof of the mouth.
@@ -503,32 +904,73 @@ export default function Home() {
             sound from the makhraj in these sakinah letters after shiddah
             occurs.
           </p>
-
+          <hr />
+          <p>
+            <strong>الجحر No airflow</strong> - All letters except فحثه شخص سكت
+            “Fa-hathu-hu shakhsun sakath”
+          </p>
+          <p>
+            <strong>الرخاوة Sound is allowed to flow</strong> - Except أَجِدْ
+            قَطٍ بَكَتْ “Ajid Qatin Bakath” and لن عمر “Lin ‘Umar” all the
+            remaining letters.
+          </p>
+          <p>
+            <strong>
+              الإستــعلاء Sound is directed upwards between the tongue and the
+              top palate. (Up and inside) This gives the letter the quality of
+              tafkheem which is a thick heaviness.
+            </strong>{" "}
+            - The following letters خص ضغط قظ
+          </p>
+          <p>
+            <strong>الاطباق Sound is not retained in the mouth.</strong> - All
+            letters except ص ض ط ظ
+          </p>
           <img className="d-block mx-auto" src={img7} />
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="21">
         <Accordion.Header>ك</Accordion.Header>
         <Accordion.Body>
-        <audio controls>
-          <source src={kaaf} type="audio/mp3"/>
-          Your browser does not support the audio element.
-        </audio>
+          <audio controls>
+            <source src={kaaf} type="audio/mp3" />
+            Your browser does not support the audio element.
+          </audio>
           <p>
             <strong>Tongue letter.</strong> Back of the tongue touching where
             the hard part of the roof of the mouth meets the soft part.
           </p>
-
+          <hr />
+          <p>
+            <strong>الحمص With airflow</strong> - فحثه شخص سكت “Fa-hathu-hu
+            shakhsun sakath”
+          </p>
+          <p>
+            <strong>الرخاوة Sound is allowed to flow</strong> - Except أَجِدْ
+            قَطٍ بَكَتْ “Ajid Qatin Bakath” and لن عمر “Lin ‘Umar” all the
+            remaining letters.
+          </p>
+          <p>
+            <strong>
+              استفعال Sound is directed downwards and outwards which gives the
+              sound the quality of tarqeeq which is a lightness
+            </strong>{" "}
+            - All letters except خص ضغط قظ
+          </p>
+          <p>
+            <strong>الاطباق Sound is not retained in the mouth.</strong> - All
+            letters except ص ض ط ظ
+          </p>
           <img className="d-block mx-auto" src={img8} />
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="22">
         <Accordion.Header>ل</Accordion.Header>
         <Accordion.Body>
-        <audio controls>
-          <source src={laam} type="audio/mp3"/>
-          Your browser does not support the audio element.
-        </audio>
+          <audio controls>
+            <source src={laam} type="audio/mp3" />
+            Your browser does not support the audio element.
+          </audio>
           <p>
             <strong>Tongue letter.</strong> Front edge.
           </p>
@@ -546,6 +988,26 @@ export default function Home() {
             <strong>الانحراف Al Inharaf</strong> - ر and ل Diverting the sound
             of a letter away from its makhraj. Laam is read away from its
             makhraj and raa moves to a point in its makhraj.
+          </p>
+          <hr />
+          <p>
+            <strong>الجحر No airflow</strong> - All letters except فحثه شخص سكت
+            “Fa-hathu-hu shakhsun sakath”
+          </p>
+          <p>
+            <strong>توسط Sound is not allowed to flow nor shortened.</strong> -
+            The letters لن عمر “Lin ‘Umar”
+          </p>
+          <p>
+            <strong>
+              استفعال Sound is directed downwards and outwards which gives the
+              sound the quality of tarqeeq which is a lightness
+            </strong>{" "}
+            - All letters except خص ضغط قظ
+          </p>
+          <p>
+            <strong>الاطباق Sound is not retained in the mouth.</strong> - All
+            letters except ص ض ط ظ
           </p>
           <Carousel nextLabel={null} prevLabel={null}>
             <Carousel.Item>
@@ -575,31 +1037,53 @@ export default function Home() {
       <Accordion.Item eventKey="23">
         <Accordion.Header>م</Accordion.Header>
         <Accordion.Body>
-        <audio controls>
-          <source src={meem} type="audio/mp3"/>
-          Your browser does not support the audio element.
-        </audio>
+          <audio controls>
+            <source src={meem} type="audio/mp3" />
+            Your browser does not support the audio element.
+          </audio>
           <p>
-            <strong>Lip letter.</strong> Lips come together.</p>
-<p>Hold lips for longer than ب </p>
-<p>Sound comes from the lip
-makhraj, for the م sound also comes from the nose.</p>
+            <strong>Lip letter.</strong> Lips come together.
+          </p>
+          <p>Hold lips for longer than ب </p>
+          <p>
+            Sound comes from the lip makhraj, for the م sound also comes from
+            the nose.
+          </p>
           <p>Tongue relaxed as normal.</p>
           <p>
             <strong>الغنھ Al Ghunna</strong> - م and ن Sound running through the
             nasal cavity – this completes ن م{" "}
           </p>
-
+          <hr />
+          <p>
+            <strong>الجحر No airflow</strong> - All letters except فحثه شخص سكت
+            “Fa-hathu-hu shakhsun sakath”
+          </p>
+          <p>
+            <strong>توسط Sound is not allowed to flow nor shortened.</strong> -
+            The letters لن عمر “Lin ‘Umar”
+          </p>
+          <p>
+            <strong>
+              استفعال Sound is directed downwards and outwards which gives the
+              sound the quality of tarqeeq which is a lightness
+            </strong>{" "}
+            - All letters except خص ضغط قظ
+          </p>
+          <p>
+            <strong>الاطباق Sound is not retained in the mouth.</strong> - All
+            letters except ص ض ط ظ
+          </p>
           <img className="d-block mx-auto" src={img33} />
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="24">
         <Accordion.Header>ن</Accordion.Header>
         <Accordion.Body>
-        <audio controls>
-          <source src={noon} type="audio/mp3"/>
-          Your browser does not support the audio element.
-        </audio>
+          <audio controls>
+            <source src={noon} type="audio/mp3" />
+            Your browser does not support the audio element.
+          </audio>
           <p>
             <strong>Tongue letter.</strong> Tip of the tongue.
           </p>
@@ -616,19 +1100,56 @@ makhraj, for the م sound also comes from the nose.</p>
             <strong>الغنھ Al Ghunna</strong> - م and ن Sound running through the
             nasal cavity – this completes ن م{" "}
           </p>
-
+          <hr />
+          <p>
+            <strong>الجحر No airflow</strong> - All letters except فحثه شخص سكت
+            “Fa-hathu-hu shakhsun sakath”
+          </p>
+          <p>
+            <strong>توسط Sound is not allowed to flow nor shortened.</strong> -
+            The letters لن عمر “Lin ‘Umar”
+          </p>
+          <p>
+            <strong>
+              الإستــعلاء Sound is directed upwards between the tongue and the
+              top palate. (Up and inside) This gives the letter the quality of
+              tafkheem which is a thick heaviness.
+            </strong>{" "}
+            - The following letters خص ضغط قظ
+          </p>
+          <p>
+            <strong>الاطباق Sound is not retained in the mouth.</strong> - All
+            letters except ص ض ط ظ
+          </p>
           <img className="d-block mx-auto" src={img22} />
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="25">
         <Accordion.Header>و</Accordion.Header>
         <Accordion.Body>
-        <audio controls>
-          <source src={waw} type="audio/mp3"/>
-          Your browser does not support the audio element.
-        </audio>
+          <audio controls>
+            <source src={waw} type="audio/mp3" />
+            Your browser does not support the audio element.
+          </audio>
           <p>
             <strong>Lip letter.</strong> Ghair madiya. Lips make a round circle.
+          </p>
+          <hr />
+          <p>
+            <strong>الجحر No airflow</strong> - All letters except فحثه شخص سكت
+            “Fa-hathu-hu shakhsun sakath”
+          </p>
+          <p>
+            <strong>الرخاوة Sound is allowed to flow</strong> - Except أَجِدْ
+            قَطٍ بَكَتْ “Ajid Qatin Bakath” and لن عمر “Lin ‘Umar” all the
+            remaining letters.
+          </p>
+          <p>
+            <strong>
+              استفعال Sound is directed downwards and outwards which gives the
+              sound the quality of tarqeeq which is a lightness
+            </strong>{" "}
+            - All letters except خص ضغط قظ
           </p>
           <Carousel nextLabel={null} prevLabel={null}>
             <Carousel.Item>
@@ -643,10 +1164,10 @@ makhraj, for the م sound also comes from the nose.</p>
       <Accordion.Item eventKey="26">
         <Accordion.Header>ه</Accordion.Header>
         <Accordion.Body>
-        <audio controls>
-          <source src={hamzah} type="audio/mp3"/>
-          Your browser does not support the audio element.
-        </audio>
+          <audio controls>
+            <source src={hamzah} type="audio/mp3" />
+            Your browser does not support the audio element.
+          </audio>
           <p>
             <strong>Throat letter.</strong> Furthest part, from the vocal
             chords.
@@ -656,7 +1177,31 @@ makhraj, for the م sound also comes from the nose.</p>
             fatha. Pronouncing the letter with ease, without jerking or raising
             the voice.
           </p>
-
+          <hr />
+          <p>
+            <strong>الجحر No airflow</strong> - All letters except فحثه شخص سكت
+            “Fa-hathu-hu shakhsun sakath”
+          </p>
+          <p>
+            <strong>الشدۃ Sound is not allowed to flow</strong> - أَجِدْ قَطٍ
+            بَكَتْ “Ajid Qatin Bakath”
+          </p>
+          <p>
+            <strong>الرخاوة Sound is allowed to flow</strong> - Except أَجِدْ
+            قَطٍ بَكَتْ “Ajid Qatin Bakath” and لن عمر “Lin ‘Umar” all the
+            remaining letters.
+          </p>
+          <p>
+            <strong>
+              استفعال Sound is directed downwards and outwards which gives the
+              sound the quality of tarqeeq which is a lightness
+            </strong>{" "}
+            - All letters except خص ضغط قظ
+          </p>
+          <p>
+            <strong>الاطباق Sound is not retained in the mouth.</strong> - All
+            letters except ص ض ط ظ
+          </p>
           <Carousel nextLabel={null} prevLabel={null}>
             <Carousel.Item>
               <img className="d-block mx-auto" src={img1} />
@@ -679,11 +1224,35 @@ makhraj, for the م sound also comes from the nose.</p>
       <Accordion.Item eventKey="27">
         <Accordion.Header>ء</Accordion.Header>
         <Accordion.Body>
-        <audio controls>
-          <source src={smallHaa} type="audio/mp3"/>
-          Your browser does not support the audio element.
-        </audio>
-          <p><strong>Throat letter.</strong> Furthest part, from the vocal chords.</p>
+          <audio controls>
+            <source src={smallHaa} type="audio/mp3" />
+            Your browser does not support the audio element.
+          </audio>
+          <p>
+            <strong>Throat letter.</strong> Furthest part, from the vocal
+            chords.
+          </p>
+          <hr />
+          <p>
+            <strong>الحمص With airflow</strong> - فحثه شخص سكت “Fa-hathu-hu
+            shakhsun sakath”
+          </p>
+          <p>
+            <strong>الرخاوة Sound is allowed to flow</strong> - Except أَجِدْ
+            قَطٍ بَكَتْ “Ajid Qatin Bakath” and لن عمر “Lin ‘Umar” all the
+            remaining letters.
+          </p>
+          <p>
+            <strong>
+              استفعال Sound is directed downwards and outwards which gives the
+              sound the quality of tarqeeq which is a lightness
+            </strong>{" "}
+            - All letters except خص ضغط قظ
+          </p>
+          <p>
+            <strong>الاطباق Sound is not retained in the mouth.</strong> - All
+            letters except ص ض ط ظ
+          </p>
           <Carousel nextLabel={null} prevLabel={null}>
             <Carousel.Item>
               <img className="d-block mx-auto" src={img1} />
@@ -706,10 +1275,10 @@ makhraj, for the م sound also comes from the nose.</p>
       <Accordion.Item eventKey="28">
         <Accordion.Header>ي</Accordion.Header>
         <Accordion.Body>
-        <audio controls>
-          <source src={yaa} type="audio/mp3"/>
-          Your browser does not support the audio element.
-        </audio>
+          <audio controls>
+            <source src={yaa} type="audio/mp3" />
+            Your browser does not support the audio element.
+          </audio>
           <p>
             <strong>Tongue letter.</strong> Middle of the tongue with the middle
             of the roof of the mouth.
@@ -719,8 +1288,28 @@ makhraj, for the م sound also comes from the nose.</p>
             fatha. Pronouncing the letter with ease, without jerking or raising
             the voice.
           </p>
-
+          <hr />
+          <p>
+            <strong>الجحر No airflow</strong> - All letters except فحثه شخص سكت
+            “Fa-hathu-hu shakhsun sakath”
+          </p>
+          <p>
+            <strong>
+              استفعال Sound is directed downwards and outwards which gives the
+              sound the quality of tarqeeq which is a lightness
+            </strong>{" "}
+            - All letters except خص ضغط قظ
+          </p>
+          <p>
+            <strong>الاطباق Sound is not retained in the mouth.</strong> - All
+            letters except ص ض ط ظ
+          </p>
           <img className="d-block mx-auto" src={img11} />
+          <p>
+            <strong>الرخاوة Sound is allowed to flow</strong> - Except أَجِدْ
+            قَطٍ بَكَتْ “Ajid Qatin Bakath” and لن عمر “Lin ‘Umar” all the
+            remaining letters.
+          </p>
         </Accordion.Body>
       </Accordion.Item>
     </Accordion>
