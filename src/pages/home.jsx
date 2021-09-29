@@ -678,11 +678,11 @@ makhraj, for the م sound also comes from the nose.</p>
       </Accordion.Item>
       <Accordion.Item eventKey="27">
         <Accordion.Header>ء</Accordion.Header>
+        <Accordion.Body>
         <audio controls>
           <source src={smallHaa} type="audio/mp3"/>
           Your browser does not support the audio element.
         </audio>
-        <Accordion.Body>
           <strong>Throat letter.</strong> Furthest part, from the vocal chords.
           <Carousel nextLabel={null} prevLabel={null}>
             <Carousel.Item>
