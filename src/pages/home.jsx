@@ -1,5 +1,43 @@
 import * as React from "react";
 import Accordion from 'react-bootstrap/Accordion';
+import Carousel from 'react-bootstrap/Carousel';
+
+import img1 from '../assets/1/1.jpeg';
+import img2 from '../assets/1/2.jpeg';
+import img3 from '../assets/1/3.jpeg';
+import img4 from '../assets/1/4.jpeg';
+import img5 from '../assets/1/5.jpeg';
+import img5a from '../assets/1/5a.jpeg';
+import img6 from '../assets/1/6.jpeg';
+import img6a from '../assets/1/6a.jpeg';
+import img7 from '../assets/1/7.jpeg';
+import img8 from '../assets/1/8.jpeg';
+import img11 from '../assets/1/11.jpeg';
+import img11a from '../assets/1/11a.jpeg';
+import img11b from '../assets/1/11b.jpeg';
+import img13 from '../assets/1/13.jpeg';
+import img14 from '../assets/1/14.jpeg';
+import img15 from '../assets/1/15.jpeg';
+import img16 from '../assets/1/16.jpeg';
+import img19 from '../assets/1/19.jpeg';
+import img20 from '../assets/1/20.jpeg';
+import img22 from '../assets/1/22.jpeg';
+import img23 from '../assets/1/23.jpeg';
+import img23a from '../assets/1/23a.jpeg';
+import img23b from '../assets/1/23b.jpeg';
+import img24 from '../assets/1/24.jpeg';
+import img25 from '../assets/1/25.jpeg';
+import img26 from '../assets/1/26.jpeg';
+import img26a from '../assets/1/26a.jpeg';
+import img27 from '../assets/1/27.jpeg';
+import img27a from '../assets/1/27a.jpeg';
+import img28 from '../assets/1/28.jpeg';
+import img28a from '../assets/1/28a.jpeg';
+import img29 from '../assets/1/29.jpeg';
+import img30 from '../assets/1/30.jpeg';
+import img31 from '../assets/1/31.jpeg';
+import img32 from '../assets/1/32.jpeg';
+import img33 from '../assets/1/33.jpeg';
 
 export default function Home() {
   return (
@@ -14,6 +52,15 @@ export default function Home() {
       <Accordion.Body>
       
       <p><strong>Lip letter.</strong> Lips come together then move apart for ب creating a bounce.</p><p>Tongue relaxed as normal.</p>
+      <Carousel nextLabel={null} prevLabel={null}>
+<Carousel.Item>
+  <img
+    className="d-block mx-auto"
+    src={img32}
+  />
+</Carousel.Item>
+
+</Carousel>
       </Accordion.Body>
     </Accordion.Item>
     <Accordion.Item eventKey="2">
@@ -25,6 +72,14 @@ export default function Home() {
 the tongue touches the
 roots of the top front teeth.</p>
 <p>Tongue relaxed as normal.</p>
+<Carousel nextLabel={null} prevLabel={null}>
+<Carousel.Item>
+  <img
+    className="d-block mx-auto"
+    src={img28}
+  />
+</Carousel.Item>
+</Carousel>
       </Accordion.Body>
     </Accordion.Item>
     <Accordion.Item eventKey="3">
@@ -32,6 +87,14 @@ roots of the top front teeth.</p>
       <Accordion.Body>
       
       <p><strong>Tongue letter.</strong> Tip of the tongue touching the bottom edges of the front two teeth.</p> <p>Flat tongue as normal.</p>
+      <Carousel nextLabel={null} prevLabel={null}>
+<Carousel.Item>
+  <img
+    className="d-block mx-auto"
+    src={img27}
+  />
+</Carousel.Item>
+</Carousel>
       </Accordion.Body>
     </Accordion.Item>
     <Accordion.Item eventKey="4">
@@ -40,6 +103,14 @@ roots of the top front teeth.</p>
       
       <p><strong>Tongue letter.</strong> Middle of the tongue with the
 middle of the roof of the mouth.</p>
+<Carousel nextLabel={null} prevLabel={null}>
+<Carousel.Item>
+  <img
+    className="d-block mx-auto"
+    src={img11b}
+  />
+</Carousel.Item>
+</Carousel>
       </Accordion.Body>
     </Accordion.Item>
     <Accordion.Item eventKey="5">
@@ -50,6 +121,14 @@ middle of the roof of the mouth.</p>
 food going into our
 windpipe when we eat.</p>
 <p>Tongue is flat.</p>
+<Carousel nextLabel={null} prevLabel={null}>
+<Carousel.Item>
+  <img
+    className="d-block mx-auto"
+    src={img5}
+  />
+</Carousel.Item>
+</Carousel>
       </Accordion.Body>
     </Accordion.Item>
     <Accordion.Item eventKey="6">
@@ -60,6 +139,16 @@ windpipe when we eat.</p>
         <p>Note that the tongue is dipped in
 the middle so the sound is directed
 up to produce a heavy sound.</p>
+
+<Carousel nextLabel={null} prevLabel={null}>
+<Carousel.Item>
+  <img
+    className="d-block mx-auto"
+    src={img6}
+  />
+</Carousel.Item>
+</Carousel>
+
       </Accordion.Body>
     </Accordion.Item>
     <Accordion.Item eventKey="7">
@@ -71,6 +160,14 @@ up to produce a heavy sound.</p>
 the tongue touches the
 roots of the top front teeth.</p>
 <p>Tongue relaxed as normal.</p>
+<Carousel nextLabel={null} prevLabel={null}>
+<Carousel.Item>
+  <img
+    className="d-block mx-auto"
+    src={img28}
+  />
+</Carousel.Item>
+</Carousel>
       </Accordion.Body>
     </Accordion.Item>
     <Accordion.Item eventKey="8">
@@ -102,6 +199,44 @@ is a fatha or dhamma.</p>
 <p>Sound is directed to the top of the
 mouth, so tongue is dipped in middle to
 make sound heavy.</p>
+<Carousel nextLabel={null} prevLabel={null}>
+<Carousel.Item>
+  <img
+    className="d-block mx-auto"
+    src={img23}
+  />
+</Carousel.Item>
+<Carousel.Item>
+  <img
+    className="d-block mx-auto"
+    src={img23a}
+  />
+</Carousel.Item>
+<Carousel.Item>
+  <img
+    className="d-block mx-auto"
+    src={img23b}
+  />
+</Carousel.Item>
+<Carousel.Item>
+  <img
+    className="d-block mx-auto"
+    src={img24}
+  />
+       <Carousel.Caption>
+   <p>Normally considered a light letter.</p>
+    </Carousel.Caption>
+</Carousel.Item>
+<Carousel.Item>
+  <img
+    className="d-block mx-auto"
+    src={img25}
+  />
+       <Carousel.Caption>
+   <p>When ر is heavy</p>
+    </Carousel.Caption>
+</Carousel.Item>
+</Carousel>
       </Accordion.Body>
     </Accordion.Item>
     <Accordion.Item eventKey="10">
@@ -113,6 +248,14 @@ touching the inner surface at
 the lower end of the bottom
 two front teeth.</p>
 <p>Tongue relaxed as normal.</p>
+<Carousel nextLabel={null} prevLabel={null}>
+<Carousel.Item>
+  <img
+    className="d-block mx-auto"
+    src={img26}
+  />
+</Carousel.Item>
+</Carousel>
       </Accordion.Body>
     </Accordion.Item>
     <Accordion.Item eventKey="11">
@@ -125,6 +268,14 @@ touching the inner surface at
 the lower end of the bottom
 two front teeth.</p>
 <p>Tongue relaxed as normal.</p>
+<Carousel nextLabel={null} prevLabel={null}>
+<Carousel.Item>
+  <img
+    className="d-block mx-auto"
+    src={img26}
+  />
+</Carousel.Item>
+</Carousel>
       </Accordion.Body>
     </Accordion.Item>
     <Accordion.Item eventKey="12">
@@ -133,6 +284,14 @@ two front teeth.</p>
       
       <p><strong>Tongue letter.</strong> Middle of the tongue with the
 middle of the roof of the mouth.</p>
+<Carousel nextLabel={null} prevLabel={null}>
+<Carousel.Item>
+  <img
+    className="d-block mx-auto"
+    src={img11a}
+  />
+</Carousel.Item>
+</Carousel>
       </Accordion.Body>
     </Accordion.Item>
     <Accordion.Item eventKey="13">
@@ -147,6 +306,14 @@ two front teeth.</p>
 <p>Tongue dipped in middle, sound is
 directed to the top of the mouth so is
 heavy and trapped.</p>
+<Carousel nextLabel={null} prevLabel={null}>
+<Carousel.Item>
+  <img
+    className="d-block mx-auto"
+    src={img26a}
+  />
+</Carousel.Item>
+</Carousel>
       </Accordion.Body>
     </Accordion.Item>
     <Accordion.Item eventKey="14">
@@ -163,6 +330,23 @@ pressure on sides of tongue.</p>
 <p>Tongue dipped in middle, sound is
 directed to the top of the mouth
 so is heavy and trapped.</p>
+<Carousel nextLabel={null} prevLabel={null}>
+<Carousel.Item>
+  <img
+    className="d-block mx-auto"
+    src={img20}
+  />
+</Carousel.Item>
+<Carousel.Item>
+  <img
+    className="d-block mx-auto"
+    src={img19}
+  />
+     <Carousel.Caption>
+   <p>Pressure on both sides, but if not possible, then one side.</p>
+    </Carousel.Caption>
+</Carousel.Item>
+</Carousel>
       </Accordion.Body>
     </Accordion.Item>  
     <Accordion.Item eventKey="15">
@@ -174,6 +358,14 @@ the tongue touches the
 roots of the top front teeth.</p> <p>Tongue dipped in middle, sound is
 directed to the top of the mouth so
 is heavy and trapped.</p>
+<Carousel nextLabel={null} prevLabel={null}>
+<Carousel.Item>
+  <img
+    className="d-block mx-auto"
+    src={img27a}
+  />
+</Carousel.Item>
+</Carousel>
       </Accordion.Body>
     </Accordion.Item>  
     <Accordion.Item eventKey="16">
@@ -182,6 +374,14 @@ is heavy and trapped.</p>
       
       <p><strong>Tongue letter.</strong> Tip of the tongue touching the bottom edges of the front two teeth.</p> <p>Tongue dipped in middle,
  sound is directed to the top of the mouth so is heavy and trapped.</p>
+ <Carousel nextLabel={null} prevLabel={null}>
+<Carousel.Item>
+  <img
+    className="d-block mx-auto"
+    src={img28a}
+  />
+</Carousel.Item>
+</Carousel>
       </Accordion.Body>
     </Accordion.Item>  
     <Accordion.Item eventKey="17">
@@ -192,6 +392,14 @@ is heavy and trapped.</p>
 food going into our
 windpipe when we eat.</p>
 <p>Tongue is flat.</p>
+<Carousel nextLabel={null} prevLabel={null}>
+<Carousel.Item>
+  <img
+    className="d-block mx-auto"
+    src={img5a}
+  />
+</Carousel.Item>
+</Carousel>
       </Accordion.Body>
     </Accordion.Item>  
     <Accordion.Item eventKey="18">
@@ -202,6 +410,19 @@ windpipe when we eat.</p>
         <p>Note that the tongue is dipped in
 the middle so the sound is directed
 up to produce a heavy sound.</p>
+
+
+<Carousel nextLabel={null} prevLabel={null}>
+<Carousel.Item>
+  <img
+    className="d-block mx-auto"
+    src={img6a}
+  />
+</Carousel.Item>
+</Carousel>
+
+
+
       </Accordion.Body>
     </Accordion.Item> 
     <Accordion.Item eventKey="19">
@@ -209,6 +430,14 @@ up to produce a heavy sound.</p>
       <Accordion.Body>
       
         <p><strong>Lip letter.</strong> The edge of the front top teeth touching the inside lower lip.</p>
+        <Carousel nextLabel={null} prevLabel={null}>
+<Carousel.Item>
+  <img
+    className="d-block mx-auto"
+    src={img29}
+  />
+</Carousel.Item>
+</Carousel>
       </Accordion.Body>
     </Accordion.Item>  
     <Accordion.Item eventKey="20">
@@ -220,6 +449,14 @@ soft fleshy part of roof of the
 mouth.</p>
 <p>The tongue is dipped in the
 middle.</p>
+<Carousel nextLabel={null} prevLabel={null}>
+<Carousel.Item>
+  <img
+    className="d-block mx-auto"
+    src={img7}
+  />
+</Carousel.Item>
+</Carousel>
       </Accordion.Body>
     </Accordion.Item>  
     <Accordion.Item eventKey="21">
@@ -229,6 +466,14 @@ middle.</p>
         <p><strong>Tongue letter.</strong> Back of the tongue touching where
 the hard part of the roof of the
 mouth meets the soft part.</p>
+<Carousel nextLabel={null} prevLabel={null}>
+<Carousel.Item>
+  <img
+    className="d-block mx-auto"
+    src={img8}
+  />
+</Carousel.Item>
+</Carousel>
       </Accordion.Body>
     </Accordion.Item> 
     <Accordion.Item eventKey="22">
@@ -244,6 +489,40 @@ word Allah if it is preceded by a
 fatha or dhamma.</p>
 <p>The sound is directed up.</p>
 <p>The tongue is dipped in the middle.</p>
+<Carousel nextLabel={null} prevLabel={null}>
+<Carousel.Item>
+  <img
+    className="d-block mx-auto"
+    src={img15}
+  />
+</Carousel.Item>
+<Carousel.Item>
+  <img
+    src={img13}
+  />
+   <Carousel.Caption>
+   <p>Edge of tip of tongue - the yellow area.</p>
+    </Carousel.Caption>
+</Carousel.Item>
+<Carousel.Item>
+  <img
+    className="d-block mx-auto"
+    src={img14}
+  />
+   <Carousel.Caption>
+   <p>Yellow area showing where tongue touches top palate.</p>
+    </Carousel.Caption>
+</Carousel.Item>
+<Carousel.Item>
+  <img
+    className="d-block mx-auto"
+    src={img16}
+  />
+   <Carousel.Caption>
+   <p>When ل is heavy, the tongue is dipped in the middle.</p>
+    </Carousel.Caption>
+</Carousel.Item>
+</Carousel>
       </Accordion.Body>
     </Accordion.Item>  
     <Accordion.Item eventKey="23">
@@ -254,7 +533,15 @@ fatha or dhamma.</p>
 ب hold lips for longer than
  Sound comes from the lip
 makhraj, for the م sound also comes from the nose.</p><p>Tongue relaxed as normal.</p>
-    
+<Carousel nextLabel={null} prevLabel={null}>
+<Carousel.Item>
+  <img
+    className="d-block mx-auto"
+    src={img33}
+  />
+</Carousel.Item>
+
+</Carousel>
       </Accordion.Body>
     </Accordion.Item> 
     <Accordion.Item eventKey="24">
@@ -270,13 +557,35 @@ laam.</p>
 <p>Comes from 2 main areas makhraj – the
 tongue and the nose, this produces the
 ghunna sifah.</p>
+<Carousel nextLabel={null} prevLabel={null}>
+<Carousel.Item>
+  <img
+    className="d-block mx-auto"
+    src={img22}
+  />
+</Carousel.Item>
+</Carousel>
       </Accordion.Body>
     </Accordion.Item> 
     <Accordion.Item eventKey="25">
       <Accordion.Header>و</Accordion.Header>
       <Accordion.Body>
       
-        <p><strong>Lip letter.</strong> Lips make a round circle.</p>
+        <p><strong>Lip letter.</strong> Ghair madiya. Lips make a round circle.</p>
+        <Carousel nextLabel={null} prevLabel={null}>
+<Carousel.Item>
+  <img
+    className="d-block mx-auto"
+    src={img30}
+  />
+</Carousel.Item>
+<Carousel.Item>
+  <img
+    className="d-block mx-auto"
+    src={img31}
+  />
+</Carousel.Item>
+</Carousel>
       </Accordion.Body>
     </Accordion.Item> 
     <Accordion.Item eventKey="26">
@@ -284,15 +593,70 @@ ghunna sifah.</p>
       <Accordion.Body>
       
         <p><strong>Throat letter.</strong> Furthest part, from the vocal chords.</p>
-        <p>When ء is sakinah, the vocal chords are closed.</p>
-        <p>When ء and ه are mutharrikah, vocal chords are all open.</p>
+    
+
+        <Carousel nextLabel={null} prevLabel={null}>
+<Carousel.Item>
+  <img
+    src={img1}
+  />
+</Carousel.Item>
+<Carousel.Item>
+  <img
+    className="d-block mx-auto"
+    src={img3}
+  />
+   <Carousel.Caption>
+   <p>When ء is sakinah, the vocal chords are closed.</p>
+    </Carousel.Caption>
+</Carousel.Item>
+<Carousel.Item>
+  <img
+    className="d-block mx-auto"
+    src={img4}
+  />
+   <Carousel.Caption>
+   <p>When ء and ه are mutharrikah, vocal chords are all open.</p>
+    </Carousel.Caption>
+</Carousel.Item>
+</Carousel>
+
       </Accordion.Body>
+
+      
     </Accordion.Item> 
     <Accordion.Item eventKey="27">
       <Accordion.Header>ء</Accordion.Header>
       <Accordion.Body>
       
         <strong>Throat letter.</strong> Furthest part, from the vocal chords.
+
+        <Carousel nextLabel={null} prevLabel={null}>
+<Carousel.Item>
+  <img
+    className="d-block mx-auto"
+    src={img1}
+  />
+</Carousel.Item>
+<Carousel.Item>
+  <img
+    className="d-block mx-auto"
+    src={img2}
+  />
+   <Carousel.Caption>
+   <p>When ه is sakinah, the vocal chords are partially open</p>
+    </Carousel.Caption>
+</Carousel.Item>
+<Carousel.Item>
+  <img
+    className="d-block mx-auto"
+    src={img4}
+  />
+   <Carousel.Caption>
+   <p>When ء and ه are mutharrikah, vocal chords are all open.</p>
+    </Carousel.Caption>
+</Carousel.Item>
+</Carousel>
       </Accordion.Body>
     </Accordion.Item> 
     <Accordion.Item eventKey="28">
@@ -301,6 +665,14 @@ ghunna sifah.</p>
       
       <p><strong>Tongue letter.</strong> Middle of the tongue with the
 middle of the roof of the mouth.</p>
+<Carousel nextLabel={null} prevLabel={null}>
+<Carousel.Item>
+  <img
+    className="d-block mx-auto"
+    src={img11}
+  />
+</Carousel.Item>
+</Carousel>
       </Accordion.Body>
     </Accordion.Item> 
   </Accordion>

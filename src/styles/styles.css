@@ -127,3 +127,16 @@ body {
   background-color: #fff;
   border: 3px solid #111
 }
+.carousel-control-prev-icon,
+.carousel-control-next-icon,
+.carousel-caption {
+  filter: invert(100%);
+}
+.carousel-item img {
+  max-width: 75vw
+}
+@media (min-width: 481px) and (orientation: landscape) { 
+  .carousel-item img {
+    max-width: auto
+  }
+}
