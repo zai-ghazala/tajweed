@@ -56,7 +56,11 @@ export default function Home() {
             ب creating a bounce.
           </p>
           <p>Tongue relaxed as normal.</p>
-
+          <p>
+            <strong>القلقلھ Al Qalqala</strong> - ق ط ب ج د Bouncing of the
+            sound from the makhraj in these sakinah letters after shiddah
+            occurs.
+          </p>
           <img className="d-block mx-auto" src={img32} />
         </Accordion.Body>
       </Accordion.Item>
