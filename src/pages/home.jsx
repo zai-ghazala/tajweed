@@ -458,8 +458,8 @@ export default function Home() {
         <Accordion.Header>م</Accordion.Header>
         <Accordion.Body>
           <p>
-            <strong>Lip letter.</strong> Lips come together then move apart for ب creating a bounce.</p>
-<p>• Lips come together.</p>
+            <strong>Lip letter.</strong> 
+<p>Lips come together.</p>
 <p>Hold lips for longer than ب </p>
 <p>Sound comes from the lip
 makhraj, for the م sound also comes from the nose.</p>
