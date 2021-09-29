@@ -19,13 +19,8 @@ export default function Home() {
     <Accordion.Item eventKey="1">
       <Accordion.Header>ب</Accordion.Header>
       <Accordion.Body>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-        est laborum.
+      <h2>Makhraj</h2>
+      <p><strong>Lip letter.</strong> Lips come together then move apart for ب creating a bounce.</p><p>Tongue relaxed as normal.</p>
       </Accordion.Body>
     </Accordion.Item>
     <Accordion.Item eventKey="2">
@@ -42,13 +37,8 @@ roots of the top front teeth.</p>
     <Accordion.Item eventKey="3">
       <Accordion.Header>ث</Accordion.Header>
       <Accordion.Body>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-        est laborum.
+      <h2>Makhraj</h2>
+      <p><strong>Tongue letter.</strong> Tip of the tongue touching the bottom edges of the front two teeth.</p> <p>Flat tongue as normal.</p>
       </Accordion.Body>
     </Accordion.Item>
     <Accordion.Item eventKey="4">
@@ -76,7 +66,7 @@ windpipe when we eat.</p>
         <p><strong>Throat letter.</strong> Closest to the mouth.</p>
         <p>Note that the tongue is dipped in
 the middle so the sound is directed
-up to produce a heavy sound</p>
+up to produce a heavy sound.</p>
       </Accordion.Body>
     </Accordion.Item>
     <Accordion.Item eventKey="7">
@@ -93,13 +83,8 @@ roots of the top front teeth.</p>
     <Accordion.Item eventKey="8">
       <Accordion.Header>ذ</Accordion.Header>
       <Accordion.Body>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-        est laborum.
+      <h2>Makhraj</h2>
+      <p><strong>Tongue letter.</strong> Tip of the tongue touching the bottom edges of the front two teeth.</p> <p>Flat tongue as normal.</p>
       </Accordion.Body>
     </Accordion.Item>
     <Accordion.Item eventKey="9">
@@ -168,7 +153,7 @@ the lower end of the bottom
 two front teeth.</p>
 <p>Tongue dipped in middle, sound is
 directed to the top of the mouth so is
-heavy and trapped</p>
+heavy and trapped.</p>
       </Accordion.Body>
     </Accordion.Item>
     <Accordion.Item eventKey="14">
@@ -195,19 +180,15 @@ so is heavy and trapped.</p>
 the tongue touches the
 roots of the top front teeth.</p> <p>Tongue dipped in middle, sound is
 directed to the top of the mouth so
-is heavy and trapped</p>
+is heavy and trapped.</p>
       </Accordion.Body>
     </Accordion.Item>  
     <Accordion.Item eventKey="16">
       <Accordion.Header>ظ</Accordion.Header>
       <Accordion.Body>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-        est laborum.
+      <h2>Makhraj</h2>
+      <p><strong>Tongue letter.</strong> Tip of the tongue touching the bottom edges of the front two teeth.</p> <p>Tongue dipped in middle,
+ sound is directed to the top of the mouth so is heavy and trapped.</p>
       </Accordion.Body>
     </Accordion.Item>  
     <Accordion.Item eventKey="17">
@@ -227,19 +208,14 @@ windpipe when we eat.</p>
         <p><strong>Throat letter.</strong> Closest to the mouth.</p>
         <p>Note that the tongue is dipped in
 the middle so the sound is directed
-up to produce a heavy sound</p>
+up to produce a heavy sound.</p>
       </Accordion.Body>
     </Accordion.Item> 
     <Accordion.Item eventKey="19">
       <Accordion.Header>ف</Accordion.Header>
       <Accordion.Body>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-        est laborum.
+      <h2>Makhraj</h2>
+        <p><strong>Lip letter.</strong> The edge of the front top teeth touching the inside lower lip.</p>
       </Accordion.Body>
     </Accordion.Item>  
     <Accordion.Item eventKey="20">
@@ -280,13 +256,12 @@ fatha or dhamma.</p>
     <Accordion.Item eventKey="23">
       <Accordion.Header>م</Accordion.Header>
       <Accordion.Body>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-        est laborum.
+      <h2>Makhraj</h2>
+      <p><strong>Lip letter.</strong> Lips come together for
+ب hold lips for longer than
+ Sound comes from the lip
+makhraj, for the م sound also comes from the nose.</p><p>Tongue relaxed as normal.</p>
+    
       </Accordion.Body>
     </Accordion.Item> 
     <Accordion.Item eventKey="24">
@@ -307,6 +282,8 @@ ghunna sifah.</p>
     <Accordion.Item eventKey="25">
       <Accordion.Header>و</Accordion.Header>
       <Accordion.Body>
+      <h2>Makhraj</h2>
+        <p><strong>Lip letter.</strong> Lips make a round circle.</p>
       </Accordion.Body>
     </Accordion.Item> 
     <Accordion.Item eventKey="26">
