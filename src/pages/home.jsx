@@ -39,6 +39,36 @@ import img31 from "../assets/1/31.jpeg";
 import img32 from "../assets/1/32.jpeg";
 import img33 from "../assets/1/33.jpeg";
 
+import baa from "../assets/audio/baa.mp3";
+import taa from "../assets/audio/taa.mp3";
+import saa from "../assets/audio/saa.mp3";
+import jeem from "../assets/audio/jeem.mp3";
+import haa from "../assets/audio/haa.mp3";
+import khaa from "../assets/audio/khaa.mp3";
+import daal from "../assets/audio/daal.mp3";
+import zaal from "../assets/audio/zaal.mp3";
+import raa from "../assets/audio/raa.mp3";
+import zaai from "../assets/audio/zaai.mp3";
+import seen from "../assets/audio/seen.mp3";
+import sheen from "../assets/audio/sheen.mp3";
+import suad from "../assets/audio/suad.mp3";
+import duad from "../assets/audio/suad.mp3";
+import taaHeavy from "../assets/audio/taa-heavy.mp3";
+import zaaHeavy from "../assets/audio/zaa-heavy.mp3";
+import ain from "../assets/audio/ain.mp3";
+import gain from "../assets/audio/gain.mp3";
+import faa from "../assets/audio/faa.mp3";
+import qaaf from "../assets/audio/qaaf.mp3";
+import kaaf from "../assets/audio/kaaf.mp3";
+import laam from "../assets/audio/laam.mp3";
+import meem from "../assets/audio/meem.mp3";
+import noon from "../assets/audio/noon.mp3";
+import waw from "../assets/audio/waw.mp3";
+import smallHaa from "../assets/audio/small-haa.mp3";
+import hamzah from "../assets/audio/hamzah.mp3";
+import yaa from "../assets/audio/yaa.mp3";
+
+
 export default function Home() {
   return (
     <Accordion>
@@ -51,6 +81,10 @@ export default function Home() {
       <Accordion.Item eventKey="1">
         <Accordion.Header>ب</Accordion.Header>
         <Accordion.Body>
+        <audio controls>
+          <source src={baa} type="audio/mp3"/>
+          Your browser does not support the audio element.
+        </audio>
           <p>
             <strong>Lip letter.</strong> Lips come together then move apart for
             ب creating a bounce.
@@ -67,6 +101,10 @@ export default function Home() {
       <Accordion.Item eventKey="2">
         <Accordion.Header>ت</Accordion.Header>
         <Accordion.Body>
+        <audio controls>
+          <source src={taa} type="audio/mp3"/>
+          Your browser does not support the audio element.
+        </audio>
           <p>
             <strong>Tongue letter.</strong> Where the extreme tip of the tongue
             touches the roots of the top front teeth.
@@ -78,6 +116,10 @@ export default function Home() {
       <Accordion.Item eventKey="3">
         <Accordion.Header>ث</Accordion.Header>
         <Accordion.Body>
+        <audio controls>
+          <source src={saa} type="audio/mp3"/>
+          Your browser does not support the audio element.
+        </audio>
           <p>
             <strong>Tongue letter.</strong> Tip of the tongue touching the
             bottom edges of the front two teeth.
@@ -89,6 +131,10 @@ export default function Home() {
       <Accordion.Item eventKey="4">
         <Accordion.Header>ج</Accordion.Header>
         <Accordion.Body>
+        <audio controls>
+          <source src={jeem} type="audio/mp3"/>
+          Your browser does not support the audio element.
+        </audio>
           <p>
             <strong>Tongue letter.</strong> Middle of the tongue with the middle
             of the roof of the mouth.
@@ -104,6 +150,10 @@ export default function Home() {
       <Accordion.Item eventKey="5">
         <Accordion.Header>ح</Accordion.Header>
         <Accordion.Body>
+        <audio controls>
+          <source src={haa} type="audio/mp3"/>
+          Your browser does not support the audio element.
+        </audio>
           <p>
             <strong>Throat letter.</strong> Middle of the throat, epiglottis,
             what stops food going into our windpipe when we eat.
@@ -115,6 +165,10 @@ export default function Home() {
       <Accordion.Item eventKey="6">
         <Accordion.Header>خ</Accordion.Header>
         <Accordion.Body>
+        <audio controls>
+          <source src={khaa} type="audio/mp3"/>
+          Your browser does not support the audio element.
+        </audio>
           <p>
             <strong>Throat letter.</strong> Closest to the mouth.
           </p>
@@ -129,6 +183,10 @@ export default function Home() {
       <Accordion.Item eventKey="7">
         <Accordion.Header>د</Accordion.Header>
         <Accordion.Body>
+        <audio controls>
+          <source src={daal} type="audio/mp3"/>
+          Your browser does not support the audio element.
+        </audio>
           <p>
             <strong>Tongue letter.</strong> Where the extreme tip of the tongue
             touches the roots of the top front teeth.
@@ -145,6 +203,10 @@ export default function Home() {
       <Accordion.Item eventKey="8">
         <Accordion.Header>ذ</Accordion.Header>
         <Accordion.Body>
+        <audio controls>
+          <source src={zaal} type="audio/mp3"/>
+          Your browser does not support the audio element.
+        </audio>
           <p>
             <strong>Tongue letter.</strong> Tip of the tongue touching the
             bottom edges of the front two teeth.
@@ -156,6 +218,10 @@ export default function Home() {
       <Accordion.Item eventKey="9">
         <Accordion.Header>ر</Accordion.Header>
         <Accordion.Body>
+        <audio controls>
+          <source src={raa} type="audio/mp3"/>
+          Your browser does not support the audio element.
+        </audio>
           <p>
             <strong>Tongue letter.</strong> Tip of the tongue.
           </p>
@@ -212,6 +278,10 @@ export default function Home() {
       <Accordion.Item eventKey="10">
         <Accordion.Header>ز</Accordion.Header>
         <Accordion.Body>
+        <audio controls>
+          <source src={zaai} type="audio/mp3"/>
+          Your browser does not support the audio element.
+        </audio>
           <p>
             <strong>Tongue letter.</strong> Extreme tip of the tongue touching
             the inner surface at the lower end of the bottom two front teeth.
@@ -227,6 +297,10 @@ export default function Home() {
       <Accordion.Item eventKey="11">
         <Accordion.Header>س</Accordion.Header>
         <Accordion.Body>
+        <audio controls>
+          <source src={seen} type="audio/mp3"/>
+          Your browser does not support the audio element.
+        </audio>
           <p>
             <strong>Tongue letter.</strong> Extreme tip of the tongue touching
             the inner surface at the lower end of the bottom two front teeth.
@@ -242,6 +316,10 @@ export default function Home() {
       <Accordion.Item eventKey="12">
         <Accordion.Header>ش</Accordion.Header>
         <Accordion.Body>
+        <audio controls>
+          <source src={sheen} type="audio/mp3"/>
+          Your browser does not support the audio element.
+        </audio>
           <p>
             <strong>Tongue letter.</strong> Middle of the tongue with the middle
             of the roof of the mouth.
@@ -257,6 +335,10 @@ export default function Home() {
       <Accordion.Item eventKey="13">
         <Accordion.Header>ص</Accordion.Header>
         <Accordion.Body>
+        <audio controls>
+          <source src={suad} type="audio/mp3"/>
+          Your browser does not support the audio element.
+        </audio>
           <p>
             <strong>Tongue letter.</strong> Extreme tip of the tongue touching
             the inner surface at the lower end of the bottom two front teeth.
@@ -276,6 +358,10 @@ export default function Home() {
       <Accordion.Item eventKey="14">
         <Accordion.Header>ض</Accordion.Header>
         <Accordion.Body>
+        <audio controls>
+          <source src={duad} type="audio/mp3"/>
+          Your browser does not support the audio element.
+        </audio>
           <p>
             <strong>Tongue letter.</strong> Sides of the tongue.
           </p>
@@ -313,6 +399,10 @@ export default function Home() {
       <Accordion.Item eventKey="15">
         <Accordion.Header>ط</Accordion.Header>
         <Accordion.Body>
+        <audio controls>
+          <source src={taaHeavy} type="audio/mp3"/>
+          Your browser does not support the audio element.
+        </audio>
           <p>
             <strong>Tongue letter.</strong> Where the extreme tip of the tongue
             touches the roots of the top front teeth.
@@ -332,6 +422,10 @@ export default function Home() {
       <Accordion.Item eventKey="16">
         <Accordion.Header>ظ</Accordion.Header>
         <Accordion.Body>
+        <audio controls>
+          <source src={zaaHeavy} type="audio/mp3"/>
+          Your browser does not support the audio element.
+        </audio>
           <p>
             <strong>Tongue letter.</strong> Tip of the tongue touching the
             bottom edges of the front two teeth.
@@ -346,6 +440,10 @@ export default function Home() {
       <Accordion.Item eventKey="17">
         <Accordion.Header>ع</Accordion.Header>
         <Accordion.Body>
+        <audio controls>
+          <source src={ain} type="audio/mp3"/>
+          Your browser does not support the audio element.
+        </audio>
           <p>
             <strong>Throat letter.</strong> Middle of the throat, epiglottis,
             what stops food going into our windpipe when we eat.
@@ -358,6 +456,10 @@ export default function Home() {
       <Accordion.Item eventKey="18">
         <Accordion.Header>غ</Accordion.Header>
         <Accordion.Body>
+        <audio controls>
+          <source src={gain} type="audio/mp3"/>
+          Your browser does not support the audio element.
+        </audio>
           <p>
             <strong>Throat letter.</strong> Closest to the mouth.
           </p>
@@ -372,6 +474,10 @@ export default function Home() {
       <Accordion.Item eventKey="19">
         <Accordion.Header>ف</Accordion.Header>
         <Accordion.Body>
+        <audio controls>
+          <source src={faa} type="audio/mp3"/>
+          Your browser does not support the audio element.
+        </audio>
           <p>
             <strong>Lip letter.</strong> The edge of the front top teeth
             touching the inside lower lip.
@@ -383,6 +489,10 @@ export default function Home() {
       <Accordion.Item eventKey="20">
         <Accordion.Header>ق</Accordion.Header>
         <Accordion.Body>
+        <audio controls>
+          <source src={qaaf} type="audio/mp3"/>
+          Your browser does not support the audio element.
+        </audio>
           <p>
             <strong>Tongue letter.</strong> Back of the tongue touching the soft
             fleshy part of roof of the mouth.
@@ -400,6 +510,10 @@ export default function Home() {
       <Accordion.Item eventKey="21">
         <Accordion.Header>ك</Accordion.Header>
         <Accordion.Body>
+        <audio controls>
+          <source src={kaaf} type="audio/mp3"/>
+          Your browser does not support the audio element.
+        </audio>
           <p>
             <strong>Tongue letter.</strong> Back of the tongue touching where
             the hard part of the roof of the mouth meets the soft part.
@@ -411,6 +525,10 @@ export default function Home() {
       <Accordion.Item eventKey="22">
         <Accordion.Header>ل</Accordion.Header>
         <Accordion.Body>
+        <audio controls>
+          <source src={laam} type="audio/mp3"/>
+          Your browser does not support the audio element.
+        </audio>
           <p>
             <strong>Tongue letter.</strong> Front edge.
           </p>
@@ -457,6 +575,10 @@ export default function Home() {
       <Accordion.Item eventKey="23">
         <Accordion.Header>م</Accordion.Header>
         <Accordion.Body>
+        <audio controls>
+          <source src={meem} type="audio/mp3"/>
+          Your browser does not support the audio element.
+        </audio>
           <p>
             <strong>Lip letter.</strong> Lips come together.</p>
 <p>Hold lips for longer than ب </p>
@@ -474,6 +596,10 @@ makhraj, for the م sound also comes from the nose.</p>
       <Accordion.Item eventKey="24">
         <Accordion.Header>ن</Accordion.Header>
         <Accordion.Body>
+        <audio controls>
+          <source src={noon} type="audio/mp3"/>
+          Your browser does not support the audio element.
+        </audio>
           <p>
             <strong>Tongue letter.</strong> Tip of the tongue.
           </p>
@@ -497,6 +623,10 @@ makhraj, for the م sound also comes from the nose.</p>
       <Accordion.Item eventKey="25">
         <Accordion.Header>و</Accordion.Header>
         <Accordion.Body>
+        <audio controls>
+          <source src={waw} type="audio/mp3"/>
+          Your browser does not support the audio element.
+        </audio>
           <p>
             <strong>Lip letter.</strong> Ghair madiya. Lips make a round circle.
           </p>
@@ -513,6 +643,10 @@ makhraj, for the م sound also comes from the nose.</p>
       <Accordion.Item eventKey="26">
         <Accordion.Header>ه</Accordion.Header>
         <Accordion.Body>
+        <audio controls>
+          <source src={hamzah} type="audio/mp3"/>
+          Your browser does not support the audio element.
+        </audio>
           <p>
             <strong>Throat letter.</strong> Furthest part, from the vocal
             chords.
@@ -544,6 +678,10 @@ makhraj, for the م sound also comes from the nose.</p>
       </Accordion.Item>
       <Accordion.Item eventKey="27">
         <Accordion.Header>ء</Accordion.Header>
+        <audio controls>
+          <source src={smallHaa} type="audio/mp3"/>
+          Your browser does not support the audio element.
+        </audio>
         <Accordion.Body>
           <strong>Throat letter.</strong> Furthest part, from the vocal chords.
           <Carousel nextLabel={null} prevLabel={null}>
@@ -568,6 +706,10 @@ makhraj, for the م sound also comes from the nose.</p>
       <Accordion.Item eventKey="28">
         <Accordion.Header>ي</Accordion.Header>
         <Accordion.Body>
+        <audio controls>
+          <source src={yaa} type="audio/mp3"/>
+          Your browser does not support the audio element.
+        </audio>
           <p>
             <strong>Tongue letter.</strong> Middle of the tongue with the middle
             of the roof of the mouth.
