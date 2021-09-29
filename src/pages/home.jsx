@@ -683,7 +683,7 @@ makhraj, for the م sound also comes from the nose.</p>
           <source src={smallHaa} type="audio/mp3"/>
           Your browser does not support the audio element.
         </audio>
-          <strong>Throat letter.</strong> Furthest part, from the vocal chords.
+          <p><strong>Throat letter.</strong> Furthest part, from the vocal chords.</p>
           <Carousel nextLabel={null} prevLabel={null}>
             <Carousel.Item>
               <img className="d-block mx-auto" src={img1} />
