@@ -30,7 +30,7 @@ export default function Home() {
       <Seo />
       <main role="main" className="wrapper">
       <div className="content"><PageRouter /></div>
-        </main>
+      </main>
     </Router>
   );
 }

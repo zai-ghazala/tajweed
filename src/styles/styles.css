@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@500&family=Signika+Negative&family=Chonburi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@500&family=Ubuntu+Mono&display=swap");
 
 :root {
   --color-primary: #ef32d9;
   --color-text-main: #111;
   --color-secondary: #5c8bcf;
-  --font-family: "Signika Negative";  
+  --font-family: "Ubuntu Mono";  
 }
 * {
     box-sizing: border-box;
@@ -13,18 +13,18 @@ body {
   color: var(--color-text-main) !important;
   font-family: var(--font-family) !important;
   letter-spacing: 0.5px;
-  overflow-x: hidden
+  font-size: calc(1em + 0.25vw) !important;
+  overflow-x: hidden;
 }
 .accordion-item .accordion-button {
     font-family: 'Noto Sans Arabic';
-    font-size: calc(2.5em + 1vw);
+    font-size: calc(2em + 1vw);
     color: var(--color-text-main);
     text-decoration: none;
-    width: 100vw;
     display: block;
     padding: 2vw 0 2vw 3vw;
 }
-.accordion-item .accordion-button:hover, strong {
+.accordion-item .accordion-button:hover, strong, h2 {
   color: var(--color-primary)
 }
 .accordion-item:nth-of-type(1) .accordion-button {
