@@ -1,688 +1,592 @@
 import * as React from "react";
-import Accordion from 'react-bootstrap/Accordion';
-import Carousel from 'react-bootstrap/Carousel';
+import Accordion from "react-bootstrap/Accordion";
+import Carousel from "react-bootstrap/Carousel";
 
-import img1 from '../assets/1/1.jpeg';
-import img2 from '../assets/1/2.jpeg';
-import img3 from '../assets/1/3.jpeg';
-import img4 from '../assets/1/4.jpeg';
-import img5 from '../assets/1/5.jpeg';
-import img5a from '../assets/1/5a.jpeg';
-import img6 from '../assets/1/6.jpeg';
-import img6a from '../assets/1/6a.jpeg';
-import img7 from '../assets/1/7.jpeg';
-import img8 from '../assets/1/8.jpeg';
-import img11 from '../assets/1/11.jpeg';
-import img11a from '../assets/1/11a.jpeg';
-import img11b from '../assets/1/11b.jpeg';
-import img13 from '../assets/1/13.jpeg';
-import img14 from '../assets/1/14.jpeg';
-import img15 from '../assets/1/15.jpeg';
-import img16 from '../assets/1/16.jpeg';
-import img19 from '../assets/1/19.jpeg';
-import img20 from '../assets/1/20.jpeg';
-import img22 from '../assets/1/22.jpeg';
-import img23 from '../assets/1/23.jpeg';
-import img23a from '../assets/1/23a.jpeg';
-import img23b from '../assets/1/23b.jpeg';
-import img24 from '../assets/1/24.jpeg';
-import img25 from '../assets/1/25.jpeg';
-import img26 from '../assets/1/26.jpeg';
-import img26a from '../assets/1/26a.jpeg';
-import img27 from '../assets/1/27.jpeg';
-import img27a from '../assets/1/27a.jpeg';
-import img28 from '../assets/1/28.jpeg';
-import img28a from '../assets/1/28a.jpeg';
-import img29 from '../assets/1/29.jpeg';
-import img30 from '../assets/1/30.jpeg';
-import img31 from '../assets/1/31.jpeg';
-import img32 from '../assets/1/32.jpeg';
-import img33 from '../assets/1/33.jpeg';
+import img1 from "../assets/1/1.jpeg";
+import img2 from "../assets/1/2.jpeg";
+import img3 from "../assets/1/3.jpeg";
+import img4 from "../assets/1/4.jpeg";
+import img5 from "../assets/1/5.jpeg";
+import img5a from "../assets/1/5a.jpeg";
+import img6 from "../assets/1/6.jpeg";
+import img6a from "../assets/1/6a.jpeg";
+import img7 from "../assets/1/7.jpeg";
+import img8 from "../assets/1/8.jpeg";
+import img11 from "../assets/1/11.jpeg";
+import img11a from "../assets/1/11a.jpeg";
+import img11b from "../assets/1/11b.jpeg";
+import img13 from "../assets/1/13.jpeg";
+import img14 from "../assets/1/14.jpeg";
+import img15 from "../assets/1/15.jpeg";
+import img16 from "../assets/1/16.jpeg";
+import img19 from "../assets/1/19.jpeg";
+import img20 from "../assets/1/20.jpeg";
+import img22 from "../assets/1/22.jpeg";
+import img23 from "../assets/1/23.jpeg";
+import img23a from "../assets/1/23a.jpeg";
+import img23b from "../assets/1/23b.jpeg";
+import img24 from "../assets/1/24.jpeg";
+import img25 from "../assets/1/25.jpeg";
+import img26 from "../assets/1/26.jpeg";
+import img26a from "../assets/1/26a.jpeg";
+import img27 from "../assets/1/27.jpeg";
+import img27a from "../assets/1/27a.jpeg";
+import img28 from "../assets/1/28.jpeg";
+import img28a from "../assets/1/28a.jpeg";
+import img29 from "../assets/1/29.jpeg";
+import img30 from "../assets/1/30.jpeg";
+import img31 from "../assets/1/31.jpeg";
+import img32 from "../assets/1/32.jpeg";
+import img33 from "../assets/1/33.jpeg";
 
 export default function Home() {
   return (
     <Accordion>
-    <Accordion.Item eventKey="0">
-      <Accordion.Header>ا</Accordion.Header>
-      <Accordion.Body>
-        See ء</Accordion.Body>
-    </Accordion.Item>
-    <Accordion.Item eventKey="1">
-      <Accordion.Header>ب</Accordion.Header>
-      <Accordion.Body>
-      
-      <p><strong>Lip letter.</strong> Lips come together then move apart for ب creating a bounce.</p><p>Tongue relaxed as normal.</p>
-      <Carousel nextLabel={null} prevLabel={null}>
-<Carousel.Item>
-  <img
-    className="d-block mx-auto"
-    src={img32}
-  />
-</Carousel.Item>
+      <Accordion.Item eventKey="0">
+        <Accordion.Header>ا</Accordion.Header>
+        <Accordion.Body>
+          <p>See ء</p>
+        </Accordion.Body>
+      </Accordion.Item>
+      <Accordion.Item eventKey="1">
+        <Accordion.Header>ب</Accordion.Header>
+        <Accordion.Body>
+          <p>
+            <strong>Lip letter.</strong> Lips come together then move apart for
+            ب creating a bounce.
+          </p>
+          <p>Tongue relaxed as normal.</p>
 
-</Carousel>
-      </Accordion.Body>
-    </Accordion.Item>
-    <Accordion.Item eventKey="2">
-      <Accordion.Header>ت</Accordion.Header>
-      <Accordion.Body>
-        
-      
-      <p><strong>Tongue letter.</strong> Where the extreme tip of
-the tongue touches the
-roots of the top front teeth.</p>
-<p>Tongue relaxed as normal.</p>
-<Carousel nextLabel={null} prevLabel={null}>
-<Carousel.Item>
-  <img
-    className="d-block mx-auto"
-    src={img28}
-  />
-</Carousel.Item>
-</Carousel>
-      </Accordion.Body>
-    </Accordion.Item>
-    <Accordion.Item eventKey="3">
-      <Accordion.Header>ث</Accordion.Header>
-      <Accordion.Body>
-      
-      <p><strong>Tongue letter.</strong> Tip of the tongue touching the bottom edges of the front two teeth.</p> <p>Flat tongue as normal.</p>
-      <Carousel nextLabel={null} prevLabel={null}>
-<Carousel.Item>
-  <img
-    className="d-block mx-auto"
-    src={img27}
-  />
-</Carousel.Item>
-</Carousel>
-      </Accordion.Body>
-    </Accordion.Item>
-    <Accordion.Item eventKey="4">
-      <Accordion.Header>ج</Accordion.Header>
-      <Accordion.Body>
-      
-      <p><strong>Tongue letter.</strong> Middle of the tongue with the
-middle of the roof of the mouth.</p>
-<Carousel nextLabel={null} prevLabel={null}>
-<Carousel.Item>
-  <img
-    className="d-block mx-auto"
-    src={img11b}
-  />
-</Carousel.Item>
-</Carousel>
-      </Accordion.Body>
-    </Accordion.Item>
-    <Accordion.Item eventKey="5">
-      <Accordion.Header>ح</Accordion.Header>
-      <Accordion.Body>
-      
-        <p><strong>Throat letter.</strong> Middle of the throat, epiglottis, what stops
-food going into our
-windpipe when we eat.</p>
-<p>Tongue is flat.</p>
-<Carousel nextLabel={null} prevLabel={null}>
-<Carousel.Item>
-  <img
-    className="d-block mx-auto"
-    src={img5}
-  />
-</Carousel.Item>
-</Carousel>
-      </Accordion.Body>
-    </Accordion.Item>
-    <Accordion.Item eventKey="6">
-      <Accordion.Header>خ</Accordion.Header>
-      <Accordion.Body>
-      
-        <p><strong>Throat letter.</strong> Closest to the mouth.</p>
-        <p>Note that the tongue is dipped in
-the middle so the sound is directed
-up to produce a heavy sound.</p>
+          <img className="d-block mx-auto" src={img32} />
+        </Accordion.Body>
+      </Accordion.Item>
+      <Accordion.Item eventKey="2">
+        <Accordion.Header>ت</Accordion.Header>
+        <Accordion.Body>
+          <p>
+            <strong>Tongue letter.</strong> Where the extreme tip of the tongue
+            touches the roots of the top front teeth.
+          </p>
+          <p>Tongue relaxed as normal.</p>
+          <p>
+            <strong>القلقلھ Al Qalqala</strong> - ق ط ب ج د Bouncing of the
+            sound from the makhraj in these sakinah letters after shiddah
+            occurs.
+          </p>
+          <img className="d-block mx-auto" src={img28} />
+        </Accordion.Body>
+      </Accordion.Item>
+      <Accordion.Item eventKey="3">
+        <Accordion.Header>ث</Accordion.Header>
+        <Accordion.Body>
+          <p>
+            <strong>Tongue letter.</strong> Tip of the tongue touching the
+            bottom edges of the front two teeth.
+          </p>{" "}
+          <p>Flat tongue as normal.</p>
+          <img className="d-block mx-auto" src={img27} />
+        </Accordion.Body>
+      </Accordion.Item>
+      <Accordion.Item eventKey="4">
+        <Accordion.Header>ج</Accordion.Header>
+        <Accordion.Body>
+          <p>
+            <strong>Tongue letter.</strong> Middle of the tongue with the middle
+            of the roof of the mouth.
+          </p>
+          <p>
+            <strong>القلقلھ Al Qalqala</strong> - ق ط ب ج د Bouncing of the
+            sound from the makhraj in these sakinah letters after shiddah
+            occurs.
+          </p>
+          <img className="d-block mx-auto" src={img11b} />
+        </Accordion.Body>
+      </Accordion.Item>
+      <Accordion.Item eventKey="5">
+        <Accordion.Header>ح</Accordion.Header>
+        <Accordion.Body>
+          <p>
+            <strong>Throat letter.</strong> Middle of the throat, epiglottis,
+            what stops food going into our windpipe when we eat.
+          </p>
+          <p>Tongue is flat.</p>
+          <img className="d-block mx-auto" src={img5} />
+        </Accordion.Body>
+      </Accordion.Item>
+      <Accordion.Item eventKey="6">
+        <Accordion.Header>خ</Accordion.Header>
+        <Accordion.Body>
+          <p>
+            <strong>Throat letter.</strong> Closest to the mouth.
+          </p>
+          <p>
+            Note that the tongue is dipped in the middle so the sound is
+            directed up to produce a heavy sound.
+          </p>
 
-<Carousel nextLabel={null} prevLabel={null}>
-<Carousel.Item>
-  <img
-    className="d-block mx-auto"
-    src={img6}
-  />
-</Carousel.Item>
-</Carousel>
+          <img className="d-block mx-auto" src={img6} />
+        </Accordion.Body>
+      </Accordion.Item>
+      <Accordion.Item eventKey="7">
+        <Accordion.Header>د</Accordion.Header>
+        <Accordion.Body>
+          <p>
+            <strong>Tongue letter.</strong> Where the extreme tip of the tongue
+            touches the roots of the top front teeth.
+          </p>
+          <p>Tongue relaxed as normal.</p>
+          <p>
+            <strong>القلقلھ Al Qalqala</strong> - ق ط ب ج د Bouncing of the
+            sound from the makhraj in these sakinah letters after shiddah
+            occurs.
+          </p>
+          <img className="d-block mx-auto" src={img28} />
+        </Accordion.Body>
+      </Accordion.Item>
+      <Accordion.Item eventKey="8">
+        <Accordion.Header>ذ</Accordion.Header>
+        <Accordion.Body>
+          <p>
+            <strong>Tongue letter.</strong> Tip of the tongue touching the
+            bottom edges of the front two teeth.
+          </p>{" "}
+          <p>Flat tongue as normal.</p>
+          <img className="d-block mx-auto" src={img27} />
+        </Accordion.Body>
+      </Accordion.Item>
+      <Accordion.Item eventKey="9">
+        <Accordion.Header>ر</Accordion.Header>
+        <Accordion.Body>
+          <p>
+            <strong>Tongue letter.</strong> Tip of the tongue.
+          </p>
+          <p>
+            From the tip of the tongue, to what is opposite it, of the gums by
+            the two top front teeth, near the makhraj of ن
+          </p>
+          <p>
+            There is a tiny gap in the middle of the tongue – this is where the
+            sound comes from, this stops takreer.
+          </p>
+          <p>
+            ر is normally considered a “light” letter. Sound is directed
+            outward, so tongue is flat.
+          </p>
+          <p>
+            ر is heavy if the ر has a fatha or dhamma on it, if theر is sakin
+            and the letter before it is a fatha or dhamma.
+          </p>
+          <p>
+            Sound is directed to the top of the mouth, so tongue is dipped in
+            middle to make sound heavy.
+          </p>
+          <p>
+            <strong>الانحراف Al Inharaf</strong> - ر and ل Diverting the sound
+            of a letter away from its makhraj. Laam is read away from its
+            makhraj and raa moves to a point in its makhraj.
+          </p>
+          <Carousel nextLabel={null} prevLabel={null}>
+            <Carousel.Item>
+              <img className="d-block mx-auto" src={img23} />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img className="d-block mx-auto" src={img23a} />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img className="d-block mx-auto" src={img23b} />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img className="d-block mx-auto" src={img24} />
+              <Carousel.Caption>
+                <p>Normally considered a light letter.</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img className="d-block mx-auto" src={img25} />
+              <Carousel.Caption>
+                <p>When ر is heavy</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+          </Carousel>
+        </Accordion.Body>
+      </Accordion.Item>
+      <Accordion.Item eventKey="10">
+        <Accordion.Header>ز</Accordion.Header>
+        <Accordion.Body>
+          <p>
+            <strong>Tongue letter.</strong> Extreme tip of the tongue touching
+            the inner surface at the lower end of the bottom two front teeth.
+          </p>
+          <p>Tongue relaxed as normal.</p>
+          <p>
+            <strong>الصفیر As Safeer</strong> - س ص ز Sound that is caused due
+            to the narrow gap above the tongue.
+          </p>
 
-      </Accordion.Body>
-    </Accordion.Item>
-    <Accordion.Item eventKey="7">
-      <Accordion.Header>د</Accordion.Header>
-      <Accordion.Body>
-             
-      
-      <p><strong>Tongue letter.</strong> Where the extreme tip of
-the tongue touches the
-roots of the top front teeth.</p>
-<p>Tongue relaxed as normal.</p>
-<Carousel nextLabel={null} prevLabel={null}>
-<Carousel.Item>
-  <img
-    className="d-block mx-auto"
-    src={img28}
-  />
-</Carousel.Item>
-</Carousel>
-      </Accordion.Body>
-    </Accordion.Item>
-    <Accordion.Item eventKey="8">
-      <Accordion.Header>ذ</Accordion.Header>
-      <Accordion.Body>
-      
-      <p><strong>Tongue letter.</strong> Tip of the tongue touching the bottom edges of the front two teeth.</p> <p>Flat tongue as normal.</p>
-      <Carousel nextLabel={null} prevLabel={null}>
-<Carousel.Item>
-  <img
-    className="d-block mx-auto"
-    src={img27}
-  />
-</Carousel.Item>
-</Carousel>
-      </Accordion.Body>
-    </Accordion.Item>
-    <Accordion.Item eventKey="9">
-      <Accordion.Header>ر</Accordion.Header>
-      <Accordion.Body>
-      
-      <p><strong>Tongue letter.</strong> Tip of the tongue.</p><p>From the tip of the tongue,
-to what is opposite it, of
-the gums by the two top
-front teeth, near the
-makhraj of
-ن</p>
-<p>There is a tiny gap in the middle of
-the tongue
-– this is where the sound
-comes from, this stops takreer.</p>
-<p>ر is normally considered a “light” letter. Sound is
-directed outward, so tongue is
-flat.</p>
-<p>ر is heavy if the ر has a fatha or dhamma on it, if theر is sakin and the letter before it
-is a fatha or dhamma.</p>
-<p>Sound is directed to the top of the
-mouth, so tongue is dipped in middle to
-make sound heavy.</p>
-<Carousel nextLabel={null} prevLabel={null}>
-<Carousel.Item>
-  <img
-    className="d-block mx-auto"
-    src={img23}
-  />
-</Carousel.Item>
-<Carousel.Item>
-  <img
-    className="d-block mx-auto"
-    src={img23a}
-  />
-</Carousel.Item>
-<Carousel.Item>
-  <img
-    className="d-block mx-auto"
-    src={img23b}
-  />
-</Carousel.Item>
-<Carousel.Item>
-  <img
-    className="d-block mx-auto"
-    src={img24}
-  />
-       <Carousel.Caption>
-   <p>Normally considered a light letter.</p>
-    </Carousel.Caption>
-</Carousel.Item>
-<Carousel.Item>
-  <img
-    className="d-block mx-auto"
-    src={img25}
-  />
-       <Carousel.Caption>
-   <p>When ر is heavy</p>
-    </Carousel.Caption>
-</Carousel.Item>
-</Carousel>
-      </Accordion.Body>
-    </Accordion.Item>
-    <Accordion.Item eventKey="10">
-      <Accordion.Header>ز</Accordion.Header>
-      <Accordion.Body>
-      
-      <p><strong>Tongue letter.</strong> Extreme tip of the tongue
-touching the inner surface at
-the lower end of the bottom
-two front teeth.</p>
-<p>Tongue relaxed as normal.</p>
-<Carousel nextLabel={null} prevLabel={null}>
-<Carousel.Item>
-  <img
-    className="d-block mx-auto"
-    src={img26}
-  />
-</Carousel.Item>
-</Carousel>
-      </Accordion.Body>
-    </Accordion.Item>
-    <Accordion.Item eventKey="11">
-      <Accordion.Header>س</Accordion.Header>
-      <Accordion.Body>
-  
-      
-      <p><strong>Tongue letter.</strong> Extreme tip of the tongue
-touching the inner surface at
-the lower end of the bottom
-two front teeth.</p>
-<p>Tongue relaxed as normal.</p>
-<Carousel nextLabel={null} prevLabel={null}>
-<Carousel.Item>
-  <img
-    className="d-block mx-auto"
-    src={img26}
-  />
-</Carousel.Item>
-</Carousel>
-      </Accordion.Body>
-    </Accordion.Item>
-    <Accordion.Item eventKey="12">
-      <Accordion.Header>ش</Accordion.Header>
-      <Accordion.Body>
-      
-      <p><strong>Tongue letter.</strong> Middle of the tongue with the
-middle of the roof of the mouth.</p>
-<Carousel nextLabel={null} prevLabel={null}>
-<Carousel.Item>
-  <img
-    className="d-block mx-auto"
-    src={img11a}
-  />
-</Carousel.Item>
-</Carousel>
-      </Accordion.Body>
-    </Accordion.Item>
-    <Accordion.Item eventKey="13">
-      <Accordion.Header>ص</Accordion.Header>
-      <Accordion.Body>
-     
-      
-      <p><strong>Tongue letter.</strong> Extreme tip of the tongue
-touching the inner surface at
-the lower end of the bottom
-two front teeth.</p>
-<p>Tongue dipped in middle, sound is
-directed to the top of the mouth so is
-heavy and trapped.</p>
-<Carousel nextLabel={null} prevLabel={null}>
-<Carousel.Item>
-  <img
-    className="d-block mx-auto"
-    src={img26a}
-  />
-</Carousel.Item>
-</Carousel>
-      </Accordion.Body>
-    </Accordion.Item>
-    <Accordion.Item eventKey="14">
-      <Accordion.Header>ض</Accordion.Header>
-      <Accordion.Body>
-      
-      <p><strong>Tongue letter.</strong> Sides of the tongue.</p><p>Touch the edge of
-tongue with the hard
-palate in front of
-the top front teeth.</p>
-<p>Make contact with the
-makhraj of ل but then put
-pressure on sides of tongue.</p>
-<p>Tongue dipped in middle, sound is
-directed to the top of the mouth
-so is heavy and trapped.</p>
-<Carousel nextLabel={null} prevLabel={null}>
-<Carousel.Item>
-  <img
-    className="d-block mx-auto"
-    src={img20}
-  />
-</Carousel.Item>
-<Carousel.Item>
-  <img
-    className="d-block mx-auto"
-    src={img19}
-  />
-     <Carousel.Caption>
-   <p>Pressure on both sides, but if not possible, then one side.</p>
-    </Carousel.Caption>
-</Carousel.Item>
-</Carousel>
-      </Accordion.Body>
-    </Accordion.Item>  
-    <Accordion.Item eventKey="15">
-      <Accordion.Header>ط</Accordion.Header>
-       <Accordion.Body>
-      
-      <p><strong>Tongue letter.</strong> Where the extreme tip of
-the tongue touches the
-roots of the top front teeth.</p> <p>Tongue dipped in middle, sound is
-directed to the top of the mouth so
-is heavy and trapped.</p>
-<Carousel nextLabel={null} prevLabel={null}>
-<Carousel.Item>
-  <img
-    className="d-block mx-auto"
-    src={img27a}
-  />
-</Carousel.Item>
-</Carousel>
-      </Accordion.Body>
-    </Accordion.Item>  
-    <Accordion.Item eventKey="16">
-      <Accordion.Header>ظ</Accordion.Header>
-      <Accordion.Body>
-      
-      <p><strong>Tongue letter.</strong> Tip of the tongue touching the bottom edges of the front two teeth.</p> <p>Tongue dipped in middle,
- sound is directed to the top of the mouth so is heavy and trapped.</p>
- <Carousel nextLabel={null} prevLabel={null}>
-<Carousel.Item>
-  <img
-    className="d-block mx-auto"
-    src={img28a}
-  />
-</Carousel.Item>
-</Carousel>
-      </Accordion.Body>
-    </Accordion.Item>  
-    <Accordion.Item eventKey="17">
-      <Accordion.Header>ع</Accordion.Header>
-      <Accordion.Body>
-      
-      <p><strong>Throat letter.</strong> Middle of the throat, epiglottis, what stops
-food going into our
-windpipe when we eat.</p>
-<p>Tongue is flat.</p>
-<Carousel nextLabel={null} prevLabel={null}>
-<Carousel.Item>
-  <img
-    className="d-block mx-auto"
-    src={img5a}
-  />
-</Carousel.Item>
-</Carousel>
-      </Accordion.Body>
-    </Accordion.Item>  
-    <Accordion.Item eventKey="18">
-      <Accordion.Header>غ</Accordion.Header>
-      <Accordion.Body>
-      
-        <p><strong>Throat letter.</strong> Closest to the mouth.</p>
-        <p>Note that the tongue is dipped in
-the middle so the sound is directed
-up to produce a heavy sound.</p>
+          <img className="d-block mx-auto" src={img26} />
+        </Accordion.Body>
+      </Accordion.Item>
+      <Accordion.Item eventKey="11">
+        <Accordion.Header>س</Accordion.Header>
+        <Accordion.Body>
+          <p>
+            <strong>Tongue letter.</strong> Extreme tip of the tongue touching
+            the inner surface at the lower end of the bottom two front teeth.
+          </p>
+          <p>Tongue relaxed as normal.</p>
+          <p>
+            <strong>الصفیر As Safeer</strong> - س ص ز Sound that is caused due
+            to the narrow gap above the tongue.
+          </p>
+          <img className="d-block mx-auto" src={img26} />=
+        </Accordion.Body>
+      </Accordion.Item>
+      <Accordion.Item eventKey="12">
+        <Accordion.Header>ش</Accordion.Header>
+        <Accordion.Body>
+          <p>
+            <strong>Tongue letter.</strong> Middle of the tongue with the middle
+            of the roof of the mouth.
+          </p>
+          <p>
+            <strong>التفشي Al Tafashi</strong> - The sound and breath spreads
+            through the mouth.
+          </p>
 
+          <img className="d-block mx-auto" src={img11a} />
+        </Accordion.Body>
+      </Accordion.Item>
+      <Accordion.Item eventKey="13">
+        <Accordion.Header>ص</Accordion.Header>
+        <Accordion.Body>
+          <p>
+            <strong>Tongue letter.</strong> Extreme tip of the tongue touching
+            the inner surface at the lower end of the bottom two front teeth.
+          </p>
+          <p>
+            Tongue dipped in middle, sound is directed to the top of the mouth
+            so is heavy and trapped.
+          </p>
+          <p>
+            <strong>الصفیر As Safeer</strong> - س ص ز Sound that is caused due
+            to the narrow gap above the tongue.
+          </p>
 
-<Carousel nextLabel={null} prevLabel={null}>
-<Carousel.Item>
-  <img
-    className="d-block mx-auto"
-    src={img6a}
-  />
-</Carousel.Item>
-</Carousel>
+          <img className="d-block mx-auto" src={img26a} />
+        </Accordion.Body>
+      </Accordion.Item>
+      <Accordion.Item eventKey="14">
+        <Accordion.Header>ض</Accordion.Header>
+        <Accordion.Body>
+          <p>
+            <strong>Tongue letter.</strong> Sides of the tongue.
+          </p>
+          <p>
+            Touch the edge of tongue with the hard palate in front of the top
+            front teeth.
+          </p>
+          <p>
+            Make contact with the makhraj of ل but then put pressure on sides of
+            tongue.
+          </p>
+          <p>
+            Tongue dipped in middle, sound is directed to the top of the mouth
+            so is heavy and trapped.
+          </p>
+          <p>
+            <strong>الاستطال Al Istitaala</strong> - The forward movement of the
+            tongue stretching from the back to the front.
+          </p>
+          <Carousel nextLabel={null} prevLabel={null}>
+            <Carousel.Item>
+              <img className="d-block mx-auto" src={img20} />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img className="d-block mx-auto" src={img19} />
+              <Carousel.Caption>
+                <p>
+                  Pressure on both sides, but if not possible, then one side.
+                </p>
+              </Carousel.Caption>
+            </Carousel.Item>
+          </Carousel>
+        </Accordion.Body>
+      </Accordion.Item>
+      <Accordion.Item eventKey="15">
+        <Accordion.Header>ط</Accordion.Header>
+        <Accordion.Body>
+          <p>
+            <strong>Tongue letter.</strong> Where the extreme tip of the tongue
+            touches the roots of the top front teeth.
+          </p>{" "}
+          <p>
+            Tongue dipped in middle, sound is directed to the top of the mouth
+            so is heavy and trapped.
+          </p>
+          <p>
+            <strong>القلقلھ Al Qalqala</strong> - ق ط ب ج د Bouncing of the
+            sound from the makhraj in these sakinah letters after shiddah
+            occurs.
+          </p>
+          <Carousel nextLabel={null} prevLabel={null}>
+            <Carousel.Item>
+              <img className="d-block mx-auto" src={img27a} />
+            </Carousel.Item>
+          </Carousel>
+        </Accordion.Body>
+      </Accordion.Item>
+      <Accordion.Item eventKey="16">
+        <Accordion.Header>ظ</Accordion.Header>
+        <Accordion.Body>
+          <p>
+            <strong>Tongue letter.</strong> Tip of the tongue touching the
+            bottom edges of the front two teeth.
+          </p>{" "}
+          <p>
+            Tongue dipped in middle, sound is directed to the top of the mouth
+            so is heavy and trapped.
+          </p>
+          <img className="d-block mx-auto" src={img28a} />
+        </Accordion.Body>
+      </Accordion.Item>
+      <Accordion.Item eventKey="17">
+        <Accordion.Header>ع</Accordion.Header>
+        <Accordion.Body>
+          <p>
+            <strong>Throat letter.</strong> Middle of the throat, epiglottis,
+            what stops food going into our windpipe when we eat.
+          </p>
+          <p>Tongue is flat.</p>
 
+          <img className="d-block mx-auto" src={img5a} />
+        </Accordion.Body>
+      </Accordion.Item>
+      <Accordion.Item eventKey="18">
+        <Accordion.Header>غ</Accordion.Header>
+        <Accordion.Body>
+          <p>
+            <strong>Throat letter.</strong> Closest to the mouth.
+          </p>
+          <p>
+            Note that the tongue is dipped in the middle so the sound is
+            directed up to produce a heavy sound.
+          </p>
 
+          <img className="d-block mx-auto" src={img6a} />
+        </Accordion.Body>
+      </Accordion.Item>
+      <Accordion.Item eventKey="19">
+        <Accordion.Header>ف</Accordion.Header>
+        <Accordion.Body>
+          <p>
+            <strong>Lip letter.</strong> The edge of the front top teeth
+            touching the inside lower lip.
+          </p>
 
-      </Accordion.Body>
-    </Accordion.Item> 
-    <Accordion.Item eventKey="19">
-      <Accordion.Header>ف</Accordion.Header>
-      <Accordion.Body>
-      
-        <p><strong>Lip letter.</strong> The edge of the front top teeth touching the inside lower lip.</p>
-        <Carousel nextLabel={null} prevLabel={null}>
-<Carousel.Item>
-  <img
-    className="d-block mx-auto"
-    src={img29}
-  />
-</Carousel.Item>
-</Carousel>
-      </Accordion.Body>
-    </Accordion.Item>  
-    <Accordion.Item eventKey="20">
-      <Accordion.Header>ق</Accordion.Header>
-      <Accordion.Body>
-      
-        <p><strong>Tongue letter.</strong> Back of the tongue touching the
-soft fleshy part of roof of the
-mouth.</p>
-<p>The tongue is dipped in the
-middle.</p>
-<Carousel nextLabel={null} prevLabel={null}>
-<Carousel.Item>
-  <img
-    className="d-block mx-auto"
-    src={img7}
-  />
-</Carousel.Item>
-</Carousel>
-      </Accordion.Body>
-    </Accordion.Item>  
-    <Accordion.Item eventKey="21">
-      <Accordion.Header>ك</Accordion.Header>
-      <Accordion.Body>
-      
-        <p><strong>Tongue letter.</strong> Back of the tongue touching where
-the hard part of the roof of the
-mouth meets the soft part.</p>
-<Carousel nextLabel={null} prevLabel={null}>
-<Carousel.Item>
-  <img
-    className="d-block mx-auto"
-    src={img8}
-  />
-</Carousel.Item>
-</Carousel>
-      </Accordion.Body>
-    </Accordion.Item> 
-    <Accordion.Item eventKey="22">
-      <Accordion.Header>ل</Accordion.Header>
-      <Accordion.Body>
-      
-      <p><strong>Tongue letter.</strong> Front edge.</p><p>Touch the edge of
-tongue with the hard
-palate in front of
-the top front teeth.</p>
-<p>ل is only pronounced heavy in the
-word Allah if it is preceded by a
-fatha or dhamma.</p>
-<p>The sound is directed up.</p>
-<p>The tongue is dipped in the middle.</p>
-<Carousel nextLabel={null} prevLabel={null}>
-<Carousel.Item>
-  <img
-    className="d-block mx-auto"
-    src={img15}
-  />
-</Carousel.Item>
-<Carousel.Item>
-  <img
-    src={img13}
-  />
-   <Carousel.Caption>
-   <p>Edge of tip of tongue - the yellow area.</p>
-    </Carousel.Caption>
-</Carousel.Item>
-<Carousel.Item>
-  <img
-    className="d-block mx-auto"
-    src={img14}
-  />
-   <Carousel.Caption>
-   <p>Yellow area showing where tongue touches top palate.</p>
-    </Carousel.Caption>
-</Carousel.Item>
-<Carousel.Item>
-  <img
-    className="d-block mx-auto"
-    src={img16}
-  />
-   <Carousel.Caption>
-   <p>When ل is heavy, the tongue is dipped in the middle.</p>
-    </Carousel.Caption>
-</Carousel.Item>
-</Carousel>
-      </Accordion.Body>
-    </Accordion.Item>  
-    <Accordion.Item eventKey="23">
-      <Accordion.Header>م</Accordion.Header>
-      <Accordion.Body>
-      
-      <p><strong>Lip letter.</strong> Lips come together for
-ب hold lips for longer than
- Sound comes from the lip
-makhraj, for the م sound also comes from the nose.</p><p>Tongue relaxed as normal.</p>
-<Carousel nextLabel={null} prevLabel={null}>
-<Carousel.Item>
-  <img
-    className="d-block mx-auto"
-    src={img33}
-  />
-</Carousel.Item>
+          <img className="d-block mx-auto" src={img29} />
+        </Accordion.Body>
+      </Accordion.Item>
+      <Accordion.Item eventKey="20">
+        <Accordion.Header>ق</Accordion.Header>
+        <Accordion.Body>
+          <p>
+            <strong>Tongue letter.</strong> Back of the tongue touching the soft
+            fleshy part of roof of the mouth.
+          </p>
+          <p>The tongue is dipped in the middle.</p>
+          <p>
+            <strong>القلقلھ Al Qalqala</strong> - ق ط ب ج د Bouncing of the
+            sound from the makhraj in these sakinah letters after shiddah
+            occurs.
+          </p>
 
-</Carousel>
-      </Accordion.Body>
-    </Accordion.Item> 
-    <Accordion.Item eventKey="24">
-      <Accordion.Header>ن</Accordion.Header>
-      <Accordion.Body>
-      
-      <p><strong>Tongue letter.</strong> Tip of the tongue.</p><p>From the tip of the tongue (to
-what lies opposite it) to the
-gums, slightly below the makhraj
-of ل</p>
-<p>Closer to the front teeth than the
-laam.</p>
-<p>Comes from 2 main areas makhraj – the
-tongue and the nose, this produces the
-ghunna sifah.</p>
-<Carousel nextLabel={null} prevLabel={null}>
-<Carousel.Item>
-  <img
-    className="d-block mx-auto"
-    src={img22}
-  />
-</Carousel.Item>
-</Carousel>
-      </Accordion.Body>
-    </Accordion.Item> 
-    <Accordion.Item eventKey="25">
-      <Accordion.Header>و</Accordion.Header>
-      <Accordion.Body>
-      
-        <p><strong>Lip letter.</strong> Ghair madiya. Lips make a round circle.</p>
-        <Carousel nextLabel={null} prevLabel={null}>
-<Carousel.Item>
-  <img
-    className="d-block mx-auto"
-    src={img30}
-  />
-</Carousel.Item>
-<Carousel.Item>
-  <img
-    className="d-block mx-auto"
-    src={img31}
-  />
-</Carousel.Item>
-</Carousel>
-      </Accordion.Body>
-    </Accordion.Item> 
-    <Accordion.Item eventKey="26">
-      <Accordion.Header>ه</Accordion.Header>
-      <Accordion.Body>
-      
-        <p><strong>Throat letter.</strong> Furthest part, from the vocal chords.</p>
-    
+          <img className="d-block mx-auto" src={img7} />
+        </Accordion.Body>
+      </Accordion.Item>
+      <Accordion.Item eventKey="21">
+        <Accordion.Header>ك</Accordion.Header>
+        <Accordion.Body>
+          <p>
+            <strong>Tongue letter.</strong> Back of the tongue touching where
+            the hard part of the roof of the mouth meets the soft part.
+          </p>
 
-        <Carousel nextLabel={null} prevLabel={null}>
-<Carousel.Item>
-  <img
-    src={img1}
-  />
-</Carousel.Item>
-<Carousel.Item>
-  <img
-    className="d-block mx-auto"
-    src={img3}
-  />
-   <Carousel.Caption>
-   <p>When ء is sakinah, the vocal chords are closed.</p>
-    </Carousel.Caption>
-</Carousel.Item>
-<Carousel.Item>
-  <img
-    className="d-block mx-auto"
-    src={img4}
-  />
-   <Carousel.Caption>
-   <p>When ء and ه are mutharrikah, vocal chords are all open.</p>
-    </Carousel.Caption>
-</Carousel.Item>
-</Carousel>
+          <img className="d-block mx-auto" src={img8} />
+        </Accordion.Body>
+      </Accordion.Item>
+      <Accordion.Item eventKey="22">
+        <Accordion.Header>ل</Accordion.Header>
+        <Accordion.Body>
+          <p>
+            <strong>Tongue letter.</strong> Front edge.
+          </p>
+          <p>
+            Touch the edge of tongue with the hard palate in front of the top
+            front teeth.
+          </p>
+          <p>
+            ل is only pronounced heavy in the word Allah if it is preceded by a
+            fatha or dhamma.
+          </p>
+          <p>The sound is directed up.</p>
+          <p>The tongue is dipped in the middle.</p>
+          <p>
+            <strong>الانحراف Al Inharaf</strong> - ر and ل Diverting the sound
+            of a letter away from its makhraj. Laam is read away from its
+            makhraj and raa moves to a point in its makhraj.
+          </p>
+          <Carousel nextLabel={null} prevLabel={null}>
+            <Carousel.Item>
+              <img className="d-block mx-auto" src={img15} />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img src={img13} />
+              <Carousel.Caption>
+                <p>Edge of tip of tongue - the yellow area.</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img className="d-block mx-auto" src={img14} />
+              <Carousel.Caption>
+                <p>Yellow area showing where tongue touches top palate.</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img className="d-block mx-auto" src={img16} />
+              <Carousel.Caption>
+                <p>When ل is heavy, the tongue is dipped in the middle.</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+          </Carousel>
+        </Accordion.Body>
+      </Accordion.Item>
+      <Accordion.Item eventKey="23">
+        <Accordion.Header>م</Accordion.Header>
+        <Accordion.Body>
+          <p>
+            <strong>Lip letter.</strong> Lips come together for ب hold lips for
+            longer than Sound comes from the lip makhraj, for the م sound also
+            comes from the nose.
+          </p>
+          <p>Tongue relaxed as normal.</p>
+          <p>
+            <strong>الغنھ Al Ghunna</strong> - م and ن Sound running through the
+            nasal cavity – this completes ن م{" "}
+          </p>
 
-      </Accordion.Body>
+          <img className="d-block mx-auto" src={img33} />
+        </Accordion.Body>
+      </Accordion.Item>
+      <Accordion.Item eventKey="24">
+        <Accordion.Header>ن</Accordion.Header>
+        <Accordion.Body>
+          <p>
+            <strong>Tongue letter.</strong> Tip of the tongue.
+          </p>
+          <p>
+            From the tip of the tongue (to what lies opposite it) to the gums,
+            slightly below the makhraj of ل
+          </p>
+          <p>Closer to the front teeth than the laam.</p>
+          <p>
+            Comes from 2 main areas makhraj – the tongue and the nose, this
+            produces the ghunna sifah.
+          </p>
+          <p>
+            <strong>الغنھ Al Ghunna</strong> - م and ن Sound running through the
+            nasal cavity – this completes ن م{" "}
+          </p>
 
-      
-    </Accordion.Item> 
-    <Accordion.Item eventKey="27">
-      <Accordion.Header>ء</Accordion.Header>
-      <Accordion.Body>
-      
-        <strong>Throat letter.</strong> Furthest part, from the vocal chords.
+          <img className="d-block mx-auto" src={img22} />
+        </Accordion.Body>
+      </Accordion.Item>
+      <Accordion.Item eventKey="25">
+        <Accordion.Header>و</Accordion.Header>
+        <Accordion.Body>
+          <p>
+            <strong>Lip letter.</strong> Ghair madiya. Lips make a round circle.
+          </p>
+          <Carousel nextLabel={null} prevLabel={null}>
+            <Carousel.Item>
+              <img className="d-block mx-auto" src={img30} />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img className="d-block mx-auto" src={img31} />
+            </Carousel.Item>
+          </Carousel>
+        </Accordion.Body>
+      </Accordion.Item>
+      <Accordion.Item eventKey="26">
+        <Accordion.Header>ه</Accordion.Header>
+        <Accordion.Body>
+          <p>
+            <strong>Throat letter.</strong> Furthest part, from the vocal
+            chords.
+          </p>
+          <p>
+            <strong>اللین Al Leen</strong> - ي and و sakinah preceded with
+            fatha. Pronouncing the letter with ease, without jerking or raising
+            the voice.
+          </p>
 
-        <Carousel nextLabel={null} prevLabel={null}>
-<Carousel.Item>
-  <img
-    className="d-block mx-auto"
-    src={img1}
-  />
-</Carousel.Item>
-<Carousel.Item>
-  <img
-    className="d-block mx-auto"
-    src={img2}
-  />
-   <Carousel.Caption>
-   <p>When ه is sakinah, the vocal chords are partially open</p>
-    </Carousel.Caption>
-</Carousel.Item>
-<Carousel.Item>
-  <img
-    className="d-block mx-auto"
-    src={img4}
-  />
-   <Carousel.Caption>
-   <p>When ء and ه are mutharrikah, vocal chords are all open.</p>
-    </Carousel.Caption>
-</Carousel.Item>
-</Carousel>
-      </Accordion.Body>
-    </Accordion.Item> 
-    <Accordion.Item eventKey="28">
-      <Accordion.Header>ي</Accordion.Header>
-      <Accordion.Body>
-      
-      <p><strong>Tongue letter.</strong> Middle of the tongue with the
-middle of the roof of the mouth.</p>
-<Carousel nextLabel={null} prevLabel={null}>
-<Carousel.Item>
-  <img
-    className="d-block mx-auto"
-    src={img11}
-  />
-</Carousel.Item>
-</Carousel>
-      </Accordion.Body>
-    </Accordion.Item> 
-  </Accordion>
+          <Carousel nextLabel={null} prevLabel={null}>
+            <Carousel.Item>
+              <img className="d-block mx-auto" src={img1} />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img className="d-block mx-auto" src={img3} />
+              <Carousel.Caption>
+                <p>When ء is sakinah, the vocal chords are closed.</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img className="d-block mx-auto" src={img4} />
+              <Carousel.Caption>
+                <p>When ء and ه are mutharrikah, vocal chords are all open.</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+          </Carousel>
+        </Accordion.Body>
+      </Accordion.Item>
+      <Accordion.Item eventKey="27">
+        <Accordion.Header>ء</Accordion.Header>
+        <Accordion.Body>
+          <strong>Throat letter.</strong> Furthest part, from the vocal chords.
+          <Carousel nextLabel={null} prevLabel={null}>
+            <Carousel.Item>
+              <img className="d-block mx-auto" src={img1} />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img className="d-block mx-auto" src={img2} />
+              <Carousel.Caption>
+                <p>When ه is sakinah, the vocal chords are partially open</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img className="d-block mx-auto" src={img4} />
+              <Carousel.Caption>
+                <p>When ء and ه are mutharrikah, vocal chords are all open.</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+          </Carousel>
+        </Accordion.Body>
+      </Accordion.Item>
+      <Accordion.Item eventKey="28">
+        <Accordion.Header>ي</Accordion.Header>
+        <Accordion.Body>
+          <p>
+            <strong>Tongue letter.</strong> Middle of the tongue with the middle
+            of the roof of the mouth.
+          </p>
+          <p>
+            <strong>اللین Al Leen</strong> - ي and و sakinah preceded with
+            fatha. Pronouncing the letter with ease, without jerking or raising
+            the voice.
+          </p>
+
+          <img className="d-block mx-auto" src={img11} />
+        </Accordion.Body>
+      </Accordion.Item>
+    </Accordion>
   );
 }
