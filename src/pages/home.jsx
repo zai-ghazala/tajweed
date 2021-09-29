@@ -327,11 +327,7 @@ export default function Home() {
             sound from the makhraj in these sakinah letters after shiddah
             occurs.
           </p>
-          <Carousel nextLabel={null} prevLabel={null}>
-            <Carousel.Item>
-              <img className="d-block mx-auto" src={img27a} />
-            </Carousel.Item>
-          </Carousel>
+          <img className="d-block mx-auto" src={img27a} />
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="16">
