@@ -81,7 +81,7 @@ export default function Home() {
           <p>
             <strong>Tongue letter.</strong> Tip of the tongue touching the
             bottom edges of the front two teeth.
-          </p>{" "}
+          </p>
           <p>Flat tongue as normal.</p>
           <img className="d-block mx-auto" src={img27} />
         </Accordion.Body>
@@ -237,7 +237,7 @@ export default function Home() {
             <strong>الصفیر As Safeer</strong> - س ص ز Sound that is caused due
             to the narrow gap above the tongue.
           </p>
-          <img className="d-block mx-auto" src={img26} />=
+          <img className="d-block mx-auto" src={img26} />
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="12">
