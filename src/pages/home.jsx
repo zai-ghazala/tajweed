@@ -221,7 +221,6 @@ export default function Home() {
             <strong>الصفیر As Safeer</strong> - س ص ز Sound that is caused due
             to the narrow gap above the tongue.
           </p>
-
           <img className="d-block mx-auto" src={img26} />
         </Accordion.Body>
       </Accordion.Item>
@@ -459,10 +458,11 @@ export default function Home() {
         <Accordion.Header>م</Accordion.Header>
         <Accordion.Body>
           <p>
-            <strong>Lip letter.</strong> Lips come together for ب hold lips for
-            longer than Sound comes from the lip makhraj, for the م sound also
-            comes from the nose.
-          </p>
+            <strong>Lip letter.</strong> Lips come together then move apart for ب creating a bounce.</p>
+<p>• Lips come together.</p>
+<p>Hold lips for longer than ب </p>
+<p>Sound comes from the lip
+makhraj, for the م sound also comes from the nose.</p>
           <p>Tongue relaxed as normal.</p>
           <p>
             <strong>الغنھ Al Ghunna</strong> - م and ن Sound running through the
