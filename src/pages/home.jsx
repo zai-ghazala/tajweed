@@ -189,8 +189,7 @@ so is heavy and trapped.</p>
     </Accordion.Item>  
     <Accordion.Item eventKey="15">
       <Accordion.Header>ط</Accordion.Header>
-      <Tongue>
-           
+       <Accordion.Body>
       <h2>Makhraj</h2>
       <p><strong>Tongue letter.</strong> Where the extreme tip of
 the tongue touches the
@@ -319,14 +318,14 @@ ghunna sifah.</p>
         <p>When ء and ه are mutharrikah, vocal chords are all open.</p>
       </Accordion.Body>
     </Accordion.Item> 
-    <Accordion.Item eventKey="26">
+    <Accordion.Item eventKey="27">
       <Accordion.Header>ء</Accordion.Header>
       <Accordion.Body>
       <h2>Makhraj</h2>
         <strong>Throat letter.</strong> Furthest part, from the vocal chords.
       </Accordion.Body>
     </Accordion.Item> 
-    <Accordion.Item eventKey="27">
+    <Accordion.Item eventKey="28">
       <Accordion.Header>ي</Accordion.Header>
       <Accordion.Body>
       <h2>Makhraj</h2>

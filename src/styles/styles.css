@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@500&family=Ubuntu+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@500&family=Signika+Negative&display=swap");
 
 :root {
   --color-primary: #ef32d9;
   --color-text-main: #111;
   --color-secondary: #5c8bcf;
-  --font-family: "Ubuntu Mono";  
+  --font-family: "Signika Negative";  
 }
 * {
     box-sizing: border-box;
