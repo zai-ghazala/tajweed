@@ -72,11 +72,6 @@ export default function Home() {
             touches the roots of the top front teeth.
           </p>
           <p>Tongue relaxed as normal.</p>
-          <p>
-            <strong>القلقلھ Al Qalqala</strong> - ق ط ب ج د Bouncing of the
-            sound from the makhraj in these sakinah letters after shiddah
-            occurs.
-          </p>
           <img className="d-block mx-auto" src={img28} />
         </Accordion.Body>
       </Accordion.Item>
