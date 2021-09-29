@@ -143,6 +143,6 @@ body {
 }
 @media (min-width: 481px) and (orientation: landscape) { 
   .carousel-item img {
-    max-width: auto
+    max-width: 300px
   }
 }
