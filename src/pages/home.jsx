@@ -1294,6 +1294,11 @@ export default function Home() {
             “Fa-hathu-hu shakhsun sakath”
           </p>
           <p>
+            <strong>الرخاوة Sound is allowed to flow</strong> - Except أَجِدْ
+            قَطٍ بَكَتْ “Ajid Qatin Bakath” and لن عمر “Lin ‘Umar” all the
+            remaining letters.
+          </p>
+          <p>
             <strong>
               استفعال Sound is directed downwards and outwards which gives the
               sound the quality of tarqeeq which is a lightness
@@ -1305,11 +1310,6 @@ export default function Home() {
             letters except ص ض ط ظ
           </p>
           <img className="d-block mx-auto" src={img11} />
-          <p>
-            <strong>الرخاوة Sound is allowed to flow</strong> - Except أَجِدْ
-            قَطٍ بَكَتْ “Ajid Qatin Bakath” and لن عمر “Lin ‘Umar” all the
-            remaining letters.
-          </p>
         </Accordion.Body>
       </Accordion.Item>
     </Accordion>
