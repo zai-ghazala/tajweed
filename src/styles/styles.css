@@ -1,10 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@500&family=Signika+Negative&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@500&family=Lora&family=Poppins&display=swap");
 
 :root {
-  --color-primary: #ef32d9;
   --color-text-main: #111;
-  --color-secondary: #5c8bcf;
-  --font-family: "Signika Negative";  
+  --font-family: "Lora";  
 }
 * {
     box-sizing: border-box;
@@ -24,8 +22,11 @@ body {
     display: block;
     padding: 2vw 0 2vw 3vw;
 }
-.accordion-item .accordion-button:hover, strong, h2 {
-  color: var(--color-primary)
+strong {
+  font-family: Poppins;
+}
+.accordion-button:hover, .accordion-button:not(.collapsed) {
+  color: yellow !important;
 }
 .accordion-item:nth-of-type(1) .accordion-button {
   background-color: #cc95c0
@@ -99,17 +100,17 @@ body {
 .accordion-item:nth-of-type(24) .accordion-button {
   background-color: #6aaed2
 }
-.accordion-item:nth-of-type(25)  .accordion-button{
+.accordion-item:nth-of-type(25) .accordion-button {
   background-color: #70a8d3
 }
-.accordion-item:nth-of-type(26)  .accordion-button {
+.accordion-item:nth-of-type(26) .accordion-button {
   background-color: #97bdde
 }
 .accordion-item:nth-of-type(27) .accordion-button {
   background-color: #bad3e9
 }
 .accordion-item:nth-of-type(28) .accordion-button {
-  background-color: #dde9f4
+  background-color: #ccd9e6
 }
 .accordion-item:nth-of-type(29) .accordion-button {
   background-color: #ffffff
@@ -147,8 +148,6 @@ body {
 hr {
   border: none;
   height: 2px !important;
-  background: var(--color-primary) !important;
-  color:  var(--color-primary) !important
 }
 @media (min-width: 481px) and (orientation: landscape) { 
   .accordion-body img {
@@ -161,4 +160,178 @@ audio {
   left: 50%;
   transform: translateX(-50%);
   margin-bottom: 1em
+}
+.accordion-item:nth-of-type(1) hr {
+  background-color: #cc95c0
+}
+.accordion-item:nth-of-type(2) hr {
+  background-color: #da99b7
+}
+.accordion-item:nth-of-type(3) hr {
+  background-color: #e39fae
+}
+.accordion-item:nth-of-type(4) hr {
+  background-color: #e7a6a7
+}
+.accordion-item:nth-of-type(5) hr {
+  background-color: #e8afa3
+}
+.accordion-item:nth-of-type(6) hr {
+  background-color: #e8afa3
+}
+.accordion-item:nth-of-type(7) hr {
+  background-color: #e8b4a2
+}
+.accordion-item:nth-of-type(8) hr {
+  background-color: #e7baa3
+}
+.accordion-item:nth-of-type(9) hr {
+  background-color: #e5bfa4
+}
+.accordion-item:nth-of-type(10) hr {
+  background-color: #e2c5a6
+}
+.accordion-item:nth-of-type(11) hr {
+  background-color: #e0caaa
+}
+.accordion-item:nth-of-type(12) hr {
+  background-color: #ddcfaf
+}
+.accordion-item:nth-of-type(13) hr {
+  background-color: #dbd4b4
+}
+.accordion-item:nth-of-type(14) hr {
+  background-color: #d0d2b0
+}
+.accordion-item:nth-of-type(15) hr {
+  background-color: #c4d1ae
+}
+.accordion-item:nth-of-type(16) hr {
+  background-color: #aacdaf
+}
+.accordion-item:nth-of-type(17) hr {
+  background-color: #9ccab2
+}
+.accordion-item:nth-of-type(18) hr {
+  background-color: #8fc8b6
+}
+.accordion-item:nth-of-type(19) hr {
+  background-color: #83c5bb
+}
+.accordion-item:nth-of-type(20) hr {
+  background-color: #78c1c0
+}
+.accordion-item:nth-of-type(21) hr {
+  background-color: #6fbdc6
+}
+.accordion-item:nth-of-type(22) hr {
+  background-color: #69b9cb
+}
+.accordion-item:nth-of-type(23) hr {
+  background-color: #67b4cf
+}
+.accordion-item:nth-of-type(24) hr {
+  background-color: #6aaed2
+}
+.accordion-item:nth-of-type(25)  hr{
+  background-color: #70a8d3
+}
+.accordion-item:nth-of-type(26)  hr {
+  background-color: #97bdde
+}
+.accordion-item:nth-of-type(27) hr {
+  background-color: #a8c5df
+}
+.accordion-item:nth-of-type(28) hr {
+  background-color: #ccd9e6
+}
+.accordion-item:nth-of-type(29) hr {
+  background-color: var(--color-text-main)
+}
+.accordion-item:nth-of-type(1) strong  {
+  color: #cc95c0;
+}
+.accordion-item:nth-of-type(2) strong {
+  color: #da99b7
+}
+.accordion-item:nth-of-type(3) strong {
+  color: #e39fae
+}
+.accordion-item:nth-of-type(4) strong {
+  color: #e7a6a7
+}
+.accordion-item:nth-of-type(5) strong {
+  color: #e8afa3
+}
+.accordion-item:nth-of-type(6) strong {
+  color: #e8afa3
+}
+.accordion-item:nth-of-type(7) strong {
+  color: #e8b4a2
+}
+.accordion-item:nth-of-type(8) strong {
+  color: #e7baa3
+}
+.accordion-item:nth-of-type(9) strong {
+  color: #e5bfa4
+}
+.accordion-item:nth-of-type(10) strong {
+  color: #e2c5a6
+}
+.accordion-item:nth-of-type(11) strong {
+  color: #e0caaa
+}
+.accordion-item:nth-of-type(12) strong {
+  color: #ddcfaf
+}
+.accordion-item:nth-of-type(13) strong {
+  color: #dbd4b4
+}
+.accordion-item:nth-of-type(14) strong {
+  color: #d0d2b0
+}
+.accordion-item:nth-of-type(15) strong {
+  color: #c4d1ae
+}
+.accordion-item:nth-of-type(16) strong {
+  color: #aacdaf
+}
+.accordion-item:nth-of-type(17) strong {
+  color: #9ccab2
+}
+.accordion-item:nth-of-type(18) strong {
+  color: #8fc8b6
+}
+.accordion-item:nth-of-type(19) strong {
+  color: #83c5bb
+}
+.accordion-item:nth-of-type(20) strong {
+  color: #78c1c0
+}
+.accordion-item:nth-of-type(21) strong {
+  color: #6fbdc6
+}
+.accordion-item:nth-of-type(22) strong {
+  color: #69b9cb
+}
+.accordion-item:nth-of-type(23) strong {
+  color: #67b4cf
+}
+.accordion-item:nth-of-type(24) strong {
+  color: #6aaed2
+}
+.accordion-item:nth-of-type(25)  strong{
+  color: #70a8d3
+}
+.accordion-item:nth-of-type(26)  strong {
+  color: #97bdde
+}
+.accordion-item:nth-of-type(27) strong {
+  color: #bad3e9
+}
+.accordion-item:nth-of-type(28) strong {
+  color: #ccd9e6
+}
+.accordion-item:nth-of-type(29) strong {
+  color: #var(--color-text-main)
 }
