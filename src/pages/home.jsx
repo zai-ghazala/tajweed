@@ -300,7 +300,7 @@ export default function Home() {
             <strong>
               الإستــعلاء Sound is directed upwards between the tongue and the
               top palate. (Up and inside) This gives the letter the quality of
-              tafkheem which is a thick heaviness.
+              tafkheem which is a thick heaviness
             </strong>{" "}
             - The following letters خص ضغط قظ
           </p>
@@ -615,7 +615,7 @@ export default function Home() {
             <strong>
               الإستــعلاء Sound is directed upwards between the tongue and the
               top palate. (Up and inside) This gives the letter the quality of
-              tafkheem which is a thick heaviness.
+              tafkheem which is a thick heaviness
             </strong>{" "}
             - The following letters خص ضغط قظ
           </p>
@@ -668,7 +668,7 @@ export default function Home() {
             <strong>
               الإستــعلاء Sound is directed upwards between the tongue and the
               top palate. (Up and inside) This gives the letter the quality of
-              tafkheem which is a thick heaviness.
+              tafkheem which is a thick heaviness
             </strong>{" "}
             - The following letters خص ضغط قظ
           </p>
@@ -726,7 +726,7 @@ export default function Home() {
             <strong>
               الإستــعلاء Sound is directed upwards between the tongue and the
               top palate. (Up and inside) This gives the letter the quality of
-              tafkheem which is a thick heaviness.
+              tafkheem which is a thick heaviness
             </strong>{" "}
             - The following letters خص ضغط قظ
           </p>
@@ -768,7 +768,7 @@ export default function Home() {
             <strong>
               الإستــعلاء Sound is directed upwards between the tongue and the
               top palate. (Up and inside) This gives the letter the quality of
-              tafkheem which is a thick heaviness.
+              tafkheem which is a thick heaviness
             </strong>{" "}
             - The following letters خص ضغط قظ
           </p>
@@ -837,7 +837,7 @@ export default function Home() {
             <strong>
               الإستــعلاء Sound is directed upwards between the tongue and the
               top palate. (Up and inside) This gives the letter the quality of
-              tafkheem which is a thick heaviness.
+              tafkheem which is a thick heaviness
             </strong>{" "}
             - The following letters خص ضغط قظ
           </p>
@@ -918,7 +918,7 @@ export default function Home() {
             <strong>
               الإستــعلاء Sound is directed upwards between the tongue and the
               top palate. (Up and inside) This gives the letter the quality of
-              tafkheem which is a thick heaviness.
+              tafkheem which is a thick heaviness
             </strong>{" "}
             - The following letters خص ضغط قظ
           </p>
@@ -1113,7 +1113,7 @@ export default function Home() {
             <strong>
               الإستــعلاء Sound is directed upwards between the tongue and the
               top palate. (Up and inside) This gives the letter the quality of
-              tafkheem which is a thick heaviness.
+              tafkheem which is a thick heaviness
             </strong>{" "}
             - The following letters خص ضغط قظ
           </p>
