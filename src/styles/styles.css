@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@500&family=Lora&family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@500&family=Lora&family=Ubuntu&display=swap");
 
 :root {
   --color-text-main: #111;
@@ -23,7 +23,8 @@ body {
     padding: 2vw 0 2vw 3vw;
 }
 strong {
-  font-family: Poppins;
+  font-family: Ubuntu;
+  letter-spacing: 1px;
 }
 .accordion-button:hover, .accordion-button:not(.collapsed) {
   color: yellow !important;
