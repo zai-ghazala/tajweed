@@ -1100,7 +1100,7 @@ export default function Home() {
         <Accordion.Header>ه</Accordion.Header>
         <Accordion.Body>
           <audio controls>
-            <source src={hamzah} type="audio/mp3" />
+            <source src={smallHaa} type="audio/mp3" />
             Your browser does not support the audio element.
           </audio>
           <p>
@@ -1158,7 +1158,7 @@ export default function Home() {
         <Accordion.Header>ء</Accordion.Header>
         <Accordion.Body>
           <audio controls>
-            <source src={smallHaa} type="audio/mp3" />
+            <source src={hamzah} type="audio/mp3" />
             Your browser does not support the audio element.
           </audio>
           <p>
