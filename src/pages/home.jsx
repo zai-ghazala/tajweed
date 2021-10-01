@@ -1109,7 +1109,7 @@ export default function Home() {
           </p>
           <p>
             <strong>اللین Al Leen</strong> - ي and و sakinah preceded with
-            fatha. Pronouncing the letter Withease, without jerking or raising
+            fatha. Pronouncing the letter with ease, without jerking or raising
             the voice.
           </p>
           <hr />
@@ -1215,7 +1215,7 @@ export default function Home() {
           </p>
           <p>
             <strong>اللین Al Leen</strong> - ي and و sakinah preceded with
-            fatha. Pronouncing the letter Withease, without jerking or raising
+            fatha. Pronouncing the letter with ease, without jerking or raising
             the voice.
           </p>
           <hr />
