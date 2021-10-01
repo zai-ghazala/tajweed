@@ -603,11 +603,11 @@ export default function Home() {
             <strong>Tongue letter</strong> - Sides of the tongue.
           </p>
           <p>
-            Touch the edge of tongue Withthe hard palate in front of the top
+            Touch the edge of tongue with the hard palate in front of the top
             front teeth.
           </p>
           <p>
-            Make contact Withthe makhraj of ل but then put pressure on sides of
+            Make contact with the makhraj of ل but then put pressure on sides of
             tongue.
           </p>
           <p>
@@ -917,7 +917,7 @@ export default function Home() {
             <strong>Tongue letter</strong> - Front edge.
           </p>
           <p>
-            Touch the edge of tongue Withthe hard palate in front of the top
+            Touch the edge of tongue with the hard palate in front of the top
             front teeth.
           </p>
           <p>
