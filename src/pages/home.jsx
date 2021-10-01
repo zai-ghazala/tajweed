@@ -285,8 +285,8 @@ export default function Home() {
           <p>
             <strong>الإستــعلاء Al Isti'la</strong> - <b>Sound is directed upwards
             between the tongue and the top palate. (Up and inside) This gives
-            the letter the quality of tafkheem which is a thick heaviness - The
-            following letters</b> {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
+            the letter the quality of tafkheem which is a thick heaviness</b> - The
+            following letters {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
           </p>
           <p>
             <strong>الانفتاح Al Infitah</strong> - <b>Sound is not retained in the
@@ -582,8 +582,8 @@ export default function Home() {
           <p>
             <strong>الإستــعلاء Al Isti'la</strong> - <b>Sound is directed upwards
             between the tongue and the top palate. (Up and inside) This gives
-            the letter the quality of tafkheem which is a thick heaviness - The
-            following letters</b> {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
+            the letter the quality of tafkheem which is a thick heaviness</b> - The
+            following letters {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
           </p>
           <p>
             <strong>الاطباق Al Itbaq</strong> - Sound is retained between tongue
@@ -631,8 +631,8 @@ export default function Home() {
           <p>
             <strong>الإستــعلاء Al Isti'la</strong> - <b>Sound is directed upwards
             between the tongue and the top palate. (Up and inside) This gives
-            the letter the quality of tafkheem which is a thick heaviness - The
-            following letters</b> {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
+            the letter the quality of tafkheem which is a thick heaviness</b> - The
+            following letters {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
           </p>
           <p>
             <strong>الاطباق Al Itbaq</strong> - Sound is retained between tongue
@@ -685,8 +685,8 @@ export default function Home() {
           <p>
             <strong>الإستــعلاء Al Isti'la</strong> - <b>Sound is directed upwards
             between the tongue and the top palate. (Up and inside) This gives
-            the letter the quality of tafkheem which is a thick heaviness - The
-            following letters</b> {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
+            the letter the quality of tafkheem which is a thick heaviness</b> - The
+            following letters {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
           </p>
           <p>
             <strong>الاطباق Al Itbaq</strong> - Sound is retained between tongue
@@ -723,8 +723,8 @@ export default function Home() {
           <p>
             <strong>الإستــعلاء Al Isti'la</strong> - <b>Sound is directed upwards
             between the tongue and the top palate. (Up and inside) This gives
-            the letter the quality of tafkheem which is a thick heaviness - The
-            following letters</b> {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
+            the letter the quality of tafkheem which is a thick heaviness</b> - The
+            following letters {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
           </p>
           <p>
             <strong>الاطباق Al Itbaq</strong> - Sound is retained between tongue
@@ -751,8 +751,8 @@ export default function Home() {
             {" "}<span className="inline-block">فحثه شخص سكت</span>{" "} “Fa-hathu-hu shakhsun sakath”
           </p>
           <p>
-            <strong>توسط Al Tawassut</strong> - <b>Sound is not allowed to flow</b> nor
-            shortened - The letters {" "}<span className="inline-block">لن عمر</span>{" "} “Lin ‘Umar”
+            <strong>توسط Al Tawassut</strong> - <b>Sound is not allowed to flow nor
+            shortened</b> - The letters {" "}<span className="inline-block">لن عمر</span>{" "} “Lin ‘Umar”
           </p>
           <p>
             <strong>الانفتاح Al Infitah</strong> - <b>Sound is not retained in the
@@ -788,8 +788,8 @@ export default function Home() {
           <p>
             <strong>الإستــعلاء Al Isti'la</strong> - <b>Sound is directed upwards
             between the tongue and the top palate. (Up and inside) This gives
-            the letter the quality of tafkheem which is a thick heaviness - The
-            following letters</b> {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
+            the letter the quality of tafkheem which is a thick heaviness</b> - The
+            following letters {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
           </p>
           <p>
             <strong>الانفتاح Al Infitah</strong> - <b>Sound is not retained in the
@@ -864,8 +864,8 @@ export default function Home() {
           <p>
             <strong>الإستــعلاء Al Isti'la</strong> - <b>Sound is directed upwards
             between the tongue and the top palate. (Up and inside) This gives
-            the letter the quality of tafkheem which is a thick heaviness - The
-            following letters</b> {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
+            the letter the quality of tafkheem which is a thick heaviness</b> - The
+            following letters {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
           </p>
           <p>
             <strong>الانفتاح Al Infitah</strong> - <b>Sound is not retained in the
@@ -937,8 +937,8 @@ export default function Home() {
             {" "}<span className="inline-block">فحثه شخص سكت</span>{" "} “Fa-hathu-hu shakhsun sakath”
           </p>
           <p>
-            <strong>توسط Al Tawassut</strong> - <b>Sound is not allowed to flow</b> nor
-            shortened - The letters {" "}<span className="inline-block">لن عمر</span>{" "} “Lin ‘Umar”
+            <strong>توسط Al Tawassut</strong> - <b>Sound is not allowed to flow nor
+            shortened</b> - The letters {" "}<span className="inline-block">لن عمر</span>{" "} “Lin ‘Umar”
           </p>
           <p>
             <strong>استفعال Al Istifal </strong> - <b>Sound is directed downwards
@@ -1000,8 +1000,8 @@ export default function Home() {
             {" "}<span className="inline-block">فحثه شخص سكت</span>{" "} “Fa-hathu-hu shakhsun sakath”
           </p>
           <p>
-            <strong>توسط Al Tawassut</strong> - <b>Sound is not allowed to flow</b> nor
-            shortened - The letters {" "}<span className="inline-block">لن عمر</span>{" "} “Lin ‘Umar”
+            <strong>توسط Al Tawassut</strong> - <b>Sound is not allowed to flow nor
+            shortened</b> - The letters {" "}<span className="inline-block">لن عمر</span>{" "} “Lin ‘Umar”
           </p>
           <p>
             <strong>استفعال Al Istifal </strong> - <b>Sound is directed downwards
@@ -1044,14 +1044,14 @@ export default function Home() {
             {" "}<span className="inline-block">فحثه شخص سكت</span>{" "} “Fa-hathu-hu shakhsun sakath”
           </p>
           <p>
-            <strong>توسط Al Tawassut</strong> - <b>Sound is not allowed to flow</b> nor
-            shortened - The letters {" "}<span className="inline-block">لن عمر</span>{" "} “Lin ‘Umar”
+            <strong>توسط Al Tawassut</strong> - <b>Sound is not allowed to flow nor
+            shortened</b> - The letters {" "}<span className="inline-block">لن عمر</span>{" "} “Lin ‘Umar”
           </p>
           <p>
             <strong>الإستــعلاء Al Isti'la</strong> - <b>Sound is directed upwards
             between the tongue and the top palate. (Up and inside) This gives
-            the letter the quality of tafkheem which is a thick heaviness - The
-            following letters</b> {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
+            the letter the quality of tafkheem which is a thick heaviness</b> - The
+            following letters {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
           </p>
           <p>
             <strong>الانفتاح Al Infitah</strong> - <b>Sound is not retained in the
