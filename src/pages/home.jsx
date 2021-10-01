@@ -52,7 +52,7 @@ import zaai from "../assets/audio/zaai.mp3";
 import seen from "../assets/audio/seen.mp3";
 import sheen from "../assets/audio/sheen.mp3";
 import suad from "../assets/audio/suad.mp3";
-import duad from "../assets/audio/suad.mp3";
+import duad from "../assets/audio/duad.mp3";
 import taaHeavy from "../assets/audio/taa-heavy.mp3";
 import zaaHeavy from "../assets/audio/zaa-heavy.mp3";
 import ain from "../assets/audio/ain.mp3";
@@ -99,24 +99,22 @@ export default function Home() {
           <hr />
 
           <p>
-            <strong>الجحر No airflow</strong> - All letters except فحثه شخص سكت
-            “Fa-hathu-hu shakhsun sakath”
+            <strong>الجحر Al Jahr</strong> - <b>No airflow</b> - All letters except
+            {" "}<span className="inline-block">فحثه شخص سكت</span>{" "} “Fa-hathu-hu shakhsun sakath”
           </p>
           <p>
-            <strong>الشدۃ Sound is not allowed to flow</strong> - أَجِدْ قَطٍ
-            بَكَتْ “Ajid Qatin Bakath”
+            <strong>الشدۃ Al Shiddah</strong> - <b>Sound is not allowed to flow</b> -
+            {" "}<span className="inline-block">أَجِدْ قَطٍ بَكَتْ</span>{" "} “Ajid Qatin Bakath”
           </p>
           <p>
-            <strong>
-              استفعال Sound is directed downwards and outwards which gives the
-              sound the quality of tarqeeq which is a lightness
-            </strong>{" "}
-            - All letters except خص ضغط قظ
+            <strong>استفعال Al Istifal </strong> - <b>Sound is directed downwards
+            and outwards which gives the sound the quality of tarqeeq which is a
+            lightness</b> - All letters except {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
           </p>
 
           <p>
-            <strong>الاطباق Sound is not retained in the mouth</strong> - All
-            letters except ص ض ط ظ
+            <strong>الانفتاح Al Infitah</strong> - <b>Sound is not retained in the
+            mouth</b> - All letters except ص ض ط ظ
           </p>
 
           <img className="d-block mx-auto" src={img32} />
@@ -138,23 +136,20 @@ export default function Home() {
           <hr />
 
           <p>
-            <strong>الحمص With airflow</strong> - فحثه شخص سكت “Fa-hathu-hu
-            shakhsun sakath”
+            <strong>الحمص Al Hams</strong> - <b>With airflow</b> - {" "}<span className="inline-block">فحثه شخص سكت</span>{" "}“Fa-hathu-hu shakhsun sakath”
           </p>
           <p>
-            <strong>الشدۃ Sound is not allowed to flow</strong> - أَجِدْ قَطٍ
-            بَكَتْ “Ajid Qatin Bakath”
+            <strong>الشدۃ Al Shiddah</strong> - <b>Sound is not allowed to flow</b> -
+            {" "}<span className="inline-block">أَجِدْ قَطٍ بَكَتْ</span>{" "} “Ajid Qatin Bakath”
           </p>
           <p>
-            <strong>
-              استفعال Sound is directed downwards and outwards which gives the
-              sound the quality of tarqeeq which is a lightness
-            </strong>{" "}
-            - All letters except خص ضغط قظ
+            <strong>استفعال Al Istifal </strong> - <b>Sound is directed downwards
+            and outwards which gives the sound the quality of tarqeeq which is a
+            lightness</b> - All letters except {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
           </p>
           <p>
-            <strong>الاطباق Sound is not retained in the mouth</strong> - All
-            letters except ص ض ط ظ
+            <strong>الانفتاح Al Infitah</strong> - <b>Sound is not retained in the
+            mouth</b> - All letters except ص ض ط ظ
           </p>
           <img className="d-block mx-auto" src={img28} />
         </Accordion.Body>
@@ -175,24 +170,21 @@ export default function Home() {
           <hr />
 
           <p>
-            <strong>الحمص With airflow</strong> - فحثه شخص سكت “Fa-hathu-hu
-            shakhsun sakath”
+            <strong>الحمص Al Hams</strong> - <b>With airflow</b> - {" "}<span className="inline-block">فحثه شخص سكت</span>{" "}“Fa-hathu-hu shakhsun sakath”
           </p>
           <p>
-            <strong>الرخاوة Sound is allowed to flow</strong> - Except أَجِدْ
-            قَطٍ بَكَتْ “Ajid Qatin Bakath” and لن عمر “Lin ‘Umar” all the
-            remaining letters.
+            <strong>الرخاوة Al Rikawah</strong> - <b>Sound is allowed to flow</b> -
+            Except {" "}<span className="inline-block">أَجِدْ قَطٍ بَكَتْ</span>{" "} “Ajid Qatin Bakath” and {" "}<span className="inline-block">لن عمر</span>{" "} “Lin ‘Umar”
+            all the remaining letters.
           </p>
           <p>
-            <strong>
-              استفعال Sound is directed downwards and outwards which gives the
-              sound the quality of tarqeeq which is a lightness
-            </strong>{" "}
-            - All letters except خص ضغط قظ
+            <strong>استفعال Al Istifal </strong> - <b>Sound is directed downwards
+            and outwards which gives the sound the quality of tarqeeq which is a
+            lightness</b> - All letters except {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
           </p>
           <p>
-            <strong>الاطباق Sound is not retained in the mouth</strong> - All
-            letters except ص ض ط ظ
+            <strong>الانفتاح Al Infitah</strong> - <b>Sound is not retained in the
+            mouth</b> - All letters except ص ض ط ظ
           </p>
           <img className="d-block mx-auto" src={img27} />
         </Accordion.Body>
@@ -205,8 +197,8 @@ export default function Home() {
             Your browser does not support the audio element.
           </audio>
           <p>
-            <strong>Tongue letter</strong> - Middle of the tongue with the middle
-            of the roof of the mouth.
+            <strong>Tongue letter</strong> - Middle of the tongue with the
+            middle of the roof of the mouth.
           </p>
           <p>
             <strong>القلقلھ Al Qalqala</strong> - ق ط ب ج د Bouncing of the
@@ -215,23 +207,21 @@ export default function Home() {
           </p>
           <hr />
           <p>
-            <strong>الجحر No airflow</strong> - All letters except فحثه شخص سكت
-            “Fa-hathu-hu shakhsun sakath”
+            <strong>الجحر Al Jahr</strong> - <b>No airflow</b> - All letters except
+            {" "}<span className="inline-block">فحثه شخص سكت</span>{" "} “Fa-hathu-hu shakhsun sakath”
           </p>
           <p>
-            <strong>الشدۃ Sound is not allowed to flow</strong> - أَجِدْ قَطٍ
-            بَكَتْ “Ajid Qatin Bakath”
+            <strong>الشدۃ Al Shiddah</strong> - <b>Sound is not allowed to flow</b> -
+            {" "}<span className="inline-block">أَجِدْ قَطٍ بَكَتْ</span>{" "} “Ajid Qatin Bakath”
           </p>
           <p>
-            <strong>
-              استفعال Sound is directed downwards and outwards which gives the
-              sound the quality of tarqeeq which is a lightness
-            </strong>{" "}
-            - All letters except خص ضغط قظ
+            <strong>استفعال Al Istifal </strong> - <b>Sound is directed downwards
+            and outwards which gives the sound the quality of tarqeeq which is a
+            lightness</b> - All letters except {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
           </p>
           <p>
-            <strong>الاطباق Sound is not retained in the mouth</strong> - All
-            letters except ص ض ط ظ
+            <strong>الانفتاح Al Infitah</strong> - <b>Sound is not retained in the
+            mouth</b> - All letters except ص ض ط ظ
           </p>
           <img className="d-block mx-auto" src={img11b} />
         </Accordion.Body>
@@ -251,24 +241,21 @@ export default function Home() {
           <p>Tongue is flat.</p>
           <hr />
           <p>
-            <strong>الحمص With airflow</strong> - فحثه شخص سكت “Fa-hathu-hu
-            shakhsun sakath”
+            <strong>الحمص Al Hams</strong> - <b>With airflow</b> - {" "}<span className="inline-block">فحثه شخص سكت</span>{" "}“Fa-hathu-hu shakhsun sakath”
           </p>
           <p>
-            <strong>الرخاوة Sound is allowed to flow</strong> - Except أَجِدْ
-            قَطٍ بَكَتْ “Ajid Qatin Bakath” and لن عمر “Lin ‘Umar” all the
-            remaining letters.
+            <strong>الرخاوة Al Rikawah</strong> - <b>Sound is allowed to flow</b> -
+            Except {" "}<span className="inline-block">أَجِدْ قَطٍ بَكَتْ</span>{" "} “Ajid Qatin Bakath” and {" "}<span className="inline-block">لن عمر</span>{" "} “Lin ‘Umar”
+            all the remaining letters.
           </p>
           <p>
-            <strong>
-              استفعال Sound is directed downwards and outwards which gives the
-              sound the quality of tarqeeq which is a lightness
-            </strong>{" "}
-            - All letters except خص ضغط قظ
+            <strong>استفعال Al Istifal </strong> - <b>Sound is directed downwards
+            and outwards which gives the sound the quality of tarqeeq which is a
+            lightness</b> - All letters except {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
           </p>
           <p>
-            <strong>الاطباق Sound is not retained in the mouth</strong> - All
-            letters except ص ض ط ظ
+            <strong>الانفتاح Al Infitah</strong> - <b>Sound is not retained in the
+            mouth</b> - All letters except ص ض ط ظ
           </p>
           <img className="d-block mx-auto" src={img5} />
         </Accordion.Body>
@@ -289,24 +276,21 @@ export default function Home() {
           </p>
           <hr />
           <p>
-            <strong>الحمص With airflow</strong> - فحثه شخص سكت “Fa-hathu-hu
-            shakhsun sakath”
+            <strong>الحمص Al Hams</strong> - <b>With airflow</b> - {" "}<span className="inline-block">فحثه شخص سكت</span>{" "}“Fa-hathu-hu shakhsun sakath”
           </p>
           <p>
-            <strong>الشدۃ Sound is not allowed to flow</strong> - أَجِدْ قَطٍ
-            بَكَتْ “Ajid Qatin Bakath”
+            <strong>الشدۃ Al Shiddah</strong> - <b>Sound is not allowed to flow</b> -
+            {" "}<span className="inline-block">أَجِدْ قَطٍ بَكَتْ</span>{" "} “Ajid Qatin Bakath”
           </p>
           <p>
-            <strong>
-              الإستــعلاء Sound is directed upwards between the tongue and the
-              top palate. (Up and inside) This gives the letter the quality of
-              tafkheem which is a thick heaviness
-            </strong>{" "}
-            - The following letters خص ضغط قظ
+            <strong>الإستــعلاء Al Isti'la</strong> - <b>Sound is directed upwards
+            between the tongue and the top palate. (Up and inside) This gives
+            the letter the quality of tafkheem which is a thick heaviness - The
+            following letters</b> {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
           </p>
           <p>
-            <strong>الاطباق Sound is not retained in the mouth</strong> - All
-            letters except ص ض ط ظ
+            <strong>الانفتاح Al Infitah</strong> - <b>Sound is not retained in the
+            mouth</b> - All letters except ص ض ط ظ
           </p>
           <img className="d-block mx-auto" src={img6} />
         </Accordion.Body>
@@ -330,23 +314,21 @@ export default function Home() {
           </p>
           <hr />
           <p>
-            <strong>الجحر No airflow</strong> - All letters except فحثه شخص سكت
-            “Fa-hathu-hu shakhsun sakath”
+            <strong>الجحر Al Jahr</strong> - <b>No airflow</b> - All letters except
+            {" "}<span className="inline-block">فحثه شخص سكت</span>{" "} “Fa-hathu-hu shakhsun sakath”
           </p>
           <p>
-            <strong>الشدۃ Sound is not allowed to flow</strong> - أَجِدْ قَطٍ
-            بَكَتْ “Ajid Qatin Bakath”
+            <strong>الشدۃ Al Shiddah</strong> - <b>Sound is not allowed to flow</b> -
+            {" "}<span className="inline-block">أَجِدْ قَطٍ بَكَتْ</span>{" "} “Ajid Qatin Bakath”
           </p>
           <p>
-            <strong>
-              استفعال Sound is directed downwards and outwards which gives the
-              sound the quality of tarqeeq which is a lightness
-            </strong>{" "}
-            - All letters except خص ضغط قظ
+            <strong>استفعال Al Istifal </strong> - <b>Sound is directed downwards
+            and outwards which gives the sound the quality of tarqeeq which is a
+            lightness</b> - All letters except {" "}<span className="inline-block">{" "}<span className="inline-block">خص ضغط قظ</span>{" "}</span>{" "}
           </p>
           <p>
-            <strong>الاطباق Sound is not retained in the mouth</strong> - All
-            letters except ص ض ط ظ
+            <strong>الانفتاح Al Infitah</strong> - <b>Sound is not retained in the
+            mouth</b> - All letters except ص ض ط ظ
           </p>
           <img className="d-block mx-auto" src={img28} />
         </Accordion.Body>
@@ -365,24 +347,22 @@ export default function Home() {
           <p>Flat tongue as normal.</p>
           <hr />
           <p>
-            <strong>الجحر No airflow</strong> - All letters except فحثه شخص سكت
-            “Fa-hathu-hu shakhsun sakath”
+            <strong>الجحر Al Jahr</strong> - <b>No airflow</b> - All letters except
+            {" "}<span className="inline-block">فحثه شخص سكت</span>{" "} “Fa-hathu-hu shakhsun sakath”
           </p>
           <p>
-            <strong>الرخاوة Sound is allowed to flow</strong> - Except أَجِدْ
-            قَطٍ بَكَتْ “Ajid Qatin Bakath” and لن عمر “Lin ‘Umar” all the
-            remaining letters.
+            <strong>الرخاوة Al Rikawah</strong> - <b>Sound is allowed to flow</b> -
+            Except {" "}<span className="inline-block">أَجِدْ قَطٍ بَكَتْ</span>{" "} “Ajid Qatin Bakath” and {" "}<span className="inline-block">لن عمر</span>{" "} “Lin ‘Umar”
+            all the remaining letters.
           </p>
           <p>
-            <strong>
-              استفعال Sound is directed downwards and outwards which gives the
-              sound the quality of tarqeeq which is a lightness
-            </strong>{" "}
-            - All letters except خص ضغط قظ
+            <strong>استفعال Al Istifal </strong> - <b>Sound is directed downwards
+            and outwards which gives the sound the quality of tarqeeq which is a
+            lightness</b> - All letters except {" "}<span className="inline-block">{" "}<span className="inline-block">خص ضغط قظ</span>{" "}</span>{" "}
           </p>
           <p>
-            <strong>الاطباق Sound is not retained in the mouth</strong> - All
-            letters except ص ض ط ظ
+            <strong>الانفتاح Al Infitah</strong> - <b>Sound is not retained in the
+            mouth</b> - All letters except ص ض ط ظ
           </p>
           <img className="d-block mx-auto" src={img27} />
         </Accordion.Body>
@@ -424,19 +404,17 @@ export default function Home() {
           </p>
           <hr />
           <p>
-            <strong>الجحر No airflow</strong> - All letters except فحثه شخص سكت
-            “Fa-hathu-hu shakhsun sakath”
+            <strong>الجحر Al Jahr</strong> - <b>No airflow</b> - All letters except
+            {" "}<span className="inline-block">فحثه شخص سكت</span>{" "} “Fa-hathu-hu shakhsun sakath”
           </p>
           <p>
-            <strong>
-              استفعال Sound is directed downwards and outwards which gives the
-              sound the quality of tarqeeq which is a lightness
-            </strong>{" "}
-            - All letters except خص ضغط قظ
+            <strong>استفعال Al Istifal </strong> - <b>Sound is directed downwards
+            and outwards which gives the sound the quality of tarqeeq which is a
+            lightness</b> - All letters except {" "}<span className="inline-block">{" "}<span className="inline-block">خص ضغط قظ</span>{" "}</span>{" "}
           </p>
           <p>
-            <strong>الاطباق Sound is not retained in the mouth</strong> - All
-            letters except ص ض ط ظ
+            <strong>الانفتاح Al Infitah</strong> - <b>Sound is not retained in the
+            mouth</b> - All letters except ص ض ط ظ
           </p>
           <Carousel nextLabel={null} prevLabel={null}>
             <Carousel.Item>
@@ -476,29 +454,26 @@ export default function Home() {
           </p>
           <p>Tongue relaxed as normal.</p>
           <p>
-            <strong>الصفیر As Safeer</strong> - س ص ز Sound that is caused due
-            to the narrow gap above the tongue.
+            <strong>الصفیر As Safeer</strong> - س ص ز <b>Sound that is caused due
+            to the narrow gap above the tongue.</b>
           </p>
           <hr />
           <p>
-            <strong>الحمص With airflow</strong> - فحثه شخص سكت “Fa-hathu-hu
-            shakhsun sakath”
+            <strong>الحمص Al Hams</strong> - <b>With airflow</b> - {" "}<span className="inline-block">فحثه شخص سكت</span>{" "}“Fa-hathu-hu shakhsun sakath”
           </p>
           <p>
-            <strong>الرخاوة Sound is allowed to flow</strong> - Except أَجِدْ
-            قَطٍ بَكَتْ “Ajid Qatin Bakath” and لن عمر “Lin ‘Umar” all the
-            remaining letters.
+            <strong>الرخاوة Al Rikawah</strong> - <b>Sound is allowed to flow</b> -
+            Except{" "}<span className="inline-block">أَجِدْ قَطٍ بَكَتْ</span>{" "}“Ajid Qatin Bakath” and{" "}<span className="inline-block">لن عمر</span>{" "}“Lin ‘Umar”
+            all the remaining letters.
           </p>
           <p>
-            <strong>
-              استفعال Sound is directed downwards and outwards which gives the
-              sound the quality of tarqeeq which is a lightness
-            </strong>{" "}
-            - All letters except خص ضغط قظ
+            <strong>استفعال Al Istifal </strong> - <b>Sound is directed downwards
+            and outwards which gives the sound the quality of tarqeeq which is a
+            lightness</b> - All letters except {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
           </p>
           <p>
-            <strong>الاطباق Sound is not retained in the mouth</strong> - All
-            letters except ص ض ط ظ
+            <strong>الانفتاح Al Infitah</strong> - <b>Sound is not retained in the
+            mouth</b> - All letters except ص ض ط ظ
           </p>
           <img className="d-block mx-auto" src={img26} />
         </Accordion.Body>
@@ -516,29 +491,26 @@ export default function Home() {
           </p>
           <p>Tongue relaxed as normal.</p>
           <p>
-            <strong>الصفیر As Safeer</strong> - س ص ز Sound that is caused due
-            to the narrow gap above the tongue.
+            <strong>الصفیر As Safeer</strong> - س ص ز <b>Sound that is caused due
+            to the narrow gap above the tongue.</b>
           </p>
           <hr />
           <p>
-            <strong>الحمص With airflow</strong> - فحثه شخص سكت “Fa-hathu-hu
-            shakhsun sakath”
+            <strong>الحمص Al Hams</strong> - <b>With airflow</b> - {" "}<span className="inline-block">فحثه شخص سكت</span>{" "}“Fa-hathu-hu shakhsun sakath”
           </p>
           <p>
-            <strong>الرخاوة Sound is allowed to flow</strong> - Except أَجِدْ
-            قَطٍ بَكَتْ “Ajid Qatin Bakath” and لن عمر “Lin ‘Umar” all the
-            remaining letters.
+            <strong>الرخاوة Al Rikawah</strong> - <b>Sound is allowed to flow</b> -
+            Except {" "}<span className="inline-block">أَجِدْ قَطٍ بَكَتْ</span>{" "} “Ajid Qatin Bakath” and {" "}<span className="inline-block">لن عمر</span>{" "} “Lin ‘Umar”
+            all the remaining letters.
           </p>
           <p>
-            <strong>
-              استفعال Sound is directed downwards and outwards which gives the
-              sound the quality of tarqeeq which is a lightness
-            </strong>{" "}
-            - All letters except خص ضغط قظ
+            <strong>استفعال Al Istifal </strong> - <b>Sound is directed downwards
+            and outwards which gives the sound the quality of tarqeeq which is a
+            lightness</b> - All letters except {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
           </p>
           <p>
-            <strong>الاطباق Sound is not retained in the mouth</strong> - All
-            letters except ص ض ط ظ
+            <strong>الانفتاح Al Infitah</strong> - <b>Sound is not retained in the
+            mouth</b> - All letters except ص ض ط ظ
           </p>
           <img className="d-block mx-auto" src={img26} />
         </Accordion.Body>
@@ -551,8 +523,8 @@ export default function Home() {
             Your browser does not support the audio element.
           </audio>
           <p>
-            <strong>Tongue letter</strong> - Middle of the tongue with the middle
-            of the roof of the mouth.
+            <strong>Tongue letter</strong> - Middle of the tongue with the
+            middle of the roof of the mouth.
           </p>
           <p>
             <strong>التفشي Al Tafashi</strong> - The sound and breath spreads
@@ -560,24 +532,21 @@ export default function Home() {
           </p>
           <hr />
           <p>
-            <strong>الحمص With airflow</strong> - فحثه شخص سكت “Fa-hathu-hu
-            shakhsun sakath”
+            <strong>الحمص Al Hams</strong> - <b>With airflow</b> - {" "}<span className="inline-block">فحثه شخص سكت</span>{" "}“Fa-hathu-hu shakhsun sakath”
           </p>
           <p>
-            <strong>الرخاوة Sound is allowed to flow</strong> - Except أَجِدْ
-            قَطٍ بَكَتْ “Ajid Qatin Bakath” and لن عمر “Lin ‘Umar” all the
-            remaining letters.
+            <strong>الرخاوة Al Rikawah</strong> - <b>Sound is allowed to flow</b> -
+            Except {" "}<span className="inline-block">أَجِدْ قَطٍ بَكَتْ</span>{" "} “Ajid Qatin Bakath” and {" "}<span className="inline-block">لن عمر</span>{" "} “Lin ‘Umar”
+            all the remaining letters.
           </p>
           <p>
-            <strong>
-              استفعال Sound is directed downwards and outwards which gives the
-              sound the quality of tarqeeq which is a lightness
-            </strong>{" "}
-            - All letters except خص ضغط قظ
+            <strong>استفعال Al Istifal </strong> - <b>Sound is directed downwards
+            and outwards which gives the sound the quality of tarqeeq which is a
+            lightness</b> - All letters except {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
           </p>
           <p>
-            <strong>الاطباق Sound is not retained in the mouth</strong> - All
-            letters except ص ض ط ظ
+            <strong>الانفتاح Al Infitah</strong> - <b>Sound is not retained in the
+            mouth</b> - All letters except ص ض ط ظ
           </p>
           <img className="d-block mx-auto" src={img11a} />
         </Accordion.Body>
@@ -598,32 +567,27 @@ export default function Home() {
             so is heavy and trapped.
           </p>
           <p>
-            <strong>الصفیر As Safeer</strong> - س ص ز Sound that is caused due
-            to the narrow gap above the tongue.
+            <strong>الصفیر As Safeer</strong> - س ص ز <b>Sound that is caused due
+            to the narrow gap above the tongue.</b>
           </p>
           <hr />
           <p>
-            <strong>الحمص With airflow</strong> - فحثه شخص سكت “Fa-hathu-hu
-            shakhsun sakath”
+            <strong>الحمص Al Hams</strong> - <b>With airflow</b> - {" "}<span className="inline-block">فحثه شخص سكت</span>{" "}“Fa-hathu-hu shakhsun sakath”
           </p>
           <p>
-            <strong>الرخاوة Sound is allowed to flow</strong> - Except أَجِدْ
-            قَطٍ بَكَتْ “Ajid Qatin Bakath” and لن عمر “Lin ‘Umar” all the
-            remaining letters.
+            <strong>الرخاوة Al Rikawah</strong> - <b>Sound is allowed to flow</b> -
+            Except {" "}<span className="inline-block">أَجِدْ قَطٍ بَكَتْ</span>{" "} “Ajid Qatin Bakath” and {" "}<span className="inline-block">لن عمر</span>{" "} “Lin ‘Umar”
+            all the remaining letters.
           </p>
           <p>
-            <strong>
-              الإستــعلاء Sound is directed upwards between the tongue and the
-              top palate. (Up and inside) This gives the letter the quality of
-              tafkheem which is a thick heaviness
-            </strong>{" "}
-            - The following letters خص ضغط قظ
+            <strong>الإستــعلاء Al Isti'la</strong> - <b>Sound is directed upwards
+            between the tongue and the top palate. (Up and inside) This gives
+            the letter the quality of tafkheem which is a thick heaviness - The
+            following letters</b> {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
           </p>
           <p>
-            <strong>
-              الاطباق Sound is retained between tongue and top palate.
-            </strong>{" "}
-            - ص ض ط ظ
+            <strong>الاطباق Al Itbaq</strong> - Sound is retained between tongue
+            and top palate - ص ض ط ظ
           </p>
           <img className="d-block mx-auto" src={img26a} />
         </Accordion.Body>
@@ -639,11 +603,11 @@ export default function Home() {
             <strong>Tongue letter</strong> - Sides of the tongue.
           </p>
           <p>
-            Touch the edge of tongue with the hard palate in front of the top
+            Touch the edge of tongue Withthe hard palate in front of the top
             front teeth.
           </p>
           <p>
-            Make contact with the makhraj of ل but then put pressure on sides of
+            Make contact Withthe makhraj of ل but then put pressure on sides of
             tongue.
           </p>
           <p>
@@ -656,27 +620,23 @@ export default function Home() {
           </p>
           <hr />
           <p>
-            <strong>الجحر No airflow</strong> - All letters except فحثه شخص سكت
-            “Fa-hathu-hu shakhsun sakath”
+            <strong>الجحر Al Jahr</strong> - <b>No airflow</b> - All letters except
+            {" "}<span className="inline-block">فحثه شخص سكت</span>{" "} “Fa-hathu-hu shakhsun sakath”
           </p>
           <p>
-            <strong>الرخاوة Sound is allowed to flow</strong> - Except أَجِدْ
-            قَطٍ بَكَتْ “Ajid Qatin Bakath” and لن عمر “Lin ‘Umar” all the
-            remaining letters.
+            <strong>الرخاوة Al Rikawah</strong> - <b>Sound is allowed to flow</b> -
+            Except {" "}<span className="inline-block">أَجِدْ قَطٍ بَكَتْ</span>{" "} “Ajid Qatin Bakath” and {" "}<span className="inline-block">لن عمر</span>{" "} “Lin ‘Umar”
+            all the remaining letters.
           </p>
           <p>
-            <strong>
-              الإستــعلاء Sound is directed upwards between the tongue and the
-              top palate. (Up and inside) This gives the letter the quality of
-              tafkheem which is a thick heaviness
-            </strong>{" "}
-            - The following letters خص ضغط قظ
+            <strong>الإستــعلاء Al Isti'la</strong> - <b>Sound is directed upwards
+            between the tongue and the top palate. (Up and inside) This gives
+            the letter the quality of tafkheem which is a thick heaviness - The
+            following letters</b> {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
           </p>
           <p>
-            <strong>
-              الاطباق Sound is retained between tongue and top palate.
-            </strong>{" "}
-            - ص ض ط ظ
+            <strong>الاطباق Al Itbaq</strong> - Sound is retained between tongue
+            and top palate - ص ض ط ظ
           </p>
           <Carousel nextLabel={null} prevLabel={null}>
             <Carousel.Item>
@@ -715,26 +675,22 @@ export default function Home() {
           </p>
           <hr />
           <p>
-            <strong>الجحر No airflow</strong> - All letters except فحثه شخص سكت
-            “Fa-hathu-hu shakhsun sakath”
+            <strong>الجحر Al Jahr</strong> - <b>No airflow</b> - All letters except
+            {" "}<span className="inline-block">فحثه شخص سكت</span>{" "} “Fa-hathu-hu shakhsun sakath”
           </p>
           <p>
-            <strong>الشدۃ Sound is not allowed to flow</strong> - أَجِدْ قَطٍ
-            بَكَتْ “Ajid Qatin Bakath”
+            <strong>الشدۃ Al Shiddah</strong> - <b>Sound is not allowed to flow</b> -
+            {" "}<span className="inline-block">أَجِدْ قَطٍ بَكَتْ</span>{" "} “Ajid Qatin Bakath”
           </p>
           <p>
-            <strong>
-              الإستــعلاء Sound is directed upwards between the tongue and the
-              top palate. (Up and inside) This gives the letter the quality of
-              tafkheem which is a thick heaviness
-            </strong>{" "}
-            - The following letters خص ضغط قظ
+            <strong>الإستــعلاء Al Isti'la</strong> - <b>Sound is directed upwards
+            between the tongue and the top palate. (Up and inside) This gives
+            the letter the quality of tafkheem which is a thick heaviness - The
+            following letters</b> {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
           </p>
           <p>
-            <strong>
-              الاطباق Sound is retained between tongue and top palate.
-            </strong>{" "}
-            - ص ض ط ظ
+            <strong>الاطباق Al Itbaq</strong> - Sound is retained between tongue
+            and top palate - ص ض ط ظ
           </p>
           <img className="d-block mx-auto" src={img27a} />
         </Accordion.Body>
@@ -756,27 +712,23 @@ export default function Home() {
           </p>
           <hr />
           <p>
-            <strong>الجحر No airflow</strong> - All letters except فحثه شخص سكت
-            “Fa-hathu-hu shakhsun sakath”
+            <strong>الجحر Al Jahr</strong> - <b>No airflow</b> - All letters except
+            {" "}<span className="inline-block">فحثه شخص سكت</span>{" "} “Fa-hathu-hu shakhsun sakath”
           </p>
           <p>
-            <strong>الرخاوة Sound is allowed to flow</strong> - Except أَجِدْ
-            قَطٍ بَكَتْ “Ajid Qatin Bakath” and لن عمر “Lin ‘Umar” all the
-            remaining letters.
+            <strong>الرخاوة Al Rikawah</strong> - <b>Sound is allowed to flow</b> -
+            Except {" "}<span className="inline-block">أَجِدْ قَطٍ بَكَتْ</span>{" "} “Ajid Qatin Bakath” and {" "}<span className="inline-block">لن عمر</span>{" "} “Lin ‘Umar”
+            all the remaining letters.
           </p>
           <p>
-            <strong>
-              الإستــعلاء Sound is directed upwards between the tongue and the
-              top palate. (Up and inside) This gives the letter the quality of
-              tafkheem which is a thick heaviness
-            </strong>{" "}
-            - The following letters خص ضغط قظ
+            <strong>الإستــعلاء Al Isti'la</strong> - <b>Sound is directed upwards
+            between the tongue and the top palate. (Up and inside) This gives
+            the letter the quality of tafkheem which is a thick heaviness - The
+            following letters</b> {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
           </p>
           <p>
-            <strong>
-              الاطباق Sound is retained between tongue and top palate.
-            </strong>{" "}
-            - ص ض ط ظ
+            <strong>الاطباق Al Itbaq</strong> - Sound is retained between tongue
+            and top palate - ص ض ط ظ
           </p>
           <img className="d-block mx-auto" src={img28a} />
         </Accordion.Body>
@@ -795,16 +747,16 @@ export default function Home() {
           <p>Tongue is flat.</p>
           <hr />
           <p>
-            <strong>الجحر No airflow</strong> - All letters except فحثه شخص سكت
-            “Fa-hathu-hu shakhsun sakath”
+            <strong>الجحر Al Jahr</strong> - <b>No airflow</b> - All letters except
+            {" "}<span className="inline-block">فحثه شخص سكت</span>{" "} “Fa-hathu-hu shakhsun sakath”
           </p>
           <p>
-            <strong>توسط Sound is not allowed to flow nor shortened</strong> -
-            The letters لن عمر “Lin ‘Umar”
+            <strong>توسط Al Tawassut</strong> - <b>Sound is not allowed to flow</b> nor
+            shortened - The letters {" "}<span className="inline-block">لن عمر</span>{" "} “Lin ‘Umar”
           </p>
           <p>
-            <strong>الاطباق Sound is not retained in the mouth</strong> - All
-            letters except ص ض ط ظ
+            <strong>الانفتاح Al Infitah</strong> - <b>Sound is not retained in the
+            mouth</b> - All letters except ص ض ط ظ
           </p>
           <img className="d-block mx-auto" src={img5a} />
         </Accordion.Body>
@@ -825,25 +777,23 @@ export default function Home() {
           </p>
           <hr />
           <p>
-            <strong>الجحر No airflow</strong> - All letters except فحثه شخص سكت
-            “Fa-hathu-hu shakhsun sakath”
+            <strong>الجحر Al Jahr</strong> - <b>No airflow</b> - All letters except
+            {" "}<span className="inline-block">فحثه شخص سكت</span>{" "} “Fa-hathu-hu shakhsun sakath”
           </p>
           <p>
-            <strong>الرخاوة Sound is allowed to flow</strong> - Except أَجِدْ
-            قَطٍ بَكَتْ “Ajid Qatin Bakath” and لن عمر “Lin ‘Umar” all the
-            remaining letters.
+            <strong>الرخاوة Al Rikawah</strong> - <b>Sound is allowed to flow</b> -
+            Except {" "}<span className="inline-block">أَجِدْ قَطٍ بَكَتْ</span>{" "} “Ajid Qatin Bakath” and {" "}<span className="inline-block">لن عمر</span>{" "} “Lin ‘Umar”
+            all the remaining letters.
           </p>
           <p>
-            <strong>
-              الإستــعلاء Sound is directed upwards between the tongue and the
-              top palate. (Up and inside) This gives the letter the quality of
-              tafkheem which is a thick heaviness
-            </strong>{" "}
-            - The following letters خص ضغط قظ
+            <strong>الإستــعلاء Al Isti'la</strong> - <b>Sound is directed upwards
+            between the tongue and the top palate. (Up and inside) This gives
+            the letter the quality of tafkheem which is a thick heaviness - The
+            following letters</b> {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
           </p>
           <p>
-            <strong>الاطباق Sound is not retained in the mouth</strong> - All
-            letters except ص ض ط ظ
+            <strong>الانفتاح Al Infitah</strong> - <b>Sound is not retained in the
+            mouth</b> - All letters except ص ض ط ظ
           </p>
           <img className="d-block mx-auto" src={img6a} />
         </Accordion.Body>
@@ -860,29 +810,26 @@ export default function Home() {
             touching the inside lower lip.
           </p>
           <p>
-            <strong>الحمص With airflow</strong> - فحثه شخص سكت “Fa-hathu-hu
-            shakhsun sakath”
+            <strong>الحمص Al Hams</strong> - <b>With airflow</b> - {" "}<span className="inline-block">فحثه شخص سكت</span>{" "}“Fa-hathu-hu shakhsun sakath”
           </p>
           <hr />
           <p>
-            <strong>الجحر No airflow</strong> - All letters except فحثه شخص سكت
-            “Fa-hathu-hu shakhsun sakath”
+            <strong>الجحر Al Jahr</strong> - <b>No airflow</b> - All letters except
+            {" "}<span className="inline-block">فحثه شخص سكت</span>{" "} “Fa-hathu-hu shakhsun sakath”
           </p>
           <p>
-            <strong>الرخاوة Sound is allowed to flow</strong> - Except أَجِدْ
-            قَطٍ بَكَتْ “Ajid Qatin Bakath” and لن عمر “Lin ‘Umar” all the
-            remaining letters.
+            <strong>الرخاوة Al Rikawah</strong> - <b>Sound is allowed to flow</b> -
+            Except {" "}<span className="inline-block">أَجِدْ قَطٍ بَكَتْ</span>{" "} “Ajid Qatin Bakath” and {" "}<span className="inline-block">لن عمر</span>{" "} “Lin ‘Umar”
+            all the remaining letters.
           </p>
           <p>
-            <strong>
-              استفعال Sound is directed downwards and outwards which gives the
-              sound the quality of tarqeeq which is a lightness
-            </strong>{" "}
-            - All letters except خص ضغط قظ
+            <strong>استفعال Al Istifal </strong> - <b>Sound is directed downwards
+            and outwards which gives the sound the quality of tarqeeq which is a
+            lightness</b> - All letters except {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
           </p>
           <p>
-            <strong>الاطباق Sound is not retained in the mouth</strong> - All
-            letters except ص ض ط ظ
+            <strong>الانفتاح Al Infitah</strong> - <b>Sound is not retained in the
+            mouth</b> - All letters except ص ض ط ظ
           </p>
           <img className="d-block mx-auto" src={img29} />
         </Accordion.Body>
@@ -895,8 +842,8 @@ export default function Home() {
             Your browser does not support the audio element.
           </audio>
           <p>
-            <strong>Tongue letter</strong> - Back of the tongue touching the soft
-            fleshy part of roof of the mouth.
+            <strong>Tongue letter</strong> - Back of the tongue touching the
+            soft fleshy part of roof of the mouth.
           </p>
           <p>The tongue is dipped in the middle.</p>
           <p>
@@ -906,25 +853,23 @@ export default function Home() {
           </p>
           <hr />
           <p>
-            <strong>الجحر No airflow</strong> - All letters except فحثه شخص سكت
-            “Fa-hathu-hu shakhsun sakath”
+            <strong>الجحر Al Jahr</strong> - <b>No airflow</b> - All letters except
+            {" "}<span className="inline-block">فحثه شخص سكت</span>{" "} “Fa-hathu-hu shakhsun sakath”
           </p>
           <p>
-            <strong>الرخاوة Sound is allowed to flow</strong> - Except أَجِدْ
-            قَطٍ بَكَتْ “Ajid Qatin Bakath” and لن عمر “Lin ‘Umar” all the
-            remaining letters.
+            <strong>الرخاوة Al Rikawah</strong> - <b>Sound is allowed to flow</b> -
+            Except {" "}<span className="inline-block">أَجِدْ قَطٍ بَكَتْ</span>{" "} “Ajid Qatin Bakath” and {" "}<span className="inline-block">لن عمر</span>{" "} “Lin ‘Umar”
+            all the remaining letters.
           </p>
           <p>
-            <strong>
-              الإستــعلاء Sound is directed upwards between the tongue and the
-              top palate. (Up and inside) This gives the letter the quality of
-              tafkheem which is a thick heaviness
-            </strong>{" "}
-            - The following letters خص ضغط قظ
+            <strong>الإستــعلاء Al Isti'la</strong> - <b>Sound is directed upwards
+            between the tongue and the top palate. (Up and inside) This gives
+            the letter the quality of tafkheem which is a thick heaviness - The
+            following letters</b> {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
           </p>
           <p>
-            <strong>الاطباق Sound is not retained in the mouth</strong> - All
-            letters except ص ض ط ظ
+            <strong>الانفتاح Al Infitah</strong> - <b>Sound is not retained in the
+            mouth</b> - All letters except ص ض ط ظ
           </p>
           <img className="d-block mx-auto" src={img7} />
         </Accordion.Body>
@@ -942,24 +887,21 @@ export default function Home() {
           </p>
           <hr />
           <p>
-            <strong>الحمص With airflow</strong> - فحثه شخص سكت “Fa-hathu-hu
-            shakhsun sakath”
+            <strong>الحمص Al Hams</strong> - <b>With airflow</b> - {" "}<span className="inline-block">فحثه شخص سكت</span>{" "}“Fa-hathu-hu shakhsun sakath”
           </p>
           <p>
-            <strong>الرخاوة Sound is allowed to flow</strong> - Except أَجِدْ
-            قَطٍ بَكَتْ “Ajid Qatin Bakath” and لن عمر “Lin ‘Umar” all the
-            remaining letters.
+            <strong>الرخاوة Al Rikawah</strong> - <b>Sound is allowed to flow</b> -
+            Except {" "}<span className="inline-block">أَجِدْ قَطٍ بَكَتْ</span>{" "} “Ajid Qatin Bakath” and {" "}<span className="inline-block">لن عمر</span>{" "} “Lin ‘Umar”
+            all the remaining letters.
           </p>
           <p>
-            <strong>
-              استفعال Sound is directed downwards and outwards which gives the
-              sound the quality of tarqeeq which is a lightness
-            </strong>{" "}
-            - All letters except خص ضغط قظ
+            <strong>استفعال Al Istifal </strong> - <b>Sound is directed downwards
+            and outwards which gives the sound the quality of tarqeeq which is a
+            lightness</b> - All letters except {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
           </p>
           <p>
-            <strong>الاطباق Sound is not retained in the mouth</strong> - All
-            letters except ص ض ط ظ
+            <strong>الانفتاح Al Infitah</strong> - <b>Sound is not retained in the
+            mouth</b> - All letters except ص ض ط ظ
           </p>
           <img className="d-block mx-auto" src={img8} />
         </Accordion.Body>
@@ -975,7 +917,7 @@ export default function Home() {
             <strong>Tongue letter</strong> - Front edge.
           </p>
           <p>
-            Touch the edge of tongue with the hard palate in front of the top
+            Touch the edge of tongue Withthe hard palate in front of the top
             front teeth.
           </p>
           <p>
@@ -991,23 +933,21 @@ export default function Home() {
           </p>
           <hr />
           <p>
-            <strong>الجحر No airflow</strong> - All letters except فحثه شخص سكت
-            “Fa-hathu-hu shakhsun sakath”
+            <strong>الجحر Al Jahr</strong> - <b>No airflow</b> - All letters except
+            {" "}<span className="inline-block">فحثه شخص سكت</span>{" "} “Fa-hathu-hu shakhsun sakath”
           </p>
           <p>
-            <strong>توسط Sound is not allowed to flow nor shortened</strong> -
-            The letters لن عمر “Lin ‘Umar”
+            <strong>توسط Al Tawassut</strong> - <b>Sound is not allowed to flow</b> nor
+            shortened - The letters {" "}<span className="inline-block">لن عمر</span>{" "} “Lin ‘Umar”
           </p>
           <p>
-            <strong>
-              استفعال Sound is directed downwards and outwards which gives the
-              sound the quality of tarqeeq which is a lightness
-            </strong>{" "}
-            - All letters except خص ضغط قظ
+            <strong>استفعال Al Istifal </strong> - <b>Sound is directed downwards
+            and outwards which gives the sound the quality of tarqeeq which is a
+            lightness</b> - All letters except {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
           </p>
           <p>
-            <strong>الاطباق Sound is not retained in the mouth</strong> - All
-            letters except ص ض ط ظ
+            <strong>الانفتاح Al Infitah</strong> - <b>Sound is not retained in the
+            mouth</b> - All letters except ص ض ط ظ
           </p>
           <Carousel nextLabel={null} prevLabel={null}>
             <Carousel.Item>
@@ -1022,7 +962,7 @@ export default function Home() {
             <Carousel.Item>
               <img className="d-block mx-auto" src={img14} />
               <Carousel.Caption>
-                <p>Yellow area showing where tongue touches top palate.</p>
+                <p>Yellow area showing where tongue touches top palate</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -1056,23 +996,21 @@ export default function Home() {
           </p>
           <hr />
           <p>
-            <strong>الجحر No airflow</strong> - All letters except فحثه شخص سكت
-            “Fa-hathu-hu shakhsun sakath”
+            <strong>الجحر Al Jahr</strong> - <b>No airflow</b> - All letters except
+            {" "}<span className="inline-block">فحثه شخص سكت</span>{" "} “Fa-hathu-hu shakhsun sakath”
           </p>
           <p>
-            <strong>توسط Sound is not allowed to flow nor shortened</strong> -
-            The letters لن عمر “Lin ‘Umar”
+            <strong>توسط Al Tawassut</strong> - <b>Sound is not allowed to flow</b> nor
+            shortened - The letters {" "}<span className="inline-block">لن عمر</span>{" "} “Lin ‘Umar”
           </p>
           <p>
-            <strong>
-              استفعال Sound is directed downwards and outwards which gives the
-              sound the quality of tarqeeq which is a lightness
-            </strong>{" "}
-            - All letters except خص ضغط قظ
+            <strong>استفعال Al Istifal </strong> - <b>Sound is directed downwards
+            and outwards which gives the sound the quality of tarqeeq which is a
+            lightness</b> - All letters except {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
           </p>
           <p>
-            <strong>الاطباق Sound is not retained in the mouth</strong> - All
-            letters except ص ض ط ظ
+            <strong>الانفتاح Al Infitah</strong> - <b>Sound is not retained in the
+            mouth</b> - All letters except ص ض ط ظ
           </p>
           <img className="d-block mx-auto" src={img33} />
         </Accordion.Body>
@@ -1102,24 +1040,22 @@ export default function Home() {
           </p>
           <hr />
           <p>
-            <strong>الجحر No airflow</strong> - All letters except فحثه شخص سكت
-            “Fa-hathu-hu shakhsun sakath”
+            <strong>الجحر Al Jahr</strong> - <b>No airflow</b> - All letters except
+            {" "}<span className="inline-block">فحثه شخص سكت</span>{" "} “Fa-hathu-hu shakhsun sakath”
           </p>
           <p>
-            <strong>توسط Sound is not allowed to flow nor shortened</strong> -
-            The letters لن عمر “Lin ‘Umar”
+            <strong>توسط Al Tawassut</strong> - <b>Sound is not allowed to flow</b> nor
+            shortened - The letters {" "}<span className="inline-block">لن عمر</span>{" "} “Lin ‘Umar”
           </p>
           <p>
-            <strong>
-              الإستــعلاء Sound is directed upwards between the tongue and the
-              top palate. (Up and inside) This gives the letter the quality of
-              tafkheem which is a thick heaviness
-            </strong>{" "}
-            - The following letters خص ضغط قظ
+            <strong>الإستــعلاء Al Isti'la</strong> - <b>Sound is directed upwards
+            between the tongue and the top palate. (Up and inside) This gives
+            the letter the quality of tafkheem which is a thick heaviness - The
+            following letters</b> {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
           </p>
           <p>
-            <strong>الاطباق Sound is not retained in the mouth</strong> - All
-            letters except ص ض ط ظ
+            <strong>الانفتاح Al Infitah</strong> - <b>Sound is not retained in the
+            mouth</b> - All letters except ص ض ط ظ
           </p>
           <img className="d-block mx-auto" src={img22} />
         </Accordion.Body>
@@ -1132,24 +1068,23 @@ export default function Home() {
             Your browser does not support the audio element.
           </audio>
           <p>
-            <strong>Lip letter</strong> - Ghair madiya. Lips make a round circle.
+            <strong>Lip letter</strong> - Ghair madiya. Lips make a round
+            circle.
           </p>
           <hr />
           <p>
-            <strong>الجحر No airflow</strong> - All letters except فحثه شخص سكت
-            “Fa-hathu-hu shakhsun sakath”
+            <strong>الجحر Al Jahr</strong> - <b>No airflow</b> - All letters except
+            {" "}<span className="inline-block">فحثه شخص سكت</span>{" "} “Fa-hathu-hu shakhsun sakath”
           </p>
           <p>
-            <strong>الرخاوة Sound is allowed to flow</strong> - Except أَجِدْ
-            قَطٍ بَكَتْ “Ajid Qatin Bakath” and لن عمر “Lin ‘Umar” all the
-            remaining letters.
+            <strong>الرخاوة Al Rikawah</strong> - <b>Sound is allowed to flow</b> -
+            Except {" "}<span className="inline-block">أَجِدْ قَطٍ بَكَتْ</span>{" "} “Ajid Qatin Bakath” and {" "}<span className="inline-block">لن عمر</span>{" "} “Lin ‘Umar”
+            all the remaining letters.
           </p>
           <p>
-            <strong>
-              استفعال Sound is directed downwards and outwards which gives the
-              sound the quality of tarqeeq which is a lightness
-            </strong>{" "}
-            - All letters except خص ضغط قظ
+            <strong>استفعال Al Istifal </strong> - <b>Sound is directed downwards
+            and outwards which gives the sound the quality of tarqeeq which is a
+            lightness</b> - All letters except {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
           </p>
           <Carousel nextLabel={null} prevLabel={null}>
             <Carousel.Item>
@@ -1174,33 +1109,31 @@ export default function Home() {
           </p>
           <p>
             <strong>اللین Al Leen</strong> - ي and و sakinah preceded with
-            fatha. Pronouncing the letter with ease, without jerking or raising
+            fatha. Pronouncing the letter Withease, without jerking or raising
             the voice.
           </p>
           <hr />
           <p>
-            <strong>الجحر No airflow</strong> - All letters except فحثه شخص سكت
-            “Fa-hathu-hu shakhsun sakath”
+            <strong>الجحر Al Jahr</strong> - <b>No airflow</b> - All letters except
+            {" "}<span className="inline-block">فحثه شخص سكت</span>{" "} “Fa-hathu-hu shakhsun sakath”
           </p>
           <p>
-            <strong>الشدۃ Sound is not allowed to flow</strong> - أَجِدْ قَطٍ
-            بَكَتْ “Ajid Qatin Bakath”
+            <strong>الشدۃ Al Shiddah</strong> - <b>Sound is not allowed to flow</b> -
+            {" "}<span className="inline-block">أَجِدْ قَطٍ بَكَتْ</span>{" "} “Ajid Qatin Bakath”
           </p>
           <p>
-            <strong>الرخاوة Sound is allowed to flow</strong> - Except أَجِدْ
-            قَطٍ بَكَتْ “Ajid Qatin Bakath” and لن عمر “Lin ‘Umar” all the
-            remaining letters.
+            <strong>الرخاوة Al Rikawah</strong> - <b>Sound is allowed to flow</b> -
+            Except {" "}<span className="inline-block">أَجِدْ قَطٍ بَكَتْ</span>{" "} “Ajid Qatin Bakath” and {" "}<span className="inline-block">لن عمر</span>{" "} “Lin ‘Umar”
+            all the remaining letters.
           </p>
           <p>
-            <strong>
-              استفعال Sound is directed downwards and outwards which gives the
-              sound the quality of tarqeeq which is a lightness
-            </strong>{" "}
-            - All letters except خص ضغط قظ
+            <strong>استفعال Al Istifal </strong> - <b>Sound is directed downwards
+            and outwards which gives the sound the quality of tarqeeq which is a
+            lightness</b> - All letters except {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
           </p>
           <p>
-            <strong>الاطباق Sound is not retained in the mouth</strong> - All
-            letters except ص ض ط ظ
+            <strong>الانفتاح Al Infitah</strong> - <b>Sound is not retained in the
+            mouth</b> - All letters except ص ض ط ظ
           </p>
           <Carousel nextLabel={null} prevLabel={null}>
             <Carousel.Item>
@@ -1234,24 +1167,21 @@ export default function Home() {
           </p>
           <hr />
           <p>
-            <strong>الحمص With airflow</strong> - فحثه شخص سكت “Fa-hathu-hu
-            shakhsun sakath”
+            <strong>الحمص Al Hams</strong> - <b>With airflow</b> - {" "}<span className="inline-block">فحثه شخص سكت</span>{" "}“Fa-hathu-hu shakhsun sakath”
           </p>
           <p>
-            <strong>الرخاوة Sound is allowed to flow</strong> - Except أَجِدْ
-            قَطٍ بَكَتْ “Ajid Qatin Bakath” and لن عمر “Lin ‘Umar” all the
-            remaining letters.
+            <strong>الرخاوة Al Rikawah</strong> - <b>Sound is allowed to flow</b> -
+            Except {" "}<span className="inline-block">أَجِدْ قَطٍ بَكَتْ</span>{" "} “Ajid Qatin Bakath” and {" "}<span className="inline-block">لن عمر</span>{" "} “Lin ‘Umar”
+            all the remaining letters.
           </p>
           <p>
-            <strong>
-              استفعال Sound is directed downwards and outwards which gives the
-              sound the quality of tarqeeq which is a lightness
-            </strong>{" "}
-            - All letters except خص ضغط قظ
+            <strong>استفعال Al Istifal </strong> - <b>Sound is directed downwards
+            and outwards which gives the sound the quality of tarqeeq which is a
+            lightness</b> - All letters except {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
           </p>
           <p>
-            <strong>الاطباق Sound is not retained in the mouth</strong> - All
-            letters except ص ض ط ظ
+            <strong>الانفتاح Al Infitah</strong> - <b>Sound is not retained in the
+            mouth</b> - All letters except ص ض ط ظ
           </p>
           <Carousel nextLabel={null} prevLabel={null}>
             <Carousel.Item>
@@ -1280,34 +1210,32 @@ export default function Home() {
             Your browser does not support the audio element.
           </audio>
           <p>
-            <strong>Tongue letter</strong> - Middle of the tongue with the middle
-            of the roof of the mouth.
+            <strong>Tongue letter</strong> - Middle of the tongue with the
+            middle of the roof of the mouth.
           </p>
           <p>
             <strong>اللین Al Leen</strong> - ي and و sakinah preceded with
-            fatha. Pronouncing the letter with ease, without jerking or raising
+            fatha. Pronouncing the letter Withease, without jerking or raising
             the voice.
           </p>
           <hr />
           <p>
-            <strong>الجحر No airflow</strong> - All letters except فحثه شخص سكت
-            “Fa-hathu-hu shakhsun sakath”
+            <strong>الجحر Al Jahr</strong> - <b>No airflow</b> - All letters except
+            {" "}<span className="inline-block">فحثه شخص سكت</span>{" "} “Fa-hathu-hu shakhsun sakath”
           </p>
           <p>
-            <strong>الرخاوة Sound is allowed to flow</strong> - Except أَجِدْ
-            قَطٍ بَكَتْ “Ajid Qatin Bakath” and لن عمر “Lin ‘Umar” all the
-            remaining letters.
+            <strong>الرخاوة Al Rikawah</strong> - <b>Sound is allowed to flow</b> -
+            Except {" "}<span className="inline-block">أَجِدْ قَطٍ بَكَتْ</span>{" "} “Ajid Qatin Bakath” and {" "}<span className="inline-block">لن عمر</span>{" "} “Lin ‘Umar”
+            all the remaining letters.
           </p>
           <p>
-            <strong>
-              استفعال Sound is directed downwards and outwards which gives the
-              sound the quality of tarqeeq which is a lightness
-            </strong>{" "}
-            - All letters except خص ضغط قظ
+            <strong>استفعال Al Istifal </strong> - <b>Sound is directed downwards
+            and outwards which gives the sound the quality of tarqeeq which is a
+            lightness</b> - All letters except {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
           </p>
           <p>
-            <strong>الاطباق Sound is not retained in the mouth</strong> - All
-            letters except ص ض ط ظ
+            <strong>الانفتاح Al Infitah</strong> - <b>Sound is not retained in the
+            mouth</b> - All letters except ص ض ط ظ
           </p>
           <img className="d-block mx-auto" src={img11} />
         </Accordion.Body>

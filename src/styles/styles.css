@@ -2,7 +2,7 @@
 
 :root {
   --color-text-main: #111;
-  --font-family: "Lora";  
+  --font-family: "Ubuntu";  
 }
 * {
     box-sizing: border-box;
@@ -23,97 +23,99 @@ body {
     padding: 2vw 0 2vw 3vw;
 }
 strong {
-  font-family: Ubuntu;
-  letter-spacing: 1px;
+  font-family: Lora;
+  letter-spacing: 1.5px;
+  font-variant: small-caps;
+  font-size: 1.2em
 }
 .accordion-button:hover, .accordion-button:not(.collapsed) {
   color: yellow !important;
 }
-.accordion-item:nth-of-type(1) .accordion-button {
+.accordion-item:nth-of-type(1) .accordion-button, .accordion-item:nth-of-type(1) hr {
   background-color: #cc95c0
 }
-.accordion-item:nth-of-type(2) .accordion-button {
+.accordion-item:nth-of-type(2) .accordion-button, .accordion-item:nth-of-type(2) hr{
   background-color: #da99b7
 }
-.accordion-item:nth-of-type(3) .accordion-button {
+.accordion-item:nth-of-type(3) .accordion-button, .accordion-item:nth-of-type(3) hr{
   background-color: #e39fae
 }
-.accordion-item:nth-of-type(4) .accordion-button {
+.accordion-item:nth-of-type(4) .accordion-button, .accordion-item:nth-of-type(4) hr {
   background-color: #e7a6a7
 }
-.accordion-item:nth-of-type(5) .accordion-button {
+.accordion-item:nth-of-type(5) .accordion-button, .accordion-item:nth-of-type(5) hr {
   background-color: #e8afa3
 }
-.accordion-item:nth-of-type(6) .accordion-button {
+.accordion-item:nth-of-type(6) .accordion-button, .accordion-item:nth-of-type(6) hr {
   background-color: #e8afa3
 }
-.accordion-item:nth-of-type(7) .accordion-button {
+.accordion-item:nth-of-type(7) .accordion-button, .accordion-item:nth-of-type(7) hr {
   background-color: #e8b4a2
 }
-.accordion-item:nth-of-type(8) .accordion-button {
+.accordion-item:nth-of-type(8) .accordion-button, .accordion-item:nth-of-type(8) hr {
   background-color: #e7baa3
 }
-.accordion-item:nth-of-type(9) .accordion-button {
+.accordion-item:nth-of-type(9) .accordion-button, .accordion-item:nth-of-type(9) hr {
   background-color: #e5bfa4
 }
-.accordion-item:nth-of-type(10) .accordion-button {
+.accordion-item:nth-of-type(10) .accordion-button, .accordion-item:nth-of-type(10) hr {
   background-color: #e2c5a6
 }
-.accordion-item:nth-of-type(11) .accordion-button {
+.accordion-item:nth-of-type(11) .accordion-button, .accordion-item:nth-of-type(11) hr {
   background-color: #e0caaa
 }
-.accordion-item:nth-of-type(12) .accordion-button {
+.accordion-item:nth-of-type(12) .accordion-button, .accordion-item:nth-of-type(12) hr {
   background-color: #ddcfaf
 }
-.accordion-item:nth-of-type(13) .accordion-button {
+.accordion-item:nth-of-type(13) .accordion-button, .accordion-item:nth-of-type(13) hr {
   background-color: #dbd4b4
 }
-.accordion-item:nth-of-type(14) .accordion-button {
+.accordion-item:nth-of-type(14) .accordion-button, .accordion-item:nth-of-type(14) hr {
   background-color: #d0d2b0
 }
-.accordion-item:nth-of-type(15) .accordion-button {
+.accordion-item:nth-of-type(15) .accordion-button, .accordion-item:nth-of-type(15) hr {
   background-color: #c4d1ae
 }
-.accordion-item:nth-of-type(16) .accordion-button {
+.accordion-item:nth-of-type(16) .accordion-button, .accordion-item:nth-of-type(16) hr {
   background-color: #aacdaf
 }
-.accordion-item:nth-of-type(17) .accordion-button {
+.accordion-item:nth-of-type(17) .accordion-button, .accordion-item:nth-of-type(17) hr {
   background-color: #9ccab2
 }
-.accordion-item:nth-of-type(18) .accordion-button {
+.accordion-item:nth-of-type(18) .accordion-button, .accordion-item:nth-of-type(18) hr {
   background-color: #8fc8b6
 }
-.accordion-item:nth-of-type(19) .accordion-button {
+.accordion-item:nth-of-type(19) .accordion-button, .accordion-item:nth-of-type(19) hr {
   background-color: #83c5bb
 }
-.accordion-item:nth-of-type(20) .accordion-button {
+.accordion-item:nth-of-type(20) .accordion-button, .accordion-item:nth-of-type(20) hr {
   background-color: #78c1c0
 }
-.accordion-item:nth-of-type(21) .accordion-button {
+.accordion-item:nth-of-type(21) .accordion-button, .accordion-item:nth-of-type(21) hr {
   background-color: #6fbdc6
 }
-.accordion-item:nth-of-type(22) .accordion-button {
+.accordion-item:nth-of-type(22) .accordion-button, .accordion-item:nth-of-type(22) hr {
   background-color: #69b9cb
 }
-.accordion-item:nth-of-type(23) .accordion-button {
+.accordion-item:nth-of-type(23) .accordion-button, .accordion-item:nth-of-type(23) hr {
   background-color: #67b4cf
 }
-.accordion-item:nth-of-type(24) .accordion-button {
+.accordion-item:nth-of-type(24) .accordion-button, .accordion-item:nth-of-type(24) hr {
   background-color: #6aaed2
 }
-.accordion-item:nth-of-type(25) .accordion-button {
+.accordion-item:nth-of-type(25) .accordion-button, .accordion-item:nth-of-type(25) hr {
   background-color: #70a8d3
 }
-.accordion-item:nth-of-type(26) .accordion-button {
+.accordion-item:nth-of-type(26) .accordion-button, .accordion-item:nth-of-type(26) hr {
   background-color: #97bdde
 }
-.accordion-item:nth-of-type(27) .accordion-button {
+.accordion-item:nth-of-type(27) .accordion-button, .accordion-item:nth-of-type(27) hr {
   background-color: #bad3e9
 }
-.accordion-item:nth-of-type(28) .accordion-button {
+.accordion-item:nth-of-type(28) .accordion-button, .accordion-item:nth-of-type(28) hr {
   background-color: #ccd9e6
 }
-.accordion-item:nth-of-type(29) .accordion-button {
+.accordion-item:nth-of-type(29) .accordion-button, .accordion-item:nth-of-type(29) hr {
   background-color: #ffffff
 }
 *::-webkit-scrollbar {
@@ -133,7 +135,7 @@ strong {
 .carousel-caption {
   filter: invert(100%);
 }
-.carousel-caption {
+.carousel-caption {  
   position: relative !important;
   left: auto !important;
   right: auto !important;
@@ -160,93 +162,6 @@ audio {
   left: 50%;
   transform: translateX(-50%);
   margin-bottom: 1em
-}
-.accordion-item:nth-of-type(1) hr {
-  background-color: #cc95c0
-}
-.accordion-item:nth-of-type(2) hr {
-  background-color: #da99b7
-}
-.accordion-item:nth-of-type(3) hr {
-  background-color: #e39fae
-}
-.accordion-item:nth-of-type(4) hr {
-  background-color: #e7a6a7
-}
-.accordion-item:nth-of-type(5) hr {
-  background-color: #e8afa3
-}
-.accordion-item:nth-of-type(6) hr {
-  background-color: #e8afa3
-}
-.accordion-item:nth-of-type(7) hr {
-  background-color: #e8b4a2
-}
-.accordion-item:nth-of-type(8) hr {
-  background-color: #e7baa3
-}
-.accordion-item:nth-of-type(9) hr {
-  background-color: #e5bfa4
-}
-.accordion-item:nth-of-type(10) hr {
-  background-color: #e2c5a6
-}
-.accordion-item:nth-of-type(11) hr {
-  background-color: #e0caaa
-}
-.accordion-item:nth-of-type(12) hr {
-  background-color: #ddcfaf
-}
-.accordion-item:nth-of-type(13) hr {
-  background-color: #dbd4b4
-}
-.accordion-item:nth-of-type(14) hr {
-  background-color: #d0d2b0
-}
-.accordion-item:nth-of-type(15) hr {
-  background-color: #c4d1ae
-}
-.accordion-item:nth-of-type(16) hr {
-  background-color: #aacdaf
-}
-.accordion-item:nth-of-type(17) hr {
-  background-color: #9ccab2
-}
-.accordion-item:nth-of-type(18) hr {
-  background-color: #8fc8b6
-}
-.accordion-item:nth-of-type(19) hr {
-  background-color: #83c5bb
-}
-.accordion-item:nth-of-type(20) hr {
-  background-color: #78c1c0
-}
-.accordion-item:nth-of-type(21) hr {
-  background-color: #6fbdc6
-}
-.accordion-item:nth-of-type(22) hr {
-  background-color: #69b9cb
-}
-.accordion-item:nth-of-type(23) hr {
-  background-color: #67b4cf
-}
-.accordion-item:nth-of-type(24) hr {
-  background-color: #6aaed2
-}
-.accordion-item:nth-of-type(25)  hr{
-  background-color: #70a8d3
-}
-.accordion-item:nth-of-type(26)  hr {
-  background-color: #97bdde
-}
-.accordion-item:nth-of-type(27) hr {
-  background-color: #a8c5df
-}
-.accordion-item:nth-of-type(28) hr {
-  background-color: #ccd9e6
-}
-.accordion-item:nth-of-type(29) hr {
-  background-color: var(--color-text-main)
 }
 .accordion-item:nth-of-type(1) strong  {
   color: #cc95c0;
@@ -334,4 +249,10 @@ audio {
 }
 .accordion-item:nth-of-type(29) strong {
   color: var(--color-text-main)
+}
+.inline-block {
+  display: inline-block
+}
+b {
+  opacity: 0.75
 }
