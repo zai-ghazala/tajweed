@@ -126,8 +126,7 @@ strong {
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: #fff;
-  border: 3px solid #111
+  background-color: #111;
 }
 .carousel-control-prev-icon,
 .carousel-control-next-icon,
