@@ -107,7 +107,7 @@ export default function Home() {
             {" "}<span className="inline-block">أَجِدْ قَطٍ بَكَتْ</span>{" "} “Ajid Qatin Bakath”
           </p>
           <p>
-            <strong>استفعال Al Istifal </strong> - <b>Sound is directed downwards
+            <strong>الاستفال Al Istifal </strong> - <b>Sound is directed downwards
             and outwards which gives the sound the quality of tarqeeq which is a
             lightness</b> - All letters except {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
           </p>
@@ -143,7 +143,7 @@ export default function Home() {
             {" "}<span className="inline-block">أَجِدْ قَطٍ بَكَتْ</span>{" "} “Ajid Qatin Bakath”
           </p>
           <p>
-            <strong>استفعال Al Istifal </strong> - <b>Sound is directed downwards
+            <strong>الاستفال Al Istifal </strong> - <b>Sound is directed downwards
             and outwards which gives the sound the quality of tarqeeq which is a
             lightness</b> - All letters except {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
           </p>
@@ -178,7 +178,7 @@ export default function Home() {
             all the remaining letters.
           </p>
           <p>
-            <strong>استفعال Al Istifal </strong> - <b>Sound is directed downwards
+            <strong>الاستفال Al Istifal </strong> - <b>Sound is directed downwards
             and outwards which gives the sound the quality of tarqeeq which is a
             lightness</b> - All letters except {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
           </p>
@@ -215,7 +215,7 @@ export default function Home() {
             {" "}<span className="inline-block">أَجِدْ قَطٍ بَكَتْ</span>{" "} “Ajid Qatin Bakath”
           </p>
           <p>
-            <strong>استفعال Al Istifal </strong> - <b>Sound is directed downwards
+            <strong>الاستفال Al Istifal </strong> - <b>Sound is directed downwards
             and outwards which gives the sound the quality of tarqeeq which is a
             lightness</b> - All letters except {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
           </p>
@@ -249,7 +249,7 @@ export default function Home() {
             all the remaining letters.
           </p>
           <p>
-            <strong>استفعال Al Istifal </strong> - <b>Sound is directed downwards
+            <strong>الاستفال Al Istifal </strong> - <b>Sound is directed downwards
             and outwards which gives the sound the quality of tarqeeq which is a
             lightness</b> - All letters except {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
           </p>
@@ -322,7 +322,7 @@ export default function Home() {
             {" "}<span className="inline-block">أَجِدْ قَطٍ بَكَتْ</span>{" "} “Ajid Qatin Bakath”
           </p>
           <p>
-            <strong>استفعال Al Istifal </strong> - <b>Sound is directed downwards
+            <strong>الاستفال Al Istifal </strong> - <b>Sound is directed downwards
             and outwards which gives the sound the quality of tarqeeq which is a
             lightness</b> - All letters except {" "}<span className="inline-block">{" "}<span className="inline-block">خص ضغط قظ</span>{" "}</span>{" "}
           </p>
@@ -356,7 +356,7 @@ export default function Home() {
             all the remaining letters.
           </p>
           <p>
-            <strong>استفعال Al Istifal </strong> - <b>Sound is directed downwards
+            <strong>الاستفال Al Istifal </strong> - <b>Sound is directed downwards
             and outwards which gives the sound the quality of tarqeeq which is a
             lightness</b> - All letters except {" "}<span className="inline-block">{" "}<span className="inline-block">خص ضغط قظ</span>{" "}</span>{" "}
           </p>
@@ -408,7 +408,7 @@ export default function Home() {
             {" "}<span className="inline-block">فحثه شخص سكت</span>{" "} “Fa-hathu-hu shakhsun sakath”
           </p>
           <p>
-            <strong>استفعال Al Istifal </strong> - <b>Sound is directed downwards
+            <strong>الاستفال Al Istifal </strong> - <b>Sound is directed downwards
             and outwards which gives the sound the quality of tarqeeq which is a
             lightness</b> - All letters except {" "}<span className="inline-block">{" "}<span className="inline-block">خص ضغط قظ</span>{" "}</span>{" "}
           </p>
@@ -467,7 +467,7 @@ export default function Home() {
             all the remaining letters.
           </p>
           <p>
-            <strong>استفعال Al Istifal </strong> - <b>Sound is directed downwards
+            <strong>الاستفال Al Istifal </strong> - <b>Sound is directed downwards
             and outwards which gives the sound the quality of tarqeeq which is a
             lightness</b> - All letters except {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
           </p>
@@ -504,7 +504,7 @@ export default function Home() {
             all the remaining letters.
           </p>
           <p>
-            <strong>استفعال Al Istifal </strong> - <b>Sound is directed downwards
+            <strong>الاستفال Al Istifal </strong> - <b>Sound is directed downwards
             and outwards which gives the sound the quality of tarqeeq which is a
             lightness</b> - All letters except {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
           </p>
@@ -540,7 +540,7 @@ export default function Home() {
             all the remaining letters.
           </p>
           <p>
-            <strong>استفعال Al Istifal </strong> - <b>Sound is directed downwards
+            <strong>الاستفال Al Istifal </strong> - <b>Sound is directed downwards
             and outwards which gives the sound the quality of tarqeeq which is a
             lightness</b> - All letters except {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
           </p>
@@ -823,7 +823,7 @@ export default function Home() {
             all the remaining letters.
           </p>
           <p>
-            <strong>استفعال Al Istifal </strong> - <b>Sound is directed downwards
+            <strong>الاستفال Al Istifal </strong> - <b>Sound is directed downwards
             and outwards which gives the sound the quality of tarqeeq which is a
             lightness</b> - All letters except {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
           </p>
@@ -895,7 +895,7 @@ export default function Home() {
             all the remaining letters.
           </p>
           <p>
-            <strong>استفعال Al Istifal </strong> - <b>Sound is directed downwards
+            <strong>الاستفال Al Istifal </strong> - <b>Sound is directed downwards
             and outwards which gives the sound the quality of tarqeeq which is a
             lightness</b> - All letters except {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
           </p>
@@ -941,7 +941,7 @@ export default function Home() {
             shortened</b> - The letters {" "}<span className="inline-block">لن عمر</span>{" "} “Lin ‘Umar”
           </p>
           <p>
-            <strong>استفعال Al Istifal </strong> - <b>Sound is directed downwards
+            <strong>الاستفال Al Istifal </strong> - <b>Sound is directed downwards
             and outwards which gives the sound the quality of tarqeeq which is a
             lightness</b> - All letters except {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
           </p>
@@ -1004,7 +1004,7 @@ export default function Home() {
             shortened</b> - The letters {" "}<span className="inline-block">لن عمر</span>{" "} “Lin ‘Umar”
           </p>
           <p>
-            <strong>استفعال Al Istifal </strong> - <b>Sound is directed downwards
+            <strong>الاستفال Al Istifal </strong> - <b>Sound is directed downwards
             and outwards which gives the sound the quality of tarqeeq which is a
             lightness</b> - All letters except {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
           </p>
@@ -1082,7 +1082,7 @@ export default function Home() {
             all the remaining letters.
           </p>
           <p>
-            <strong>استفعال Al Istifal </strong> - <b>Sound is directed downwards
+            <strong>الاستفال Al Istifal </strong> - <b>Sound is directed downwards
             and outwards which gives the sound the quality of tarqeeq which is a
             lightness</b> - All letters except {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
           </p>
@@ -1127,7 +1127,7 @@ export default function Home() {
             all the remaining letters.
           </p>
           <p>
-            <strong>استفعال Al Istifal </strong> - <b>Sound is directed downwards
+            <strong>الاستفال Al Istifal </strong> - <b>Sound is directed downwards
             and outwards which gives the sound the quality of tarqeeq which is a
             lightness</b> - All letters except {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
           </p>
@@ -1175,7 +1175,7 @@ export default function Home() {
             all the remaining letters.
           </p>
           <p>
-            <strong>استفعال Al Istifal </strong> - <b>Sound is directed downwards
+            <strong>الاستفال Al Istifal </strong> - <b>Sound is directed downwards
             and outwards which gives the sound the quality of tarqeeq which is a
             lightness</b> - All letters except {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
           </p>
@@ -1229,7 +1229,7 @@ export default function Home() {
             all the remaining letters.
           </p>
           <p>
-            <strong>استفعال Al Istifal </strong> - <b>Sound is directed downwards
+            <strong>الاستفال Al Istifal </strong> - <b>Sound is directed downwards
             and outwards which gives the sound the quality of tarqeeq which is a
             lightness</b> - All letters except {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
           </p>
