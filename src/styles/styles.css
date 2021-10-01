@@ -334,5 +334,5 @@ audio {
   color: #ccd9e6
 }
 .accordion-item:nth-of-type(29) strong {
-  color: #var(--color-text-main)
+  color: var(--color-text-main)
 }

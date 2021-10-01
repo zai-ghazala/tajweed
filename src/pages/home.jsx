@@ -86,7 +86,7 @@ export default function Home() {
           </audio>
 
           <p>
-            <strong>Lip letter.</strong> Lips come together then move apart for
+            <strong>Lip letter</strong> - Lips come together then move apart for
             ب creating a bounce.
           </p>
           <p>Tongue relaxed as normal.</p>
@@ -130,7 +130,7 @@ export default function Home() {
             Your browser does not support the audio element.
           </audio>
           <p>
-            <strong>Tongue letter.</strong> Where the extreme tip of the tongue
+            <strong>Tongue letter</strong> - Where the extreme tip of the tongue
             touches the roots of the top front teeth.
           </p>
           <p>Tongue relaxed as normal.</p>
@@ -167,7 +167,7 @@ export default function Home() {
             Your browser does not support the audio element.
           </audio>
           <p>
-            <strong>Tongue letter.</strong> Tip of the tongue touching the
+            <strong>Tongue letter</strong> - Tip of the tongue touching the
             bottom edges of the front two teeth.
           </p>
           <p>Flat tongue as normal.</p>
@@ -205,7 +205,7 @@ export default function Home() {
             Your browser does not support the audio element.
           </audio>
           <p>
-            <strong>Tongue letter.</strong> Middle of the tongue with the middle
+            <strong>Tongue letter</strong> - Middle of the tongue with the middle
             of the roof of the mouth.
           </p>
           <p>
@@ -244,7 +244,7 @@ export default function Home() {
             Your browser does not support the audio element.
           </audio>
           <p>
-            <strong>Throat letter.</strong> Middle of the throat, epiglottis,
+            <strong>Throat letter</strong> - Middle of the throat, epiglottis,
             what stops food going into our windpipe when we eat.
           </p>
 
@@ -281,7 +281,7 @@ export default function Home() {
             Your browser does not support the audio element.
           </audio>
           <p>
-            <strong>Throat letter.</strong> Closest to the mouth.
+            <strong>Throat letter</strong> - Closest to the mouth.
           </p>
           <p>
             Note that the tongue is dipped in the middle so the sound is
@@ -319,7 +319,7 @@ export default function Home() {
             Your browser does not support the audio element.
           </audio>
           <p>
-            <strong>Tongue letter.</strong> Where the extreme tip of the tongue
+            <strong>Tongue letter</strong> - Where the extreme tip of the tongue
             touches the roots of the top front teeth.
           </p>
           <p>Tongue relaxed as normal.</p>
@@ -359,7 +359,7 @@ export default function Home() {
             Your browser does not support the audio element.
           </audio>
           <p>
-            <strong>Tongue letter.</strong> Tip of the tongue touching the
+            <strong>Tongue letter</strong> - Tip of the tongue touching the
             bottom edges of the front two teeth.
           </p>{" "}
           <p>Flat tongue as normal.</p>
@@ -395,7 +395,7 @@ export default function Home() {
             Your browser does not support the audio element.
           </audio>
           <p>
-            <strong>Tongue letter.</strong> Tip of the tongue.
+            <strong>Tongue letter</strong> - Tip of the tongue.
           </p>
           <p>
             From the tip of the tongue, to what is opposite it, of the gums by
@@ -471,7 +471,7 @@ export default function Home() {
             Your browser does not support the audio element.
           </audio>
           <p>
-            <strong>Tongue letter.</strong> Extreme tip of the tongue touching
+            <strong>Tongue letter</strong> - Extreme tip of the tongue touching
             the inner surface at the lower end of the bottom two front teeth.
           </p>
           <p>Tongue relaxed as normal.</p>
@@ -511,7 +511,7 @@ export default function Home() {
             Your browser does not support the audio element.
           </audio>
           <p>
-            <strong>Tongue letter.</strong> Extreme tip of the tongue touching
+            <strong>Tongue letter</strong> - Extreme tip of the tongue touching
             the inner surface at the lower end of the bottom two front teeth.
           </p>
           <p>Tongue relaxed as normal.</p>
@@ -551,7 +551,7 @@ export default function Home() {
             Your browser does not support the audio element.
           </audio>
           <p>
-            <strong>Tongue letter.</strong> Middle of the tongue with the middle
+            <strong>Tongue letter</strong> - Middle of the tongue with the middle
             of the roof of the mouth.
           </p>
           <p>
@@ -590,7 +590,7 @@ export default function Home() {
             Your browser does not support the audio element.
           </audio>
           <p>
-            <strong>Tongue letter.</strong> Extreme tip of the tongue touching
+            <strong>Tongue letter</strong> - Extreme tip of the tongue touching
             the inner surface at the lower end of the bottom two front teeth.
           </p>
           <p>
@@ -636,7 +636,7 @@ export default function Home() {
             Your browser does not support the audio element.
           </audio>
           <p>
-            <strong>Tongue letter.</strong> Sides of the tongue.
+            <strong>Tongue letter</strong> - Sides of the tongue.
           </p>
           <p>
             Touch the edge of tongue with the hard palate in front of the top
@@ -701,7 +701,7 @@ export default function Home() {
             Your browser does not support the audio element.
           </audio>
           <p>
-            <strong>Tongue letter.</strong> Where the extreme tip of the tongue
+            <strong>Tongue letter</strong> - Where the extreme tip of the tongue
             touches the roots of the top front teeth.
           </p>{" "}
           <p>
@@ -747,7 +747,7 @@ export default function Home() {
             Your browser does not support the audio element.
           </audio>
           <p>
-            <strong>Tongue letter.</strong> Tip of the tongue touching the
+            <strong>Tongue letter</strong> - Tip of the tongue touching the
             bottom edges of the front two teeth.
           </p>{" "}
           <p>
@@ -789,7 +789,7 @@ export default function Home() {
             Your browser does not support the audio element.
           </audio>
           <p>
-            <strong>Throat letter.</strong> Middle of the throat, epiglottis,
+            <strong>Throat letter</strong> - Middle of the throat, epiglottis,
             what stops food going into our windpipe when we eat.
           </p>
           <p>Tongue is flat.</p>
@@ -799,7 +799,7 @@ export default function Home() {
             “Fa-hathu-hu shakhsun sakath”
           </p>
           <p>
-            <strong>توسط Sound is not allowed to flow nor shortened.</strong> -
+            <strong>توسط Sound is not allowed to flow nor shortened</strong> -
             The letters لن عمر “Lin ‘Umar”
           </p>
           <p>
@@ -817,7 +817,7 @@ export default function Home() {
             Your browser does not support the audio element.
           </audio>
           <p>
-            <strong>Throat letter.</strong> Closest to the mouth.
+            <strong>Throat letter</strong> - Closest to the mouth.
           </p>
           <p>
             Note that the tongue is dipped in the middle so the sound is
@@ -856,7 +856,7 @@ export default function Home() {
             Your browser does not support the audio element.
           </audio>
           <p>
-            <strong>Lip letter.</strong> The edge of the front top teeth
+            <strong>Lip letter</strong> - The edge of the front top teeth
             touching the inside lower lip.
           </p>
           <p>
@@ -895,7 +895,7 @@ export default function Home() {
             Your browser does not support the audio element.
           </audio>
           <p>
-            <strong>Tongue letter.</strong> Back of the tongue touching the soft
+            <strong>Tongue letter</strong> - Back of the tongue touching the soft
             fleshy part of roof of the mouth.
           </p>
           <p>The tongue is dipped in the middle.</p>
@@ -937,7 +937,7 @@ export default function Home() {
             Your browser does not support the audio element.
           </audio>
           <p>
-            <strong>Tongue letter.</strong> Back of the tongue touching where
+            <strong>Tongue letter</strong> - Back of the tongue touching where
             the hard part of the roof of the mouth meets the soft part.
           </p>
           <hr />
@@ -972,7 +972,7 @@ export default function Home() {
             Your browser does not support the audio element.
           </audio>
           <p>
-            <strong>Tongue letter.</strong> Front edge.
+            <strong>Tongue letter</strong> - Front edge.
           </p>
           <p>
             Touch the edge of tongue with the hard palate in front of the top
@@ -995,7 +995,7 @@ export default function Home() {
             “Fa-hathu-hu shakhsun sakath”
           </p>
           <p>
-            <strong>توسط Sound is not allowed to flow nor shortened.</strong> -
+            <strong>توسط Sound is not allowed to flow nor shortened</strong> -
             The letters لن عمر “Lin ‘Umar”
           </p>
           <p>
@@ -1042,7 +1042,7 @@ export default function Home() {
             Your browser does not support the audio element.
           </audio>
           <p>
-            <strong>Lip letter.</strong> Lips come together.
+            <strong>Lip letter</strong> - Lips come together.
           </p>
           <p>Hold lips for longer than ب </p>
           <p>
@@ -1060,7 +1060,7 @@ export default function Home() {
             “Fa-hathu-hu shakhsun sakath”
           </p>
           <p>
-            <strong>توسط Sound is not allowed to flow nor shortened.</strong> -
+            <strong>توسط Sound is not allowed to flow nor shortened</strong> -
             The letters لن عمر “Lin ‘Umar”
           </p>
           <p>
@@ -1085,7 +1085,7 @@ export default function Home() {
             Your browser does not support the audio element.
           </audio>
           <p>
-            <strong>Tongue letter.</strong> Tip of the tongue.
+            <strong>Tongue letter</strong> - Tip of the tongue.
           </p>
           <p>
             From the tip of the tongue (to what lies opposite it) to the gums,
@@ -1106,7 +1106,7 @@ export default function Home() {
             “Fa-hathu-hu shakhsun sakath”
           </p>
           <p>
-            <strong>توسط Sound is not allowed to flow nor shortened.</strong> -
+            <strong>توسط Sound is not allowed to flow nor shortened</strong> -
             The letters لن عمر “Lin ‘Umar”
           </p>
           <p>
@@ -1132,7 +1132,7 @@ export default function Home() {
             Your browser does not support the audio element.
           </audio>
           <p>
-            <strong>Lip letter.</strong> Ghair madiya. Lips make a round circle.
+            <strong>Lip letter</strong> - Ghair madiya. Lips make a round circle.
           </p>
           <hr />
           <p>
@@ -1169,7 +1169,7 @@ export default function Home() {
             Your browser does not support the audio element.
           </audio>
           <p>
-            <strong>Throat letter.</strong> Furthest part, from the vocal
+            <strong>Throat letter</strong> - Furthest part, from the vocal
             chords.
           </p>
           <p>
@@ -1229,7 +1229,7 @@ export default function Home() {
             Your browser does not support the audio element.
           </audio>
           <p>
-            <strong>Throat letter.</strong> Furthest part, from the vocal
+            <strong>Throat letter</strong> - Furthest part, from the vocal
             chords.
           </p>
           <hr />
@@ -1280,7 +1280,7 @@ export default function Home() {
             Your browser does not support the audio element.
           </audio>
           <p>
-            <strong>Tongue letter.</strong> Middle of the tongue with the middle
+            <strong>Tongue letter</strong> - Middle of the tongue with the middle
             of the roof of the mouth.
           </p>
           <p>
