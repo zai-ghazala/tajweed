@@ -8,6 +8,7 @@ import Istifal from "../pages/istifal";
 import Istila from "../pages/istila";
 import Istitaala from "../pages/istitaala";
 import Itbaq from "../pages/itbaq";
+import Jahr from "../pages/jahr";
 import Leen from "../pages/leen";
 import Qalqala from "../pages/qalqala";
 import Rikawah from "../pages/rikawah";
@@ -34,6 +35,7 @@ export default () => (
     <Route path="istila" component={Istila} />
     <Route path="istitaala" component={Istitaala} />
     <Route path="itbaq" component={Itbaq} />
+    <Route path="jahr" component={Jahr} />
     <Route path="leen" component={Leen} />
     <Route path="qalqala" component={Qalqala} />
     <Route path="rikawah" component={Rikawah} />
