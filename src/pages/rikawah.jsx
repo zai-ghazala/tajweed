@@ -3,6 +3,7 @@ import Accordion from "react-bootstrap/Accordion";
 
 import Saa from "../components/taa";
 import Haa from "../components/haa";
+import Khaa from "../components/khaa";
 import Zaal from "../components/zaal";
 import Zaai from "../components/zaai";
 import Seen from "../components/seen";
