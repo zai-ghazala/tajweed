@@ -123,6 +123,9 @@ h1 {
 .yaa .accordion-button, .yaa .accordion-item hr, .yaa .accordion-button:not(.collapsed)  {
   background-color: #ffffff
 }
+.yaa .accordion-item hr {
+  background-color: var(--color-text-main)
+}
 *::-webkit-scrollbar {
   width: 3vw;
   -webkit-appearance: none;
