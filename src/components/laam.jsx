@@ -20,7 +20,7 @@ export default function Laam() {
             Your browser does not support the audio element.
           </audio>
           <p>
-            <strong>Tongue letter</strong> - Front edge.
+            <strong>Tongue letter</strong> - Front edge
           </p>
           <p>
             Touch the edge of tongue with the hard palate in front of the top

@@ -21,7 +21,7 @@ export default function Suad() {
             <strong>Tongue letter</strong> - Sides of the tongue
           </p>
           <p>
-            Touch the edge of tongue with the hard palate in front of the top
+            Touch the = of tongue with the hard palate in front of the top
             front teeth
           </p>
           <p>
