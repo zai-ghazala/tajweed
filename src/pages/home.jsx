@@ -283,7 +283,7 @@ export default function Home() {
             {" "}<span className="inline-block">أَجِدْ قَطٍ بَكَتْ</span>{" "} “Ajid Qatin Bakath”
           </p>
           <p>
-            <strong>الإستــعلاء Al Isti'la</strong> - <b>Sound is directed upwards
+            <strong>الإستــعلاء Al Isti’la</strong> - <b>Sound is directed upwards
             between the tongue and the top palate. (Up and inside) This gives
             the letter the quality of tafkheem which is a thick heaviness</b> - The
             following letters {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
@@ -580,7 +580,7 @@ export default function Home() {
             all the remaining letters.
           </p>
           <p>
-            <strong>الإستــعلاء Al Isti'la</strong> - <b>Sound is directed upwards
+            <strong>الإستــعلاء Al Isti’la</strong> - <b>Sound is directed upwards
             between the tongue and the top palate. (Up and inside) This gives
             the letter the quality of tafkheem which is a thick heaviness</b> - The
             following letters {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
@@ -629,7 +629,7 @@ export default function Home() {
             all the remaining letters.
           </p>
           <p>
-            <strong>الإستــعلاء Al Isti'la</strong> - <b>Sound is directed upwards
+            <strong>الإستــعلاء Al Isti’la</strong> - <b>Sound is directed upwards
             between the tongue and the top palate. (Up and inside) This gives
             the letter the quality of tafkheem which is a thick heaviness</b> - The
             following letters {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
@@ -683,7 +683,7 @@ export default function Home() {
             {" "}<span className="inline-block">أَجِدْ قَطٍ بَكَتْ</span>{" "} “Ajid Qatin Bakath”
           </p>
           <p>
-            <strong>الإستــعلاء Al Isti'la</strong> - <b>Sound is directed upwards
+            <strong>الإستــعلاء Al Isti’la</strong> - <b>Sound is directed upwards
             between the tongue and the top palate. (Up and inside) This gives
             the letter the quality of tafkheem which is a thick heaviness</b> - The
             following letters {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
@@ -721,7 +721,7 @@ export default function Home() {
             all the remaining letters.
           </p>
           <p>
-            <strong>الإستــعلاء Al Isti'la</strong> - <b>Sound is directed upwards
+            <strong>الإستــعلاء Al Isti’la</strong> - <b>Sound is directed upwards
             between the tongue and the top palate. (Up and inside) This gives
             the letter the quality of tafkheem which is a thick heaviness</b> - The
             following letters {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
@@ -786,7 +786,7 @@ export default function Home() {
             all the remaining letters.
           </p>
           <p>
-            <strong>الإستــعلاء Al Isti'la</strong> - <b>Sound is directed upwards
+            <strong>الإستــعلاء Al Isti’la</strong> - <b>Sound is directed upwards
             between the tongue and the top palate. (Up and inside) This gives
             the letter the quality of tafkheem which is a thick heaviness</b> - The
             following letters {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
@@ -862,7 +862,7 @@ export default function Home() {
             all the remaining letters.
           </p>
           <p>
-            <strong>الإستــعلاء Al Isti'la</strong> - <b>Sound is directed upwards
+            <strong>الإستــعلاء Al Isti’la</strong> - <b>Sound is directed upwards
             between the tongue and the top palate. (Up and inside) This gives
             the letter the quality of tafkheem which is a thick heaviness</b> - The
             following letters {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
@@ -1048,7 +1048,7 @@ export default function Home() {
             shortened</b> - The letters {" "}<span className="inline-block">لن عمر</span>{" "} “Lin ‘Umar”
           </p>
           <p>
-            <strong>الإستــعلاء Al Isti'la</strong> - <b>Sound is directed upwards
+            <strong>الإستــعلاء Al Isti’la</strong> - <b>Sound is directed upwards
             between the tongue and the top palate. (Up and inside) This gives
             the letter the quality of tafkheem which is a thick heaviness</b> - The
             following letters {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
