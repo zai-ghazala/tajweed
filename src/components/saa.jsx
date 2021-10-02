@@ -17,9 +17,9 @@ export default function Saa() {
         </audio>
         <p>
           <strong>Tongue letter</strong> - Tip of the tongue touching the
-          bottom edges of the front two teeth.
+          bottom edges of the front two teeth
         </p>
-        <p>Flat tongue as normal.</p>
+        <p>Flat tongue as normal</p>
 
         <hr />
 
@@ -29,19 +29,12 @@ export default function Saa() {
         <p>
             <Link href="rikawah">الرخاوة Al Rikawah</Link>
           </p>
-        <p>
-          <strong>الاستفال Al Istifal </strong> -
-          <b>
-            Sound is directed downwards and outwards which gives the sound the
-            quality of tarqeeq which is a lightness
-          </b>
-          - All letters except {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
-        </p>
-        <p>
-          <strong>الانفتاح Al Infitah</strong> -
-          <b>Sound is not retained in the mouth</b> - All letters except ص ض ط
-          ظ
-        </p>
+          <p>
+            <Link href="istifal">الاستفال Al Istifal</Link>
+          </p>
+           <p>
+            <Link href="infitah">الانفتاح Al Infitah</Link>
+          </p>
         <img className="d-block mx-auto" src={img28} />
       </Accordion.Body>
     </Accordion.Item>

@@ -18,19 +18,19 @@ export default function Suad() {
             Your browser does not support the audio element.
           </audio>
           <p>
-            <strong>Tongue letter</strong> - Sides of the tongue.
+            <strong>Tongue letter</strong> - Sides of the tongue
           </p>
           <p>
             Touch the edge of tongue with the hard palate in front of the top
-            front teeth.
+            front teeth
           </p>
           <p>
             Make contact with the makhraj of ل but then put pressure on sides of
-            tongue.
+            tongue
           </p>
           <p>
             Tongue dipped in middle, sound is directed to the top of the mouth
-            so is heavy and trapped.
+            so is heavy and trapped
           </p>
      <p>
             <Link href="istitaala">الاستطال Al Istitaala</Link></p>

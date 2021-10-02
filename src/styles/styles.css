@@ -19,13 +19,16 @@ body {
     font-size: calc(2em + 1vw) !important;
     color: var(--color-text-main) !important;
 }
-a {
+a, strong {
   font-family: Lora;
   letter-spacing: 1.5px;
   font-variant: small-caps;
   font-size: 1.2em;
   text-decoration: none !important;
-  font-weight: bold
+  font-weight: bold !important
+}
+a {
+  border-bottom: 2px solid currentColor
 }
 h1 {
   font-family: Lora !important
@@ -165,91 +168,91 @@ audio {
   transform: translateX(-50%);
   margin-bottom: 1em
 }
-.alif .accordion-item a  {
+.alif .accordion-item a, .alif .accordion-item strong {
   color: #cc95c0;
 }
-.baa .accordion-item a {
+.baa .accordion-item a, .baa .accordion-item strong  {
   color: #da99b7
 }
-.taa .accordion-item a {
+.taa .accordion-item a, .taa .accordion-item strong {
   color: #e39fae
 }
-.saa .accordion-item a {
+.saa .accordion-item a, .saa .accordion-item strong {
   color: #e7a6a7
 }
-.jeem .accordion-item a {
+.jeem .accordion-item a, .jeem .accordion-item strong {
   color: #e8afa3
 }
-.haa .accordion-item a {
+.haa .accordion-item a, .haa .accordion-item strong {
   color: #e8afa3
 }
-.khaa .accordion-item a {
+.khaa .accordion-item a, .khaa .accordion-item strong {
   color: #e8b4a2
 }
-.daal .accordion-item a {
+.daal .accordion-item a, .daal .accordion-item strong {
   color: #e7baa3
 }
-.zaal .accordion-item a {
+.zaal .accordion-item a, .zaal .accordion-item strong {
   color: #e5bfa4
 }
-.raa .accordion-item a {
+.raa .accordion-item a, .raa .accordion-item strong {
   color: #e2c5a6
 }
-.zaai .accordion-item a {
+.zaai .accordion-item a, .zaai .accordion-item strong {
   color: #e0caaa
 }
-.seen .accordion-item a {
+.seen .accordion-item a, .seen .accordion-item strong {
   color: #ddcfaf
 }
-.sheen .accordion-item a {
+.sheen .accordion-item a, .sheen .accordion-item strong {
   color: #dbd4b4
 }
-.suad .accordion-item a {
+.suad .accordion-item a, .suad .accordion-item strong {
   color: #d0d2b0
 }
-.duad .accordion-item a {
+.duad .accordion-item a, .duad .accordion-item strong {
   color: #c4d1ae
 }
-.taa-heavy .accordion-item a {
+.taa-heavy .accordion-item a, .taa-heavy .accordion-item strong {
   color: #aacdaf
 }
-.zaa-heavy .accordion-item a {
+.zaa-heavy .accordion-item a, .zaa-heavy .accordion-item strong {
   color: #9ccab2
 }
-.ain .accordion-item a {
+.ain .accordion-item a, .ain .accordion-item strong {
   color: #8fc8b6
 }
-.gain .accordion-item a {
+.gain .accordion-item a, .gain .accordion-item strong {
   color: #83c5bb
 }
-.faa .accordion-item a {
+.faa .accordion-item a, .faa .accordion-item strong {
   color: #78c1c0
 }
-.qaaf .accordion-item a {
+.qaaf .accordion-item a, .qaaf .accordion-item strong {
   color: #6fbdc6
 }
-.kaaf .accordion-item a {
+.kaaf .accordion-item a, .kaaf .accordion-item strong {
   color: #69b9cb
 }
-.laam .accordion-item a {
+.laam .accordion-item a, .laam .accordion-item strong {
   color: #67b4cf
 }
-.meem .accordion-item a {
+.meem .accordion-item a, .meem .accordion-item strong {
   color: #6aaed2
 }
-.noon .accordion-item  a{
+.noon .accordion-item a, .noon .accordion-item strong {
   color: #70a8d3
 }
-.waw .accordion-item  a {
+.waw .accordion-item a, .waw .accordion-item strong {
   color: #97bdde
 }
-.small-haa .accordion-item a {
+.small-haa .accordion-item a, .small-haa .accordion-item strong {
   color: #bad3e9
 }
-.hamzah .accordion-item a {
+.hamzah .accordion-item a, .hamzah .accordion-item strong {
   color: #ccd9e6
 }
-.yaa .accordion-item a {
+.yaa .accordion-item a, .yaa .accordion-item strong {
   color: var(--color-text-main)
 }
 .inline-block {
@@ -263,7 +266,7 @@ b, a:hover {
 }
 h1 {
   margin: auto;
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
   font-variant: small-caps
 }
 .return {

@@ -17,9 +17,9 @@ export default function Qaaf() {
           </audio>
           <p>
             <strong>Tongue letter</strong> - Back of the tongue touching the
-            soft fleshy part of roof of the mouth.
+            soft fleshy part of roof of the mouth
           </p>
-          <p>The tongue is dipped in the middle.</p>
+          <p>The tongue is dipped in the middle</p>
  <p>
             <Link href="qalqala">القلقلھ Al Qalqala</Link></p>
           <hr />

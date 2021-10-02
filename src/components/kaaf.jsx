@@ -17,7 +17,7 @@ export default function Kaaf() {
           </audio>
           <p>
             <strong>Tongue letter</strong> - Back of the tongue touching where
-            the hard part of the roof of the mouth meets the soft part.
+            the hard part of the roof of the mouth meets the soft part
           </p>
           <hr />
          <p>

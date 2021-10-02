@@ -17,9 +17,9 @@ export default function Seen() {
           </audio>
           <p>
             <strong>Tongue letter</strong> - Extreme tip of the tongue touching
-            the inner surface at the lower end of the bottom two front teeth.
+            the inner surface at the lower end of the bottom two front teeth
           </p>
-          <p>Tongue relaxed as normal.</p>
+          <p>Tongue relaxed as normal</p>
          <p>
             <Link href="safeer">الصفیر As Safeer</Link></p>
           <hr />

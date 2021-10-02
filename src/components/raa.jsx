@@ -21,7 +21,7 @@ export default function Raa() {
             Your browser does not support the audio element.
           </audio>
           <p>
-            <strong>Tongue letter</strong> - Tip of the tongue.
+            <strong>Tongue letter</strong> - Tip of the tongue
           </p>
           <p>
             From the tip of the tongue, to what is opposite it, of the gums by
@@ -29,19 +29,19 @@ export default function Raa() {
           </p>
           <p>
             There is a tiny gap in the middle of the tongue – this is where the
-            sound comes from, this stops takreer.
+            sound comes from, this stops takreer
           </p>
           <p>
             ر is normally considered a “light” letter. Sound is directed
-            outward, so tongue is flat.
+            outward, so tongue is flat
           </p>
           <p>
             ر is heavy if the ر has a fatha or dhamma on it, if theر is sakin
-            and the letter before it is a fatha or dhamma.
+            and the letter before it is a fatha or dhamma
           </p>
           <p>
             Sound is directed to the top of the mouth, so tongue is dipped in
-            middle to make sound heavy.
+            middle to make sound heavy
           </p>
            <p>
             <Link href="inharaf">الانحراف Al Inharaf</Link>
@@ -72,7 +72,7 @@ export default function Raa() {
             <Carousel.Item>
               <img className="d-block mx-auto" src={img24} />
               <Carousel.Caption>
-                <p>Normally considered a light letter.</p>
+                <p>Normally considered a light letter</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>

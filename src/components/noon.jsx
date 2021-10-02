@@ -22,10 +22,10 @@ export default function Noon() {
             From the tip of the tongue (to what lies opposite it) to the gums,
             slightly below the makhraj of ل
           </p>
-          <p>Closer to the front teeth than the laam.</p>
+          <p>Closer to the front teeth than the laam</p>
           <p>
             Comes from 2 main areas makhraj – the tongue and the nose, this
-            produces the ghunna sifah.
+            produces the ghunna sifah
           </p>
           <p>
             <Link href="ghunna">الغنھ Al Ghunna</Link> 

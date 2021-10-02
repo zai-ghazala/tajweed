@@ -24,14 +24,14 @@ export default function Laam() {
           </p>
           <p>
             Touch the edge of tongue with the hard palate in front of the top
-            front teeth.
+            front teeth
           </p>
           <p>
             ل is only pronounced heavy in the word Allah if it is preceded by a
-            fatha or dhamma.
+            fatha or dhamma
           </p>
-          <p>The sound is directed up.</p>
-          <p>The tongue is dipped in the middle.</p>
+          <p>The sound is directed up</p>
+          <p>The tongue is dipped in the middle</p>
            <p>
             <Link href="inharaf">الانحراف Al Inharaf</Link>
           </p>
@@ -55,7 +55,7 @@ export default function Laam() {
             <Carousel.Item>
               <img src={img13} />
               <Carousel.Caption>
-                <p>Edge of tip of tongue - the yellow area.</p>
+                <p>Edge of tip of tongue - the yellow area</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -67,7 +67,7 @@ export default function Laam() {
             <Carousel.Item>
               <img className="d-block mx-auto" src={img16} />
               <Carousel.Caption>
-                <p>When ل is heavy, the tongue is dipped in the middle.</p>
+                <p>When ل is heavy, the tongue is dipped in the middle</p>
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>

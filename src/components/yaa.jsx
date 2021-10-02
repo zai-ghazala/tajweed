@@ -17,7 +17,7 @@ export default function Yaa() {
           </audio>
           <p>
             <strong>Tongue letter</strong> - Middle of the tongue with the
-            middle of the roof of the mouth.
+            middle of the roof of the mouth
           </p>
          <p>
             <Link href="leen">اللین Al Leen</Link></p>

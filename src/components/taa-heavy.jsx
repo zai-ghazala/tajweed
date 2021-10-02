@@ -17,11 +17,11 @@ export default function TaaHeavy() {
           </audio>
           <p>
             <strong>Tongue letter</strong> - Where the extreme tip of the tongue
-            touches the roots of the top front teeth.
+            touches the roots of the top front teeth
           </p>
           <p>
             Tongue dipped in middle, sound is directed to the top of the mouth
-            so is heavy and trapped.
+            so is heavy and trapped
           </p>
  <p>
             <Link href="qalqala">القلقلھ Al Qalqala</Link></p>

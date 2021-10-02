@@ -17,10 +17,10 @@ export default function Haa() {
           </audio>
           <p>
             <strong>Throat letter</strong> - Middle of the throat, epiglottis,
-            what stops food going into our windpipe when we eat.
+            what stops food going into our windpipe when we eat
           </p>
 
-          <p>Tongue is flat.</p>
+          <p>Tongue is flat</p>
           <hr />
          <p>
             <Link href="hams">الحمص Al Hams</Link>

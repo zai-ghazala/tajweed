@@ -17,9 +17,9 @@ export default function Zaal() {
           </audio>
           <p>
             <strong>Tongue letter</strong> - Tip of the tongue touching the
-            bottom edges of the front two teeth.
+            bottom edges of the front two teeth
           </p>
-          <p>Flat tongue as normal.</p>
+          <p>Flat tongue as normal</p>
           <hr />
           <p>
             <Link href="jahr">الجھر Al Jahr</Link> 

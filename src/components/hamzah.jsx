@@ -20,7 +20,7 @@ export default function Hamzah() {
           </audio>
           <p>
             <strong>Throat letter</strong> - Furthest part, from the vocal
-            chords.
+            chords
           </p>
           <hr />
           <p>
@@ -47,7 +47,7 @@ export default function Hamzah() {
             <Carousel.Item>
               <img className="d-block mx-auto" src={img4} />
               <Carousel.Caption>
-                <p>When ء and ه are mutharrikah, vocal chords are all open.</p>
+                <p>When ء and ه are mutharrikah, vocal chords are all open</p>
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>

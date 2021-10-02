@@ -16,11 +16,11 @@ export default function Khaa() {
             Your browser does not support the audio element.
           </audio>
           <p>
-            <strong>Throat letter</strong> - Closest to the mouth.
+            <strong>Throat letter</strong> - Closest to the mouth
           </p>
           <p>
             Note that the tongue is dipped in the middle so the sound is
-            directed up to produce a heavy sound.
+            directed up to produce a heavy sound
           </p>
           <hr />
          <p>

@@ -19,7 +19,7 @@ export default function Waw() {
           </audio>
           <p>
             <strong>Lip letter</strong> - Ghair madiya. Lips make a round
-            circle.
+            circle
           </p>
           <hr />
           <p>

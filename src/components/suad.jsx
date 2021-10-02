@@ -17,11 +17,11 @@ export default function Suad() {
           </audio>
           <p>
             <strong>Tongue letter</strong> - Extreme tip of the tongue touching
-            the inner surface at the lower end of the bottom two front teeth.
+            the inner surface at the lower end of the bottom two front teeth
           </p>
           <p>
             Tongue dipped in middle, sound is directed to the top of the mouth
-            so is heavy and trapped.
+            so is heavy and trapped
           </p>
          <p>
             <Link href="safeer">الصفیر As Safeer</Link></p>

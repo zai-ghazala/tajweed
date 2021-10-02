@@ -16,14 +16,14 @@ export default function Meem() {
             Your browser does not support the audio element.
           </audio>
           <p>
-            <strong>Lip letter</strong> - Lips come together.
+            <strong>Lip letter</strong> - Lips come together
           </p>
           <p>Hold lips for longer than ب </p>
           <p>
             Sound comes from the lip makhraj, for the م sound also comes from
-            the nose.
+            the nose
           </p>
-          <p>Tongue relaxed as normal.</p>
+          <p>Tongue relaxed as normal</p>
           <p>
             <Link href="ghunna">الغنھ Al Ghunna</Link> 
           </p>

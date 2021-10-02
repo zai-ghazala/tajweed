@@ -17,9 +17,9 @@ export default function Ain() {
           </audio>
           <p>
             <strong>Throat letter</strong> - Middle of the throat, epiglottis,
-            what stops food going into our windpipe when we eat.
+            what stops food going into our windpipe when we eat
           </p>
-          <p>Tongue is flat.</p>
+          <p>Tongue is flat</p>
           <hr />
           <p>
             <Link href="jahr">الجھر Al Jahr</Link> 

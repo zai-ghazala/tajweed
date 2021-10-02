@@ -17,9 +17,9 @@ export default function Taa() {
           </audio>
           <p>
             <strong>Tongue letter</strong> - Where the extreme tip of the tongue
-            touches the roots of the top front teeth.
+            touches the roots of the top front teeth
           </p>
-          <p>Tongue relaxed as normal.</p>
+          <p>Tongue relaxed as normal</p>
 
           <hr />
 

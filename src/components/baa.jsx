@@ -17,9 +17,9 @@ export default function Baa() {
           </audio>
           <p>
             <strong>Lip letter</strong> - Lips come together then move apart for
-            ب creating a bounce.
+            ب creating a bounce
           </p>
-          <p>Tongue relaxed as normal.</p>
+          <p>Tongue relaxed as normal</p>
  <p>
             <Link href="qalqala">القلقلھ Al Qalqala</Link></p>
           <hr />

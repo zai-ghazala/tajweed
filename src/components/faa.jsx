@@ -17,7 +17,7 @@ export default function Faa() {
           </audio>
           <p>
             <strong>Lip letter</strong> - The edge of the front top teeth
-            touching the inside lower lip.
+            touching the inside lower lip
           </p>
          <p>
             <Link href="hams">الحمص Al Hams</Link>

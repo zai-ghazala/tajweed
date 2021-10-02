@@ -20,7 +20,7 @@ export default function SmallHaa() {
           </audio>
           <p>
             <strong>Throat letter</strong> - Furthest part, from the vocal
-            chords.
+            chords
           </p>
          <p>
             <Link href="hams">الحمص Al Hams</Link>
@@ -41,13 +41,13 @@ export default function SmallHaa() {
             <Carousel.Item>
               <img className="d-block mx-auto" src={img3} />
               <Carousel.Caption>
-                <p>When ء is sakinah, the vocal chords are closed.</p>
+                <p>When ء is sakinah, the vocal chords are closed</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
               <img className="d-block mx-auto" src={img4} />
               <Carousel.Caption>
-                <p>When ء and ه are mutharrikah, vocal chords are all open.</p>
+                <p>When ء and ه are mutharrikah, vocal chords are all open</p>
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
