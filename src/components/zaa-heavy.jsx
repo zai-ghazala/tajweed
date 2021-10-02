@@ -1,5 +1,6 @@
 import * as React from "react";
 import Accordion from "react-bootstrap/Accordion";
+import { Link } from "wouter";
 
 import zaaHeavy from "../assets/audio/zaa-heavy.mp3";
 import img28a from "../assets/1/28a.jpeg"
@@ -24,31 +25,15 @@ export default function ZaaHeavy() {
           </p>
           <hr />
           <p>
-            <strong>الجھر Al Jahr</strong> - <b>No airflow</b> - All letters
-            except <span className="inline-block">فحثه شخص سكت</span>{" "}
-            “Fa-hathu-hu shakhsun sakath”
+            <Link href="jahr">الجھر Al Jahr</Link> 
+          </p>
+        <p>
+            <Link href="rikawah">الرخاوة Al Rikawah</Link>
           </p>
           <p>
-            <strong>الرخاوة Al Rikawah</strong> -{" "}
-            <b>Sound is allowed to flow</b> - Except{" "}
-            <span className="inline-block">أَجِدْ قَطٍ بَكَتْ</span> “Ajid Qatin
-            Bakath” and <span className="inline-block">لن عمر</span> “Lin ‘Umar”
-            all the remaining letters.
-          </p>
-          <p>
-            <strong>الإستــعلاء Al Isti’la</strong> -{" "}
-            <b>
-              Sound is directed upwards between the tongue and the top palate.
-              (Up and inside) This gives the letter the quality of tafkheem
-              which is a thick heaviness
-            </b>{" "}
-            - The following letters{" "}
-            <span className="inline-block">خص ضغط قظ</span>{" "}
-          </p>
-          <p>
-            <strong>الاطباق Al Itbaq</strong> - Sound is retained between tongue
-            and top palate - ص ض ط ظ
-          </p>
+            <Link href="istila">الإستــعلاء Al Isti’la</Link></p>
+        <p>
+            <Link href="itbaq">الاطباق Al Itbaq</Link></p>
           <img className="d-block mx-auto" src={img28a} />
         </Accordion.Body>
       </Accordion.Item>

@@ -1,6 +1,7 @@
 import * as React from "react";
 import Accordion from "react-bootstrap/Accordion";
 import Carousel from "react-bootstrap/Carousel";
+import { Link } from "wouter";
 
 import laam from "../assets/audio/laam.mp3";
 import img13 from "../assets/1/14.jpeg";
@@ -31,34 +32,21 @@ export default function Laam() {
           </p>
           <p>The sound is directed up.</p>
           <p>The tongue is dipped in the middle.</p>
-          <p>
-            <strong>الانحراف Al Inharaf</strong> - ر and ل Diverting the sound
-            of a letter away from its makhraj. Laam is read away from its
-            makhraj and raa moves to a point in its makhraj.
+           <p>
+            <Link href="inharaf">الانحراف Al Inharaf</Link>
           </p>
           <hr />
           <p>
-            <strong>الجھر Al Jahr</strong> - <b>No airflow</b> - All letters
-            except <span className="inline-block">فحثه شخص سكت</span>{" "}
-            “Fa-hathu-hu shakhsun sakath”
+            <Link href="jahr">الجھر Al Jahr</Link> 
           </p>
           <p>
-            <strong>توسط Al Tawassut / البينية Al Bayniyyah</strong> -{" "}
-            <b>Sound is not allowed to flow nor shortened</b> - The letters{" "}
-            <span className="inline-block">لن عمر</span> “Lin ‘Umar”
+            <Link href="tawassut">توسط Al Tawassut / البينية Al Bayniyyah</Link>
           </p>
-          <p>
-            <strong>الاستفال Al Istifal </strong> -{" "}
-            <b>
-              Sound is directed downwards and outwards which gives the sound the
-              quality of tarqeeq which is a lightness
-            </b>{" "}
-            - All letters except <span className="inline-block">خص ضغط قظ</span>{" "}
+         <p>
+            <Link href="istifal">الاستفال Al Istifal</Link>
           </p>
-          <p>
-            <strong>الانفتاح Al Infitah</strong> -{" "}
-            <b>Sound is not retained in the mouth</b> - All letters except ص ض ط
-            ظ
+           <p>
+            <Link href="infitah">الانفتاح Al Infitah</Link>
           </p>
           <Carousel nextLabel={null} prevLabel={null}>
             <Carousel.Item>

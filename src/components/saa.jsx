@@ -1,5 +1,6 @@
 import * as React from "react";
 import Accordion from "react-bootstrap/Accordion";
+import { Link } from "wouter";
 
 import saa from "../assets/audio/saa.mp3";
 import img28 from "../assets/1/28.jpeg";
@@ -23,17 +24,11 @@ export default function Saa() {
         <hr />
 
         <p>
-          <strong>الحمص Al Hams</strong> - <b>With airflow</b> -{" "}
-          <span className="inline-block">فحثه شخص سكت</span> “Fa-hathu-hu
-          shakhsun sakath”
-        </p>
+            <Link href="hams">الحمص Al Hams</Link>
+          </p>
         <p>
-          <strong>الرخاوة Al Rikawah</strong> -{" "}
-          <b>Sound is allowed to flow</b> - Except{" "}
-          <span className="inline-block">أَجِدْ قَطٍ بَكَتْ</span> “Ajid Qatin
-          Bakath” and <span className="inline-block">لن عمر</span> “Lin ‘Umar”
-          all the remaining letters.
-        </p>
+            <Link href="rikawah">الرخاوة Al Rikawah</Link>
+          </p>
         <p>
           <strong>الاستفال Al Istifal </strong> -{" "}
           <b>

@@ -1,5 +1,6 @@
 import * as React from "react";
 import Accordion from "react-bootstrap/Accordion";
+import { Link } from "wouter";
 
 import kaaf from "../assets/audio/kaaf.mp3";
 import img8 from "../assets/1/8.jpeg";
@@ -19,29 +20,16 @@ export default function Kaaf() {
             the hard part of the roof of the mouth meets the soft part.
           </p>
           <hr />
-          <p>
-            <strong>الحمص Al Hams</strong> - <b>With airflow</b> -{" "}
-            <span className="inline-block">فحثه شخص سكت</span> “Fa-hathu-hu
-            shakhsun sakath”
+         <p>
+            <Link href="hams">الحمص Al Hams</Link>
           </p>
-          <p>
-            <strong>الشدۃ Al Shiddah</strong> -{" "}
-            <b>Sound is not allowed to flow</b> -{" "}
-            <span className="inline-block">أَجِدْ قَطٍ بَكَتْ</span> “Ajid Qatin
-            Bakath”
+ <p>
+            <Link href="shiddah">الشدۃ Al Shiddah</Link></p>
+         <p>
+            <Link href="istifal">الاستفال Al Istifal</Link>
           </p>
-          <p>
-            <strong>الاستفال Al Istifal </strong> -{" "}
-            <b>
-              Sound is directed downwards and outwards which gives the sound the
-              quality of tarqeeq which is a lightness
-            </b>{" "}
-            - All letters except <span className="inline-block">خص ضغط قظ</span>{" "}
-          </p>
-          <p>
-            <strong>الانفتاح Al Infitah</strong> -{" "}
-            <b>Sound is not retained in the mouth</b> - All letters except ص ض ط
-            ظ
+           <p>
+            <Link href="infitah">الانفتاح Al Infitah</Link>
           </p>
           <img className="d-block mx-auto" src={img8} />
         </Accordion.Body>

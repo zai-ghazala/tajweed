@@ -1,5 +1,6 @@
 import * as React from "react";
 import Accordion from "react-bootstrap/Accordion";
+import { Link } from "wouter";
 
 import noon from "../assets/audio/noon.mp3";
 import img22 from "../assets/1/22.jpeg";
@@ -27,32 +28,20 @@ export default function Noon() {
             produces the ghunna sifah.
           </p>
           <p>
-            <strong>الغنھ Al Ghunna</strong> - م and ن Sound running through the
-            nasal cavity – this completes ن م{" "}
+            <Link href="ghunna">الغنھ Al Ghunna</Link> 
           </p>
           <hr />
           <p>
-            <strong>الجھر Al Jahr</strong> - <b>No airflow</b> - All letters
-            except <span className="inline-block">فحثه شخص سكت</span>{" "}
-            “Fa-hathu-hu shakhsun sakath”
+            <Link href="jahr">الجھر Al Jahr</Link> 
           </p>
           <p>
-            <strong>توسط Al Tawassut / البينية Al Bayniyyah</strong> -{" "}
-            <b>Sound is not allowed to flow nor shortened</b> - The letters{" "}
-            <span className="inline-block">لن عمر</span> “Lin ‘Umar”
+            <Link href="tawassut">توسط Al Tawassut / البينية Al Bayniyyah</Link>
           </p>
-          <p>
-            <strong>الاستفال Al Istifal </strong> -{" "}
-            <b>
-              Sound is directed downwards and outwards which gives the sound the
-              quality of tarqeeq which is a lightness
-            </b>{" "}
-            - All letters except <span className="inline-block">خص ضغط قظ</span>{" "}
+         <p>
+            <Link href="istifal">الاستفال Al Istifal</Link>
           </p>
-          <p>
-            <strong>الانفتاح Al Infitah</strong> -{" "}
-            <b>Sound is not retained in the mouth</b> - All letters except ص ض ط
-            ظ
+           <p>
+            <Link href="infitah">الانفتاح Al Infitah</Link>
           </p>
           <img className="d-block mx-auto" src={img22} />
         </Accordion.Body>

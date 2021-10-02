@@ -1,6 +1,7 @@
 import * as React from "react";
 import Accordion from "react-bootstrap/Accordion";
 import Carousel from "react-bootstrap/Carousel";
+import { Link } from "wouter";
 
 import hamzah from "../assets/audio/hamzah.mp3";
 import img1 from "../assets/1/1.jpeg";
@@ -23,28 +24,15 @@ export default function Hamzah() {
           </p>
           <hr />
           <p>
-            <strong>الجھر Al Jahr</strong> - <b>No airflow</b> - All letters
-            except <span className="inline-block">فحثه شخص سكت</span>{" "}
-            “Fa-hathu-hu shakhsun sakath”
+            <Link href="jahr">الجھر Al Jahr</Link> 
           </p>
-          <p>
-            <strong>الشدۃ Al Shiddah</strong> -{" "}
-            <b>Sound is not allowed to flow</b> -{" "}
-            <span className="inline-block">أَجِدْ قَطٍ بَكَتْ</span> “Ajid Qatin
-            Bakath”
+ <p>
+            <Link href="shiddah">الشدۃ Al Shiddah</Link></p>
+         <p>
+            <Link href="istifal">الاستفال Al Istifal</Link>
           </p>
-          <p>
-            <strong>الاستفال Al Istifal </strong> -{" "}
-            <b>
-              Sound is directed downwards and outwards which gives the sound the
-              quality of tarqeeq which is a lightness
-            </b>{" "}
-            - All letters except <span className="inline-block">خص ضغط قظ</span>{" "}
-          </p>
-          <p>
-            <strong>الانفتاح Al Infitah</strong> -{" "}
-            <b>Sound is not retained in the mouth</b> - All letters except ص ض ط
-            ظ
+           <p>
+            <Link href="infitah">الانفتاح Al Infitah</Link>
           </p>
           <Carousel nextLabel={null} prevLabel={null}>
             <Carousel.Item>

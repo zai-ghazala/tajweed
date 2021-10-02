@@ -1,5 +1,6 @@
 import * as React from "react";
 import Accordion from "react-bootstrap/Accordion";
+import { Link } from "wouter";
 
 import daal from "../assets/audio/daal.mp3";
 import img27 from "../assets/1/27.jpeg";
@@ -19,39 +20,19 @@ export default function Daal() {
             touches the roots of the top front teeth.
           </p>
           <p>Tongue relaxed as normal.</p>
-          <p>
-            <strong>القلقلھ Al Qalqala</strong> - ق ط ب ج د Bouncing of the
-            sound from the makhraj in these sakinah letters after shiddah
-            occurs.
-          </p>
+ <p>
+            <Link href="qalqala">القلقلھ Al Qalqala</Link></p>
           <hr />
           <p>
-            <strong>الجھر Al Jahr</strong> - <b>No airflow</b> - All letters
-            except <span className="inline-block">فحثه شخص سكت</span>{" "}
-            “Fa-hathu-hu shakhsun sakath”
+            <Link href="jahr">الجھر Al Jahr</Link> 
           </p>
-          <p>
-            <strong>الشدۃ Al Shiddah</strong> -{" "}
-            <b>Sound is not allowed to flow</b> -{" "}
-            <span className="inline-block">أَجِدْ قَطٍ بَكَتْ</span> “Ajid Qatin
-            Bakath”
+ <p>
+            <Link href="shiddah">الشدۃ Al Shiddah</Link></p>
+  <p>
+            <Link href="istifal">الاستفال Al Istifal</Link>
           </p>
-          <p>
-            <strong>الاستفال Al Istifal </strong> -{" "}
-            <b>
-              Sound is directed downwards and outwards which gives the sound the
-              quality of tarqeeq which is a lightness
-            </b>{" "}
-            - All letters except{" "}
-            <span className="inline-block">
-              {" "}
-              <span className="inline-block">خص ضغط قظ</span>{" "}
-            </span>{" "}
-          </p>
-          <p>
-            <strong>الانفتاح Al Infitah</strong> -{" "}
-            <b>Sound is not retained in the mouth</b> - All letters except ص ض ط
-            ظ
+           <p>
+            <Link href="infitah">الانفتاح Al Infitah</Link>
           </p>
           <img className="d-block mx-auto" src={img27} />
         </Accordion.Body>

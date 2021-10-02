@@ -1,6 +1,7 @@
 import * as React from "react";
 import Accordion from "react-bootstrap/Accordion";
 import Carousel from "react-bootstrap/Carousel";
+import { Link } from "wouter";
 
 import waw from "../assets/audio/waw.mp3";
 import img30 from "../assets/1/30.jpeg";
@@ -22,29 +23,16 @@ export default function Waw() {
           </p>
           <hr />
           <p>
-            <strong>الجھر Al Jahr</strong> - <b>No airflow</b> - All letters
-            except <span className="inline-block">فحثه شخص سكت</span>{" "}
-            “Fa-hathu-hu shakhsun sakath”
+            <Link href="jahr">الجھر Al Jahr</Link> 
           </p>
-          <p>
-            <strong>الرخاوة Al Rikawah</strong> -{" "}
-            <b>Sound is allowed to flow</b> - Except{" "}
-            <span className="inline-block">أَجِدْ قَطٍ بَكَتْ</span> “Ajid Qatin
-            Bakath” and <span className="inline-block">لن عمر</span> “Lin ‘Umar”
-            all the remaining letters.
+        <p>
+            <Link href="rikawah">الرخاوة Al Rikawah</Link>
           </p>
-          <p>
-            <strong>الاستفال Al Istifal </strong> -{" "}
-            <b>
-              Sound is directed downwards and outwards which gives the sound the
-              quality of tarqeeq which is a lightness
-            </b>{" "}
-            - All letters except <span className="inline-block">خص ضغط قظ</span>{" "}
+         <p>
+            <Link href="istifal">الاستفال Al Istifal</Link>
           </p>
-          <p>
-            <strong>الانفتاح Al Infitah</strong> -{" "}
-            <b>Sound is not retained in the mouth</b> - All letters except ص ض ط
-            ظ
+           <p>
+            <Link href="infitah">الانفتاح Al Infitah</Link>
           </p>
           <Carousel nextLabel={null} prevLabel={null}>
             <Carousel.Item>
