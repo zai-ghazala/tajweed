@@ -99,7 +99,7 @@ export default function Home() {
           <hr />
 
           <p>
-            <strong>الجحر Al Jahr</strong> - <b>No airflow</b> - All letters
+            <strong>الجھر Al Jahr</strong> - <b>No airflow</b> - All letters
             except <span className="inline-block">فحثه شخص سكت</span>{" "}
             “Fa-hathu-hu shakhsun sakath”
           </p>
@@ -230,7 +230,7 @@ export default function Home() {
           </p>
           <hr />
           <p>
-            <strong>الجحر Al Jahr</strong> - <b>No airflow</b> - All letters
+            <strong>الجھر Al Jahr</strong> - <b>No airflow</b> - All letters
             except <span className="inline-block">فحثه شخص سكت</span>{" "}
             “Fa-hathu-hu shakhsun sakath”
           </p>
@@ -362,7 +362,7 @@ export default function Home() {
           </p>
           <hr />
           <p>
-            <strong>الجحر Al Jahr</strong> - <b>No airflow</b> - All letters
+            <strong>الجھر Al Jahr</strong> - <b>No airflow</b> - All letters
             except <span className="inline-block">فحثه شخص سكت</span>{" "}
             “Fa-hathu-hu shakhsun sakath”
           </p>
@@ -406,7 +406,7 @@ export default function Home() {
           <p>Flat tongue as normal.</p>
           <hr />
           <p>
-            <strong>الجحر Al Jahr</strong> - <b>No airflow</b> - All letters
+            <strong>الجھر Al Jahr</strong> - <b>No airflow</b> - All letters
             except <span className="inline-block">فحثه شخص سكت</span>{" "}
             “Fa-hathu-hu shakhsun sakath”
           </p>
@@ -474,7 +474,7 @@ export default function Home() {
           </p>
           <hr />
           <p>
-            <strong>الجحر Al Jahr</strong> - <b>No airflow</b> - All letters
+            <strong>الجھر Al Jahr</strong> - <b>No airflow</b> - All letters
             except <span className="inline-block">فحثه شخص سكت</span>{" "}
             “Fa-hathu-hu shakhsun sakath”
           </p>
@@ -736,7 +736,7 @@ export default function Home() {
           </p>
           <hr />
           <p>
-            <strong>الجحر Al Jahr</strong> - <b>No airflow</b> - All letters
+            <strong>الجھر Al Jahr</strong> - <b>No airflow</b> - All letters
             except <span className="inline-block">فحثه شخص سكت</span>{" "}
             “Fa-hathu-hu shakhsun sakath”
           </p>
@@ -798,7 +798,7 @@ export default function Home() {
           </p>
           <hr />
           <p>
-            <strong>الجحر Al Jahr</strong> - <b>No airflow</b> - All letters
+            <strong>الجھر Al Jahr</strong> - <b>No airflow</b> - All letters
             except <span className="inline-block">فحثه شخص سكت</span>{" "}
             “Fa-hathu-hu shakhsun sakath”
           </p>
@@ -842,7 +842,7 @@ export default function Home() {
           </p>
           <hr />
           <p>
-            <strong>الجحر Al Jahr</strong> - <b>No airflow</b> - All letters
+            <strong>الجھر Al Jahr</strong> - <b>No airflow</b> - All letters
             except <span className="inline-block">فحثه شخص سكت</span>{" "}
             “Fa-hathu-hu shakhsun sakath”
           </p>
@@ -884,7 +884,7 @@ export default function Home() {
           <p>Tongue is flat.</p>
           <hr />
           <p>
-            <strong>الجحر Al Jahr</strong> - <b>No airflow</b> - All letters
+            <strong>الجھر Al Jahr</strong> - <b>No airflow</b> - All letters
             except <span className="inline-block">فحثه شخص سكت</span>{" "}
             “Fa-hathu-hu shakhsun sakath”
           </p>
@@ -929,7 +929,7 @@ export default function Home() {
           </p>
           <hr />
           <p>
-            <strong>الجحر Al Jahr</strong> - <b>No airflow</b> - All letters
+            <strong>الجھر Al Jahr</strong> - <b>No airflow</b> - All letters
             except <span className="inline-block">فحثه شخص سكت</span>{" "}
             “Fa-hathu-hu shakhsun sakath”
           </p>
@@ -1017,7 +1017,7 @@ export default function Home() {
           </p>
           <hr />
           <p>
-            <strong>الجحر Al Jahr</strong> - <b>No airflow</b> - All letters
+            <strong>الجھر Al Jahr</strong> - <b>No airflow</b> - All letters
             except <span className="inline-block">فحثه شخص سكت</span>{" "}
             “Fa-hathu-hu shakhsun sakath”
           </p>
@@ -1112,7 +1112,7 @@ export default function Home() {
           </p>
           <hr />
           <p>
-            <strong>الجحر Al Jahr</strong> - <b>No airflow</b> - All letters
+            <strong>الجھر Al Jahr</strong> - <b>No airflow</b> - All letters
             except <span className="inline-block">فحثه شخص سكت</span>{" "}
             “Fa-hathu-hu shakhsun sakath”
           </p>
@@ -1181,7 +1181,7 @@ export default function Home() {
           </p>
           <hr />
           <p>
-            <strong>الجحر Al Jahr</strong> - <b>No airflow</b> - All letters
+            <strong>الجھر Al Jahr</strong> - <b>No airflow</b> - All letters
             except <span className="inline-block">فحثه شخص سكت</span>{" "}
             “Fa-hathu-hu shakhsun sakath”
           </p>
@@ -1231,7 +1231,7 @@ export default function Home() {
           </p>
           <hr />
           <p>
-            <strong>الجحر Al Jahr</strong> - <b>No airflow</b> - All letters
+            <strong>الجھر Al Jahr</strong> - <b>No airflow</b> - All letters
             except <span className="inline-block">فحثه شخص سكت</span>{" "}
             “Fa-hathu-hu shakhsun sakath”
           </p>
@@ -1269,7 +1269,7 @@ export default function Home() {
           </p>
           <hr />
           <p>
-            <strong>الجحر Al Jahr</strong> - <b>No airflow</b> - All letters
+            <strong>الجھر Al Jahr</strong> - <b>No airflow</b> - All letters
             except <span className="inline-block">فحثه شخص سكت</span>{" "}
             “Fa-hathu-hu shakhsun sakath”
           </p>
@@ -1371,7 +1371,7 @@ export default function Home() {
           </p>
           <hr />
           <p>
-            <strong>الجحر Al Jahr</strong> - <b>No airflow</b> - All letters
+            <strong>الجھر Al Jahr</strong> - <b>No airflow</b> - All letters
             except <span className="inline-block">فحثه شخص سكت</span>{" "}
             “Fa-hathu-hu shakhsun sakath”
           </p>
@@ -1431,7 +1431,7 @@ export default function Home() {
           </p>
           <hr />
           <p>
-            <strong>الجحر Al Jahr</strong> - <b>No airflow</b> - All letters
+            <strong>الجھر Al Jahr</strong> - <b>No airflow</b> - All letters
             except <span className="inline-block">فحثه شخص سكت</span>{" "}
             “Fa-hathu-hu shakhsun sakath”
           </p>
