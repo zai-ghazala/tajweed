@@ -8,6 +8,7 @@ import Taa from "../components/taa";
 import Jeem from "../components/jeem";
 import Daal from "../components/daal";
 import TaaHeavy from "../components/taa-heavy";
+import Qaaf from "../components/qaaf";
 import Kaaf from "../components/kaaf";
 import Hamzah from "../components/hamzah";
 
