@@ -13,7 +13,7 @@ export default function Qalqala() {
     <div className="tajweed-group">
     <h1>القلقلھ Al Qalqala</h1><p><b>Bouncing of the
     sound from the makhraj in these sakinah letters after shiddah
-    occurs.</b></p>
+    occurs</b></p>
     </div>
     <Accordion>
       <Baa/>
