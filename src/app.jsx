@@ -1,5 +1,5 @@
 import React from "react";
-import { Router } from "wouter";
+import { Router, Link } from "wouter";
 /**
  * This code defines the react app
  *
@@ -29,6 +29,7 @@ export default function Home() {
     <Router hook={useHashLocation}>
       <Seo />
       <main role="main" className="wrapper">
+      <div className="return"><Link href="/">🕌</Link></div>
       <div className="content"><PageRouter /></div>
       </main>
     </Router>

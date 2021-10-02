@@ -258,11 +258,19 @@ audio {
 b, a:hover {
   opacity: 0.75
 }
-.tajweed-group {
+.tajweed-group, .return {
   padding: 1rem
 }
 h1 {
   margin: auto;
   letter-spacing: 1px;
   font-variant: small-caps
+}
+.return {
+  text-align: right;
+  font-size: 2em
+}
+a {
+  color: var(--color-text-main) !important;
+  font-weight: bold
 }
