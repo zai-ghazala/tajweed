@@ -409,6 +409,10 @@ export default function Home() {
             {" "}<span className="inline-block">فحثه شخص سكت</span>{" "} “Fa-hathu-hu shakhsun sakath”
           </p>
           <p>
+            <strong>توسط Al Tawassut</strong> - <b>Sound is not allowed to flow nor
+            shortened</b> - The letters {" "}<span className="inline-block">لن عمر</span>{" "} “Lin ‘Umar”
+          </p>
+          <p>
             <strong>الاستفال Al Istifal </strong> - <b>Sound is directed downwards
             and outwards which gives the sound the quality of tarqeeq which is a
             lightness</b> - All letters except {" "}<span className="inline-block">{" "}<span className="inline-block">خص ضغط قظ</span>{" "}</span>{" "}
