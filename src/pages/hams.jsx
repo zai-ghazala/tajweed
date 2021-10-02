@@ -20,7 +20,7 @@ export default function Hams() {
     <h1>الحمص Al Hams</h1>
     <p>
     <b>With airflow</b></p><p>
-            <span className="inline-block">فحثه شخص سكت</span> “Fa-hathu-hu
+            {" "}<span className="inline-block">فحثه شخص سكت</span>{" "} “Fa-hathu-hu
             shakhsun sakath”
           </p>
           </div>

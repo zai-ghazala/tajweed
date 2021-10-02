@@ -11,8 +11,8 @@ export default function Ghunna() {
     <h1>Al Ghunna</h1>
     <p>
     <b>Sound is allowed to flow</b></p><p>Except
-            <span className="inline-block">أَجِدْ قَطٍ بَكَتْ</span> “Ajid Qatin
-            Bakath” and <span className="inline-block">لن عمر</span> “Lin ‘Umar”
+            {" "}<span className="inline-block">أَجِدْ قَطٍ بَكَتْ</span>{" "} “Ajid Qatin
+            Bakath” and {" "}<span className="inline-block">لن عمر</span>{" "} “Lin ‘Umar”
             all the remaining letters.
           </p>
     </div>

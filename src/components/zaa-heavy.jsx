@@ -18,7 +18,7 @@ export default function ZaaHeavy() {
           <p>
             <strong>Tongue letter</strong> - Tip of the tongue touching the
             bottom edges of the front two teeth.
-          </p>{" "}
+          </p>
           <p>
             Tongue dipped in middle, sound is directed to the top of the mouth
             so is heavy and trapped.

@@ -18,7 +18,7 @@ export default function TaaHeavy() {
           <p>
             <strong>Tongue letter</strong> - Where the extreme tip of the tongue
             touches the roots of the top front teeth.
-          </p>{" "}
+          </p>
           <p>
             Tongue dipped in middle, sound is directed to the top of the mouth
             so is heavy and trapped.

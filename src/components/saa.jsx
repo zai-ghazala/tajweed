@@ -30,15 +30,15 @@ export default function Saa() {
             <Link href="rikawah">الرخاوة Al Rikawah</Link>
           </p>
         <p>
-          <strong>الاستفال Al Istifal </strong> -{" "}
+          <strong>الاستفال Al Istifal </strong> -
           <b>
             Sound is directed downwards and outwards which gives the sound the
             quality of tarqeeq which is a lightness
-          </b>{" "}
-          - All letters except <span className="inline-block">خص ضغط قظ</span>{" "}
+          </b>
+          - All letters except {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
         </p>
         <p>
-          <strong>الانفتاح Al Infitah</strong> -{" "}
+          <strong>الانفتاح Al Infitah</strong> -
           <b>Sound is not retained in the mouth</b> - All letters except ص ض ط
           ظ
         </p>

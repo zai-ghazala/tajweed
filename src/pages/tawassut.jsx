@@ -13,7 +13,7 @@ export default function Tawassut() {
     <div className="tajweed-group">
     <h1>توسط Al Tawassut / البينية Al Bayniyyah</h1><p>
     <b>Sound is not allowed to flow nor shortened</b></p><p>The letters 
-    <span className="inline-block">لن عمر</span> “Lin ‘Umar”
+    {" "}<span className="inline-block">لن عمر</span>{" "} “Lin ‘Umar”
   </p>
   </div>
     <Accordion>

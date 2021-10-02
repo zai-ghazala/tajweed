@@ -18,7 +18,7 @@ export default function Zaal() {
           <p>
             <strong>Tongue letter</strong> - Tip of the tongue touching the
             bottom edges of the front two teeth.
-          </p>{" "}
+          </p>
           <p>Flat tongue as normal.</p>
           <hr />
           <p>

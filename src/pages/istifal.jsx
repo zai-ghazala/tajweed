@@ -30,7 +30,7 @@ export default function Istifal() {
       <h1>الاستفال Al Istifal </h1> <p><b>Sound is directed downwards and outwards which gives the sound the
               quality of tarqeeq which is a lightness
             </b></p><p>
-            All letters except <span className="inline-block">خص ضغط قظ</span>
+            All letters except {" "}<span className="inline-block">خص ضغط قظ</span>{" "}
           </p>
           </div>
     <Accordion>
