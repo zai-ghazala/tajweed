@@ -151,7 +151,7 @@ export default function Home() {
             <strong>الانفتاح Al Infitah</strong> - <b>Sound is not retained in the
             mouth</b> - All letters except ص ض ط ظ
           </p>
-          <img className="d-block mx-auto" src={img28} />
+          <img className="d-block mx-auto" src={img27} />
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="3">
@@ -186,7 +186,7 @@ export default function Home() {
             <strong>الانفتاح Al Infitah</strong> - <b>Sound is not retained in the
             mouth</b> - All letters except ص ض ط ظ
           </p>
-          <img className="d-block mx-auto" src={img27} />
+          <img className="d-block mx-auto" src={img28} />
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="4">
@@ -279,8 +279,9 @@ export default function Home() {
             <strong>الحمص Al Hams</strong> - <b>With airflow</b> - {" "}<span className="inline-block">فحثه شخص سكت</span>{" "}“Fa-hathu-hu shakhsun sakath”
           </p>
           <p>
-            <strong>الشدۃ Al Shiddah</strong> - <b>Sound is not allowed to flow</b> -
-            {" "}<span className="inline-block">أَجِدْ قَطٍ بَكَتْ</span>{" "} “Ajid Qatin Bakath”
+            <strong>الرخاوة Al Rikawah</strong> - <b>Sound is allowed to flow</b> -
+            Except {" "}<span className="inline-block">أَجِدْ قَطٍ بَكَتْ</span>{" "} “Ajid Qatin Bakath” and {" "}<span className="inline-block">لن عمر</span>{" "} “Lin ‘Umar”
+            all the remaining letters.
           </p>
           <p>
             <strong>الإستــعلاء Al Isti’la</strong> - <b>Sound is directed upwards
@@ -330,7 +331,7 @@ export default function Home() {
             <strong>الانفتاح Al Infitah</strong> - <b>Sound is not retained in the
             mouth</b> - All letters except ص ض ط ظ
           </p>
-          <img className="d-block mx-auto" src={img28} />
+          <img className="d-block mx-auto" src={img27} />
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="8">
@@ -364,7 +365,7 @@ export default function Home() {
             <strong>الانفتاح Al Infitah</strong> - <b>Sound is not retained in the
             mouth</b> - All letters except ص ض ط ظ
           </p>
-          <img className="d-block mx-auto" src={img27} />
+          <img className="d-block mx-auto" src={img28} />
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="9">
