@@ -14,13 +14,10 @@ body {
   font-size: calc(1em + 0.25vw) !important;
   overflow-x: hidden;
 }
-.accordion-item .accordion-button {
-    font-family: 'Noto Sans Arabic';
-    font-size: calc(2em + 1vw);
-    color: var(--color-text-main);
-    text-decoration: none;
-    display: block;
-    padding: 2vw 0 2vw 3vw;
+.accordion-button {
+    font-family: 'Noto Sans Arabic' !important;
+    font-size: calc(2em + 1vw) !important;
+    color: var(--color-text-main) !important;
 }
 strong {
   font-family: Lora;
@@ -31,91 +28,91 @@ strong {
 .accordion-button:hover, .accordion-button:not(.collapsed) {
   color: yellow !important;
 }
-.accordion-item:nth-of-type(1) .accordion-button, .accordion-item:nth-of-type(1) hr {
+.alif .accordion-button, .alif .accordion-item hr, .alif .accordion-button:not(.collapsed) {
   background-color: #cc95c0
 }
-.accordion-item:nth-of-type(2) .accordion-button, .accordion-item:nth-of-type(2) hr{
+.baa .accordion-button, .baa .accordion-item hr, .baa .accordion-button:not(.collapsed) {
   background-color: #da99b7
 }
-.accordion-item:nth-of-type(3) .accordion-button, .accordion-item:nth-of-type(3) hr{
+.taa .accordion-button, .taa .accordion-item hr, .taa .accordion-button:not(.collapsed) {
   background-color: #e39fae
 }
-.accordion-item:nth-of-type(4) .accordion-button, .accordion-item:nth-of-type(4) hr {
+.saa .accordion-button, .saa .accordion-item hr, .saa .accordion-button:not(.collapsed) {
   background-color: #e7a6a7
 }
-.accordion-item:nth-of-type(5) .accordion-button, .accordion-item:nth-of-type(5) hr {
+.jeem .accordion-button, .jeem .accordion-item hr, .jeem .accordion-button:not(.collapsed) {
   background-color: #e8afa3
 }
-.accordion-item:nth-of-type(6) .accordion-button, .accordion-item:nth-of-type(6) hr {
+.haa .accordion-button, .haa .accordion-item hr, .haa .accordion-button:not(.collapsed) {
   background-color: #e8afa3
 }
-.accordion-item:nth-of-type(7) .accordion-button, .accordion-item:nth-of-type(7) hr {
+.khaa .accordion-button, .khaa .accordion-item hr, .khaa .accordion-button:not(.collapsed) {
   background-color: #e8b4a2
 }
-.accordion-item:nth-of-type(8) .accordion-button, .accordion-item:nth-of-type(8) hr {
+.daal .accordion-button, .daal .accordion-item hr, .daal .accordion-button:not(.collapsed) {
   background-color: #e7baa3
 }
-.accordion-item:nth-of-type(9) .accordion-button, .accordion-item:nth-of-type(9) hr {
+.zaal .accordion-button, .zaal .accordion-item hr, .zaal .accordion-button:not(.collapsed) {
   background-color: #e5bfa4
 }
-.accordion-item:nth-of-type(10) .accordion-button, .accordion-item:nth-of-type(10) hr {
+.raa .accordion-button, .raa .accordion-item hr, .raa .accordion-button:not(.collapsed) {
   background-color: #e2c5a6
 }
-.accordion-item:nth-of-type(11) .accordion-button, .accordion-item:nth-of-type(11) hr {
+.zaai .accordion-button, .zaai .accordion-item hr, .zaai .accordion-button:not(.collapsed) {
   background-color: #e0caaa
 }
-.accordion-item:nth-of-type(12) .accordion-button, .accordion-item:nth-of-type(12) hr {
+.seen .accordion-button, .seen .accordion-item hr, .seen .accordion-button:not(.collapsed) {
   background-color: #ddcfaf
 }
-.accordion-item:nth-of-type(13) .accordion-button, .accordion-item:nth-of-type(13) hr {
+.sheen .accordion-button, .sheen .accordion-item hr, .sheen .accordion-button:not(.collapsed) {
   background-color: #dbd4b4
 }
-.accordion-item:nth-of-type(14) .accordion-button, .accordion-item:nth-of-type(14) hr {
+.suad .accordion-button, .suad .accordion-item hr , .suad .accordion-button:not(.collapsed){
   background-color: #d0d2b0
 }
-.accordion-item:nth-of-type(15) .accordion-button, .accordion-item:nth-of-type(15) hr {
+.duad .accordion-button, .duad .accordion-item hr, .duad .accordion-button:not(.collapsed) {
   background-color: #c4d1ae
 }
-.accordion-item:nth-of-type(16) .accordion-button, .accordion-item:nth-of-type(16) hr {
+.taa-heavy .accordion-button, .taa-heavy .accordion-item hr, .taa-heavy .accordion-button:not(.collapsed) {
   background-color: #aacdaf
 }
-.accordion-item:nth-of-type(17) .accordion-button, .accordion-item:nth-of-type(17) hr {
+.zaa-heavy .accordion-button, .zaa-heavy .accordion-item hr, .zaa-heavy .accordion-button:not(.collapsed) {
   background-color: #9ccab2
 }
-.accordion-item:nth-of-type(18) .accordion-button, .accordion-item:nth-of-type(18) hr {
+.ain .accordion-button, .ain .accordion-item hr, .ain .accordion-button:not(.collapsed) {
   background-color: #8fc8b6
 }
-.accordion-item:nth-of-type(19) .accordion-button, .accordion-item:nth-of-type(19) hr {
+.gain .accordion-button, .gain .accordion-item hr, .gain .accordion-button:not(.collapsed) {
   background-color: #83c5bb
 }
-.accordion-item:nth-of-type(20) .accordion-button, .accordion-item:nth-of-type(20) hr {
+.faa .accordion-button, .faa .accordion-item hr, .faa .accordion-button:not(.collapsed) {
   background-color: #78c1c0
 }
-.accordion-item:nth-of-type(21) .accordion-button, .accordion-item:nth-of-type(21) hr {
+.qaaf .accordion-button, .qaaf .accordion-item hr, .qaaf .accordion-button:not(.collapsed) {
   background-color: #6fbdc6
 }
-.accordion-item:nth-of-type(22) .accordion-button, .accordion-item:nth-of-type(22) hr {
+.kaaf .accordion-button, .kaaf .accordion-item hr, .kaaf .accordion-button:not(.collapsed) {
   background-color: #69b9cb
 }
-.accordion-item:nth-of-type(23) .accordion-button, .accordion-item:nth-of-type(23) hr {
+.laam .accordion-button, .laam .accordion-item hr, .laam .accordion-button:not(.collapsed) {
   background-color: #67b4cf
 }
-.accordion-item:nth-of-type(24) .accordion-button, .accordion-item:nth-of-type(24) hr {
+.meem .accordion-button, .meem .accordion-item hr, .meem .accordion-button:not(.collapsed) {
   background-color: #6aaed2
 }
-.accordion-item:nth-of-type(25) .accordion-button, .accordion-item:nth-of-type(25) hr {
+.noon .accordion-button, .noon .accordion-item hr, .noon .accordion-button:not(.collapsed) {
   background-color: #70a8d3
 }
-.accordion-item:nth-of-type(26) .accordion-button, .accordion-item:nth-of-type(26) hr {
+.waw .accordion-button, .waw .accordion-item hr, .waw .accordion-button:not(.collapsed) {
   background-color: #97bdde
 }
-.accordion-item:nth-of-type(27) .accordion-button, .accordion-item:nth-of-type(27) hr {
+.small-haa .accordion-button, .small-haa .accordion-item hr, .small-haa .accordion-button:not(.collapsed) {
   background-color: #bad3e9
 }
-.accordion-item:nth-of-type(28) .accordion-button, .accordion-item:nth-of-type(28) hr {
+.hamzah .accordion-button, .hamzah .accordion-item hr, .hamzah .accordion-button:not(.collapsed) {
   background-color: #ccd9e6
 }
-.accordion-item:nth-of-type(29) .accordion-button, .accordion-item:nth-of-type(29) hr {
+.yaa .accordion-button, .yaa .accordion-item hr, .yaa .accordion-button:not(.collapsed)  {
   background-color: #ffffff
 }
 *::-webkit-scrollbar {
@@ -163,91 +160,91 @@ audio {
   transform: translateX(-50%);
   margin-bottom: 1em
 }
-.accordion-item:nth-of-type(1) strong  {
+.alif .accordion-item strong  {
   color: #cc95c0;
 }
-.accordion-item:nth-of-type(2) strong {
+.baa .accordion-item strong {
   color: #da99b7
 }
-.accordion-item:nth-of-type(3) strong {
+.taa .accordion-item strong {
   color: #e39fae
 }
-.accordion-item:nth-of-type(4) strong {
+.saa .accordion-item strong {
   color: #e7a6a7
 }
-.accordion-item:nth-of-type(5) strong {
+.jeem .accordion-item strong {
   color: #e8afa3
 }
-.accordion-item:nth-of-type(6) strong {
+.haa .accordion-item strong {
   color: #e8afa3
 }
-.accordion-item:nth-of-type(7) strong {
+.khaa .accordion-item strong {
   color: #e8b4a2
 }
-.accordion-item:nth-of-type(8) strong {
+.daal .accordion-item strong {
   color: #e7baa3
 }
-.accordion-item:nth-of-type(9) strong {
+.zaal .accordion-item strong {
   color: #e5bfa4
 }
-.accordion-item:nth-of-type(10) strong {
+.raa .accordion-item strong {
   color: #e2c5a6
 }
-.accordion-item:nth-of-type(11) strong {
+.zaai .accordion-item strong {
   color: #e0caaa
 }
-.accordion-item:nth-of-type(12) strong {
+.seen .accordion-item strong {
   color: #ddcfaf
 }
-.accordion-item:nth-of-type(13) strong {
+.sheen .accordion-item strong {
   color: #dbd4b4
 }
-.accordion-item:nth-of-type(14) strong {
+.suad .accordion-item strong {
   color: #d0d2b0
 }
-.accordion-item:nth-of-type(15) strong {
+.duad .accordion-item strong {
   color: #c4d1ae
 }
-.accordion-item:nth-of-type(16) strong {
+.taa-heavy .accordion-item strong {
   color: #aacdaf
 }
-.accordion-item:nth-of-type(17) strong {
+.zaa-heavy .accordion-item strong {
   color: #9ccab2
 }
-.accordion-item:nth-of-type(18) strong {
+.ain .accordion-item strong {
   color: #8fc8b6
 }
-.accordion-item:nth-of-type(19) strong {
+.gain .accordion-item strong {
   color: #83c5bb
 }
-.accordion-item:nth-of-type(20) strong {
+.faa .accordion-item strong {
   color: #78c1c0
 }
-.accordion-item:nth-of-type(21) strong {
+.qaaf .accordion-item strong {
   color: #6fbdc6
 }
-.accordion-item:nth-of-type(22) strong {
+.kaaf .accordion-item strong {
   color: #69b9cb
 }
-.accordion-item:nth-of-type(23) strong {
+.laam .accordion-item strong {
   color: #67b4cf
 }
-.accordion-item:nth-of-type(24) strong {
+.meem .accordion-item strong {
   color: #6aaed2
 }
-.accordion-item:nth-of-type(25)  strong{
+.noon .accordion-item  strong{
   color: #70a8d3
 }
-.accordion-item:nth-of-type(26)  strong {
+.waw .accordion-item  strong {
   color: #97bdde
 }
-.accordion-item:nth-of-type(27) strong {
+.small-haa .accordion-item strong {
   color: #bad3e9
 }
-.accordion-item:nth-of-type(28) strong {
+.hamzah .accordion-item strong {
   color: #ccd9e6
 }
-.accordion-item:nth-of-type(29) strong {
+.yaa .accordion-item strong {
   color: var(--color-text-main)
 }
 .inline-block {
