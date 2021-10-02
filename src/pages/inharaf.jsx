@@ -1,12 +1,15 @@
 import * as React from "react";
 import Accordion from "react-bootstrap/Accordion";
 
+import ScrollToTop from "../components/scroll-to-top.jsx";
+
 import Raa from "../components/raa";
 import Laam from "../components/laam";
 
 export default function Inharaf() {
   return (
     <>
+    <ScrollToTop/>
     <div className="tajweed-group">
     <p>
     <h1>الانحراف Al Inharaf</h1><p><b>Diverting the sound

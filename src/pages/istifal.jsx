@@ -1,6 +1,8 @@
 import * as React from "react";
 import Accordion from "react-bootstrap/Accordion";
 
+import ScrollToTop from "../components/scroll-to-top.jsx";
+
 import Baa from "../components/baa";
 import Taa from "../components/taa";
 import Saa from "../components/saa";
@@ -26,6 +28,7 @@ import Yaa from "../components/yaa";
 export default function Istifal() {
   return (
     <>
+    <ScrollToTop/>
     <div className="tajweed-group">
       <h1>الاستفال Al Istifal </h1> <p><b>Sound is directed downwards and outwards which gives the sound the
               quality of tarqeeq which is a lightness

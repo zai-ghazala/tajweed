@@ -1,6 +1,8 @@
 import * as React from "react";
 import Accordion from "react-bootstrap/Accordion";
 
+import ScrollToTop from "../components/scroll-to-top.jsx";
+
 import Saa from "../components/taa";
 import Haa from "../components/haa";
 import Khaa from "../components/khaa";
@@ -21,6 +23,7 @@ import Yaa from "../components/yaa";
 export default function Rikawah() {
   return (
     <>
+    <ScrollToTop/>
     <div className="tajweed-group">
     <h1>الرخاوة Al Rikawah</h1><p>
             <b>Sound is allowed to flow</b></p><p>Except

@@ -1,6 +1,8 @@
 import * as React from "react";
 import Accordion from "react-bootstrap/Accordion";
 
+import ScrollToTop from "../components/scroll-to-top.jsx";
+
 import Taa from "../components/taa";
 import Saa from "../components/saa";
 import Haa from "../components/haa";
@@ -16,6 +18,7 @@ import SmallHaa from "../components/small-haa";
 export default function Hams() {
   return (
     <>
+    <ScrollToTop/>
     <div className="tajweed-group">
     <h1>الحمص Al Hams</h1>
     <p>

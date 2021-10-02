@@ -1,5 +1,6 @@
 import * as React from "react";
 import { Switch, Route } from "wouter";
+
 import Home from "../pages/home";
 import Ghunna from "../pages/ghunna";
 import Hams from "../pages/hams";

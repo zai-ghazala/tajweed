@@ -1,6 +1,8 @@
 import * as React from "react";
 import Accordion from "react-bootstrap/Accordion";
 
+import ScrollToTop from "../components/scroll-to-top.jsx";
+
 import Baa from "../components/baa";
 import Jeem from "../components/jeem";
 import Daal from "../components/daal";
@@ -22,6 +24,7 @@ import Yaa from "../components/yaa";
 export default function Jahr() {
   return (
     <>
+    <ScrollToTop/>
     <div className="tajweed-group">
     <h1>Al Jahr</h1>
     <p>
