@@ -21,9 +21,6 @@ body {
     font-size: calc(2em + 1vw) !important;
     color: var(--color-text-main) !important;
 }
-.accordion-header button, .return a {
-  text-shadow: 3px 3px #fff;
-}
 a, strong {
   font-family: Lora;
   letter-spacing: 1.5px;
