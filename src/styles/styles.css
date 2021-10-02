@@ -128,18 +128,6 @@ h1 {
 .yaa .accordion-item hr {
   background-color: var(--color-text-main)
 }
-*::-webkit-scrollbar {
-  width: 3vw;
-  -webkit-appearance: none;
-}
-
-*::-webkit-scrollbar-track {
-  background: var(--color-text-main)
-}
-
-*::-webkit-scrollbar-thumb {
-  background-color: #fff;
-}
 .carousel-control-prev-icon,
 .carousel-control-next-icon,
 .carousel-caption {
