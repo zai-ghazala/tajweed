@@ -270,7 +270,3 @@ h1 {
   text-align: right;
   font-size: 2em
 }
-a {
-  color: var(--color-text-main) !important;
-  font-weight: bold
-}
