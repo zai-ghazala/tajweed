@@ -33,17 +33,16 @@ export default function Rikawah() {
     <Accordion>
       <Saa/>
       <Haa/>
-      <Khaa/>
       <Zaal/>
       <Zaai/>
       <Seen/>
       <Sheen/>
       <Suad/>
       <Duad/>
-      <ZaaHeavy/>
+      <TaaHeavy/>
       <Gain/>
       <Faa/>
-      <Qaaf/>
+      <Kaaf/>
       <Waw/>
       <SmallHaa/>
       <Yaa/>

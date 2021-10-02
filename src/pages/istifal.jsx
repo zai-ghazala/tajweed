@@ -37,6 +37,7 @@ export default function Istifal() {
           </p>
           </div>
     <Accordion>
+      <Alif/>
       <Baa/>
       <Taa/>
       <Saa/>

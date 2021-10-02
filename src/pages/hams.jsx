@@ -7,7 +7,6 @@ import Taa from "../components/taa";
 import Saa from "../components/saa";
 import Haa from "../components/haa";
 import Khaa from "../components/khaa";
-import Zaai from "../components/zaai";
 import Seen from "../components/seen";
 import Sheen from "../components/sheen";
 import Suad from "../components/suad";
@@ -20,7 +19,7 @@ export default function Hams() {
     <>
     <ScrollToTop/>
     <div className="tajweed-group">
-    <h1>الحمص Al Hams</h1>
+    <h1>الهمس Al Hams</h1>
     <p>
     <b>With airflow</b></p><p>
             {" "}<span className="inline-block">فحثه شخص سكت</span>
@@ -31,7 +30,6 @@ export default function Hams() {
       <Saa/>
       <Haa/>
       <Khaa/>
-      <Zaai/>
       <Seen/>
       <Sheen/>
       <Suad/>

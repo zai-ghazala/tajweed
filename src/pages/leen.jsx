@@ -3,6 +3,7 @@ import Accordion from "react-bootstrap/Accordion";
 
 import ScrollToTop from "../components/scroll-to-top.jsx";
 
+import Waw from "../components/waw";
 import Yaa from "../components/yaa";
 
 export default function Leen() {
@@ -15,6 +16,7 @@ export default function Leen() {
             fatha</p>
             </div>
     <Accordion>
+      <Waw/>
       <Yaa/>
     </Accordion>
     </>

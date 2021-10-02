@@ -8,6 +8,7 @@ import Jeem from "../components/jeem";
 import Daal from "../components/daal";
 import Zaal from "../components/zaal";
 import Raa from "../components/raa";
+import Zaai from "../components/zaai";
 import Duad from "../components/duad";
 import TaaHeavy from "../components/taa-heavy";
 import ZaaHeavy from "../components/zaa-heavy";
@@ -38,6 +39,7 @@ export default function Jahr() {
       <Daal/>
       <Zaal/>
       <Raa/>
+      <Zaai/>
       <Duad/>
       <TaaHeavy/>
       <ZaaHeavy/>

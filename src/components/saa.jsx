@@ -24,7 +24,7 @@ export default function Saa() {
         <hr />
 
         <p>
-            <Link href="hams">الحمص Al Hams</Link>
+            <Link href="hams">الهمس Al Hams</Link>
           </p>
         <p>
             <Link href="rikawah">الرخاوة Al Rikawah</Link>

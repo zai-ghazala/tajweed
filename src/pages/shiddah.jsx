@@ -27,6 +27,7 @@ export default function Shiddah() {
       <Jeem/>
       <Daal/>
       <TaaHeavy/>
+      <Qaaf/>
       <Kaaf/>
       <Hamzah/>
     </Accordion>

@@ -20,7 +20,7 @@ export default function Faa() {
             touching the inside lower lip
           </p>
          <p>
-            <Link href="hams">الحمص Al Hams</Link>
+            <Link href="hams">الهمس Al Hams</Link>
           </p>
           <hr />
         <p>

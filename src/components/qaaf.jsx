@@ -26,9 +26,8 @@ export default function Qaaf() {
           <p>
             <Link href="jahr">الجھر Al Jahr</Link> 
           </p>
-        <p>
-            <Link href="rikawah">الرخاوة Al Rikawah</Link>
-          </p>
+          <p>
+            <Link href="shiddah">الشدۃ Al Shiddah</Link></p>
           <p>
             <Link href="istila">الإستــعلاء Al Isti’la</Link></p>
            <p>

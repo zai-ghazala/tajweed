@@ -21,6 +21,8 @@ export default function Waw() {
             <strong>Lip letter</strong> - Ghair madiya. Lips make a round
             circle
           </p>
+          <p>
+            <Link href="leen">اللین Al Leen</Link></p>
           <hr />
           <p>
             <Link href="jahr">الجھر Al Jahr</Link> 

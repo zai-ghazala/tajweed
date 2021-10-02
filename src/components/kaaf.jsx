@@ -21,7 +21,7 @@ export default function Kaaf() {
           </p>
           <hr />
          <p>
-            <Link href="hams">الحمص Al Hams</Link>
+            <Link href="hams">الهمس Al Hams</Link>
           </p>
  <p>
             <Link href="shiddah">الشدۃ Al Shiddah</Link></p>
