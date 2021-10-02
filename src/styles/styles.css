@@ -273,3 +273,7 @@ h1 {
   text-align: right;
   font-size: 2em
 }
+.return a {
+  text-decoration: none !important;
+  border-bottom: none !important
+}
