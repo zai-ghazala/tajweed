@@ -18,8 +18,7 @@ export default function Shiddah() {
     <div className="tajweed-group">
     <h1>Al Shiddah</h1>
     <p><b>Sound is not allowed to flow</b></p>
-    <p>{" "}<span className="inline-block">أَجِدْ قَطٍ بَكَتْ</span>{" "} “Ajid Qatin
-    Bakath”
+    <p>{" "}<span className="inline-block">أَجِدْ قَطٍ بَكَتْ</span>
   </p>
   </div>
     <Accordion>

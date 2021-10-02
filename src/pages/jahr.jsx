@@ -29,8 +29,7 @@ export default function Jahr() {
     <h1>Al Jahr</h1>
     <p>
     <b>No airflow</b></p><p>All letters
-            except {" "}<span className="inline-block">فحثه شخص سكت</span>{" "}
-            “Fa-hathu-hu shakhsun sakath”
+            except {" "}<span className="inline-block">فحثه شخص سكت</span>
     </p>
     </div>
     <Accordion>
