@@ -22,6 +22,7 @@ export default function SmallHaa() {
             <strong>Throat letter</strong> - Furthest part, from the vocal
             chords
           </p>
+          <hr/>
          <p>
             <Link href="hams">الحمص Al Hams</Link>
           </p>
