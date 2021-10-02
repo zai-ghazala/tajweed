@@ -3,6 +3,7 @@ import { Switch, Route } from "wouter";
 import Home from "../pages/home";
 import Ghunna from "../pages/ghunna";
 import Hams from "../pages/hams";
+import Inharaf from "../pages/inharaf";
 import Infitah from "../pages/infitah";
 import Istifal from "../pages/istifal";
 import Istila from "../pages/istila";
@@ -31,6 +32,7 @@ export default () => (
     <Route path="ghunna" component={Ghunna} />
     <Route path="hams" component={Hams} />
     <Route path="infitah" component={Infitah} />
+    <Route path="inharaf" component={Inharaf} />
     <Route path="istifal" component={Istifal} />
     <Route path="istila" component={Istila} />
     <Route path="istitaala" component={Istitaala} />
