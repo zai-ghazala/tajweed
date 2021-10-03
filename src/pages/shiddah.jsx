@@ -17,9 +17,9 @@ export default function Shiddah() {
     <>
     <ScrollToTop/>
     <div className="tajweed-group">
-    <h1>Al Shiddah</h1>
+    <h1>الشدۃ Al Shiddah</h1>
     <p><b>Sound is not allowed to flow</b></p>
-    <p>{" "}<span className="inline-block">أَجِدْ قَطٍ بَكَتْ</span>
+    <p><span className="inline-block">أَجِدْ قَطٍ بَكَتْ</span>
   </p>
   </div>
     <Accordion>

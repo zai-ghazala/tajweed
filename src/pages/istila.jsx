@@ -22,7 +22,7 @@ export default function Istila() {
               (Up and inside) This gives the letter the quality of tafkheem
               which is a thick heaviness
             </b></p>
-            <p>{" "}<span className="inline-block">خص ضغط قظ</span>{" "}
+            <p><span className="inline-block">خص ضغط قظ</span>
           </p>
           </div>
     <Accordion>
