@@ -1,5 +1,8 @@
 import React from "react";
 import { Router, Link } from "wouter";
+
+import home from "./assets/home.png";
+
 /**
  * This code defines the react app
  *
@@ -29,7 +32,7 @@ export default function Home() {
     <Router hook={useHashLocation}>
       <Seo />
       <main role="main" className="wrapper">
-      <div className="return"><Link href="/">🕌</Link></div>
+      <div className="return"><Link href="/"><img src={home} alt="home"/></Link></div>
       <div className="content"><PageRouter /></div>
       </main>
     </Router>
