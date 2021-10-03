@@ -34,7 +34,7 @@ a {
 }
 h1 {
   font-family: Lora !important;
-  font-weight: bold
+  font-weight: bold !important
 }
 .accordion-button:hover, .accordion-button:not(.collapsed) {
   color: yellow !important;
