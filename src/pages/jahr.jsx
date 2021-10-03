@@ -29,8 +29,8 @@ export default function Jahr() {
     <div className="tajweed-group">
     <h1>Al Jahr</h1>
     <p>
-    <b>No airflow</b></p><p>All letters
-            except {" "}<span className="inline-block">فحثه شخص سكت</span>
+    <b>No airflow</b></p><p>All letters{" "}
+    <span class="except">except</span> {" "}<span className="inline-block">فحثه شخص سكت</span>
     </p>
     </div>
     <Accordion>

@@ -24,7 +24,7 @@ export default function Rikawah() {
     <ScrollToTop/>
     <div className="tajweed-group">
     <h1>الرخاوة Al Rikawah</h1><p>
-            <b>Sound is allowed to flow</b></p><p>Except
+            <b>Sound is allowed to flow</b></p><p><span class="except">Except</span>
             {" "}<span className="inline-block">أَجِدْ قَطٍ بَكَتْ</span>{" "} and {" "}<span className="inline-block">لن عمر</span>{" "} 
             all the remaining letters</p>
             </div>
