@@ -308,3 +308,6 @@ h1 {
 .arabic {
   font-family: 'Noto Sans Arabic'
 }
+.ReloadPrompt-container {
+  display: none !important
+}
