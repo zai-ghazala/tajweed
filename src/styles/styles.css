@@ -1,8 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@500&family=Lora&family=Ubuntu&display=swap");
-
 :root {
   --color-text-main: #111;
-  --font-family: "Ubuntu";  
+}
+@font-face {
+  font-family: 'Noto Sans Arabic';
+  src: url("../assets/fonts/NotoSansArabic-VariableFont_wdth,wght.ttf");
+  font-weight: 500
+}
+@font-face {
+  font-family: Lora;
+  src: url('Lora-VariableFont_wght.ttf');
+}
+@font-face {
+  font-family: Ubuntu;
+  src: url('Ubuntu-Regular.ttf');
 }
 * {
     box-sizing: border-box;
@@ -11,7 +21,7 @@
   ::selection { background: yellow; }
 body {
   color: var(--color-text-main) !important;
-  font-family: var(--font-family) !important;
+  font-family: Ubuntu !important;
   letter-spacing: 0.5px;
   font-size: calc(1em + 0.25vw) !important;
   overflow-x: hidden;
