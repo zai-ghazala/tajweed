@@ -16,7 +16,7 @@ export default function Yaa() {
             Your browser does not support the audio element.
           </audio>
           <p>
-            <strong>Tongue letter</strong> - Middle of the tongue with the
+            <strong>Tongue letter</strong> - Ghair madiya. Middle of the tongue with the
             middle of the roof of the mouth
           </p>
          <p>
