@@ -16,7 +16,7 @@ export default function Noon() {
             Your browser does not support the audio element.
           </audio>
           <p>
-            <strong>Tongue letter</strong> - Tip of the tongue.
+            <strong>Tongue letter</strong> - Tip of the tongue
           </p>
           <p>
             From the tip of the tongue (to what lies opposite it) to the gums,
