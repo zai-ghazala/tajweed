@@ -8,11 +8,11 @@
 }
 @font-face {
   font-family: Lora;
-  src: url('Lora-VariableFont_wght.ttf');
+  src: url('../assets/fonts/Lora-VariableFont_wght.ttf');
 }
 @font-face {
   font-family: Ubuntu;
-  src: url('Ubuntu-Regular.ttf');
+  src: url('../assets/fonts/Ubuntu-Regular.ttf');
 }
 * {
     box-sizing: border-box;
