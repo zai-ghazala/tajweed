@@ -269,7 +269,7 @@ h1 {
   position: fixed;
   height: 12.5vh;
   width: 100vw;
-  z-index: 1
+  z-index: 999
 }
 .content {
   position: relative;
