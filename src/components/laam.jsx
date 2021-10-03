@@ -27,26 +27,26 @@ export default function Laam() {
             front teeth
           </p>
           <p>
-            ل is only pronounced heavy in the word Allah if it is preceded by a
+            <span className="arabic">ل</span>{" "}is only pronounced heavy in the word Allah if it is preceded by a
             fatha or dhamma
           </p>
           <p>The sound is directed up</p>
           <p>The tongue is dipped in the middle</p>
            <p>
-            <Link href="inharaf"><span class="arabic">الانحراف</span> Al Inharaf</Link>
+            <Link href="inharaf"><span className="arabic">الانحراف</span> Al Inharaf</Link>
           </p>
           <hr />
           <p>
-            <Link href="jahr"><span class="arabic">الجھر</span> Al Jahr</Link> 
+            <Link href="jahr"><span className="arabic">الجھر</span> Al Jahr</Link> 
           </p>
           <p>
-            <Link href="tawassut"><span class="arabic">التوسط</span> Al Tawassut / البينية Al Bayniyyah</Link>
+            <Link href="tawassut"><span className="arabic">التوسط</span> Al Tawassut / البينية Al Bayniyyah</Link>
           </p>
          <p>
-            <Link href="istifal"><span class="arabic">الاستفال</span> Al Istifal</Link>
+            <Link href="istifal"><span className="arabic">الاستفال</span> Al Istifal</Link>
           </p>
            <p>
-            <Link href="infitah"><span class="arabic">الانفتاح</span> Al Infitah</Link>
+            <Link href="infitah"><span className="arabic">الانفتاح</span> Al Infitah</Link>
           </p>
           <Carousel nextLabel={null} prevLabel={null}>
             <Carousel.Item>

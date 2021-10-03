@@ -25,7 +25,7 @@ export default function Suad() {
             front teeth
           </p>
           <p>
-            Make contact with the makhraj of ل but then put pressure on sides of
+            Make contact with the makhraj of{" "}<span className="arabic">ل</span>{" "}but then put pressure on sides of
             tongue
           </p>
           <p>
@@ -33,18 +33,18 @@ export default function Suad() {
             so is heavy and trapped
           </p>
      <p>
-            <Link href="istitaala"><span class="arabic">الاستطال</span> Al Istitaala</Link></p>
+            <Link href="istitaala"><span className="arabic">الاستطال</span> Al Istitaala</Link></p>
           <hr />
           <p>
-            <Link href="jahr"><span class="arabic">الجھر</span> Al Jahr</Link> 
+            <Link href="jahr"><span className="arabic">الجھر</span> Al Jahr</Link> 
           </p>
         <p>
-            <Link href="rikawah"><span class="arabic">الرخاوة</span> Al Rikawah</Link>
+            <Link href="rikawah"><span className="arabic">الرخاوة</span> Al Rikawah</Link>
           </p>
           <p>
-            <Link href="istila"><span class="arabic">الإستــعلاء</span> Al Isti’la</Link></p>
+            <Link href="istila"><span className="arabic">الإستــعلاء</span> Al Isti’la</Link></p>
         <p>
-            <Link href="itbaq"><span class="arabic">الاطباق</span> Al Itbaq</Link></p>
+            <Link href="itbaq"><span className="arabic">الاطباق</span> Al Itbaq</Link></p>
           <Carousel nextLabel={null} prevLabel={null}>
             <Carousel.Item>
               <img className="d-block mx-auto" src={img20} />

@@ -22,16 +22,16 @@ export default function Zaal() {
           <p>Flat tongue as normal</p>
           <hr />
           <p>
-            <Link href="jahr"><span class="arabic">الجھر</span> Al Jahr</Link> 
+            <Link href="jahr"><span className="arabic">الجھر</span> Al Jahr</Link> 
           </p>
         <p>
-            <Link href="rikawah"><span class="arabic">الرخاوة</span> Al Rikawah</Link>
+            <Link href="rikawah"><span className="arabic">الرخاوة</span> Al Rikawah</Link>
           </p>
   <p>
-            <Link href="istifal"><span class="arabic">الاستفال</span> Al Istifal</Link>
+            <Link href="istifal"><span className="arabic">الاستفال</span> Al Istifal</Link>
           </p>
            <p>
-            <Link href="infitah"><span class="arabic">الانفتاح</span> Al Infitah</Link>
+            <Link href="infitah"><span className="arabic">الانفتاح</span> Al Infitah</Link>
           </p>
           <img className="d-block mx-auto" src={img28} />
         </Accordion.Body>

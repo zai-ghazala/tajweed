@@ -24,15 +24,15 @@ export default function Gain() {
           </p>
           <hr />
           <p>
-            <Link href="jahr"><span class="arabic">الجھر</span> Al Jahr</Link> 
+            <Link href="jahr"><span className="arabic">الجھر</span> Al Jahr</Link> 
           </p>
         <p>
-            <Link href="rikawah"><span class="arabic">الرخاوة</span> Al Rikawah</Link>
+            <Link href="rikawah"><span className="arabic">الرخاوة</span> Al Rikawah</Link>
           </p>
           <p>
-            <Link href="istila"><span class="arabic">الإستــعلاء</span> Al Isti’la</Link></p>
+            <Link href="istila"><span className="arabic">الإستــعلاء</span> Al Isti’la</Link></p>
            <p>
-            <Link href="infitah"><span class="arabic">الانفتاح</span> Al Infitah</Link>
+            <Link href="infitah"><span className="arabic">الانفتاح</span> Al Infitah</Link>
           </p>
           <img className="d-block mx-auto" src={img6a} />
         </Accordion.Body>

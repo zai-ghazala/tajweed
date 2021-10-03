@@ -24,18 +24,18 @@ export default function Suad() {
             so is heavy and trapped
           </p>
          <p>
-            <Link href="safeer"><span class="arabic">الصفیر</span> As Safeer</Link></p>
+            <Link href="safeer"><span className="arabic">الصفیر</span> As Safeer</Link></p>
           <hr />
          <p>
-            <Link href="hams"><span class="arabic">الهمس</span> Al Hams</Link>
+            <Link href="hams"><span className="arabic">الهمس</span> Al Hams</Link>
           </p>
         <p>
-            <Link href="rikawah"><span class="arabic">الرخاوة</span> Al Rikawah</Link>
+            <Link href="rikawah"><span className="arabic">الرخاوة</span> Al Rikawah</Link>
           </p>
           <p>
-            <Link href="istila"><span class="arabic">الإستــعلاء</span> Al Isti’la</Link></p>
+            <Link href="istila"><span className="arabic">الإستــعلاء</span> Al Isti’la</Link></p>
         <p>
-            <Link href="itbaq"><span class="arabic">الاطباق</span> Al Itbaq</Link></p>
+            <Link href="itbaq"><span className="arabic">الاطباق</span> Al Itbaq</Link></p>
           <img className="d-block mx-auto" src={img26a} />
         </Accordion.Body>
       </Accordion.Item>

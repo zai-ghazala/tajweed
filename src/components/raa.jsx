@@ -25,18 +25,17 @@ export default function Raa() {
           </p>
           <p>
             From the tip of the tongue, to what is opposite it, of the gums by
-            the two top front teeth, near the makhraj of ن
-          </p>
+            the two top front teeth, near the makhraj of{" "}<span className="arabic">ن</span></p>
           <p>
             There is a tiny gap in the middle of the tongue – this is where the
             sound comes from, this stops takreer
           </p>
           <p>
-            ر is normally considered a “light” letter. Sound is directed
+            <span className="arabic">ر</span>{" "}is normally considered a “light” letter. Sound is directed
             outward, so tongue is flat
           </p>
           <p>
-            ر is heavy if the ر has a fatha or dhamma on it, if theر is sakin
+           <span className="arabic">ر</span>{" "} is heavy if the{" "}<span className="arabic">ر</span>{" "} has a fatha or dhamma on it, if the{" "}<span className="arabic">ر</span>{" "}is sakin
             and the letter before it is a fatha or dhamma
           </p>
           <p>
@@ -44,20 +43,20 @@ export default function Raa() {
             middle to make sound heavy
           </p>
            <p>
-            <Link href="inharaf"><span class="arabic">الانحراف</span> Al Inharaf</Link>
+            <Link href="inharaf"><span className="arabic">الانحراف</span> Al Inharaf</Link>
           </p>
           <hr />
           <p>
-            <Link href="jahr"><span class="arabic">الجھر</span> Al Jahr</Link> 
+            <Link href="jahr"><span className="arabic">الجھر</span> Al Jahr</Link> 
           </p>
           <p>
-            <Link href="tawassut"><span class="arabic">التوسط</span> Al Tawassut / البينية Al Bayniyyah</Link>
+            <Link href="tawassut"><span className="arabic">التوسط</span> Al Tawassut / البينية Al Bayniyyah</Link>
           </p>
   <p>
-            <Link href="istifal"><span class="arabic">الاستفال</span> Al Istifal</Link>
+            <Link href="istifal"><span className="arabic">الاستفال</span> Al Istifal</Link>
           </p>
            <p>
-            <Link href="infitah"><span class="arabic">الانفتاح</span> Al Infitah</Link>
+            <Link href="infitah"><span className="arabic">الانفتاح</span> Al Infitah</Link>
           </p>
           <Carousel nextLabel={null} prevLabel={null}>
             <Carousel.Item>

@@ -33,7 +33,8 @@ a {
   border-bottom: 2px dotted currentColor
 }
 h1 {
-  font-family: Lora !important
+  font-family: Lora !important;
+  font-weight: bold
 }
 .accordion-button:hover, .accordion-button:not(.collapsed) {
   color: yellow !important;

@@ -24,16 +24,16 @@ export default function SmallHaa() {
           </p>
           <hr/>
          <p>
-            <Link href="hams"><span class="arabic">الهمس</span> Al Hams</Link>
+            <Link href="hams"><span className="arabic">الهمس</span> Al Hams</Link>
           </p>
         <p>
-            <Link href="rikawah"><span class="arabic">الرخاوة</span> Al Rikawah</Link>
+            <Link href="rikawah"><span className="arabic">الرخاوة</span> Al Rikawah</Link>
           </p>
          <p>
-            <Link href="istifal"><span class="arabic">الاستفال</span> Al Istifal</Link>
+            <Link href="istifal"><span className="arabic">الاستفال</span> Al Istifal</Link>
           </p>
            <p>
-            <Link href="infitah"><span class="arabic">الانفتاح</span> Al Infitah</Link>
+            <Link href="infitah"><span className="arabic">الانفتاح</span> Al Infitah</Link>
           </p>
           <Carousel nextLabel={null} prevLabel={null}>
             <Carousel.Item>

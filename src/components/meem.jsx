@@ -18,27 +18,27 @@ export default function Meem() {
           <p>
             <strong>Lip letter</strong> - Lips come together
           </p>
-          <p>Hold lips for longer than ب </p>
+          <p>Hold lips for longer than{" "}<span className="arabic">ب</span></p>
           <p>
-            Sound comes from the lip makhraj, for the م sound also comes from
+            Sound comes from the lip makhraj, for the{" "}<span className="arabic">م</span>{" "}sound also comes from
             the nose
           </p>
           <p>Tongue relaxed as normal</p>
           <p>
-            <Link href="ghunna"><span class="arabic">الغنھ</span> Al Ghunna</Link> 
+            <Link href="ghunna"><span className="arabic">الغنھ</span> Al Ghunna</Link> 
           </p>
           <hr />
           <p>
-            <Link href="jahr"><span class="arabic">الجھر</span> Al Jahr</Link> 
+            <Link href="jahr"><span className="arabic">الجھر</span> Al Jahr</Link> 
           </p>
           <p>
-            <Link href="tawassut"><span class="arabic">التوسط</span> Al Tawassut / البينية Al Bayniyyah</Link>
+            <Link href="tawassut"><span className="arabic">التوسط</span> Al Tawassut / البينية Al Bayniyyah</Link>
           </p>
          <p>
-            <Link href="istifal"><span class="arabic">الاستفال</span> Al Istifal</Link>
+            <Link href="istifal"><span className="arabic">الاستفال</span> Al Istifal</Link>
           </p>
            <p>
-            <Link href="infitah"><span class="arabic">الانفتاح</span> Al Infitah</Link>
+            <Link href="infitah"><span className="arabic">الانفتاح</span> Al Infitah</Link>
           </p>
           <img className="d-block mx-auto" src={img33} />
         </Accordion.Body>

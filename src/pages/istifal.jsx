@@ -30,10 +30,10 @@ export default function Istifal() {
     <>
     <ScrollToTop/>
     <div className="tajweed-group">
-      <h1><span class="arabic">الاستفال</span> Al Istifal </h1> <p><b>Sound is directed downwards and outwards which gives the sound the
+      <h1><span className="arabic">الاستفال</span> Al Istifal </h1> <p><b>Sound is directed downwards and outwards which gives the sound the
               quality of tarqeeq which is a lightness
             </b></p><p>
-            All letters <span class="except">except</span> {" "}<span className="inline-block arabic">خص ضغط قظ</span>{" "}
+            All letters <span className="except">except</span>{" "}<span className="inline-block arabic">خص ضغط قظ</span>{" "}
           </p>
           </div>
     <Accordion>

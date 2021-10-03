@@ -11,9 +11,9 @@ export default function Ghunna() {
     <>
     <ScrollToTop/>
     <div className="tajweed-group">
-    <h1><span class="arabic">الغنھ</span> Al Ghunna</h1>
+    <h1><span className="arabic">الغنھ</span> Al Ghunna</h1>
     <p>
-    <b>Sound is allowed to flow</b></p><p><span class="except">Except</span>
+    <b>Sound is allowed to flow</b></p><p><span className="except">Except</span>
             {" "}<span className="inline-block arabic">أَجِدْ قَطٍ بَكَتْ</span>{" "} and {" "}<span className="inline-block arabic">لن عمر</span>{" "}
             all the remaining letters
           </p>

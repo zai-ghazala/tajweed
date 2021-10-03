@@ -16,7 +16,7 @@ export default function Istila() {
   <>
   <ScrollToTop/>
   <div className="tajweed-group">
-       <h1><span class="arabic">الإستــعلاء</span> Al Isti’la</h1><p>
+       <h1><span className="arabic">الإستــعلاء</span> Al Isti’la</h1><p>
             <b>
               Sound is directed upwards between the tongue and the top palate.
               (Up and inside) This gives the letter the quality of tafkheem

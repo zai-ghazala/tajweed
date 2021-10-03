@@ -10,7 +10,7 @@ export default function Istitaala() {
     <>
     <ScrollToTop/>
    <div className="tajweed-group">
-      <h1><span class="arabic">الاستطال</span> Al Istitaala</h1><p><b>The forward movement of the
+      <h1><span className="arabic">الاستطال</span> Al Istitaala</h1><p><b>The forward movement of the
       tongue stretching from the back to the front</b></p>
       </div>
     <Accordion>

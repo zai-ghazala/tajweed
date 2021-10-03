@@ -12,7 +12,7 @@ export default function Inharaf() {
     <ScrollToTop/>
     <div className="tajweed-group">
     <p>
-    <h1><span class="arabic">الانحراف</span> Al Inharaf</h1><p><b>Diverting the sound
+    <h1><span className="arabic">الانحراف</span> Al Inharaf</h1><p><b>Diverting the sound
     of a letter away from its makhraj. Laam is read away from its
     makhraj and raa moves to a point in its makhraj</b></p>
   </p>
