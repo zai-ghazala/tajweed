@@ -21,8 +21,6 @@ export default defineConfig({
         background_color: "#111",
         orientation: "portrait",
         display: "standalone",
-        start_url: "/",
-        scope: "/",
         icons: [
           {
             src: "images/favicon.ico",
