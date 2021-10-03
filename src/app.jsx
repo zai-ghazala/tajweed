@@ -2,6 +2,7 @@ import React from "react";
 import { Router, Link } from "wouter";
 
 import home from "./assets/home.png";
+import ReloadPrompt from "./components/reload-prompt";
 
 /**
  * This code defines the react app
@@ -32,6 +33,7 @@ export default function Home() {
     <Router hook={useHashLocation}>
       <Seo />
       <main role="main" className="wrapper">
+      <ReloadPrompt />
       <div className="return">
       <Link href="/"><a><img src={home} alt="home"/></a></Link></div>
       <div className="content"><PageRouter /></div>

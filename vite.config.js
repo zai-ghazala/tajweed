@@ -17,8 +17,8 @@ export default defineConfig({
         short_name: "tajweed",
         name: "tajweed",
         description: "learn tajweed",
-        theme_color: "#111",
-        background_color: "#111",
+        theme_color: "#cc95c0",
+        background_color: "#cc95c0",
         orientation: "portrait",
         display: "standalone",
         icons: [
