@@ -21,19 +21,19 @@ export default function Baa() {
           </p>
           <p>Tongue relaxed as normal</p>
  <p>
-            <Link href="qalqala">القلقلھ Al Qalqala</Link></p>
+            <Link href="qalqala"><span class="arabic">القلقلھ</span> Al Qalqala</Link></p>
           <hr />
           <p>
-            <Link href="jahr">الجھر Al Jahr</Link> 
+            <Link href="jahr"><span class="arabic">الجھر</span> Al Jahr</Link> 
           </p>
  <p>
-            <Link href="shiddah">الشدۃ Al Shiddah</Link></p>
+            <Link href="shiddah"><span class="arabic">الشدۃ</span> Al Shiddah</Link></p>
          <p>
-            <Link href="istifal">الاستفال Al Istifal</Link>
+            <Link href="istifal"><span class="arabic">الاستفال</span> Al Istifal</Link>
           </p>
 
            <p>
-            <Link href="infitah">الانفتاح Al Infitah</Link>
+            <Link href="infitah"><span class="arabic">الانفتاح</span> Al Infitah</Link>
           </p>
 
           <img className="d-block mx-auto" src={img32} />

@@ -25,20 +25,20 @@ export default function Meem() {
           </p>
           <p>Tongue relaxed as normal</p>
           <p>
-            <Link href="ghunna">الغنھ Al Ghunna</Link> 
+            <Link href="ghunna"><span class="arabic">الغنھ</span> Al Ghunna</Link> 
           </p>
           <hr />
           <p>
-            <Link href="jahr">الجھر Al Jahr</Link> 
+            <Link href="jahr"><span class="arabic">الجھر</span> Al Jahr</Link> 
           </p>
           <p>
-            <Link href="tawassut">التوسط Al Tawassut / البينية Al Bayniyyah</Link>
+            <Link href="tawassut"><span class="arabic">التوسط</span> Al Tawassut / البينية Al Bayniyyah</Link>
           </p>
          <p>
-            <Link href="istifal">الاستفال Al Istifal</Link>
+            <Link href="istifal"><span class="arabic">الاستفال</span> Al Istifal</Link>
           </p>
            <p>
-            <Link href="infitah">الانفتاح Al Infitah</Link>
+            <Link href="infitah"><span class="arabic">الانفتاح</span> Al Infitah</Link>
           </p>
           <img className="d-block mx-auto" src={img33} />
         </Accordion.Body>

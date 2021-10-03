@@ -33,7 +33,7 @@ export default function Infitah() {
     <>
     <ScrollToTop/>
     <div className="tajweed-group">
-    <h1>الانفتاح Al Infitah</h1><p><b>Sound is not retained in the mouth</b></p><p>All letters{" "}<span class="except">except</span>{" "}ص ض ط ظ</p>  
+    <h1><span class="arabic">الانفتاح</span> Al Infitah</h1><p><b>Sound is not retained in the mouth</b></p><p>All letters{" "}<span class="except">except</span>{" "}ص ض ط ظ</p>  
     </div>  
     <Accordion>
       <Baa/>

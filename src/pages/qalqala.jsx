@@ -14,7 +14,7 @@ export default function Qalqala() {
     <>
     <ScrollToTop/>
     <div className="tajweed-group">
-    <h1>القلقلھ Al Qalqala</h1><p><b>Bouncing of the
+    <h1><span class="arabic">القلقلھ</span> Al Qalqala</h1><p><b>Bouncing of the
     sound from the makhraj in these sakinah letters after shiddah
     occurs</b></p>
     </div>

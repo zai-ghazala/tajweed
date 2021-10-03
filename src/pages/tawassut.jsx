@@ -14,9 +14,9 @@ export default function Tawassut() {
     <>
     <ScrollToTop/>
     <div className="tajweed-group">
-    <h1>التوسط Al Tawassut / البينية Al Bayniyyah</h1><p>
+    <h1><span class="arabic">التوسط</span> Al Tawassut / البينية Al Bayniyyah</h1><p>
     <b>Sound is not allowed to flow nor shortened</b></p><p>The letters 
-    {" "}<span className="inline-block">لن عمر</span>
+    {" "}<span className="inline-block arabic">لن عمر</span>
   </p>
   </div>
     <Accordion>

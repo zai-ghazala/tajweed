@@ -12,7 +12,7 @@ export default function Safeer() {
     <>
     <ScrollToTop/>
     <div className="tajweed-group">
-    <h1>الصفیر As Safeer</h1><p><b>Sound that is caused due to the narrow gap above the tongue</b></p>
+    <h1><span class="arabic">الصفیر</span> As Safeer</h1><p><b>Sound that is caused due to the narrow gap above the tongue</b></p>
     </div>
     <Accordion>
       <Zaai/>

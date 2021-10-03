@@ -20,19 +20,19 @@ export default function Yaa() {
             middle of the roof of the mouth
           </p>
          <p>
-            <Link href="leen">اللین Al Leen</Link></p>
+            <Link href="leen"><span class="arabic">اللین</span> Al Leen</Link></p>
           <hr />
           <p>
-            <Link href="jahr">الجھر Al Jahr</Link> 
+            <Link href="jahr"><span class="arabic">الجھر</span> Al Jahr</Link> 
           </p>
         <p>
-            <Link href="rikawah">الرخاوة Al Rikawah</Link>
+            <Link href="rikawah"><span class="arabic">الرخاوة</span> Al Rikawah</Link>
           </p>
          <p>
-            <Link href="istifal">الاستفال Al Istifal</Link>
+            <Link href="istifal"><span class="arabic">الاستفال</span> Al Istifal</Link>
           </p>
            <p>
-            <Link href="infitah">الانفتاح Al Infitah</Link>
+            <Link href="infitah"><span class="arabic">الانفتاح</span> Al Infitah</Link>
           </p>
           <img className="d-block mx-auto" src={img11} />
         </Accordion.Body>

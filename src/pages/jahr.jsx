@@ -27,10 +27,10 @@ export default function Jahr() {
     <>
     <ScrollToTop/>
     <div className="tajweed-group">
-    <h1>Al Jahr</h1>
+    <h1><span class="arabic">الجھر</span> Al Jahr</h1>
     <p>
     <b>No airflow</b></p><p>All letters{" "}
-    <span class="except">except</span> {" "}<span className="inline-block">فحثه شخص سكت</span>
+    <span class="except">except</span> {" "}<span className="inline-block arabic">فحثه شخص سكت</span>
     </p>
     </div>
     <Accordion>

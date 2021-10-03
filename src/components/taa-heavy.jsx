@@ -24,17 +24,17 @@ export default function TaaHeavy() {
             so is heavy and trapped
           </p>
  <p>
-            <Link href="qalqala">القلقلھ Al Qalqala</Link></p>
+            <Link href="qalqala"><span class="arabic">القلقلھ</span> Al Qalqala</Link></p>
           <hr />
           <p>
-            <Link href="jahr">الجھر Al Jahr</Link> 
+            <Link href="jahr"><span class="arabic">الجھر</span> Al Jahr</Link> 
           </p>
  <p>
-            <Link href="shiddah">الشدۃ Al Shiddah</Link></p>
+            <Link href="shiddah"><span class="arabic">الشدۃ</span> Al Shiddah</Link></p>
           <p>
-            <Link href="istila">الإستــعلاء Al Isti’la</Link></p>
+            <Link href="istila"><span class="arabic">الإستــعلاء</span> Al Isti’la</Link></p>
         <p>
-            <Link href="itbaq">الاطباق Al Itbaq</Link></p>
+            <Link href="itbaq"><span class="arabic">الاطباق</span> Al Itbaq</Link></p>
           <img className="d-block mx-auto" src={img27a} />
         </Accordion.Body>
       </Accordion.Item>

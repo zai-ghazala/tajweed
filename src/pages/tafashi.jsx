@@ -10,7 +10,7 @@ export default function Tafashi() {
     <>
     <ScrollToTop/>
     <div className="tajweed-group">
-       <h1>الاستطال Al Istitaala</h1><p><b>
+       <h1><span class="arabic">الاستطال</span> Al Istitaala</h1><p><b>
     The sound and breath spreads through the mouth</b></p>
        </div>
     <Accordion>

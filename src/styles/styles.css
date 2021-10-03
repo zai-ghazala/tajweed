@@ -288,3 +288,6 @@ h1 {
 .except {
   color: red
 }
+.arabic {
+  font-family: 'Noto Sans Arabic'
+}

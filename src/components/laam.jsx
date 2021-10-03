@@ -4,7 +4,7 @@ import Carousel from "react-bootstrap/Carousel";
 import { Link } from "wouter";
 
 import laam from "../assets/audio/laam.mp3";
-import img13 from "../assets/1/14.jpeg";
+import img13 from "../assets/1/13.jpeg";
 import img14 from "../assets/1/14.jpeg";
 import img15 from "../assets/1/15.jpeg";
 import img16 from "../assets/1/16.jpeg";
@@ -33,20 +33,20 @@ export default function Laam() {
           <p>The sound is directed up</p>
           <p>The tongue is dipped in the middle</p>
            <p>
-            <Link href="inharaf">الانحراف Al Inharaf</Link>
+            <Link href="inharaf"><span class="arabic">الانحراف</span> Al Inharaf</Link>
           </p>
           <hr />
           <p>
-            <Link href="jahr">الجھر Al Jahr</Link> 
+            <Link href="jahr"><span class="arabic">الجھر</span> Al Jahr</Link> 
           </p>
           <p>
-            <Link href="tawassut">التوسط Al Tawassut / البينية Al Bayniyyah</Link>
+            <Link href="tawassut"><span class="arabic">التوسط</span> Al Tawassut / البينية Al Bayniyyah</Link>
           </p>
          <p>
-            <Link href="istifal">الاستفال Al Istifal</Link>
+            <Link href="istifal"><span class="arabic">الاستفال</span> Al Istifal</Link>
           </p>
            <p>
-            <Link href="infitah">الانفتاح Al Infitah</Link>
+            <Link href="infitah"><span class="arabic">الانفتاح</span> Al Infitah</Link>
           </p>
           <Carousel nextLabel={null} prevLabel={null}>
             <Carousel.Item>

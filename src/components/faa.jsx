@@ -20,17 +20,17 @@ export default function Faa() {
             touching the inside lower lip
           </p>
          <p>
-            <Link href="hams">الهمس Al Hams</Link>
+            <Link href="hams"><span class="arabic">الهمس</span> Al Hams</Link>
           </p>
           <hr />
         <p>
-            <Link href="rikawah">الرخاوة Al Rikawah</Link>
+            <Link href="rikawah"><span class="arabic">الرخاوة</span> Al Rikawah</Link>
           </p>
          <p>
-            <Link href="istifal">الاستفال Al Istifal</Link>
+            <Link href="istifal"><span class="arabic">الاستفال</span> Al Istifal</Link>
           </p>
            <p>
-            <Link href="infitah">الانفتاح Al Infitah</Link>
+            <Link href="infitah"><span class="arabic">الانفتاح</span> Al Infitah</Link>
           </p>
           <img className="d-block mx-auto" src={img29} />
         </Accordion.Body>

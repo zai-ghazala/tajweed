@@ -19,10 +19,10 @@ export default function Hams() {
     <>
     <ScrollToTop/>
     <div className="tajweed-group">
-    <h1>الهمس Al Hams</h1>
+    <h1><span class="arabic">الهمس</span> Al Hams</h1>
     <p>
     <b>With airflow</b></p><p>
-            <span className="inline-block">فحثه شخص سكت</span>
+            <span className="inline-block arabic">فحثه شخص سكت</span>
           </p>
           </div>
     <Accordion>

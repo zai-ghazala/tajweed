@@ -13,7 +13,7 @@ export default function Itbaq() {
     <>
     <ScrollToTop/>
     <div className="tajweed-group">
-    <h1>الاطباق Al Itbaq</h1><p><b>Sound is retained between tongue
+    <h1><span class="arabic">الاطباق</span> Al Itbaq</h1><p><b>Sound is retained between tongue
     and top palate</b></p>
     </div>
     <Accordion>

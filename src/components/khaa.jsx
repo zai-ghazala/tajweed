@@ -24,15 +24,15 @@ export default function Khaa() {
           </p>
           <hr />
          <p>
-            <Link href="hams">الهمس Al Hams</Link>
+            <Link href="hams"><span class="arabic">الهمس</span> Al Hams</Link>
           </p>
         <p>
-            <Link href="rikawah">الرخاوة Al Rikawah</Link>
+            <Link href="rikawah"><span class="arabic">الرخاوة</span> Al Rikawah</Link>
           </p>
           <p>
-            <Link href="istila">الإستــعلاء Al Isti’la</Link></p>
+            <Link href="istila"><span class="arabic">الإستــعلاء</span> Al Isti’la</Link></p>
            <p>
-            <Link href="infitah">الانفتاح Al Infitah</Link>
+            <Link href="infitah"><span class="arabic">الانفتاح</span> Al Infitah</Link>
           </p>
           <img className="d-block mx-auto" src={img6} />
         </Accordion.Body>

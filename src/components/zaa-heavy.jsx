@@ -25,15 +25,15 @@ export default function ZaaHeavy() {
           </p>
           <hr />
           <p>
-            <Link href="jahr">الجھر Al Jahr</Link> 
+            <Link href="jahr"><span class="arabic">الجھر</span> Al Jahr</Link> 
           </p>
         <p>
-            <Link href="rikawah">الرخاوة Al Rikawah</Link>
+            <Link href="rikawah"><span class="arabic">الرخاوة</span> Al Rikawah</Link>
           </p>
           <p>
-            <Link href="istila">الإستــعلاء Al Isti’la</Link></p>
+            <Link href="istila"><span class="arabic">الإستــعلاء</span> Al Isti’la</Link></p>
         <p>
-            <Link href="itbaq">الاطباق Al Itbaq</Link></p>
+            <Link href="itbaq"><span class="arabic">الاطباق</span> Al Itbaq</Link></p>
           <img className="d-block mx-auto" src={img28a} />
         </Accordion.Body>
       </Accordion.Item>
