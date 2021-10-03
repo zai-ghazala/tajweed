@@ -14,9 +14,9 @@ export default defineConfig({
         "apple-touch-icon.png",
       ],
       manifest: {
-        short_name: "tajweed",
-        name: "tajweed",
-        description: "learn tajweed",
+        short_name: "Tajweed",
+        name: "Tajweed",
+        description: "Learn Tajweed",
         theme_color: "#cc95c0",
         background_color: "#cc95c0",
         orientation: "portrait",
