@@ -3,6 +3,9 @@ import Accordion from "react-bootstrap/Accordion";
 import { Link } from "wouter";
 
 import baa from "../assets/audio/baa.wav";
+import AudioPlayer from 'react-h5-audio-player';
+import 'react-h5-audio-player/lib/styles.css';
+
 import img32 from "../assets/1/32.jpeg";
 
 export default function Baa() {
@@ -11,10 +14,12 @@ export default function Baa() {
       <Accordion.Item eventKey="1">
         <Accordion.Header>ب</Accordion.Header>
         <Accordion.Body>
-          <audio controls>
-            <source src={baa} type="audio/wav" />
-            Your browser does not support the audio element.
-          </audio>
+        <AudioPlayer
+          autoPlay
+          src={baa}
+          onPlay={e => console.log("onPlay")}
+          // other props here
+        />
           <p>
             <strong>Lip letter</strong> - Lips come together then move apart for{" "}
             <span className="arabic">ب</span>{" "}creating a bounce

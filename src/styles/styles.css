@@ -311,3 +311,9 @@ h1 {
 .ReloadPrompt-container {
   display: none !important
 }
+.rhap_container {
+  background-color: transparent !important;
+  opacity: 0.75;
+  margin-bottom: 1rem;
+  box-shadow: initial !important
+}

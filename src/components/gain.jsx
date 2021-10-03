@@ -3,6 +3,9 @@ import Accordion from "react-bootstrap/Accordion";
 import { Link } from "wouter";
 
 import gain from "../assets/audio/gain.wav";
+import AudioPlayer from 'react-h5-audio-player';
+import 'react-h5-audio-player/lib/styles.css';
+
 import img6a from "../assets/1/6a.jpeg";
 
 export default function Gain() {
@@ -11,10 +14,12 @@ export default function Gain() {
       <Accordion.Item eventKey="18">
         <Accordion.Header>غ</Accordion.Header>
         <Accordion.Body>
-          <audio controls>
-            <source src={gain} type="audio/wav" />
-            Your browser does not support the audio element.
-          </audio>
+        <AudioPlayer
+          autoPlay
+          src={gain}
+          onPlay={e => console.log("onPlay")}
+          // other props here
+        />
           <p>
             <strong>Throat letter</strong> - Closest to the mouth
           </p>

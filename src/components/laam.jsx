@@ -4,6 +4,9 @@ import Carousel from "react-bootstrap/Carousel";
 import { Link } from "wouter";
 
 import laam from "../assets/audio/laam.wav";
+import AudioPlayer from 'react-h5-audio-player';
+import 'react-h5-audio-player/lib/styles.css';
+
 import img13 from "../assets/1/13.jpeg";
 import img14 from "../assets/1/14.jpeg";
 import img15 from "../assets/1/15.jpeg";
@@ -15,10 +18,12 @@ export default function Laam() {
       <Accordion.Item eventKey="22">
         <Accordion.Header>ل</Accordion.Header>
         <Accordion.Body>
-          <audio controls>
-            <source src={laam} type="audio/wav" />
-            Your browser does not support the audio element.
-          </audio>
+        <AudioPlayer
+          autoPlay
+          src={laam}
+          onPlay={e => console.log("onPlay")}
+          // other props here
+        />
           <p>
             <strong>Tongue letter</strong> - Front edge
           </p>

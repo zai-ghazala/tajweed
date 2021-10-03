@@ -4,6 +4,9 @@ import Carousel from "react-bootstrap/Carousel";
 import { Link } from "wouter";
 
 import smallHaa from "../assets/audio/small-haa.wav";
+import AudioPlayer from 'react-h5-audio-player';
+import 'react-h5-audio-player/lib/styles.css';
+
 import img1 from "../assets/1/1.jpeg";
 import img3 from "../assets/1/3.jpeg";
 import img4 from "../assets/1/4.jpeg";
@@ -14,10 +17,12 @@ export default function SmallHaa() {
      <Accordion.Item eventKey="26">
         <Accordion.Header>ه</Accordion.Header>
         <Accordion.Body>
-          <audio controls>
-            <source src={smallHaa} type="audio/wav" />
-            Your browser does not support the audio element.
-          </audio>
+        <AudioPlayer
+          autoPlay
+          src={smallHaa}
+          onPlay={e => console.log("onPlay")}
+          // other props here
+        />
           <p>
             <strong>Throat letter</strong> - Furthest part, from the vocal
             chords

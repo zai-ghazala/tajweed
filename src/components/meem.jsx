@@ -3,6 +3,9 @@ import Accordion from "react-bootstrap/Accordion";
 import { Link } from "wouter";
 
 import meem from "../assets/audio/meem.wav";
+import AudioPlayer from 'react-h5-audio-player';
+import 'react-h5-audio-player/lib/styles.css';
+
 import img33 from "../assets/1/33.jpeg";
 
 export default function Meem() {
@@ -11,10 +14,12 @@ export default function Meem() {
      <Accordion.Item eventKey="23">
         <Accordion.Header>م</Accordion.Header>
         <Accordion.Body>
-          <audio controls>
-            <source src={meem} type="audio/wav" />
-            Your browser does not support the audio element.
-          </audio>
+        <AudioPlayer
+          autoPlay
+          src={meem}
+          onPlay={e => console.log("onPlay")}
+          // other props here
+        />
           <p>
             <strong>Lip letter</strong> - Lips come together
           </p>

@@ -3,6 +3,9 @@ import Accordion from "react-bootstrap/Accordion";
 import { Link } from "wouter";
 
 import zaaHeavy from "../assets/audio/zaa-heavy.wav";
+import AudioPlayer from 'react-h5-audio-player';
+import 'react-h5-audio-player/lib/styles.css';
+
 import img28a from "../assets/1/28a.jpeg"
 
 export default function ZaaHeavy() {
@@ -11,10 +14,12 @@ export default function ZaaHeavy() {
       <Accordion.Item eventKey="16">
         <Accordion.Header>ظ</Accordion.Header>
         <Accordion.Body>
-          <audio controls>
-            <source src={zaaHeavy} type="audio/wav" />
-            Your browser does not support the audio element.
-          </audio>
+        <AudioPlayer
+          autoPlay
+          src={zaaHeavy}
+          onPlay={e => console.log("onPlay")}
+          // other props here
+        />
           <p>
             <strong>Tongue letter</strong> - Tip of the tongue touching the
             bottom edges of the front two teeth

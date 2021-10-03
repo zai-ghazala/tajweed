@@ -3,6 +3,9 @@ import Accordion from "react-bootstrap/Accordion";
 import { Link } from "wouter";
 
 import khaa from "../assets/audio/khaa.wav";
+import AudioPlayer from 'react-h5-audio-player';
+import 'react-h5-audio-player/lib/styles.css';
+
 import img6 from "../assets/1/6.jpeg";
 
 export default function Khaa() {
@@ -11,10 +14,12 @@ export default function Khaa() {
       <Accordion.Item eventKey="6">
         <Accordion.Header>خ</Accordion.Header>
         <Accordion.Body>
-          <audio controls>
-            <source src={khaa} type="audio/wav" />
-            Your browser does not support the audio element.
-          </audio>
+        <AudioPlayer
+          autoPlay
+          src={khaa}
+          onPlay={e => console.log("onPlay")}
+          // other props here
+        />
           <p>
             <strong>Throat letter</strong> - Closest to the mouth
           </p>

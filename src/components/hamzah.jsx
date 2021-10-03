@@ -4,6 +4,9 @@ import Carousel from "react-bootstrap/Carousel";
 import { Link } from "wouter";
 
 import hamzah from "../assets/audio/hamzah.wav";
+import AudioPlayer from 'react-h5-audio-player';
+import 'react-h5-audio-player/lib/styles.css';
+
 import img1 from "../assets/1/1.jpeg";
 import img2 from "../assets/1/2.jpeg";
 import img4 from "../assets/1/4.jpeg"
@@ -14,10 +17,12 @@ export default function Hamzah() {
       <Accordion.Item eventKey="27">
         <Accordion.Header>ء</Accordion.Header>
         <Accordion.Body>
-          <audio controls>
-            <source src={hamzah} type="audio/wav" />
-            Your browser does not support the audio element.
-          </audio>
+        <AudioPlayer
+          autoPlay
+          src={hamzah}
+          onPlay={e => console.log("onPlay")}
+          // other props here
+        />
           <p>
             <strong>Throat letter</strong> - Furthest part, from the vocal
             chords

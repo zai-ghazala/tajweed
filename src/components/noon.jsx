@@ -3,6 +3,9 @@ import Accordion from "react-bootstrap/Accordion";
 import { Link } from "wouter";
 
 import noon from "../assets/audio/noon.wav";
+import AudioPlayer from 'react-h5-audio-player';
+import 'react-h5-audio-player/lib/styles.css';
+
 import img22 from "../assets/1/22.jpeg";
 
 export default function Noon() {
@@ -11,10 +14,12 @@ export default function Noon() {
       <Accordion.Item eventKey="24">
         <Accordion.Header>ن</Accordion.Header>
         <Accordion.Body>
-          <audio controls>
-            <source src={noon} type="audio/wav" />
-            Your browser does not support the audio element.
-          </audio>
+        <AudioPlayer
+          autoPlay
+          src={noon}
+          onPlay={e => console.log("onPlay")}
+          // other props here
+        />
           <p>
             <strong>Tongue letter</strong> - Tip of the tongue
           </p>

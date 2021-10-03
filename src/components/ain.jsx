@@ -3,6 +3,8 @@ import Accordion from "react-bootstrap/Accordion";
 import { Link } from "wouter";
 
 import ain from "../assets/audio/ain.wav";
+import AudioPlayer from 'react-h5-audio-player';
+import 'react-h5-audio-player/lib/styles.css';
 import img5a from "../assets/1/5a.jpeg";
 
 export default function Ain() {
@@ -11,10 +13,12 @@ export default function Ain() {
       <Accordion.Item eventKey="17">
         <Accordion.Header>ع</Accordion.Header>
         <Accordion.Body>
-          <audio controls>
-            <source src={ain} type="audio/wav" />
-            Your browser does not support the audio element.
-          </audio>
+        <AudioPlayer
+          autoPlay
+          src={ain}
+          onPlay={e => console.log("onPlay")}
+          // other props here
+        />
           <p>
             <strong>Throat letter</strong> - Middle of the throat, epiglottis,
             what stops food going into our windpipe when we eat

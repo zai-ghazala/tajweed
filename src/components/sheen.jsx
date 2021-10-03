@@ -3,6 +3,9 @@ import Accordion from "react-bootstrap/Accordion";
 import { Link } from "wouter";
 
 import sheen from "../assets/audio/sheen.wav";
+import AudioPlayer from 'react-h5-audio-player';
+import 'react-h5-audio-player/lib/styles.css';
+
 import img11a from "../assets/1/11a.jpeg";
 
 export default function Sheen() {
@@ -11,10 +14,12 @@ export default function Sheen() {
       <Accordion.Item eventKey="12">
         <Accordion.Header>ش</Accordion.Header>
         <Accordion.Body>
-          <audio controls>
-            <source src={sheen} type="audio/wav" />
-            Your browser does not support the audio element.
-          </audio>
+        <AudioPlayer
+          autoPlay
+          src={sheen}
+          onPlay={e => console.log("onPlay")}
+          // other props here
+        />
           <p>
             <strong>Tongue letter</strong> - Middle of the tongue with the
             middle of the roof of the mouth

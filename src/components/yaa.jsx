@@ -3,6 +3,9 @@ import Accordion from "react-bootstrap/Accordion";
 import { Link } from "wouter";
 
 import yaa from "../assets/audio/yaa.wav";
+import AudioPlayer from 'react-h5-audio-player';
+import 'react-h5-audio-player/lib/styles.css';
+
 import img11 from "../assets/1/11.jpeg";
 
 export default function Yaa() {
@@ -11,10 +14,12 @@ export default function Yaa() {
       <Accordion.Item eventKey="28">
         <Accordion.Header>ي</Accordion.Header>
         <Accordion.Body>
-          <audio controls>
-            <source src={yaa} type="audio/wav" />
-            Your browser does not support the audio element.
-          </audio>
+        <AudioPlayer
+          autoPlay
+          src={yaa}
+          onPlay={e => console.log("onPlay")}
+          // other props here
+        />
           <p>
             <strong>Tongue letter</strong> - Ghair madiya. Middle of the tongue with the
             middle of the roof of the mouth

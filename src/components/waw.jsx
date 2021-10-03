@@ -4,6 +4,9 @@ import Carousel from "react-bootstrap/Carousel";
 import { Link } from "wouter";
 
 import waw from "../assets/audio/waw.wav";
+import AudioPlayer from 'react-h5-audio-player';
+import 'react-h5-audio-player/lib/styles.css';
+
 import img30 from "../assets/1/30.jpeg";
 import img31 from "../assets/1/31.jpeg";
 
@@ -13,10 +16,12 @@ export default function Waw() {
       <Accordion.Item eventKey="25">
         <Accordion.Header>و</Accordion.Header>
         <Accordion.Body>
-          <audio controls>
-            <source src={waw} type="audio/wav" />
-            Your browser does not support the audio element.
-          </audio>
+        <AudioPlayer
+          autoPlay
+          src={waw}
+          onPlay={e => console.log("onPlay")}
+          // other props here
+        />
           <p>
             <strong>Lip letter</strong> - Ghair madiya. Lips make a round
             circle

@@ -3,6 +3,9 @@ import Accordion from "react-bootstrap/Accordion";
 import { Link } from "wouter";
 
 import daal from "../assets/audio/daal.wav";
+import AudioPlayer from 'react-h5-audio-player';
+import 'react-h5-audio-player/lib/styles.css';
+
 import img27 from "../assets/1/27.jpeg";
 
 export default function Daal() {
@@ -11,10 +14,12 @@ export default function Daal() {
       <Accordion.Item eventKey="7">
         <Accordion.Header>د</Accordion.Header>
         <Accordion.Body>
-          <audio controls>
-            <source src={daal} type="audio/wav" />
-            Your browser does not support the audio element.
-          </audio>
+        <AudioPlayer
+          autoPlay
+          src={daal}
+          onPlay={e => console.log("onPlay")}
+          // other props here
+        />
           <p>
             <strong>Tongue letter</strong> - Where the extreme tip of the tongue
             touches the roots of the top front teeth

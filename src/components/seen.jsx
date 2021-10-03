@@ -3,6 +3,9 @@ import Accordion from "react-bootstrap/Accordion";
 import { Link } from "wouter";
 
 import seen from "../assets/audio/seen.wav";
+import AudioPlayer from 'react-h5-audio-player';
+import 'react-h5-audio-player/lib/styles.css';
+
 import img26 from "../assets/1/26.jpeg";
 
 export default function Seen() {
@@ -11,10 +14,12 @@ export default function Seen() {
       <Accordion.Item eventKey="11">
         <Accordion.Header>س</Accordion.Header>
         <Accordion.Body>
-          <audio controls>
-            <source src={seen} type="audio/wav" />
-            Your browser does not support the audio element.
-          </audio>
+        <AudioPlayer
+          autoPlay
+          src={seen}
+          onPlay={e => console.log("onPlay")}
+          // other props here
+        />
           <p>
             <strong>Tongue letter</strong> - Extreme tip of the tongue touching
             the inner surface at the lower end of the bottom two front teeth

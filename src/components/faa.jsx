@@ -3,6 +3,9 @@ import Accordion from "react-bootstrap/Accordion";
 import { Link } from "wouter";
 
 import faa from "../assets/audio/faa.wav";
+import AudioPlayer from 'react-h5-audio-player';
+import 'react-h5-audio-player/lib/styles.css';
+
 import img29 from "../assets/1/29.jpeg";
 
 export default function Faa() {
@@ -11,10 +14,12 @@ export default function Faa() {
       <Accordion.Item eventKey="19">
         <Accordion.Header>ف</Accordion.Header>
         <Accordion.Body>
-          <audio controls>
-            <source src={faa} type="audio/wav" />
-            Your browser does not support the audio element.
-          </audio>
+        <AudioPlayer
+          autoPlay
+          src={faa}
+          onPlay={e => console.log("onPlay")}
+          // other props here
+        />
           <p>
             <strong>Lip letter</strong> - The edge of the front top teeth
             touching the inside lower lip

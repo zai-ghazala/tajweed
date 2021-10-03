@@ -3,6 +3,9 @@ import Accordion from "react-bootstrap/Accordion";
 import { Link } from "wouter";
 
 import suad from "../assets/audio/suad.wav";
+import AudioPlayer from 'react-h5-audio-player';
+import 'react-h5-audio-player/lib/styles.css';
+
 import img26a from "../assets/1/26a.jpeg"
 
 export default function Suad() {
@@ -11,10 +14,12 @@ export default function Suad() {
       <Accordion.Item eventKey="13">
         <Accordion.Header>ص</Accordion.Header>
         <Accordion.Body>
-          <audio controls>
-            <source src={suad} type="audio/wav" />
-            Your browser does not support the audio element.
-          </audio>
+        <AudioPlayer
+          autoPlay
+          src={suad}
+          onPlay={e => console.log("onPlay")}
+          // other props here
+        />
           <p>
             <strong>Tongue letter</strong> - Extreme tip of the tongue touching
             the inner surface at the lower end of the bottom two front teeth

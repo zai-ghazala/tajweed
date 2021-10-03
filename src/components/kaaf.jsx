@@ -3,6 +3,9 @@ import Accordion from "react-bootstrap/Accordion";
 import { Link } from "wouter";
 
 import kaaf from "../assets/audio/kaaf.wav";
+import AudioPlayer from 'react-h5-audio-player';
+import 'react-h5-audio-player/lib/styles.css';
+
 import img8 from "../assets/1/8.jpeg";
 
 export default function Kaaf() {
@@ -11,10 +14,12 @@ export default function Kaaf() {
       <Accordion.Item eventKey="21">
         <Accordion.Header>ك</Accordion.Header>
         <Accordion.Body>
-          <audio controls>
-            <source src={kaaf} type="audio/wav" />
-            Your browser does not support the audio element.
-          </audio>
+        <AudioPlayer
+          autoPlay
+          src={kaaf}
+          onPlay={e => console.log("onPlay")}
+          // other props here
+        />
           <p>
             <strong>Tongue letter</strong> - Back of the tongue touching where
             the hard part of the roof of the mouth meets the soft part
