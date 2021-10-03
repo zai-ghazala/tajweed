@@ -32,7 +32,8 @@ export default function Home() {
     <Router hook={useHashLocation}>
       <Seo />
       <main role="main" className="wrapper">
-      <div className="return"><Link href="/"><img src={home} alt="home"/></Link></div>
+      <div className="return">
+      <Link href="/"><a><img src={home} alt="home"/></a></Link></div>
       <div className="content"><PageRouter /></div>
       </main>
     </Router>
