@@ -15,7 +15,7 @@ export default function Zaal() {
         <Accordion.Header>ذ</Accordion.Header>
         <Accordion.Body>
         <AudioPlayer
-          autoPlay
+          
           src={zaal}
           onPlay={e => console.log("onPlay")}
           // other props here

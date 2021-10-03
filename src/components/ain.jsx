@@ -14,7 +14,7 @@ export default function Ain() {
         <Accordion.Header>ع</Accordion.Header>
         <Accordion.Body>
         <AudioPlayer
-          autoPlay
+          
           src={ain}
           onPlay={e => console.log("onPlay")}
           // other props here

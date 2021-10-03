@@ -15,7 +15,7 @@ export default function Seen() {
         <Accordion.Header>س</Accordion.Header>
         <Accordion.Body>
         <AudioPlayer
-          autoPlay
+          
           src={seen}
           onPlay={e => console.log("onPlay")}
           // other props here

@@ -15,7 +15,7 @@ export default function Haa() {
         <Accordion.Header>ح</Accordion.Header>
         <Accordion.Body>
         <AudioPlayer
-          autoPlay
+          
           src={haa}
           onPlay={e => console.log("onPlay")}
           // other props here

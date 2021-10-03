@@ -15,7 +15,7 @@ export default function Taa() {
         <Accordion.Header>ت</Accordion.Header>
         <Accordion.Body>
         <AudioPlayer
-          autoPlay
+          
           src={taa}
           onPlay={e => console.log("onPlay")}
           // other props here

@@ -15,7 +15,7 @@ export default function Noon() {
         <Accordion.Header>ن</Accordion.Header>
         <Accordion.Body>
         <AudioPlayer
-          autoPlay
+          
           src={noon}
           onPlay={e => console.log("onPlay")}
           // other props here

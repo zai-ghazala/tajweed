@@ -18,7 +18,7 @@ export default function Hamzah() {
         <Accordion.Header>ء</Accordion.Header>
         <Accordion.Body>
         <AudioPlayer
-          autoPlay
+          
           src={hamzah}
           onPlay={e => console.log("onPlay")}
           // other props here

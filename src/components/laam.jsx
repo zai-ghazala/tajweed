@@ -19,7 +19,7 @@ export default function Laam() {
         <Accordion.Header>ل</Accordion.Header>
         <Accordion.Body>
         <AudioPlayer
-          autoPlay
+          
           src={laam}
           onPlay={e => console.log("onPlay")}
           // other props here

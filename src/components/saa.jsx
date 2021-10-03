@@ -15,7 +15,7 @@ export default function Saa() {
       <Accordion.Header>ث</Accordion.Header>
       <Accordion.Body>
       <AudioPlayer
-          autoPlay
+          
           src={saa}
           onPlay={e => console.log("onPlay")}
           // other props here

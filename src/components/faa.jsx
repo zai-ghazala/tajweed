@@ -15,7 +15,7 @@ export default function Faa() {
         <Accordion.Header>ف</Accordion.Header>
         <Accordion.Body>
         <AudioPlayer
-          autoPlay
+          
           src={faa}
           onPlay={e => console.log("onPlay")}
           // other props here

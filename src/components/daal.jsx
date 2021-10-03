@@ -15,7 +15,7 @@ export default function Daal() {
         <Accordion.Header>د</Accordion.Header>
         <Accordion.Body>
         <AudioPlayer
-          autoPlay
+          
           src={daal}
           onPlay={e => console.log("onPlay")}
           // other props here

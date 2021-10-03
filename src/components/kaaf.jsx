@@ -15,7 +15,7 @@ export default function Kaaf() {
         <Accordion.Header>ك</Accordion.Header>
         <Accordion.Body>
         <AudioPlayer
-          autoPlay
+          
           src={kaaf}
           onPlay={e => console.log("onPlay")}
           // other props here

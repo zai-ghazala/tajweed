@@ -15,7 +15,7 @@ export default function Zaai() {
         <Accordion.Header>ز</Accordion.Header>
         <Accordion.Body>
         <AudioPlayer
-          autoPlay
+          
           src={zaai}
           onPlay={e => console.log("onPlay")}
           // other props here

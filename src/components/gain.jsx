@@ -15,7 +15,7 @@ export default function Gain() {
         <Accordion.Header>غ</Accordion.Header>
         <Accordion.Body>
         <AudioPlayer
-          autoPlay
+          
           src={gain}
           onPlay={e => console.log("onPlay")}
           // other props here

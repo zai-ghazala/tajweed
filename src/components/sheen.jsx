@@ -15,7 +15,7 @@ export default function Sheen() {
         <Accordion.Header>ش</Accordion.Header>
         <Accordion.Body>
         <AudioPlayer
-          autoPlay
+          
           src={sheen}
           onPlay={e => console.log("onPlay")}
           // other props here

@@ -15,7 +15,7 @@ export default function Khaa() {
         <Accordion.Header>خ</Accordion.Header>
         <Accordion.Body>
         <AudioPlayer
-          autoPlay
+          
           src={khaa}
           onPlay={e => console.log("onPlay")}
           // other props here

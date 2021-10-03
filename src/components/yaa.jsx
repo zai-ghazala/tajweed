@@ -15,7 +15,7 @@ export default function Yaa() {
         <Accordion.Header>ي</Accordion.Header>
         <Accordion.Body>
         <AudioPlayer
-          autoPlay
+          
           src={yaa}
           onPlay={e => console.log("onPlay")}
           // other props here

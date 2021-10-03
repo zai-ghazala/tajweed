@@ -15,7 +15,7 @@ export default function ZaaHeavy() {
         <Accordion.Header>ظ</Accordion.Header>
         <Accordion.Body>
         <AudioPlayer
-          autoPlay
+          
           src={zaaHeavy}
           onPlay={e => console.log("onPlay")}
           // other props here

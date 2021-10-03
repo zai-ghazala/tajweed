@@ -16,7 +16,7 @@ export default function Jeem() {
       <Accordion.Header>ج</Accordion.Header>
       <Accordion.Body>
       <AudioPlayer
-          autoPlay
+          
           src={jeem}
           onPlay={e => console.log("onPlay")}
           // other props here

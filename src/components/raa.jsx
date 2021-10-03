@@ -20,7 +20,7 @@ export default function Raa() {
         <Accordion.Header>ر</Accordion.Header>
         <Accordion.Body>
         <AudioPlayer
-          autoPlay
+          
           src={raa}
           onPlay={e => console.log("onPlay")}
           // other props here

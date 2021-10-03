@@ -15,7 +15,7 @@ export default function Meem() {
         <Accordion.Header>م</Accordion.Header>
         <Accordion.Body>
         <AudioPlayer
-          autoPlay
+          
           src={meem}
           onPlay={e => console.log("onPlay")}
           // other props here
