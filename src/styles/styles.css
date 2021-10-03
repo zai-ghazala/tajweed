@@ -264,8 +264,16 @@ h1 {
 }
 .return {
   text-align: right;
-  font-size: 2em;
-  background-color: var(--color-text-main)
+  font-size: 5vh;
+  background-color: var(--color-text-main);
+  position: fixed;
+  height: 12.5vh;
+  width: 100vw;
+  z-index: 1
+}
+.content {
+  position: relative;
+  top: 12.5vh
 }
 .return a {
   text-decoration: none !important;
