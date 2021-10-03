@@ -3,7 +3,7 @@ import Accordion from "react-bootstrap/Accordion";
 import Carousel from "react-bootstrap/Carousel";
 import { Link } from "wouter";
 
-import smallHaa from "../assets/audio/small-haa.mp3";
+import smallHaa from "../assets/audio/small-haa.wav";
 import img1 from "../assets/1/1.jpeg";
 import img3 from "../assets/1/3.jpeg";
 import img4 from "../assets/1/4.jpeg";
@@ -15,7 +15,7 @@ export default function SmallHaa() {
         <Accordion.Header>ه</Accordion.Header>
         <Accordion.Body>
           <audio controls>
-            <source src={smallHaa} type="audio/mp3" />
+            <source src={smallHaa} type="audio/wav" />
             Your browser does not support the audio element.
           </audio>
           <p>

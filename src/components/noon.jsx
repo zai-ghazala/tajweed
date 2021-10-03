@@ -2,7 +2,7 @@ import * as React from "react";
 import Accordion from "react-bootstrap/Accordion";
 import { Link } from "wouter";
 
-import noon from "../assets/audio/noon.mp3";
+import noon from "../assets/audio/noon.wav";
 import img22 from "../assets/1/22.jpeg";
 
 export default function Noon() {
@@ -12,7 +12,7 @@ export default function Noon() {
         <Accordion.Header>ن</Accordion.Header>
         <Accordion.Body>
           <audio controls>
-            <source src={noon} type="audio/mp3" />
+            <source src={noon} type="audio/wav" />
             Your browser does not support the audio element.
           </audio>
           <p>

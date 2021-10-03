@@ -2,7 +2,7 @@ import * as React from "react";
 import Accordion from "react-bootstrap/Accordion";
 import { Link } from "wouter";
 
-import seen from "../assets/audio/seen.mp3";
+import seen from "../assets/audio/seen.wav";
 import img26 from "../assets/1/26.jpeg";
 
 export default function Seen() {
@@ -12,7 +12,7 @@ export default function Seen() {
         <Accordion.Header>س</Accordion.Header>
         <Accordion.Body>
           <audio controls>
-            <source src={seen} type="audio/mp3" />
+            <source src={seen} type="audio/wav" />
             Your browser does not support the audio element.
           </audio>
           <p>

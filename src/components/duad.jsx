@@ -3,7 +3,7 @@ import Accordion from "react-bootstrap/Accordion";
 import Carousel from "react-bootstrap/Carousel";
 import { Link } from "wouter";
 
-import duad from "../assets/audio/duad.mp3";
+import duad from "../assets/audio/duad.wav";
 import img19 from "../assets/1/19.jpeg";
 import img20 from "../assets/1/20.jpeg";
 
@@ -14,7 +14,7 @@ export default function Suad() {
         <Accordion.Header>ض</Accordion.Header>
         <Accordion.Body>
           <audio controls>
-            <source src={duad} type="audio/mp3" />
+            <source src={duad} type="audio/wav" />
             Your browser does not support the audio element.
           </audio>
           <p>

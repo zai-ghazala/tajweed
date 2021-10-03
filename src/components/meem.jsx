@@ -2,7 +2,7 @@ import * as React from "react";
 import Accordion from "react-bootstrap/Accordion";
 import { Link } from "wouter";
 
-import meem from "../assets/audio/meem.mp3";
+import meem from "../assets/audio/meem.wav";
 import img33 from "../assets/1/33.jpeg";
 
 export default function Meem() {
@@ -12,7 +12,7 @@ export default function Meem() {
         <Accordion.Header>م</Accordion.Header>
         <Accordion.Body>
           <audio controls>
-            <source src={meem} type="audio/mp3" />
+            <source src={meem} type="audio/wav" />
             Your browser does not support the audio element.
           </audio>
           <p>

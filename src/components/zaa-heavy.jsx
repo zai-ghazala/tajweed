@@ -2,7 +2,7 @@ import * as React from "react";
 import Accordion from "react-bootstrap/Accordion";
 import { Link } from "wouter";
 
-import zaaHeavy from "../assets/audio/zaa-heavy.mp3";
+import zaaHeavy from "../assets/audio/zaa-heavy.wav";
 import img28a from "../assets/1/28a.jpeg"
 
 export default function ZaaHeavy() {
@@ -12,7 +12,7 @@ export default function ZaaHeavy() {
         <Accordion.Header>ظ</Accordion.Header>
         <Accordion.Body>
           <audio controls>
-            <source src={zaaHeavy} type="audio/mp3" />
+            <source src={zaaHeavy} type="audio/wav" />
             Your browser does not support the audio element.
           </audio>
           <p>

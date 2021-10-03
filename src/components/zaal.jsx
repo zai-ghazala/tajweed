@@ -2,7 +2,7 @@ import * as React from "react";
 import Accordion from "react-bootstrap/Accordion";
 import { Link } from "wouter";
 
-import zaal from "../assets/audio/zaal.mp3";
+import zaal from "../assets/audio/zaal.wav";
 import img28 from "../assets/1/28.jpeg";
 
 export default function Zaal() {
@@ -12,7 +12,7 @@ export default function Zaal() {
         <Accordion.Header>ذ</Accordion.Header>
         <Accordion.Body>
           <audio controls>
-            <source src={zaal} type="audio/mp3" />
+            <source src={zaal} type="audio/wav" />
             Your browser does not support the audio element.
           </audio>
           <p>

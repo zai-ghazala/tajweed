@@ -3,7 +3,7 @@ import Accordion from "react-bootstrap/Accordion";
 import Carousel from "react-bootstrap/Carousel";
 import { Link } from "wouter";
 
-import raa from "../assets/audio/raa.mp3";
+import raa from "../assets/audio/raa.wav";
 import img23 from "../assets/1/23.jpeg";
 import img23a from "../assets/1/23a.jpeg";
 import img23b from "../assets/1/23b.jpeg";
@@ -17,7 +17,7 @@ export default function Raa() {
         <Accordion.Header>ر</Accordion.Header>
         <Accordion.Body>
           <audio controls>
-            <source src={raa} type="audio/mp3" />
+            <source src={raa} type="audio/wav" />
             Your browser does not support the audio element.
           </audio>
           <p>

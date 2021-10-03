@@ -2,7 +2,7 @@ import * as React from "react";
 import Accordion from "react-bootstrap/Accordion";
 import { Link } from "wouter";
 
-import qaaf from "../assets/audio/qaaf.mp3";
+import qaaf from "../assets/audio/qaaf.wav";
 import img7 from "../assets/1/7.jpeg";
 
 export default function Qaaf() {
@@ -12,7 +12,7 @@ export default function Qaaf() {
         <Accordion.Header>ق</Accordion.Header>
         <Accordion.Body>
           <audio controls>
-            <source src={qaaf} type="audio/mp3" />
+            <source src={qaaf} type="audio/wav" />
             Your browser does not support the audio element.
           </audio>
           <p>

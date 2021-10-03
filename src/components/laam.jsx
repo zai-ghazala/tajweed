@@ -3,7 +3,7 @@ import Accordion from "react-bootstrap/Accordion";
 import Carousel from "react-bootstrap/Carousel";
 import { Link } from "wouter";
 
-import laam from "../assets/audio/laam.mp3";
+import laam from "../assets/audio/laam.wav";
 import img13 from "../assets/1/13.jpeg";
 import img14 from "../assets/1/14.jpeg";
 import img15 from "../assets/1/15.jpeg";
@@ -16,7 +16,7 @@ export default function Laam() {
         <Accordion.Header>ل</Accordion.Header>
         <Accordion.Body>
           <audio controls>
-            <source src={laam} type="audio/mp3" />
+            <source src={laam} type="audio/wav" />
             Your browser does not support the audio element.
           </audio>
           <p>

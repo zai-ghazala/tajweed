@@ -2,7 +2,7 @@ import * as React from "react";
 import Accordion from "react-bootstrap/Accordion";
 import { Link } from "wouter";
 
-import sheen from "../assets/audio/sheen.mp3";
+import sheen from "../assets/audio/sheen.wav";
 import img11a from "../assets/1/11a.jpeg";
 
 export default function Sheen() {
@@ -12,7 +12,7 @@ export default function Sheen() {
         <Accordion.Header>ش</Accordion.Header>
         <Accordion.Body>
           <audio controls>
-            <source src={sheen} type="audio/mp3" />
+            <source src={sheen} type="audio/wav" />
             Your browser does not support the audio element.
           </audio>
           <p>

@@ -2,7 +2,7 @@ import * as React from "react";
 import Accordion from "react-bootstrap/Accordion";
 import { Link } from "wouter";
 
-import haa from "../assets/audio/haa.mp3";
+import haa from "../assets/audio/haa.wav";
 import img5 from "../assets/1/5.jpeg";
 
 export default function Haa() {
@@ -12,7 +12,7 @@ export default function Haa() {
         <Accordion.Header>ح</Accordion.Header>
         <Accordion.Body>
           <audio controls>
-            <source src={haa} type="audio/mp3" />
+            <source src={haa} type="audio/wav" />
             Your browser does not support the audio element.
           </audio>
           <p>

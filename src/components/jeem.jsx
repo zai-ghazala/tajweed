@@ -3,7 +3,7 @@ import * as React from "react";
 import Accordion from "react-bootstrap/Accordion";
 import { Link } from "wouter";
 
-import jeem from "../assets/audio/jeem.mp3";
+import jeem from "../assets/audio/jeem.wav";
 import img11b from "../assets/1/11b.jpeg";
 
 export default function Jeem() {
@@ -13,7 +13,7 @@ export default function Jeem() {
       <Accordion.Header>ج</Accordion.Header>
       <Accordion.Body>
         <audio controls>
-          <source src={jeem} type="audio/mp3" />
+          <source src={jeem} type="audio/wav" />
           Your browser does not support the audio element.
         </audio>
         <p>

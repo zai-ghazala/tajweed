@@ -3,7 +3,7 @@ import Accordion from "react-bootstrap/Accordion";
 import Carousel from "react-bootstrap/Carousel";
 import { Link } from "wouter";
 
-import waw from "../assets/audio/waw.mp3";
+import waw from "../assets/audio/waw.wav";
 import img30 from "../assets/1/30.jpeg";
 import img31 from "../assets/1/31.jpeg";
 
@@ -14,7 +14,7 @@ export default function Waw() {
         <Accordion.Header>و</Accordion.Header>
         <Accordion.Body>
           <audio controls>
-            <source src={waw} type="audio/mp3" />
+            <source src={waw} type="audio/wav" />
             Your browser does not support the audio element.
           </audio>
           <p>

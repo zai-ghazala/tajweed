@@ -2,7 +2,7 @@ import * as React from "react";
 import Accordion from "react-bootstrap/Accordion";
 import { Link } from "wouter";
 
-import taaHeavy from "../assets/audio/taa-heavy.mp3";
+import taaHeavy from "../assets/audio/taa-heavy.wav";
 import img27a from "../assets/1/27a.jpeg"
 
 export default function TaaHeavy() {
@@ -12,7 +12,7 @@ export default function TaaHeavy() {
         <Accordion.Header>ط</Accordion.Header>
         <Accordion.Body>
           <audio controls>
-            <source src={taaHeavy} type="audio/mp3" />
+            <source src={taaHeavy} type="audio/wav" />
             Your browser does not support the audio element.
           </audio>
           <p>

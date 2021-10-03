@@ -3,7 +3,7 @@ import Accordion from "react-bootstrap/Accordion";
 import Carousel from "react-bootstrap/Carousel";
 import { Link } from "wouter";
 
-import hamzah from "../assets/audio/hamzah.mp3";
+import hamzah from "../assets/audio/hamzah.wav";
 import img1 from "../assets/1/1.jpeg";
 import img2 from "../assets/1/2.jpeg";
 import img4 from "../assets/1/4.jpeg"
@@ -15,7 +15,7 @@ export default function Hamzah() {
         <Accordion.Header>ء</Accordion.Header>
         <Accordion.Body>
           <audio controls>
-            <source src={hamzah} type="audio/mp3" />
+            <source src={hamzah} type="audio/wav" />
             Your browser does not support the audio element.
           </audio>
           <p>

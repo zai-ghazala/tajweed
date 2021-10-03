@@ -2,7 +2,7 @@ import * as React from "react";
 import Accordion from "react-bootstrap/Accordion";
 import { Link } from "wouter";
 
-import daal from "../assets/audio/daal.mp3";
+import daal from "../assets/audio/daal.wav";
 import img27 from "../assets/1/27.jpeg";
 
 export default function Daal() {
@@ -12,7 +12,7 @@ export default function Daal() {
         <Accordion.Header>د</Accordion.Header>
         <Accordion.Body>
           <audio controls>
-            <source src={daal} type="audio/mp3" />
+            <source src={daal} type="audio/wav" />
             Your browser does not support the audio element.
           </audio>
           <p>

@@ -2,7 +2,7 @@ import * as React from "react";
 import Accordion from "react-bootstrap/Accordion";
 import { Link } from "wouter";
 
-import suad from "../assets/audio/suad.mp3";
+import suad from "../assets/audio/suad.wav";
 import img26a from "../assets/1/26a.jpeg"
 
 export default function Suad() {
@@ -12,7 +12,7 @@ export default function Suad() {
         <Accordion.Header>ص</Accordion.Header>
         <Accordion.Body>
           <audio controls>
-            <source src={suad} type="audio/mp3" />
+            <source src={suad} type="audio/wav" />
             Your browser does not support the audio element.
           </audio>
           <p>
