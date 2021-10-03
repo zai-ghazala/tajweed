@@ -23,7 +23,7 @@ export default function Haa() {
           <p>Tongue is flat</p>
           <hr />
          <p>
-            <Link href="">الهمس Al Hams</Link>
+            <Link href="hams">الهمس Al Hams</Link>
           </p>
         <p>
             <Link href="rikawah">الرخاوة Al Rikawah</Link>
