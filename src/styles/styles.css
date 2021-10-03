@@ -36,6 +36,9 @@ h1 {
   font-family: Lora !important;
   font-weight: bold !important
 }
+h1 .arabic {
+  font-weight: normal
+}
 .accordion-button:hover, .accordion-button:not(.collapsed) {
   color: yellow !important;
 }
