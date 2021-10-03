@@ -41,7 +41,7 @@ export default function Home() {
       <Seo />
       <main role="main" className="wrapper">
       <ReloadPrompt />
-      <AddToHomescreen onAddToHomescreenClick={handleAddToHomescreenClick} />
+      <AddToHomescreen onAddToHomescreenClick={this.handleAddToHomescreenClick} />
       <div className="return">
       <Link href="/"><a><img src={home} alt="home"/></a></Link></div>
       <div className="content"><PageRouter /></div>
