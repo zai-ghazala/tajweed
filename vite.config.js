@@ -16,6 +16,7 @@ export default defineConfig({
         globPatterns: ["**.{js,css,html,png,jpeg,wav,ttf}"],
         maximumFileSizeToCacheInBytes: 30 * 1024 * 1024,
         globDirectory: "build",
+        navigateFallback: "./index.html"
       },
       manifest: {
         short_name: "Tajweed",
