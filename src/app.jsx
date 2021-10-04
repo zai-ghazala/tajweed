@@ -21,6 +21,7 @@ import "./styles/styles.css";
 // Where all of our pages come from
 import PageRouter from "./components/router.jsx";
 import useHashLocation from "./hooks/wouter-hash";
+import { registerSW } from 'virtual:pwa-register'
 
 // The component that adds our Meta tags to the page
 import Seo from "./components/seo.jsx";
@@ -35,11 +36,14 @@ export default function Home() {
     new Audio(audioURL).play();
   };
 
+  const updateSW = registerSW({
+    onOfflineReady() {},
+  })
+
   return (
     <Router hook={useHashLocation}>
       <Seo />
       <main role="main" className="wrapper">
-      <ReloadPrompt />
       <div className="return"><div className="recorder">
       <button onClick={startRecording} disabled={isRecording}>
       ● record
