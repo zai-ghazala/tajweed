@@ -12,12 +12,6 @@ export default defineConfig({
         "robots.txt",
         "apple-touch-icon.png",
       ],
-      workbox: {
-        globPatterns: ["**.{js,css,html,png,jpeg,wav,ttf}"],
-        maximumFileSizeToCacheInBytes: 30 * 1024 * 1024,
-        globDirectory: "build",
-        start_url: "/",
-      },
       manifest: {
         short_name: "Tajweed",
         name: "Tajweed",
@@ -25,6 +19,7 @@ export default defineConfig({
         theme_color: "#cc95c0",
         background_color: "#cc95c0",
         orientation: "portrait",
+        start_url: "/",
         display: "standalone",
         icons: [
           {
@@ -43,6 +38,11 @@ export default defineConfig({
             type: "image/png",
             sizes: "512x512",
             purpose: "maskable any",
+          },
+          workbox: {
+            globPatterns: ["**.{js,css,html,png,jpeg,wav,ttf}"],
+            maximumFileSizeToCacheInBytes: 30 * 1024 * 1024,
+            globDirectory: "build",
           },
         ],
       },
