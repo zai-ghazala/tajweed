@@ -3,7 +3,7 @@ import Accordion from "react-bootstrap/Accordion";
 
 import ScrollToTop from "../components/scroll-to-top.jsx";
 
-import Taa from "../components/baa";
+import Taa from "../components/taa";
 import Saa from "../components/saa";
 import Jeem from "../components/jeem";
 import Daal from "../components/daal";

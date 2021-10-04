@@ -72,7 +72,7 @@ export default function Laam() {
             <Carousel.Item>
               <img className="d-block mx-auto" src={img16} />
               <Carousel.Caption>
-                <p>When{" "}<span className="arabic">ل</span>{" "}is heavy, the tongue is dipped in the middle</p>
+                <p>When{" "}<span className="arabic">ل</span>{" "}, the tongue is dipped in the middle</p>
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
