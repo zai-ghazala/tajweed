@@ -13,9 +13,9 @@ export default defineConfig({
         "apple-touch-icon.png",
       ],
       workbox: {
-        globPatterns: ["**.{js,css,html,jsx}","**/*.{js,css,html,png,jpeg,wav,ttf}"],
+        globPatterns: ["**.{js,css,html,png,jpeg,wav,ttf}"],
         maximumFileSizeToCacheInBytes: 30 * 1024 * 1024,
-        globDirectory: "build/assets",
+        globDirectory: "build",
       },
       manifest: {
         short_name: "Tajweed",
