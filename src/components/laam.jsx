@@ -3,14 +3,8 @@ import Accordion from "react-bootstrap/Accordion";
 import Carousel from "react-bootstrap/Carousel";
 import { Link } from "wouter";
 
-import laam from "../assets/audio/laam.wav";
 import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
-
-import img13 from "../assets/1/13.jpeg";
-import img14 from "../assets/1/14.jpeg";
-import img15 from "../assets/1/15.jpeg";
-import img16 from "../assets/1/16.jpeg";
 
 export default function Laam() {
   return (
@@ -20,7 +14,7 @@ export default function Laam() {
         <Accordion.Body>
         <AudioPlayer
           
-          src={laam}
+          src="/assets/audio/laam.wav"
           onPlay={e => console.log("onPlay")}
           // other props here
         />
@@ -55,22 +49,22 @@ export default function Laam() {
           </p>
           <Carousel nextLabel={null} prevLabel={null}>
             <Carousel.Item>
-              <img className="d-block mx-auto" src={img15} />
+              <img className="d-block mx-auto" src="/assets/images/15.jpeg" />
             </Carousel.Item>
             <Carousel.Item>
-              <img src={img13} />
+              <img src="/assets/images/13.jpeg" />
               <Carousel.Caption>
                 <p>Edge of tip of tongue - the yellow area</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-              <img className="d-block mx-auto" src={img14} />
+              <img className="d-block mx-auto" src="/assets/images/14.jpeg" />
               <Carousel.Caption>
                 <p>Yellow area showing where tongue touches top palate</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-              <img className="d-block mx-auto" src={img16} />
+              <img className="d-block mx-auto" src="/assets/images/16.jpeg" />
               <Carousel.Caption>
                 <p>When{" "}<span className="arabic">ل</span>{" "}, the tongue is dipped in the middle</p>
               </Carousel.Caption>

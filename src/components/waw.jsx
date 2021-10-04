@@ -3,12 +3,8 @@ import Accordion from "react-bootstrap/Accordion";
 import Carousel from "react-bootstrap/Carousel";
 import { Link } from "wouter";
 
-import waw from "../assets/audio/waw.wav";
 import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
-
-import img30 from "../assets/1/30.jpeg";
-import img31 from "../assets/1/31.jpeg";
 
 export default function Waw() {
   return (
@@ -18,7 +14,7 @@ export default function Waw() {
         <Accordion.Body>
         <AudioPlayer
           
-          src={waw}
+          src="/assets/audio/waw.wav"
           onPlay={e => console.log("onPlay")}
           // other props here
         />
@@ -43,10 +39,10 @@ export default function Waw() {
           </p>
           <Carousel nextLabel={null} prevLabel={null}>
             <Carousel.Item>
-              <img className="d-block mx-auto" src={img30} />
+              <img className="d-block mx-auto" src="/assets/images/30.jpeg" />
             </Carousel.Item>
             <Carousel.Item>
-              <img className="d-block mx-auto" src={img31} />
+              <img className="d-block mx-auto" src="/assets/images/31.jpeg" />
             </Carousel.Item>
           </Carousel>
         </Accordion.Body>

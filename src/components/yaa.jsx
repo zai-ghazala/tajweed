@@ -2,11 +2,8 @@ import * as React from "react";
 import Accordion from "react-bootstrap/Accordion";
 import { Link } from "wouter";
 
-import yaa from "../assets/audio/yaa.wav";
 import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
-
-import img11 from "../assets/1/11.jpeg";
 
 export default function Yaa() {
   return (
@@ -16,7 +13,7 @@ export default function Yaa() {
         <Accordion.Body>
         <AudioPlayer
           
-          src={yaa}
+          src="/assets/audio/yaa.wav"
           onPlay={e => console.log("onPlay")}
           // other props here
         />
@@ -39,7 +36,7 @@ export default function Yaa() {
            <p>
             <Link href="infitah"><span className="arabic">الانفتاح</span> Al Infitah</Link>
           </p>
-          <img className="d-block mx-auto" src={img11} />
+          <img className="d-block mx-auto" src="/assets/images/11.jpeg" />
         </Accordion.Body>
       </Accordion.Item>
     </div>

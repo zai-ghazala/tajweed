@@ -3,13 +3,8 @@ import Accordion from "react-bootstrap/Accordion";
 import Carousel from "react-bootstrap/Carousel";
 import { Link } from "wouter";
 
-import hamzah from "../assets/audio/hamzah.wav";
 import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
-
-import img1 from "../assets/1/1.jpeg";
-import img2 from "../assets/1/2.jpeg";
-import img4 from "../assets/1/4.jpeg"
 
 export default function Hamzah() {
   return (
@@ -19,7 +14,7 @@ export default function Hamzah() {
         <Accordion.Body>
         <AudioPlayer
           
-          src={hamzah}
+          src="/assets/audio/hamzah.wav"
           onPlay={e => console.log("onPlay")}
           // other props here
         />
@@ -41,16 +36,16 @@ export default function Hamzah() {
           </p>
           <Carousel nextLabel={null} prevLabel={null}>
             <Carousel.Item>
-              <img className="d-block mx-auto" src={img1} />
+              <img className="d-block mx-auto" src= "/assets/images/1.jpeg" />
             </Carousel.Item>
             <Carousel.Item>
-              <img className="d-block mx-auto" src={img2} />
+              <img className="d-block mx-auto" src= "/assets/images/2.jpeg" />
               <Carousel.Caption>
                 <p>When <span className="arabic">ه</span> is sakinah, the vocal chords are partially open</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-              <img className="d-block mx-auto" src={img4} />
+              <img className="d-block mx-auto" src= "/assets/images/4.jpeg" />
               <Carousel.Caption>
                 <p>When <span className="arabic">ء</span> and <span className="arabic">ه</span> are mutharrikah, vocal chords are all open</p>
               </Carousel.Caption>

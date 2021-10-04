@@ -1,7 +1,6 @@
 import React from "react";
 import { Router, Link } from "wouter";
 
-import home from "./assets/1/home.png";
 import useRecorder from './components/use-recorder';
 
 /**
@@ -52,7 +51,7 @@ export default function Home() {
       </button>
       <button onClick={playAudio}>🔊 play</button>
       </div>
-      <Link href="/"><a><img src={home} alt="home"/></a></Link></div>
+      <Link href="/"><a><img src="/assets/images/home.png" alt="home"/></a></Link></div>
       <div className="content"><PageRouter /></div>
       </main>
     </Router>

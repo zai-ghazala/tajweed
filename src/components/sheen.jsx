@@ -2,11 +2,8 @@ import * as React from "react";
 import Accordion from "react-bootstrap/Accordion";
 import { Link } from "wouter";
 
-import sheen from "../assets/audio/sheen.wav";
 import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
-
-import img11a from "../assets/1/11a.jpeg";
 
 export default function Sheen() {
   return (
@@ -16,7 +13,7 @@ export default function Sheen() {
         <Accordion.Body>
         <AudioPlayer
           
-          src={sheen}
+          src="/assets/audio/sheen.wav"
           onPlay={e => console.log("onPlay")}
           // other props here
         />
@@ -39,7 +36,7 @@ export default function Sheen() {
            <p>
             <Link href="infitah"><span className="arabic">الانفتاح</span> Al Infitah</Link>
           </p>
-          <img className="d-block mx-auto" src={img11a} />
+          <img className="d-block mx-auto" src="/assets/images/11a.jpeg" />
         </Accordion.Body>
       </Accordion.Item>
     </div>

@@ -2,11 +2,8 @@ import * as React from "react";
 import Accordion from "react-bootstrap/Accordion";
 import { Link } from "wouter";
 
-import taaHeavy from "../assets/audio/taa-heavy.wav";
 import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
-
-import img27a from "../assets/1/27a.jpeg"
 
 export default function TaaHeavy() {
   return (
@@ -16,7 +13,7 @@ export default function TaaHeavy() {
         <Accordion.Body>
         <AudioPlayer
           
-          src={taaHeavy}
+          src="/assets/audio/taa-heavy.wav"
           onPlay={e => console.log("onPlay")}
           // other props here
         />
@@ -29,7 +26,7 @@ export default function TaaHeavy() {
             so is heavy and trapped
           </p>
  <p>
-            <Link href="qalqala"><span className="arabic">القلقلھ</span> Al Qalqala</Link></p>
+            <Link href="qalqala"><span className="arabic">القلقلة</span> Al Qalqala</Link></p>
           <hr />
           <p>
             <Link href="jahr"><span className="arabic">الجھر</span> Al Jahr</Link> 
@@ -40,7 +37,7 @@ export default function TaaHeavy() {
             <Link href="istila"><span className="arabic">الإستــعلاء</span> Al Isti’la</Link></p>
         <p>
             <Link href="itbaq"><span className="arabic">الاطباق</span> Al Itbaq</Link></p>
-          <img className="d-block mx-auto" src={img27a} />
+          <img className="d-block mx-auto" src="/assets/images/27a.jpeg" />
         </Accordion.Body>
       </Accordion.Item>
     </div>

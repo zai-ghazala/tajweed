@@ -7,18 +7,17 @@ export default defineConfig({
   plugins: [
     reactRefresh(),
     VitePWA({
+      workbox: {
+        maximumFileSizeToCacheInBytes: 30 * 1024 * 1024,
+      },
       registerType: 'autoUpdate',
       includeAssets: [
-        "favicon.ico",
+        "icons/favicon.ico",
         "robots.txt",
-        "apple-touch-icon.png",
-      ],
-      workbox: {
-        globPatterns: ["**.{js,css,html,png,jpeg,wav,ttf}"],
-        maximumFileSizeToCacheInBytes: 30 * 1024 * 1024,
-        globDirectory: "build",
-        navigateFallback: "index.html"
-      },
+        "icons/apple-touch-icon.png",
+        "assets/fonts/*.ttf", 
+        "assets/images/*.{png,jpg}", 
+        "assets/audio/*.wav"],
       manifest: {
         short_name: "Tajweed",
         name: "Tajweed",
@@ -31,18 +30,18 @@ export default defineConfig({
         display: "standalone",
         icons: [
           {
-            src: "images/favicon.ico",
+            src: "icons/favicon.ico",
             sizes: "48x48",
             type: "image/x-icon",
           },
           {
-            src: "images/android-chrome-192x192.png",
+            src: "icons/android-chrome-192x192.png",
             type: "image/png",
             sizes: "192x192",
             purpose: "maskable any",
           },
           {
-            src: "images/android-chrome-512x512",
+            src: "icons/android-chrome-512x512",
             type: "image/png",
             sizes: "512x512",
             purpose: "maskable any",

@@ -3,15 +3,8 @@ import Accordion from "react-bootstrap/Accordion";
 import Carousel from "react-bootstrap/Carousel";
 import { Link } from "wouter";
 
-import raa from "../assets/audio/raa.wav";
 import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
-
-import img23 from "../assets/1/23.jpeg";
-import img23a from "../assets/1/23a.jpeg";
-import img23b from "../assets/1/23b.jpeg";
-import img24 from "../assets/1/24.jpeg";
-import img25 from "../assets/1/25.jpeg";
 
 export default function Raa() {
   return (
@@ -21,7 +14,7 @@ export default function Raa() {
         <Accordion.Body>
         <AudioPlayer
           
-          src={raa}
+          src="/assets/audio/raa.wav"
           onPlay={e => console.log("onPlay")}
           // other props here
         />
@@ -65,22 +58,22 @@ export default function Raa() {
           </p>
           <Carousel nextLabel={null} prevLabel={null}>
             <Carousel.Item>
-              <img className="d-block mx-auto" src={img23} />
+              <img className="d-block mx-auto" src="/assets/images/23.jpeg" />
             </Carousel.Item>
             <Carousel.Item>
-              <img className="d-block mx-auto" src={img23a} />
+              <img className="d-block mx-auto" src="/assets/images/23a.jpeg" />
             </Carousel.Item>
             <Carousel.Item>
-              <img className="d-block mx-auto" src={img23b} />
+              <img className="d-block mx-auto" src="/assets/images/23b.jpeg" />
             </Carousel.Item>
             <Carousel.Item>
-              <img className="d-block mx-auto" src={img24} />
+              <img className="d-block mx-auto" src="/assets/images/24.jpeg" />
               <Carousel.Caption>
                 <p>Normally considered a light letter</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-              <img className="d-block mx-auto" src={img25} />
+              <img className="d-block mx-auto" src="/assets/images/25.jpeg" />
               <Carousel.Caption>
                 <p>When{" "}<span className="arabic">ر</span>{" "}is heavy</p>
               </Carousel.Caption>

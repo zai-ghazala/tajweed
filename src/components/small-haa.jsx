@@ -3,13 +3,8 @@ import Accordion from "react-bootstrap/Accordion";
 import Carousel from "react-bootstrap/Carousel";
 import { Link } from "wouter";
 
-import smallHaa from "../assets/audio/small-haa.wav";
 import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
-
-import img1 from "../assets/1/1.jpeg";
-import img3 from "../assets/1/3.jpeg";
-import img4 from "../assets/1/4.jpeg";
 
 export default function SmallHaa() {
   return (
@@ -19,7 +14,7 @@ export default function SmallHaa() {
         <Accordion.Body>
         <AudioPlayer
           
-          src={smallHaa}
+          src="/assets/audio/small-haa.wav"
           onPlay={e => console.log("onPlay")}
           // other props here
         />
@@ -42,16 +37,16 @@ export default function SmallHaa() {
           </p>
           <Carousel nextLabel={null} prevLabel={null}>
             <Carousel.Item>
-              <img className="d-block mx-auto" src={img1} />
+              <img className="d-block mx-auto" src="/assets/images/1.jpeg" />
             </Carousel.Item>
             <Carousel.Item>
-              <img className="d-block mx-auto" src={img3} />
+              <img className="d-block mx-auto" src="/assets/images/3.jpeg"/>
               <Carousel.Caption>
                 <p>When <span className="arabic">ء</span> is sakinah, the vocal chords are closed</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-              <img className="d-block mx-auto" src={img4} />
+              <img className="d-block mx-auto" src="/assets/images/4.jpeg" />
               <Carousel.Caption>
                 <p>When <span className="arabic">ء</span> and <span className="arabic">ه</span> are mutharrikah, vocal chords are all open</p>
               </Carousel.Caption>

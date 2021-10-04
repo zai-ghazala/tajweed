@@ -2,11 +2,9 @@ import * as React from "react";
 import Accordion from "react-bootstrap/Accordion";
 import { Link } from "wouter";
 
-import suad from "../assets/audio/suad.wav";
 import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
 
-import img26a from "../assets/1/26a.jpeg"
 
 export default function Suad() {
   return (
@@ -16,7 +14,7 @@ export default function Suad() {
         <Accordion.Body>
         <AudioPlayer
           
-          src={suad}
+          src="/assets/audio/suad.wav"
           onPlay={e => console.log("onPlay")}
           // other props here
         />
@@ -41,7 +39,7 @@ export default function Suad() {
             <Link href="istila"><span className="arabic">الإستــعلاء</span> Al Isti’la</Link></p>
         <p>
             <Link href="itbaq"><span className="arabic">الاطباق</span> Al Itbaq</Link></p>
-          <img className="d-block mx-auto" src={img26a} />
+          <img className="d-block mx-auto" src="/assets/images/26a.jpeg" />
         </Accordion.Body>
       </Accordion.Item>
     </div>

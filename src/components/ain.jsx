@@ -2,10 +2,8 @@ import * as React from "react";
 import Accordion from "react-bootstrap/Accordion";
 import { Link } from "wouter";
 
-import ain from "../assets/audio/ain.wav";
 import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
-import img5a from "../assets/1/5a.jpeg";
 
 export default function Ain() {
   return (
@@ -15,7 +13,7 @@ export default function Ain() {
         <Accordion.Body>
         <AudioPlayer
           
-          src={ain}
+          src="/assets/audio/ain.wav"
           onPlay={e => console.log("onPlay")}
           // other props here
         />
@@ -37,7 +35,7 @@ export default function Ain() {
            <p>
             <Link href="infitah"><span className="arabic">الانفتاح</span> Al Infitah</Link>
           </p>
-          <img className="d-block mx-auto" src={img5a} />
+          <img className="d-block mx-auto" src="/assets/images/5a.jpeg" />
         </Accordion.Body>
       </Accordion.Item>
     </div>

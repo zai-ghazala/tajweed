@@ -2,11 +2,8 @@ import * as React from "react";
 import Accordion from "react-bootstrap/Accordion";
 import { Link } from "wouter";
 
-import daal from "../assets/audio/daal.wav";
 import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
-
-import img27 from "../assets/1/27.jpeg";
 
 export default function Daal() {
   return (
@@ -16,7 +13,7 @@ export default function Daal() {
         <Accordion.Body>
         <AudioPlayer
           
-          src={daal}
+          src="/assets/audio/daal.wav"
           onPlay={e => console.log("onPlay")}
           // other props here
         />
@@ -26,7 +23,7 @@ export default function Daal() {
           </p>
           <p>Tongue relaxed as normal</p>
  <p>
-            <Link href="qalqala"><span className="arabic">القلقلھ</span> Al Qalqala</Link></p>
+            <Link href="qalqala"><span className="arabic">القلقلة</span> Al Qalqala</Link></p>
           <hr />
           <p>
             <Link href="jahr"><span className="arabic">الجھر</span> Al Jahr</Link> 
@@ -39,7 +36,7 @@ export default function Daal() {
            <p>
             <Link href="infitah"><span className="arabic">الانفتاح</span> Al Infitah</Link>
           </p>
-          <img className="d-block mx-auto" src={img27} />
+          <img className="d-block mx-auto" src="/assets/images/27.jpeg" />
         </Accordion.Body>
       </Accordion.Item>
     </div>

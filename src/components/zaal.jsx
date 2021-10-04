@@ -2,11 +2,8 @@ import * as React from "react";
 import Accordion from "react-bootstrap/Accordion";
 import { Link } from "wouter";
 
-import zaal from "../assets/audio/zaal.wav";
 import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
-
-import img28 from "../assets/1/28.jpeg";
 
 export default function Zaal() {
   return (
@@ -16,7 +13,7 @@ export default function Zaal() {
         <Accordion.Body>
         <AudioPlayer
           
-          src={zaal}
+          src="/assets/audio/zaal.wav"
           onPlay={e => console.log("onPlay")}
           // other props here
         />
@@ -38,7 +35,7 @@ export default function Zaal() {
            <p>
             <Link href="infitah"><span className="arabic">الانفتاح</span> Al Infitah</Link>
           </p>
-          <img className="d-block mx-auto" src={img28} />
+          <img className="d-block mx-auto" src="/assets/images/28.jpeg" />
         </Accordion.Body>
       </Accordion.Item>
     </div>

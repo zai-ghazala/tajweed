@@ -2,11 +2,9 @@ import * as React from "react";
 import Accordion from "react-bootstrap/Accordion";
 import { Link } from "wouter";
 
-import kaaf from "../assets/audio/kaaf.wav";
 import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
 
-import img8 from "../assets/1/8.jpeg";
 
 export default function Kaaf() {
   return (
@@ -16,7 +14,7 @@ export default function Kaaf() {
         <Accordion.Body>
         <AudioPlayer
           
-          src={kaaf}
+          src="/assets/audio/kaaf.wav"
           onPlay={e => console.log("onPlay")}
           // other props here
         />
@@ -36,7 +34,7 @@ export default function Kaaf() {
            <p>
             <Link href="infitah"><span className="arabic">الانفتاح</span> Al Infitah</Link>
           </p>
-          <img className="d-block mx-auto" src={img8} />
+          <img className="d-block mx-auto" src="/assets/images/8.jpeg" />
         </Accordion.Body>
       </Accordion.Item>
     </div>

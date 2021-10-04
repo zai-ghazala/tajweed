@@ -3,12 +3,8 @@ import Accordion from "react-bootstrap/Accordion";
 import Carousel from "react-bootstrap/Carousel";
 import { Link } from "wouter";
 
-import duad from "../assets/audio/duad.wav";
 import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
-
-import img19 from "../assets/1/19.jpeg";
-import img20 from "../assets/1/20.jpeg";
 
 export default function Suad() {
   return (
@@ -18,7 +14,7 @@ export default function Suad() {
         <Accordion.Body>
         <AudioPlayer
           
-          src={duad}
+          src="/assets/audio/duad.wav"
           onPlay={e => console.log("onPlay")}
           // other props here
         />
@@ -52,10 +48,10 @@ export default function Suad() {
             <Link href="itbaq"><span className="arabic">الاطباق</span> Al Itbaq</Link></p>
           <Carousel nextLabel={null} prevLabel={null}>
             <Carousel.Item>
-              <img className="d-block mx-auto" src={img20} />
+              <img className="d-block mx-auto" src="/assets/images/20.jpeg" />
             </Carousel.Item>
             <Carousel.Item>
-              <img className="d-block mx-auto" src={img19} />
+              <img className="d-block mx-auto" src="/assets/images/19.jpeg" />
               <Carousel.Caption>
                 <p>
                   Pressure on both sides, but if not possible, then one side.

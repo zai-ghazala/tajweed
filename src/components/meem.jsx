@@ -2,11 +2,8 @@ import * as React from "react";
 import Accordion from "react-bootstrap/Accordion";
 import { Link } from "wouter";
 
-import meem from "../assets/audio/meem.wav";
 import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
-
-import img33 from "../assets/1/33.jpeg";
 
 export default function Meem() {
   return (
@@ -16,7 +13,7 @@ export default function Meem() {
         <Accordion.Body>
         <AudioPlayer
           
-          src={meem}
+          src="/assets/audio/meem.wav"
           onPlay={e => console.log("onPlay")}
           // other props here
         />
@@ -45,7 +42,7 @@ export default function Meem() {
            <p>
             <Link href="infitah"><span className="arabic">الانفتاح</span> Al Infitah</Link>
           </p>
-          <img className="d-block mx-auto" src={img33} />
+          <img className="d-block mx-auto" src="/assets/images/33.jpeg" />
         </Accordion.Body>
       </Accordion.Item>
     </div>
