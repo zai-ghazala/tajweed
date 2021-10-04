@@ -45,7 +45,7 @@ export default function Home() {
       <main role="main" className="wrapper">
       <div className="return"><div className="recorder">
       <button onClick={startRecording} disabled={isRecording}>
-      ● record
+      <span className="except">●</span> record
       </button>
       <button onClick={stopRecording} disabled={!isRecording}>
       ❚❚ stop
