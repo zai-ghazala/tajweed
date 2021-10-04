@@ -7,7 +7,7 @@ export default function Alif() {
       <Accordion.Item eventKey="0">
         <Accordion.Header>ا</Accordion.Header>
         <Accordion.Body>
-          Madiya.
+          Madiya
         </Accordion.Body>
       </Accordion.Item>
     </div>  
