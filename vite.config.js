@@ -15,7 +15,7 @@ export default defineConfig({
       workbox: {
         globPatterns: ["**/*.{js,css,html,png,jpeg,wav,ttf}"],
         maximumFileSizeToCacheInBytes: 30 * 1024 * 1024,
-        globDirectory: "build",
+        globDirectory: "build/assets",
       },
       manifest: {
         short_name: "Tajweed",
