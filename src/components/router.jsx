@@ -30,7 +30,6 @@ import Tawassut from "../pages/tawassut";
 export default () => (
   <Switch>
     <Route path="/" component={Home} />
-    <Route path="/index.html" component={Home} />
     <Route path="ghunna" component={Ghunna} />
     <Route path="hams" component={Hams} />
     <Route path="infitah" component={Infitah} />
