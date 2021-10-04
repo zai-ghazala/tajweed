@@ -4,7 +4,7 @@ import Accordion from "react-bootstrap/Accordion";
 import ScrollToTop from "../components/scroll-to-top.jsx";
 
 import Haa from "../components/haa";
-import Khaa from "../components/saa";
+import Khaa from "../components/khaa";
 import Ain from "../components/ain";
 import Gain from "../components/gain";
 import SmallHaa from "../components/small-haa";
