@@ -2,7 +2,6 @@ import React from "react";
 import { Router, Link } from "wouter";
 
 import home from "./assets/1/home.png";
-import ReloadPrompt from "./components/reload-prompt";
 import useRecorder from './components/use-recorder';
 
 /**
