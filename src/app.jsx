@@ -42,7 +42,7 @@ export default function Home() {
       <ReloadPrompt />
       <div className="return"><div className="recorder">
       <button onClick={startRecording} disabled={isRecording}>
-      ● start
+      ● record
       </button>
       <button onClick={stopRecording} disabled={!isRecording}>
       ❚❚ stop
