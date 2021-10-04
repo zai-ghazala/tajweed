@@ -16,7 +16,7 @@ export default defineConfig({
         globPatterns: ["**.{js,css,html,png,jpeg,wav,ttf}"],
         maximumFileSizeToCacheInBytes: 30 * 1024 * 1024,
         globDirectory: "build",
-        navigateFallback: "./index.html"
+        navigateFallback: "index.html"
       },
       manifest: {
         short_name: "Tajweed",
@@ -25,7 +25,7 @@ export default defineConfig({
         theme_color: "#cc95c0",
         background_color: "#cc95c0",
         orientation: "portrait",
-        start_url: "./index.html",
+        start_url: "/",
         display: "standalone",
         icons: [
           {
