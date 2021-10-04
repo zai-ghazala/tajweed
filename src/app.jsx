@@ -3,7 +3,7 @@ import { Router, Link } from "wouter";
 
 import home from "./assets/1/home.png";
 import ReloadPrompt from "./components/reload-prompt";
-import AudioRecorder from 'react-audio-recorder';
+import useRecorder from './components/use-recorder';
 
 /**
  * This code defines the react app
@@ -29,13 +29,26 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 // Home function that is reflected across the site
 export default function Home() {
+  let [audioURL, isRecording, startRecording, stopRecording] = useRecorder();
+
+  const playAudio = (url) => {
+    new Audio(audioURL).play();
+  };
 
   return (
     <Router hook={useHashLocation}>
       <Seo />
       <main role="main" className="wrapper">
       <ReloadPrompt />
-      <div className="return"><div className="recorder"><AudioRecorder downloadable="false"/></div>
+      <div className="return"><div className="recorder">
+      <button onClick={startRecording} disabled={isRecording}>
+      ● start recording
+      </button>
+      <button onClick={stopRecording} disabled={!isRecording}>
+      ❚❚ stop recording
+      </button>
+      <button onClick={playAudio}>🔊 play</button>
+      </div>
       <Link href="/"><a><img src={home} alt="home"/></a></Link></div>
       <div className="content"><PageRouter /></div>
       </main>
