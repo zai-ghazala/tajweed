@@ -323,6 +323,3 @@ button {
   background-color: #cc95c0;
   letter-spacing: 0.5px;
 }
-html, body {
-  overscroll-behavior-y: contain
-}
