@@ -16,7 +16,7 @@ export default defineConfig({
         "robots.txt",
         "icons/apple-touch-icon.png",
         "assets/fonts/*.ttf", 
-        "assets/images/*.{png,jpg}", 
+        "assets/images/*.{png,jpeg}", 
         "assets/audio/*.wav"],
       manifest: {
         short_name: "Tajweed",
