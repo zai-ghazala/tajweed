@@ -41,7 +41,7 @@ export default function Noon() {
             <Link href="jahr"><span className="arabic">الجھر</span> Al Jahr</Link> 
           </p>
           <p>
-            <Link href="tawassut"><span className="arabic">التوسط</span> Al Tawassut / البينية Al Bayniyyah</Link>
+            <Link href="tawassut"><span className="arabic">التوسط</span> Al Tawassut / <span className="arabic">البينية</span> Al Bayniyyah</Link>
           </p>
          <p>
             <Link href="istifal"><span className="arabic">الاستفال</span> Al Istifal</Link>
