@@ -336,7 +336,7 @@ h1 {
 .ReloadPrompt-toast-message {
   margin-bottom: 8px;
 }
-.ReloadPrompt-toast-button {
+.ReloadPrompt-toast-button, button {
   border: 1px solid #8885;
   outline: none;
   margin-right: 5px;
