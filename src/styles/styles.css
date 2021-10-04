@@ -342,7 +342,8 @@ h1 {
   margin-right: 5px;
   border-radius: 2px;
   padding: 3px 10px;
-  background-color: #cc95c0
+  background-color: #cc95c0;
+  letter-spacing: 0.5px;
 }
 html, body {
   overscroll-behavior-y: contain
