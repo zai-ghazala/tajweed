@@ -16,7 +16,7 @@ export default function Throat() {
     <ScrollToTop/>
     <div className="tajweed-group">
     <p>
-    <h1>Tongue Letters</h1>
+    <h1>Throat Letters</h1>
   </p>
   </div>
     <Accordion>
