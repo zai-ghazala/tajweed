@@ -82,7 +82,7 @@ export default function Raa() {
             <Carousel.Item>
               <img className="d-block mx-auto" src={img25} />
               <Carousel.Caption>
-                <p>When ر is heavy</p>
+                <p>When{" "}<span className="arabic">ر</span>{" "}is heavy</p>
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
