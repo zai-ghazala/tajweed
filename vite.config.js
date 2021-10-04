@@ -12,6 +12,11 @@ export default defineConfig({
         "robots.txt",
         "apple-touch-icon.png",
       ],
+      workbox: {
+        globPatterns: ["**/*.{js,css,html,png,jpeg,wav,ttf}"],
+        maximumFileSizeToCacheInBytes: 30 * 1024 * 1024,
+        globDirectory: "build",
+      },
       manifest: {
         short_name: "Tajweed",
         name: "Tajweed",
