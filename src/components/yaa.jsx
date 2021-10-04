@@ -21,7 +21,7 @@ export default function Yaa() {
           // other props here
         />
           <p>
-            <strong>Tongue letter</strong> - Ghair madiya. Middle of the tongue with the
+            <Link href="tongue">Tongue letter</Link> - Ghair madiya. Middle of the tongue with the
             middle of the roof of the mouth
           </p>
          <p>

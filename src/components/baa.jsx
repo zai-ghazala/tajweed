@@ -21,7 +21,7 @@ export default function Baa() {
           // other props here
         />
           <p>
-            <strong>Lip letter</strong> - Lips come together then move apart for{" "}
+            <Link href="lips">Lip letter</Link> - Lips come together then move apart for{" "}
             <span className="arabic">ب</span>{" "}creating a bounce
           </p>
           <p>Tongue relaxed as normal</p>

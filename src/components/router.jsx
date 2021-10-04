@@ -2,6 +2,9 @@ import * as React from "react";
 import { Switch, Route } from "wouter";
 
 import Home from "../pages/home";
+import Throat from "../pages/throat";
+import Tongue from "../pages/tongue";
+import Lips from "../pages/lips";
 import Ghunna from "../pages/ghunna";
 import Hams from "../pages/hams";
 import Inharaf from "../pages/inharaf";
@@ -30,6 +33,9 @@ import Tawassut from "../pages/tawassut";
 export default () => (
   <Switch>
     <Route path="/" component={Home} />
+    <Route path="throat" component={Throat} />
+    <Route path="tongue" component={Tongue} />
+    <Route path="lips" component={Lips} />
     <Route path="ghunna" component={Ghunna} />
     <Route path="hams" component={Hams} />
     <Route path="infitah" component={Infitah} />

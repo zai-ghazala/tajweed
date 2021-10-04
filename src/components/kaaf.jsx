@@ -21,7 +21,7 @@ export default function Kaaf() {
           // other props here
         />
           <p>
-            <strong>Tongue letter</strong> - Back of the tongue touching where
+            <Link href="tongue">Tongue letter</Link> - Back of the tongue touching where
             the hard part of the roof of the mouth meets the soft part
           </p>
           <hr />

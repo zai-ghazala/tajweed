@@ -23,7 +23,7 @@ export default function Suad() {
           // other props here
         />
           <p>
-            <strong>Tongue letter</strong> - Sides of the tongue
+            <Link href="tongue">Tongue letter</Link> - Sides of the tongue
           </p>
           <p>
             Touch the edge of tongue with the hard palate in front of the top

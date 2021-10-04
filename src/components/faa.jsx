@@ -21,7 +21,7 @@ export default function Faa() {
           // other props here
         />
           <p>
-            <strong>Lip letter</strong> - The edge of the front top teeth
+            <Link href="lips">Lip letter</Link> - The edge of the front top teeth
             touching the inside lower lip
           </p>
          <p>

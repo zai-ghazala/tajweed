@@ -25,7 +25,7 @@ export default function Laam() {
           // other props here
         />
           <p>
-            <strong>Tongue letter</strong> - Front edge
+            <Link href="tongue">Tongue letter</Link> - Front edge
           </p>
           <p>
             Touch the edge of tongue with the hard palate in front of the top

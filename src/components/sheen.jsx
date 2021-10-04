@@ -21,7 +21,7 @@ export default function Sheen() {
           // other props here
         />
           <p>
-            <strong>Tongue letter</strong> - Middle of the tongue with the
+            <Link href="tongue">Tongue letter</Link> - Middle of the tongue with the
             middle of the roof of the mouth
           </p>
           <p>

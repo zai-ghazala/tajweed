@@ -20,7 +20,7 @@ export default function Ain() {
           // other props here
         />
           <p>
-            <strong>Throat letter</strong> - Middle of the throat, epiglottis,
+            <Link href="throat">Throat letter</Link> - Middle of the throat, epiglottis,
             what stops food going into our windpipe when we eat
           </p>
           <p>Tongue is flat</p>

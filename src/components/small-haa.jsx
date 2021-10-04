@@ -24,7 +24,7 @@ export default function SmallHaa() {
           // other props here
         />
           <p>
-            <strong>Throat letter</strong> - Furthest part, from the vocal
+            <Link href="throat">Throat letter</Link> - Furthest part, from the vocal
             chords
           </p>
           <hr/>

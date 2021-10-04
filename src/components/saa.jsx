@@ -21,7 +21,7 @@ export default function Saa() {
           // other props here
         />
         <p>
-          <strong>Tongue letter</strong> - Tip of the tongue touching the
+          <Link href="tongue">Tongue letter</Link> - Tip of the tongue touching the
           bottom edges of the front two teeth
         </p>
         <p>Flat tongue as normal</p>

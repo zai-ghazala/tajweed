@@ -23,7 +23,7 @@ export default function Waw() {
           // other props here
         />
           <p>
-            <strong>Lip letter</strong> - Ghair madiya. Lips make a round
+            <Link href="lips">Lip letter</Link> - Ghair madiya. Lips make a round
             circle
           </p>
           <p>

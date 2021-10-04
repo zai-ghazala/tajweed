@@ -21,7 +21,7 @@ export default function Khaa() {
           // other props here
         />
           <p>
-            <strong>Throat letter</strong> - Closest to the mouth
+            <Link href="throat">Throat letter</Link> - Closest to the mouth
           </p>
           <p>
             Note that the tongue is dipped in the middle so the sound is

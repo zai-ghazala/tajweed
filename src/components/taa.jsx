@@ -21,7 +21,7 @@ export default function Taa() {
           // other props here
         />
           <p>
-            <strong>Tongue letter</strong> - Where the extreme tip of the tongue
+            <Link href="tongue">Tongue letter</Link> - Where the extreme tip of the tongue
             touches the roots of the top front teeth
           </p>
           <p>Tongue relaxed as normal</p>

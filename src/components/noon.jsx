@@ -21,7 +21,7 @@ export default function Noon() {
           // other props here
         />
           <p>
-            <strong>Tongue letter</strong> - Tip of the tongue
+            <Link href="tongue">Tongue letter</Link> - Tip of the tongue
           </p>
           <p>
             From the tip of the tongue (to what lies opposite it) to the gums,

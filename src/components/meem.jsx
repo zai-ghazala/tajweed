@@ -21,7 +21,7 @@ export default function Meem() {
           // other props here
         />
           <p>
-            <strong>Lip letter</strong> - Lips come together
+            <Link href="lips">Lip letter</Link> - Lips come together
           </p>
           <p>Hold lips for longer than{" "}<span className="arabic">ب</span></p>
           <p>
