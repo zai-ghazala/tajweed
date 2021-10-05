@@ -143,15 +143,15 @@ h1 .arabic {
   background-color: var(--color-text-main)
 }
 .carousel-control-prev-icon,
-.carousel-control-next-icon,
-.carousel-caption {
+.carousel-control-next-icon {
   filter: invert(100%);
 }
 .carousel-caption {  
   position: relative !important;
   left: auto !important;
   right: auto !important;
-  padding-top: 2.25rem !important
+  padding-top: 2.25rem !important;
+  color: var(--color-text-main) !important
 }
 .carousel-indicators {
   display: none !important;
