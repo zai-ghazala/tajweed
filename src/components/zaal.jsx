@@ -19,7 +19,7 @@ export default function Zaal() {
         />
           <p>
             <Link href="tongue">Tongue letter</Link> - Tip of the tongue touching the
-            bottom edges of the top front two teeth
+            bottom edges of the top front teeth
           </p>
           <p>Flat tongue as normal</p>
           <hr />
