@@ -42,7 +42,7 @@ const useRecorder = () => {
 };
 
 async function requestRecorder() {
-  const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+  const stream = await navigator.mediaDevices.getUserMedia({ audio: { echoCancellation: false }, video: false });
   return new MediaRecorder(stream);
 }
 export default useRecorder;
