@@ -42,7 +42,7 @@ export default function Meem() {
            <p>
             <Link href="infitah"><span className="arabic">الانفتاح</span> Al Infitah</Link>
           </p>
-          <img className="d-block mx-auto" src="/assets/images/33.jpeg" />
+          <img className="d-block mx-auto" src="/assets/diagrams/meem.png" />
         </Accordion.Body>
       </Accordion.Item>
     </div>

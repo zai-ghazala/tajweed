@@ -36,7 +36,7 @@ export default function Haa() {
            <p>
             <Link href="infitah"><span className="arabic">الانفتاح</span> Al Infitah</Link>
           </p>
-          <img className="d-block mx-auto" src="/assets/images/5.jpeg" />
+          <img className="d-block mx-auto" src="/assets/diagrams/haa.jpg" />
         </Accordion.Body>
       </Accordion.Item>
     </div>

@@ -39,7 +39,7 @@ export default function Waw() {
           </p>
           <Carousel nextLabel={null} prevLabel={null}>
             <Carousel.Item>
-              <img className="d-block mx-auto" src="/assets/images/30.jpeg" />
+              <img className="d-block mx-auto" src="/assets/diagrams/waw.png" />
             </Carousel.Item>
             <Carousel.Item>
               <img className="d-block mx-auto" src="/assets/images/31.jpeg" />

@@ -36,7 +36,7 @@ export default function Hamzah() {
           </p>
           <Carousel nextLabel={null} prevLabel={null}>
             <Carousel.Item>
-              <img className="d-block mx-auto" src= "/assets/images/1.jpeg" />
+              <img className="d-block mx-auto" src= "/assets/diagrams/hamzah.jpg" />
             </Carousel.Item>
             <Carousel.Item>
               <img className="d-block mx-auto" src= "/assets/images/2.jpeg" />

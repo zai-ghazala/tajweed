@@ -37,7 +37,7 @@ export default function Saa() {
            <p>
             <Link href="infitah"><span className="arabic">الانفتاح</span> Al Infitah</Link>
           </p>
-        <img className="d-block mx-auto" src="/assets/images/28.jpeg"/>
+        <img className="d-block mx-auto" src="/assets/diagrams/saa.png"/>
       </Accordion.Body>
     </Accordion.Item>
     </div>

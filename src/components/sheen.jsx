@@ -36,7 +36,7 @@ export default function Sheen() {
            <p>
             <Link href="infitah"><span className="arabic">الانفتاح</span> Al Infitah</Link>
           </p>
-          <img className="d-block mx-auto" src="/assets/images/11a.jpeg" />
+          <img className="d-block mx-auto" src="/assets/diagrams/sheen.jpg" />
         </Accordion.Body>
       </Accordion.Item>
     </div>

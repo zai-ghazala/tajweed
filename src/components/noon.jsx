@@ -46,7 +46,7 @@ export default function Noon() {
            <p>
             <Link href="infitah"><span className="arabic">الانفتاح</span> Al Infitah</Link>
           </p>
-          <img className="d-block mx-auto" src="/assets/images/22.jpeg" />
+          <img className="d-block mx-auto" src="/assets/diagrams/noon.png" />
         </Accordion.Body>
       </Accordion.Item>
     </div>

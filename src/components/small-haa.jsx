@@ -37,7 +37,7 @@ export default function SmallHaa() {
           </p>
           <Carousel nextLabel={null} prevLabel={null}>
             <Carousel.Item>
-              <img className="d-block mx-auto" src="/assets/images/1.jpeg" />
+              <img className="d-block mx-auto" src="/assets/diagrams/small-haa.jpg" />
             </Carousel.Item>
             <Carousel.Item>
               <img className="d-block mx-auto" src="/assets/images/3.jpeg"/>

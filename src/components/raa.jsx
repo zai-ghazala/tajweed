@@ -58,24 +58,13 @@ export default function Raa() {
           </p>
           <Carousel nextLabel={null} prevLabel={null}>
             <Carousel.Item>
-              <img className="d-block mx-auto" src="/assets/images/23.jpeg" />
+              <img className="d-block mx-auto" src="/assets/diagrams/raa1.jpg" />
             </Carousel.Item>
             <Carousel.Item>
-              <img className="d-block mx-auto" src="/assets/images/23a.jpeg" />
-            </Carousel.Item>
-            <Carousel.Item>
-              <img className="d-block mx-auto" src="/assets/images/23b.jpeg" />
-            </Carousel.Item>
-            <Carousel.Item>
-              <img className="d-block mx-auto" src="/assets/images/24.jpeg" />
+              <img className="d-block mx-auto" src="/assets/diagrams/raa2.jpg" />
               <Carousel.Caption>
-                <p>Normally considered a light letter</p>
-              </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-              <img className="d-block mx-auto" src="/assets/images/25.jpeg" />
-              <Carousel.Caption>
-                <p>When{" "}<span className="arabic">ر</span>{" "}is heavy</p>
+              <p>Light <span className="arabic">ر</span>{" "} on the left-hand side</p>
+                <p>Heavy <span className="arabic">ر</span>{" "} on the right-hand side</p>
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>

@@ -35,7 +35,7 @@ export default function Qaaf() {
            <p>
             <Link href="infitah"><span className="arabic">الانفتاح</span> Al Infitah</Link>
           </p>
-          <img className="d-block mx-auto" src="/assets/images/7.jpeg" />
+          <img className="d-block mx-auto" src="/assets/diagrams/qaaf.png" />
         </Accordion.Body>
       </Accordion.Item>
     </div>

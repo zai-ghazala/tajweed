@@ -165,7 +165,7 @@ hr {
 }
 @media (min-width: 481px) and (orientation: landscape) { 
   .accordion-body img {
-    max-width: 300px
+    width: 350px
   }
 }
 audio {

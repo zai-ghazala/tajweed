@@ -49,24 +49,25 @@ export default function Laam() {
           </p>
           <Carousel nextLabel={null} prevLabel={null}>
             <Carousel.Item>
-              <img className="d-block mx-auto" src="/assets/images/15.jpeg" />
+              <img className="d-block mx-auto" src="/assets/diagrams/laam1.jpg" />
             </Carousel.Item>
             <Carousel.Item>
-              <img src="/assets/images/13.jpeg" />
+              <img src="/assets/diagrams/laam3.png" />
               <Carousel.Caption>
-                <p>Edge of tip of tongue - the yellow area</p>
+                <p>Edge of tip of tongue - the blue area</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-              <img className="d-block mx-auto" src="/assets/images/14.jpeg" />
+              <img className="d-block mx-auto" src="/assets/diagrams/laam2.png" />
               <Carousel.Caption>
-                <p>Yellow area showing where tongue touches top palate</p>
+                <p>Blue area showing where tongue touches top palate</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-              <img className="d-block mx-auto" src="/assets/images/16.jpeg" />
+              <img className="d-block mx-auto" src="/assets/diagrams/laam4.jpg" />
               <Carousel.Caption>
-                <p>When{" "}<span className="arabic">ل</span>{" "}, the tongue is dipped in the middle</p>
+                <p>Light <span className="arabic">ل</span>{" "} on the left-hand side</p>
+                <p>Heavy <span className="arabic">ل</span>{" "} on the right-hand side</p>
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>

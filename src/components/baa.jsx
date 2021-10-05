@@ -38,7 +38,7 @@ export default function Baa() {
             <Link href="infitah"><span className="arabic">الانفتاح</span> Al Infitah</Link>
           </p>
 
-          <img className="d-block mx-auto" src="/assets/images/32.jpeg"/>
+          <img className="d-block mx-auto" src="/assets/diagrams/baa.png"/>
         </Accordion.Body>
       </Accordion.Item>
     </div>

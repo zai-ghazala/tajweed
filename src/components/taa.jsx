@@ -36,7 +36,7 @@ export default function Taa() {
            <p>
             <Link href="infitah"><span className="arabic">الانفتاح</span> Al Infitah</Link>
           </p>
-          <img className="d-block mx-auto" src="/assets/images/27.jpeg" />
+          <img className="d-block mx-auto" src="/assets/diagrams/taa.png" />
         </Accordion.Body>
       </Accordion.Item>
     </div>

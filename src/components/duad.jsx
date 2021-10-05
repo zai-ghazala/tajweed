@@ -33,6 +33,7 @@ export default function Suad() {
             Tongue dipped in middle, sound is directed to the top of the mouth
             so is heavy and trapped
           </p>
+          <p>Pressure on both sides, but if not possible, then one side</p>
      <p>
             <Link href="istitaala"><span className="arabic">الاستطال</span> Al Istitaala</Link></p>
           <hr />
@@ -48,16 +49,24 @@ export default function Suad() {
             <Link href="itbaq"><span className="arabic">الاطباق</span> Al Itbaq</Link></p>
           <Carousel nextLabel={null} prevLabel={null}>
             <Carousel.Item>
-              <img className="d-block mx-auto" src="/assets/images/20.jpeg" />
+              <img className="d-block mx-auto" src="/assets/diagrams/duad1.png" />
             </Carousel.Item>
             <Carousel.Item>
-              <img className="d-block mx-auto" src="/assets/images/19.jpeg" />
+              <img className="d-block mx-auto" src="/assets/diagrams/duad2.png" />
               <Carousel.Caption>
                 <p>
-                  Pressure on both sides, but if not possible, then one side.
+                  Touching area in blue, pressing area in pink
                 </p>
               </Carousel.Caption>
-            </Carousel.Item>
+              </Carousel.Item>
+              <Carousel.Item>
+              <img className="d-block mx-auto" src="/assets/diagrams/duad3.png" />
+              <Carousel.Caption>
+                <p>
+                Touching area in blue, pressing area in pink
+                </p>
+              </Carousel.Caption>
+              </Carousel.Item>
           </Carousel>
         </Accordion.Body>
       </Accordion.Item>

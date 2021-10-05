@@ -39,7 +39,7 @@ export default function Suad() {
             <Link href="istila"><span className="arabic">الإستــعلاء</span> Al Isti’la</Link></p>
         <p>
             <Link href="itbaq"><span className="arabic">الاطباق</span> Al Itbaq</Link></p>
-          <img className="d-block mx-auto" src="/assets/images/26a.jpeg" />
+          <img className="d-block mx-auto" src="/assets/diagrams/suad.png" />
         </Accordion.Body>
       </Accordion.Item>
     </div>
