@@ -42,7 +42,7 @@ export default function Waw() {
               <img className="d-block mx-auto articulation-point" src="/assets/diagrams/waw.png" />
             </Carousel.Item>
             <Carousel.Item>
-              <img className="d-block mx-auto" src="/assets/images/31.jpeg" />
+              <img className="d-block mx-auto" src="31.jpeg" />
             </Carousel.Item>
           </Carousel>
         </Accordion.Body>
