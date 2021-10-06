@@ -342,10 +342,7 @@ h1 {
 }
 button {
   border: 1px solid #8885;
-  outline: none;
-  margin-right: 5px;
-  border-radius: 2px;
-  padding: 3px 10px;
+  padding: 3px 7.5px;
   background-color: #cc95c0;
   letter-spacing: 0.5px;
 }
@@ -353,7 +350,7 @@ button {
     background: none;
     color: inherit;
     border: none;
-    padding-right: 2w;
+    padding-right: 2vw;
     cursor: pointer;
     outline: inherit;
     font-family: Lora;
@@ -364,6 +361,9 @@ button {
     text-decoration: none !important;
     font-weight: bold !important;
     color: #FFF;
+}
+.recorder button {
+  line-height: 6vh !important
 }
 .offcanvas {
   background-color:  #cc95c0 !important
