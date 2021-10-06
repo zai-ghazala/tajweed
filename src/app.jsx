@@ -57,7 +57,7 @@ export default function Home() {
           </Offcanvas.Header>
           <Offcanvas.Body>
             <p><b>Sources</b></p>
-            <p>Illustrations by Eman Ataf</p>
+            <p>Illustrations by Eman Atef</p>
           </Offcanvas.Body>
         </Offcanvas>
       </>
