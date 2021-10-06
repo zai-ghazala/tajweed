@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import { Router, Link } from "wouter";
 
 import useRecorder from './components/use-recorder';
@@ -24,6 +24,7 @@ import { registerSW } from 'virtual:pwa-register'
 // The component that adds our Meta tags to the page
 import Seo from "./components/seo.jsx";
 
+import Offcanvas from "react-bootstrap/Offcanvas";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 // Home function that is reflected across the site
@@ -38,6 +39,30 @@ export default function Home() {
     onOfflineReady() {},
   })
 
+
+  function Menu() {
+    const [show, setShow] = useState(false);
+  
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
+  
+    return (
+      <>
+        <div className="button"><button onClick={handleShow}>
+        ☰
+        </button></div>
+  
+        <Offcanvas show={show} onHide={handleClose}>
+          <Offcanvas.Header closeButton>
+          </Offcanvas.Header>
+          <Offcanvas.Body>
+            <p><b>Sources</b></p>
+            <p>Illustrations by Eman Ataf</p>
+          </Offcanvas.Body>
+        </Offcanvas>
+      </>
+    );
+  }
   return (
     <Router hook={useHashLocation}>
       <Seo />
@@ -51,7 +76,8 @@ export default function Home() {
       </button>
       <button onClick={playAudio}>🔊 play</button>
       </div>
-      <Link href="/"><a><img src="/assets/images/home.png" alt="home"/></a></Link></div>
+      <div className="menu"><Menu/>
+      <Link href="/"><a><img src="/assets/images/home.png" alt="home"/></a></Link></div></div>
       <div className="content"><PageRouter /></div>
       </main>
     </Router>

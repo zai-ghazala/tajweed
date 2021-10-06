@@ -287,6 +287,10 @@ h1 {
   flex-direction: row; 
   justify-content: space-between
 }
+.stacked {
+  display: flex;
+  flex-direction: column
+}
 .content {
   position: relative;
   top: 12vh
@@ -314,6 +318,10 @@ h1 {
   margin-bottom: 1rem;
   box-shadow: initial !important
 }
+.return .menu {
+  display: flex;
+  flex-direction: row
+}
 button {
   border: 1px solid #8885;
   outline: none;
@@ -322,4 +330,25 @@ button {
   padding: 3px 10px;
   background-color: #cc95c0;
   letter-spacing: 0.5px;
+}
+.button button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding-right: 7px;
+    cursor: pointer;
+    outline: inherit;
+    font-family: Lora;
+    letter-spacing: 1.5px;
+    font-variant: small-caps;
+    font-size: 1.5em;
+    text-decoration: none !important;
+    font-weight: bold !important;
+    color: #FFF;
+}
+.offcanvas {
+  background-color:  #cc95c0 !important
+}
+.offcanvas-header {
+  justify-content: right !important
 }
