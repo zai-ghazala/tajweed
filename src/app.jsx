@@ -56,7 +56,7 @@ export default function Home() {
           <Offcanvas.Header closeButton>
           </Offcanvas.Header>
           <Offcanvas.Body>
-            <p><b>Add to home screen! ✨</b></p>
+            <p><b>Add to home screen ✨</b></p>
 <p><b>On iOS</b></p><p>Click the share button then ‘add to home screen’</p>
 <p><b>On Android</b></p><p>Click the ⋮ menu button then ‘install app’</p>
 <p>This app can work offline</p>
