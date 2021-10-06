@@ -156,6 +156,9 @@ h1 .arabic {
 .carousel-indicators {
   display: none !important;
 }
+.accordion-body img {
+  width: 75vw
+}
 .accordion-body .articulation-point {
   width: 75vw;
   height: 50vh
