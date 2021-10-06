@@ -34,7 +34,7 @@ export default function Faa() {
            <p>
             <Link href="infitah"><span className="arabic">الانفتاح</span> Al Infitah</Link>
           </p>
-          <img className="d-block mx-auto" src="/assets/diagrams/faa.png"/>
+          <img className="d-block mx-auto articulation-point" src="/assets/diagrams/faa.png"/>
         </Accordion.Body>
       </Accordion.Item>
     </div>

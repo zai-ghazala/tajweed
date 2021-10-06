@@ -58,10 +58,10 @@ export default function Raa() {
           </p>
           <Carousel nextLabel={null} prevLabel={null}>
             <Carousel.Item>
-              <img className="d-block mx-auto" src="/assets/diagrams/raa1.jpg" />
+              <img className="d-block mx-auto articulation-point" src="/assets/diagrams/raa1.jpg" />
             </Carousel.Item>
             <Carousel.Item>
-              <img className="d-block mx-auto" src="/assets/diagrams/raa2.jpg" />
+              <img className="d-block mx-auto"src="/assets/diagrams/raa2.jpg" />
               <Carousel.Caption>
               <p>Light <span className="arabic">ر</span>{" "} on the left-hand side</p>
                 <p>Heavy <span className="arabic">ر</span>{" "} on the right-hand side</p>

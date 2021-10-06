@@ -34,7 +34,7 @@ export default function Kaaf() {
            <p>
             <Link href="infitah"><span className="arabic">الانفتاح</span> Al Infitah</Link>
           </p>
-          <img className="d-block mx-auto" src="/assets/diagrams/kaaf.png" />
+          <img className="d-block mx-auto articulation-point" src="/assets/diagrams/kaaf.png" />
         </Accordion.Body>
       </Accordion.Item>
     </div>

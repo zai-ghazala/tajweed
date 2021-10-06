@@ -36,7 +36,7 @@ export default function Gain() {
            <p>
             <Link href="infitah"><span className="arabic">الانفتاح</span> Al Infitah</Link>
           </p>
-          <img className="d-block mx-auto" src="/assets/diagrams/gain.png" />
+          <img className="d-block mx-auto articulation-point" src="/assets/diagrams/gain.png" />
         </Accordion.Body>
       </Accordion.Item>
     </div>

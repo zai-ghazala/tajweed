@@ -156,8 +156,9 @@ h1 .arabic {
 .carousel-indicators {
   display: none !important;
 }
-.accordion-body  img {
-  max-width: 75vw
+.accordion-body .articulation-point {
+  width: 75vw;
+  height: 50vh
 }
 hr {
   border: none;
@@ -165,7 +166,11 @@ hr {
 }
 @media (min-width: 481px) and (orientation: landscape) { 
   .accordion-body img {
-    width: 350px
+    width: 375px
+  }
+  .accordion-body .articulation-point {
+    width: 375px;
+    height: 475px;
   }
 }
 audio {

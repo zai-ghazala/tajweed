@@ -36,7 +36,7 @@ export default function ZaaHeavy() {
             <Link href="istila"><span className="arabic">الإستــعلاء</span> Al Isti’la</Link></p>
         <p>
             <Link href="itbaq"><span className="arabic">الاطباق</span> Al Itbaq</Link></p>
-          <img className="d-block mx-auto" src="/assets/diagrams/zaa-heavy.png"/>
+          <img className="d-block mx-auto articulation-point" src="/assets/diagrams/zaa-heavy.png"/>
         </Accordion.Body>
       </Accordion.Item>
     </div>

@@ -49,7 +49,7 @@ export default function Suad() {
             <Link href="itbaq"><span className="arabic">الاطباق</span> Al Itbaq</Link></p>
           <Carousel nextLabel={null} prevLabel={null}>
             <Carousel.Item>
-              <img className="d-block mx-auto" src="/assets/diagrams/duad1.png" />
+              <img className="d-block mx-auto articulation-point" src="/assets/diagrams/duad1.png" />
             </Carousel.Item>
             <Carousel.Item>
               <img className="d-block mx-auto" src="/assets/diagrams/duad2.png" />

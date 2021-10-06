@@ -35,7 +35,7 @@ export default function Zaal() {
            <p>
             <Link href="infitah"><span className="arabic">الانفتاح</span> Al Infitah</Link>
           </p>
-          <img className="d-block mx-auto" src="/assets/diagrams/zaal.png" />
+          <img className="d-block mx-auto articulation-point" src="/assets/diagrams/zaal.png" />
         </Accordion.Body>
       </Accordion.Item>
     </div>

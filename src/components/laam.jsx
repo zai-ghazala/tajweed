@@ -49,16 +49,16 @@ export default function Laam() {
           </p>
           <Carousel nextLabel={null} prevLabel={null}>
             <Carousel.Item>
-              <img className="d-block mx-auto" src="/assets/diagrams/laam1.jpg" />
+              <img className="d-block mx-auto articulation-point" src="/assets/diagrams/laam1.jpg" />
             </Carousel.Item>
             <Carousel.Item>
-              <img src="/assets/diagrams/laam3.png" />
+              <img className="articulation-point" src="/assets/diagrams/laam3.png" />
               <Carousel.Caption>
                 <p>Edge of tip of tongue - the blue area</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-              <img className="d-block mx-auto" src="/assets/diagrams/laam2.png" />
+              <img className="d-block mx-auto articulation-point" src="/assets/diagrams/laam2.png" />
               <Carousel.Caption>
                 <p>Blue area showing where tongue touches top palate</p>
               </Carousel.Caption>

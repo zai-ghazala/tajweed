@@ -37,7 +37,7 @@ export default function Jeem() {
           <p>
             <Link href="infitah"><span className="arabic">الانفتاح</span> Al Infitah</Link>
           </p>
-        <img className="d-block mx-auto" src="/assets/diagrams/jeem.jpg" />
+        <img className="d-block mx-auto articulation-point" src="/assets/diagrams/jeem.jpg" />
       </Accordion.Body>
     </Accordion.Item>
 </div>

@@ -35,7 +35,7 @@ export default function Ain() {
            <p>
             <Link href="infitah"><span className="arabic">الانفتاح</span> Al Infitah</Link>
           </p>
-          <img className="d-block mx-auto" src="/assets/diagrams/ain.jpg" />
+          <img className="d-block mx-auto articulation-point" src="/assets/diagrams/ain.jpg" />
         </Accordion.Body>
       </Accordion.Item>
     </div>
