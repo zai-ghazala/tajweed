@@ -69,12 +69,12 @@ export default function Home() {
       <main role="main" className="wrapper">
       <div className="return"><div className="recorder">
       <button onClick={startRecording} disabled={isRecording}>
-      <span className="except">●</span> record
+      <span className="except">●</span>
       </button>
       <button onClick={stopRecording} disabled={!isRecording}>
-      ❚❚ stop
+      ❚❚
       </button>
-      <button onClick={playAudio}>🔊 play</button>
+      <button onClick={playAudio}>🔊</button>
       </div>
       <div className="menu"><Menu/>
       <Link href="/"><a><img src="/assets/images/home.png" alt="home"/></a></Link></div></div>
