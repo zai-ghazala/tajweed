@@ -66,8 +66,8 @@ export default function Laam() {
             <Carousel.Item>
               <img className="d-block mx-auto" src="/assets/diagrams/laam4.jpg" />
               <Carousel.Caption>
-                <p>Light <span className="arabic">ل</span>{" "} on the left-hand side</p>
-                <p>Heavy <span className="arabic">ل</span>{" "} on the right-hand side</p>
+                <p><b>Left side</b> - Light <span className="arabic">ل</span></p>
+                <p><b>Right side</b> - Heavy <span className="arabic">ل</span></p>
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>

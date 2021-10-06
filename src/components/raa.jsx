@@ -63,8 +63,8 @@ export default function Raa() {
             <Carousel.Item>
               <img className="d-block mx-auto"src="/assets/diagrams/raa2.jpg" />
               <Carousel.Caption>
-              <p>Light <span className="arabic">ر</span>{" "} on the left-hand side</p>
-                <p>Heavy <span className="arabic">ر</span>{" "} on the right-hand side</p>
+              <p><b>Left side</b> - Light <span className="arabic">ر</span></p>
+                <p><b>Right side</b> - Heavy <span className="arabic">ر</span></p>
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
