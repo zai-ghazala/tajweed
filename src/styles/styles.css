@@ -374,5 +374,8 @@ button {
 .sources {
   position: absolute;
   bottom: 0;
-  font-size: 0.9em
+  font-size: 0.75em
+}
+.nav-content a {
+  color: var(--color-text-main) !important;
 }

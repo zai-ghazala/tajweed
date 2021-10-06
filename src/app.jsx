@@ -1,8 +1,6 @@
 import React, {useState} from "react";
 import { Router, Link } from "wouter";
 
-import useRecorder from './components/use-recorder';
-
 /**
  * This code defines the react app
  *
@@ -26,6 +24,9 @@ import Seo from "./components/seo.jsx";
 
 import Offcanvas from "react-bootstrap/Offcanvas";
 import 'bootstrap/dist/css/bootstrap.min.css';
+
+import NavContent from "./components/nav-content.jsx";
+import useRecorder from './components/use-recorder';
 
 // Home function that is reflected across the site
 export default function Home() {
@@ -55,16 +56,9 @@ export default function Home() {
         <Offcanvas show={show} onHide={handleClose}>
           <Offcanvas.Header closeButton>
           </Offcanvas.Header>
+          
           <Offcanvas.Body>
-            <p><b>Add to home screen ✨</b></p>
-<p><b>On iOS</b></p><p>Click the share button then ‘add to home screen’</p>
-<p><b>On Android</b></p><p>Click the ⋮ menu button then ‘install app’</p>
-<p>This app can work offline</p>
-            
-            <div className="sources">
-            <p><b>Sources</b></p>
-            <p>Illustrations by Eman Atef</p>
-            </div>
+            <NavContent/>
           </Offcanvas.Body>
         </Offcanvas>
       </>
