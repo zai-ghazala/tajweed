@@ -31,7 +31,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 export default function Home() {
   let [audioURL, isRecording, startRecording, stopRecording] = useRecorder();
 
-  const playAudio = (url) => {
+  const playAudio = () => {
     new Audio(audioURL).play();
   };
 
@@ -74,7 +74,7 @@ export default function Home() {
       <button onClick={stopRecording} disabled={!isRecording}>
       ❚❚
       </button>
-      <button onClick={playAudio}>🔊</button>
+      <button onClick={playAudio} disabled={audioURL === ""}>🔊</button>
       </div>
       <div className="menu"><Menu/>
       <Link href="/"><a><img src="/assets/images/home.png" alt="home"/></a></Link></div></div>
