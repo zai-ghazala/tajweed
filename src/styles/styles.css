@@ -363,7 +363,8 @@ button {
     color: #FFF;
 }
 .recorder button {
-  line-height: 6vh !important
+  line-height: 6vh !important;
+  width: 40px
 }
 .offcanvas {
   background-color:  #cc95c0 !important
