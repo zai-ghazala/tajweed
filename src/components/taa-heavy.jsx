@@ -17,6 +17,8 @@ export default function TaaHeavy() {
           onPlay={e => console.log("onPlay")}
           // other props here
         />
+<div className="letter-info">
+<div className="inner-info">
           <p>
             <Link href="tongue">Tongue letter</Link> - Where the extreme tip of the tongue
             touches the roots of the top front teeth
@@ -37,7 +39,9 @@ export default function TaaHeavy() {
             <Link href="istila"><span className="arabic">الإستــعلاء</span> Al Isti’la</Link></p>
         <p>
             <Link href="itbaq"><span className="arabic">الاطباق</span> Al Itbaq</Link></p>
+            </div>
           <img className="d-block mx-auto articulation-point" src="/assets/diagrams/taa-heavy.png" />
+          </div>
         </Accordion.Body>
       </Accordion.Item>
     </div>

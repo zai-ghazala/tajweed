@@ -17,6 +17,8 @@ export default function Zaai() {
           onPlay={e => console.log("onPlay")}
           // other props here
         />
+<div className="letter-info">
+<div className="inner-info">
           <p>
             <Link href="tongue">Tongue letter</Link> - Extreme tip of the tongue touching
             the inner surface at the lower end of the bottom two front teeth
@@ -36,8 +38,10 @@ export default function Zaai() {
           </p>
            <p>
             <Link href="infitah"><span className="arabic">الانفتاح</span> Al Infitah</Link>
-          </p>
+          </p>          
+          </div>
           <img className="d-block mx-auto articulation-point" src="/assets/diagrams/zaai.png"/>
+          </div>
         </Accordion.Body>
       </Accordion.Item>
     </div>

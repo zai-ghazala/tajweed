@@ -17,6 +17,8 @@ export default function Zaal() {
           onPlay={e => console.log("onPlay")}
           // other props here
         />
+<div className="letter-info">
+<div className="inner-info">
           <p>
             <Link href="tongue">Tongue letter</Link> - Tip of the tongue touching the
             bottom edges of the top front teeth
@@ -35,7 +37,9 @@ export default function Zaal() {
            <p>
             <Link href="infitah"><span className="arabic">الانفتاح</span> Al Infitah</Link>
           </p>
+          </div>
           <img className="d-block mx-auto articulation-point" src="/assets/diagrams/zaal.png" />
+          </div>
         </Accordion.Body>
       </Accordion.Item>
     </div>

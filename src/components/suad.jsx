@@ -18,6 +18,8 @@ export default function Suad() {
           onPlay={e => console.log("onPlay")}
           // other props here
         />
+<div className="letter-info">
+<div className="inner-info">
           <p>
             <Link href="tongue">Tongue letter</Link> - Extreme tip of the tongue touching
             the inner surface at the lower end of the bottom two front teeth
@@ -39,7 +41,9 @@ export default function Suad() {
             <Link href="istila"><span className="arabic">الإستــعلاء</span> Al Isti’la</Link></p>
         <p>
             <Link href="itbaq"><span className="arabic">الاطباق</span> Al Itbaq</Link></p>
+            </div>
           <img className="d-block mx-auto articulation-point" src="/assets/diagrams/suad.png" />
+          </div>
         </Accordion.Body>
       </Accordion.Item>
     </div>

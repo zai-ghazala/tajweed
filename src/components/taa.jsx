@@ -17,6 +17,8 @@ export default function Taa() {
           onPlay={e => console.log("onPlay")}
           // other props here
         />
+<div className="letter-info">
+<div className="inner-info">
           <p>
             <Link href="tongue">Tongue letter</Link> - Where the extreme tip of the tongue
             touches the roots of the top front teeth
@@ -36,7 +38,9 @@ export default function Taa() {
            <p>
             <Link href="infitah"><span className="arabic">الانفتاح</span> Al Infitah</Link>
           </p>
+          </div>
           <img className="d-block mx-auto articulation-point" src="/assets/diagrams/taa.png" />
+          </div>
         </Accordion.Body>
       </Accordion.Item>
     </div>

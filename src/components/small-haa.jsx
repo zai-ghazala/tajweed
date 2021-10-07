@@ -18,6 +18,8 @@ export default function SmallHaa() {
           onPlay={e => console.log("onPlay")}
           // other props here
         />
+<div className="letter-info">
+<div className="inner-info">
           <p>
             <Link href="throat">Throat letter</Link> - Furthest part, from the vocal
             chords
@@ -35,6 +37,7 @@ export default function SmallHaa() {
            <p>
             <Link href="infitah"><span className="arabic">الانفتاح</span> Al Infitah</Link>
           </p>
+          </div>
           <Carousel nextLabel={null} prevLabel={null}>
             <Carousel.Item>
               <img className="d-block mx-auto articulation-point" src="/assets/diagrams/small-haa.jpg" />
@@ -52,6 +55,7 @@ export default function SmallHaa() {
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
+          </div>
         </Accordion.Body>
       </Accordion.Item>
     </div>

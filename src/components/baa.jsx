@@ -17,6 +17,8 @@ export default function Baa() {
           onPlay={e => console.log("onPlay")}
           // other props here
         />
+<div className="letter-info">
+<div className="inner-info">
           <p>
             <Link href="lips">Lip letter</Link> - Lips come together then move apart for{" "}
             <span className="arabic">ب</span>{" "}creating a bounce
@@ -37,8 +39,9 @@ export default function Baa() {
            <p>
             <Link href="infitah"><span className="arabic">الانفتاح</span> Al Infitah</Link>
           </p>
-
+          </div>
           <img className="d-block mx-auto articulation-point" src="/assets/diagrams/baa.png"/>
+          </div>
         </Accordion.Body>
       </Accordion.Item>
     </div>

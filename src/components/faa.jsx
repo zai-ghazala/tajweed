@@ -17,6 +17,8 @@ export default function Faa() {
           onPlay={e => console.log("onPlay")}
           // other props here
         />
+<div className="letter-info">
+<div className="inner-info">
           <p>
             <Link href="lips">Lip letter</Link> - The edge of the front top teeth
             touching the inside lower lip
@@ -34,7 +36,9 @@ export default function Faa() {
            <p>
             <Link href="infitah"><span className="arabic">الانفتاح</span> Al Infitah</Link>
           </p>
+          </div>
           <img className="d-block mx-auto articulation-point" src="/assets/diagrams/faa.png"/>
+          </div>
         </Accordion.Body>
       </Accordion.Item>
     </div>

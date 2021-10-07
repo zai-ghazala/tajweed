@@ -32,7 +32,10 @@ import Hamzah from "../components/hamzah";
 import Yaa from "../components/yaa";
 
 export default function Home() {
-  return (
+  return (<>
+    <div className="title"><h1><span className="inline-block">أعوذ بالله من الشيطان الرجيم</span>
+<br/><span className="inline-block">بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</span></h1>
+    </div>
     <Accordion>
       <Alif/>
       <Baa/>
@@ -64,5 +67,6 @@ export default function Home() {
       <Hamzah/>
       <Yaa/>
     </Accordion>
+    </>
   );
 }

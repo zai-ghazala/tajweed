@@ -18,8 +18,10 @@ export default function Waw() {
           onPlay={e => console.log("onPlay")}
           // other props here
         />
+<div className="letter-info">
+<div className="inner-info">
           <p>
-            <Link href="lips">Lip letter</Link> - Ghair madiya. Lips make a round
+            <Link href="lips">Lip letter</Link> - Lips make a round
             circle
           </p>
           <p>
@@ -37,6 +39,7 @@ export default function Waw() {
            <p>
             <Link href="infitah"><span className="arabic">الانفتاح</span> Al Infitah</Link>
           </p>
+          </div>
           <Carousel nextLabel={null} prevLabel={null}>
             <Carousel.Item>
               <img className="d-block mx-auto articulation-point" src="/assets/diagrams/waw.png" />
@@ -45,6 +48,7 @@ export default function Waw() {
               <img className="d-block mx-auto diagram-small" src="/assets/images/31.jpeg" />
             </Carousel.Item>
           </Carousel>
+          </div>
         </Accordion.Body>
       </Accordion.Item>
     </div>

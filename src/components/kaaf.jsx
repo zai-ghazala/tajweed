@@ -18,6 +18,8 @@ export default function Kaaf() {
           onPlay={e => console.log("onPlay")}
           // other props here
         />
+<div className="letter-info">
+<div className="inner-info">
           <p>
             <Link href="tongue">Tongue letter</Link> - Back of the tongue touching where
             the hard part of the roof of the mouth meets the soft part
@@ -34,7 +36,9 @@ export default function Kaaf() {
            <p>
             <Link href="infitah"><span className="arabic">الانفتاح</span> Al Infitah</Link>
           </p>
+          </div>
           <img className="d-block mx-auto articulation-point" src="/assets/diagrams/kaaf.png" />
+          </div>
         </Accordion.Body>
       </Accordion.Item>
     </div>

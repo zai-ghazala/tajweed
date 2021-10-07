@@ -17,6 +17,8 @@ export default function Khaa() {
           onPlay={e => console.log("onPlay")}
           // other props here
         />
+<div className="letter-info">
+<div className="inner-info">
           <p>
             <Link href="throat">Throat letter</Link> - Closest to the mouth
           </p>
@@ -36,7 +38,9 @@ export default function Khaa() {
            <p>
             <Link href="infitah"><span className="arabic">الانفتاح</span> Al Infitah</Link>
           </p>
+          </div>
           <img className="d-block mx-auto articulation-point" src="/assets/diagrams/khaa.png" />
+          </div>
         </Accordion.Body>
       </Accordion.Item>
     </div>

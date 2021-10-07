@@ -18,6 +18,8 @@ export default function Laam() {
           onPlay={e => console.log("onPlay")}
           // other props here
         />
+<div className="letter-info">
+<div className="inner-info">
           <p>
             <Link href="tongue">Tongue letter</Link> - Front edge
           </p>
@@ -47,6 +49,7 @@ export default function Laam() {
            <p>
             <Link href="infitah"><span className="arabic">الانفتاح</span> Al Infitah</Link>
           </p>
+          </div>
           <Carousel nextLabel={null} prevLabel={null}>
             <Carousel.Item>
               <img className="d-block mx-auto articulation-point" src="/assets/diagrams/laam1.jpg" />
@@ -71,6 +74,7 @@ export default function Laam() {
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
+          </div>
         </Accordion.Body>
       </Accordion.Item>
     </div>

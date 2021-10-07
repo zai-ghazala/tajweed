@@ -17,6 +17,8 @@ export default function Seen() {
           onPlay={e => console.log("onPlay")}
           // other props here
         />
+<div className="letter-info">
+<div className="inner-info">
           <p>
             <Link href="tongue">Tongue letter</Link> - Extreme tip of the tongue touching
             the inner surface at the lower end of the bottom two front teeth
@@ -37,7 +39,9 @@ export default function Seen() {
            <p>
             <Link href="infitah"><span className="arabic">الانفتاح</span> Al Infitah</Link>
           </p>
+          </div>
           <img className="d-block mx-auto articulation-point" src="/assets/diagrams/seen.png" />
+          </div>
         </Accordion.Body>
       </Accordion.Item>
     </div>

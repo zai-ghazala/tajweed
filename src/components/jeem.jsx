@@ -18,6 +18,8 @@ export default function Jeem() {
           onPlay={e => console.log("onPlay")}
           // other props here
         />
+<div className="letter-info">
+<div className="inner-info">
         <p>
           <Link href="tongue">Tongue letter</Link> - Middle of the tongue with the
           middle of the roof of the mouth
@@ -37,7 +39,9 @@ export default function Jeem() {
           <p>
             <Link href="infitah"><span className="arabic">الانفتاح</span> Al Infitah</Link>
           </p>
+          </div>
         <img className="d-block mx-auto articulation-point" src="/assets/diagrams/jeem.jpg" />
+        </div>
       </Accordion.Body>
     </Accordion.Item>
 </div>

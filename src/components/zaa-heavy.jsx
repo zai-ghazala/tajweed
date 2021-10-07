@@ -17,6 +17,8 @@ export default function ZaaHeavy() {
           onPlay={e => console.log("onPlay")}
           // other props here
         />
+<div className="letter-info">
+<div className="inner-info">
           <p>
             <Link href="tongue">Tongue letter</Link> - Tip of the tongue touching the
             bottom edges of the front two teeth
@@ -36,7 +38,9 @@ export default function ZaaHeavy() {
             <Link href="istila"><span className="arabic">الإستــعلاء</span> Al Isti’la</Link></p>
         <p>
             <Link href="itbaq"><span className="arabic">الاطباق</span> Al Itbaq</Link></p>
+            </div>
           <img className="d-block mx-auto articulation-point" src="/assets/diagrams/zaa-heavy.png"/>
+          </div>
         </Accordion.Body>
       </Accordion.Item>
     </div>

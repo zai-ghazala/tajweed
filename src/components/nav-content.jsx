@@ -11,6 +11,7 @@ export default function NavContent() {
             
             <p><b>Sources</b></p>
             <p>Illustrations by Eman Atef</p>
+            <p>Notes based on Sheikh Ayman Suwayd’s material</p>
             </div>
             </div>
   );

@@ -17,6 +17,8 @@ export default function Haa() {
           onPlay={e => console.log("onPlay")}
           // other props here
         />
+<div className="letter-info">
+<div className="inner-info">
           <p>
             <Link href="throat">Throat letter</Link> - Middle of the throat, epiglottis,
             what stops food going into our windpipe when we eat
@@ -36,7 +38,9 @@ export default function Haa() {
            <p>
             <Link href="infitah"><span className="arabic">الانفتاح</span> Al Infitah</Link>
           </p>
+          </div>
           <img className="d-block mx-auto articulation-point" src="/assets/diagrams/haa.jpg" />
+          </div>
         </Accordion.Body>
       </Accordion.Item>
     </div>

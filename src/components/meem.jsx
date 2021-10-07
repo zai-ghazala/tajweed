@@ -17,6 +17,8 @@ export default function Meem() {
           onPlay={e => console.log("onPlay")}
           // other props here
         />
+<div className="letter-info">
+<div className="inner-info">
           <p>
             <Link href="lips">Lip letter</Link> - Lips come together
           </p>
@@ -42,7 +44,9 @@ export default function Meem() {
            <p>
             <Link href="infitah"><span className="arabic">الانفتاح</span> Al Infitah</Link>
           </p>
+          </div>
           <img className="d-block mx-auto articulation-point" src="/assets/diagrams/meem.png" />
+          </div>
         </Accordion.Body>
       </Accordion.Item>
     </div>
