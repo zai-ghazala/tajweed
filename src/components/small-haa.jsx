@@ -40,13 +40,13 @@ export default function SmallHaa() {
               <img className="d-block mx-auto articulation-point" src="/assets/diagrams/small-haa.jpg" />
             </Carousel.Item>
             <Carousel.Item>
-              <img className="d-block mx-auto" src="/assets/images/3.jpeg"/>
+              <img className="d-block mx-auto" src="/assets/images/2.jpeg"/>
               <Carousel.Caption>
                 <p>When <span className="arabic">ء</span> is sakinah, the vocal chords are closed</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-              <img className="d-block mx-auto" src="/assets/images/4.jpeg" />
+              <img className="d-block mx-auto" src="/assets/images/3.jpeg" />
               <Carousel.Caption>
                 <p>When <span className="arabic">ء</span> and <span className="arabic">ه</span> are mutharrikah, vocal chords are all open</p>
               </Carousel.Caption>
