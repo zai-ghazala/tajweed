@@ -218,13 +218,6 @@ and (max-width: 1024px) and (max-height: 1366px) {
     width: 375px;
   }
 }
-audio {
-  filter: sepia(100%) saturate(300%) contrast(100%) invert(0%);
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-  margin-bottom: 1em
-}
 .alif .accordion-item a, .alif .accordion-item strong {
   color: #cc95c0;
 }
