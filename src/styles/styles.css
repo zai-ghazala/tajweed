@@ -159,6 +159,9 @@ h1 .arabic {
 .accordion-body img {
   width: 75vw
 }
+.accordion-body .diagram-small {
+  width: 37.5vw
+}
 .accordion-body .articulation-point {
   width: 75vw;
   height: 50vh
@@ -170,6 +173,9 @@ hr {
 @media (min-width: 481px) { 
   .accordion-body img {
     width: 375px
+  }
+  .accordion-body .diagram-small {
+    width: 187.5px
   }
   .accordion-body .articulation-point {
     width: 375px;
