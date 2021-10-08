@@ -160,7 +160,9 @@ h1 .arabic {
   width: 75vw
 }
 .accordion-body .diagram-small {
-  width: 37.5vw
+  width: 37.5vw;
+  margin-top: 50%;
+  transform: translateY(-50%)
 }
 .accordion-body .articulation-point {
   width: 75vw;
@@ -192,7 +194,8 @@ hr {
     margin-left: 5vw
   }
   .carousel {
-    width: 375px;
+    width: 400px;
+    height: 475px;
   }
 }
 @media (min-width: 768px) and (max-width: 1024px) 
@@ -215,7 +218,8 @@ and (max-width: 1024px) and (max-height: 1366px) {
     margin-left: 5vw
   }
   .carousel {
-    width: 375px;
+    width: 400px;
+    height: 475px;
   }
 }
 .alif .accordion-item a, .alif .accordion-item strong {
