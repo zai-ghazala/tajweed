@@ -9,7 +9,7 @@ export default function NavContent() {
 <p><b>On Android</b> click the ⋮ menu button then ‘install app’</p>
 <p>This app also works offline</p>
 
-<p>Feel free to contact me at <a className="email" href="mailto:zainabismail024@gmail.com">zainabismail024@gmail.com</a> 📧  with any corrections or suggestions</p>
+<p>Feel free to contact me at <a className="email" href="mailto:zainabismail024@gmail.com">zainabismail024@gmail.com</a> with any corrections or suggestions</p>
             
             <p><b>Sources</b></p>
             <p>Illustrations by Eman Atef</p>
