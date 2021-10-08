@@ -20,7 +20,7 @@ export default function Yaa() {
 <div className="letter-info">
 <div className="inner-info">
           <p>
-            <Link href="tongue">Tongue letter</Link> - Middle of the tongue with the
+            <Link href="tongue">Tongue letter</Link> – Middle of the tongue with the
             middle of the roof of the mouth
           </p>
          <p>

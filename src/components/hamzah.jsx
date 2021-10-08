@@ -21,7 +21,7 @@ export default function Hamzah() {
 <div className="letter-info">
 <div className="inner-info">
           <p>
-            <Link href="throat">Throat letter</Link> - Furthest part, from the vocal
+            <Link href="throat">Throat letter</Link> – Furthest part, from the vocal
             chords
           </p>
           <hr />

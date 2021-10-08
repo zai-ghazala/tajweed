@@ -20,7 +20,7 @@ export default function Qaaf() {
 <div className="letter-info">
 <div className="inner-info">
           <p>
-            <Link href="tongue">Tongue letter</Link> - Back of the tongue touching the
+            <Link href="tongue">Tongue letter</Link> – Back of the tongue touching the
             soft fleshy part of roof of the mouth
           </p>
           <p>The tongue is dipped in the middle</p>

@@ -21,7 +21,7 @@ export default function Laam() {
 <div className="letter-info">
 <div className="inner-info">
           <p>
-            <Link href="tongue">Tongue letter</Link> - Front edge
+            <Link href="tongue">Tongue letter</Link> – Front edge
           </p>
           <p>
             Touch the edge of tongue with the hard palate in front of the top
@@ -54,14 +54,14 @@ export default function Laam() {
           <Carousel.Item>
               <img className="d-block mx-auto" src="/assets/diagrams/laam4.jpg" />
               <Carousel.Caption>
-                <p><b>Left</b> - Light <span className="arabic">ل</span></p>
-                <p><b>Right</b> - Heavy <span className="arabic">ل</span></p>
+                <p><b>Left</b> – Light <span className="arabic">ل</span></p>
+                <p><b>Right</b> – Heavy <span className="arabic">ل</span></p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
               <img className="d-block mx-auto" src="/assets/diagrams/laam3.png" />
               <Carousel.Caption>
-                <p>Edge of tip of tongue - the blue area</p>
+                <p>Edge of tip of tongue – the blue area</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>

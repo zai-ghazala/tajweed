@@ -20,7 +20,7 @@ export default function Khaa() {
 <div className="letter-info">
 <div className="inner-info">
           <p>
-            <Link href="throat">Throat letter</Link> - Closest to the mouth
+            <Link href="throat">Throat letter</Link> – Closest to the mouth
           </p>
           <p>
             Note that the tongue is dipped in the middle so the sound is

@@ -21,7 +21,7 @@ export default function Waw() {
 <div className="letter-info">
 <div className="inner-info">
           <p>
-            <Link href="lips">Lip letter</Link> - Lips make a round
+            <Link href="lips">Lip letter</Link> – Lips make a round
             circle
           </p>
           <p>

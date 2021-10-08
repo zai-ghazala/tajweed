@@ -20,7 +20,7 @@ export default function Faa() {
 <div className="letter-info">
 <div className="inner-info">
           <p>
-            <Link href="lips">Lip letter</Link> - The edge of the front top teeth
+            <Link href="lips">Lip letter</Link> – The edge of the front top teeth
             touching the inside lower lip
           </p>
          <p>

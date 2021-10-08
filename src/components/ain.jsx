@@ -20,7 +20,7 @@ export default function Ain() {
 <div className="letter-info">
 <div className="inner-info">
           <p>
-            <Link href="throat">Throat letter</Link> - Middle of the throat, epiglottis,
+            <Link href="throat">Throat letter</Link> – Middle of the throat, epiglottis,
             what stops food going into our windpipe when we eat
           </p>
           <p>Tongue is flat</p>

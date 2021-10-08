@@ -20,7 +20,7 @@ export default function Saa() {
 <div className="letter-info">
 <div className="inner-info">
         <p>
-          <Link href="tongue">Tongue letter</Link> - Tip of the tongue touching the
+          <Link href="tongue">Tongue letter</Link> – Tip of the tongue touching the
           bottom edges of the top front teeth
         </p>
         <p>Flat tongue as normal</p>

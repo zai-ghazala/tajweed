@@ -21,7 +21,7 @@ export default function Suad() {
 <div className="letter-info">
 <div className="inner-info">
           <p>
-            <Link href="tongue">Tongue letter</Link> - Extreme tip of the tongue touching
+            <Link href="tongue">Tongue letter</Link> – Extreme tip of the tongue touching
             the inner surface at the lower end of the bottom two front teeth
           </p>
           <p>

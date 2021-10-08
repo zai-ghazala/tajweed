@@ -20,7 +20,7 @@ export default function Noon() {
 <div className="letter-info">
 <div className="inner-info">
           <p>
-            <Link href="tongue">Tongue letter</Link> - Tip of the tongue
+            <Link href="tongue">Tongue letter</Link> – Tip of the tongue
           </p>
           <p>
             From the tip of the tongue (to what lies opposite it) to the gums,

@@ -20,7 +20,7 @@ export default function Meem() {
 <div className="letter-info">
 <div className="inner-info">
           <p>
-            <Link href="lips">Lip letter</Link> - Lips come together
+            <Link href="lips">Lip letter</Link> – Lips come together
           </p>
           <p>Hold lips for longer than{" "}<span className="arabic">ب</span></p>
           <p>

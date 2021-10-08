@@ -21,7 +21,7 @@ export default function Raa() {
 <div className="letter-info">
 <div className="inner-info">
           <p>
-            <Link href="tongue">Tongue letter</Link> - Tip of the tongue
+            <Link href="tongue">Tongue letter</Link> – Tip of the tongue
           </p>
           <p>
             From the tip of the tongue, to what is opposite it, of the gums by
@@ -62,8 +62,8 @@ export default function Raa() {
           <div>
               <img className="d-block mx-auto" src="/assets/diagrams/raa2.jpg" />
               <div className="carousel-caption">
-              <p><b>Left</b> - Light <span className="arabic">ر</span></p>
-                <p><b>Right</b> - Heavy <span className="arabic">ر</span></p></div>
+              <p><b>Left</b> – Light <span className="arabic">ر</span></p>
+                <p><b>Right</b> – Heavy <span className="arabic">ر</span></p></div>
               </div>
           </div>
         </Accordion.Body>
