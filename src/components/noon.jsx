@@ -29,7 +29,7 @@ export default function Noon() {
           <p>Closer to the front teeth than the {" "}<span className="arabic">ل
           </span></p>
           <p>
-            Comes from 2 main areas makhraj – the tongue and the nose, this
+            Comes from 2 main areas of makhraj – the tongue and the nose, this
             produces the ghunna sifah
           </p>
           <p>

@@ -24,7 +24,7 @@ export default function Sheen() {
             middle of the roof of the mouth
           </p>
           <p>
-            <Link href="tafashi">التفشي Al Tafashi</Link></p>
+            <Link href="tafashi"><span className="arabic">التفشي</span> Al Tafashi</Link></p>
           <hr />
          <p>
             <Link href="hams"><span className="arabic">الهمس</span> Al Hams</Link>
