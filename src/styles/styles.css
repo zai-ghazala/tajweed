@@ -406,8 +406,11 @@ button {
   bottom: 0;
   font-size: 0.75em
 }
-.nav-content a {
+.nav-content a.email {
   color: var(--color-text-main) !important;
+  font-family: Ubuntu;
+  font-variant: normal;
+  font-size: 1em
 }
 .title h1 {
   padding: 5vh;
