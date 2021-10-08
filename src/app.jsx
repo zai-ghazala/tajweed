@@ -40,6 +40,18 @@ export default function Home() {
     onOfflineReady() {},
   })
 
+  function goBack() {
+    window.history.back()
+  }
+
+  function goForward() {
+    window.history.forward()
+  }
+
+  function historyButtons() {
+    return <><div class="button"><button onClick={goBack}>«</button></div>
+    <div class="button"><button onClick={goForward}>»</button></div></>
+  }
 
   function Menu() {
     const [show, setShow] = useState(false);
@@ -65,7 +77,8 @@ export default function Home() {
     );
   }
   return (
-    <Router hook={useHashLocation}>
+
+<Router hook={useHashLocation}>
       <Seo />
       <main role="main" className="wrapper">
       <div className="return"><div className="recorder">
@@ -77,7 +90,7 @@ export default function Home() {
       </button>
       <button onClick={playAudio} disabled={audioURL === ""}>🔊</button>
       </div>
-      <div className="menu"><Menu/>
+      <div className="menu">{historyButtons()}<Menu/>
       <Link href="/"><a><img src="/assets/images/home.png" alt="home"/></a></Link></div></div>
       <div className="content"><PageRouter /></div>
       </main>
