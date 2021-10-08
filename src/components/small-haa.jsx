@@ -43,9 +43,9 @@ export default function SmallHaa() {
               <img className="d-block mx-auto articulation-point" src="/assets/diagrams/small-haa.jpg" />
             </Carousel.Item>
             <Carousel.Item>
-              <img className="d-block mx-auto diagram-small" src="/assets/images/2.jpeg"/>
+              <img className="d-block mx-auto diagram-small" src= "/assets/images/4.jpeg" />
               <Carousel.Caption>
-                <p>When <span className="arabic">ء</span> is sakinah, the vocal chords are closed</p>
+                <p>When <span className="arabic">ه</span> is sakinah, the vocal chords are partially open</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
