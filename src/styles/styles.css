@@ -355,7 +355,8 @@ h1 {
   color: red
 }
 .arabic {
-  font-family: 'Noto Sans Arabic'
+  font-family: 'Noto Sans Arabic';
+  letter-spacing: 0 !important
 }
 .rhap_container {
   background-color: transparent !important;
@@ -415,8 +416,7 @@ button {
   text-align: center;
   font-weight: normal !important;
   font-family: 'Noto Sans Arabic' !important;
-  margin-block-start: 0 !important;
-  margin-block-end: 0 !important;
   font-size: calc(1em + .25vw)!important;
-  line-height: 1.5
+  line-height: 2;
+  letter-spacing: 0 !important
 }
