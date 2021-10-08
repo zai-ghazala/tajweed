@@ -59,18 +59,12 @@ export default function Raa() {
             <Link href="infitah"><span className="arabic">الانفتاح</span> Al Infitah</Link>
           </p>
           </div>
-          <Carousel nextLabel={null} prevLabel={null}>
-            <Carousel.Item>
-              <img className="d-block mx-auto articulation-point" src="/assets/diagrams/raa1.jpg" />
-            </Carousel.Item>
-            <Carousel.Item>
-              <img className="d-block mx-auto"src="/assets/diagrams/raa2.jpg" />
-              <Carousel.Caption>
-              <p><b>Left side</b> - Light <span className="arabic">ر</span></p>
-                <p><b>Right side</b> - Heavy <span className="arabic">ر</span></p>
-              </Carousel.Caption>
-            </Carousel.Item>
-          </Carousel>
+          <div>
+              <img className="d-block mx-auto" src="/assets/diagrams/raa2.jpg" />
+              <div className="carousel-caption">
+              <p><b>Left</b> - Light <span className="arabic">ر</span></p>
+                <p><b>Right</b> - Heavy <span className="arabic">ر</span></p></div>
+              </div>
           </div>
         </Accordion.Body>
       </Accordion.Item>

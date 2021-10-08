@@ -161,8 +161,6 @@ h1 .arabic {
 }
 .accordion-body .diagram-small {
   width: 37.5vw;
-  margin-top: 50%;
-  transform: translateY(-50%)
 }
 .accordion-body .articulation-point {
   width: 75vw;

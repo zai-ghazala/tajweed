@@ -51,8 +51,12 @@ export default function Laam() {
           </p>
           </div>
           <Carousel nextLabel={null} prevLabel={null}>
-            <Carousel.Item>
-              <img className="d-block mx-auto articulation-point" src="/assets/diagrams/laam1.jpg" />
+          <Carousel.Item>
+              <img className="d-block mx-auto" src="/assets/diagrams/laam4.jpg" />
+              <Carousel.Caption>
+                <p><b>Left</b> - Light <span className="arabic">ل</span></p>
+                <p><b>Right</b> - Heavy <span className="arabic">ل</span></p>
+              </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
               <img className="d-block mx-auto" src="/assets/diagrams/laam3.png" />
@@ -64,13 +68,6 @@ export default function Laam() {
               <img className="d-block mx-auto" src="/assets/diagrams/laam2.png" />
               <Carousel.Caption>
                 <p>Blue area showing where tongue touches top palate</p>
-              </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-              <img className="d-block mx-auto" src="/assets/diagrams/laam4.jpg" />
-              <Carousel.Caption>
-                <p><b>Left side</b> - Light <span className="arabic">ل</span></p>
-                <p><b>Right side</b> - Heavy <span className="arabic">ل</span></p>
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
