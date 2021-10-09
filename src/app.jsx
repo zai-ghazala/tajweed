@@ -91,7 +91,7 @@ export default function Home() {
       <button onClick={playAudio} disabled={audioURL === ""}>🔊</button>
       </div>
       <div className="menu">{historyButtons()}<Menu/>
-      <Link href="/"><a><img src="/assets/images/home.png" alt="home"/></a></Link></div></div>
+      <Link href="/"><a><img src="/icons/android-chrome-192x192.png" alt="home"/></a></Link></div></div>
       <div className="content"><PageRouter /></div>
       </main>
     </Router>
