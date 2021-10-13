@@ -3,8 +3,9 @@ import { Link } from "wouter";
 
 export default function NavContent() {
   return (<div className="nav-content">
+    <p>This app is for revision purposes and was not designed to replace a teacher. </p>
           <div className="sources">
-            
+          
 <p>Feel free to contact me at <a className="email" href="mailto:zainabismail024@gmail.com">zainabismail024@gmail.com</a> with any corrections or suggestions</p>
             <p><b>Add to home screen ✨</b></p>
 <p><b>On iOS</b> click the share button then ‘add to home screen’</p>
