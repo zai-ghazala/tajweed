@@ -3,7 +3,7 @@ import { Link } from "wouter";
 
 export default function NavContent() {
   return (<div className="nav-content">
-    <p>This app is for revision purposes and was not designed to replace a teacher. </p>
+    <p>Please note that this app is for revision purposes and was not designed to replace a teacher. </p>
           <div className="sources">
           
 <p>Feel free to contact me at <a className="email" href="mailto:zainabismail024@gmail.com">zainabismail024@gmail.com</a> with any corrections or suggestions</p>
