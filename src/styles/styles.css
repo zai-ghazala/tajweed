@@ -414,5 +414,6 @@ button {
   text-align: center;
   font-weight: normal !important;
   line-height: 2;
-  letter-spacing: 0 !important
+  letter-spacing: 0 !important;
+  font-size: 3em
 }
