@@ -33,8 +33,7 @@ import Yaa from "../components/yaa";
 
 export default function Home() {
   return (<>
-    <div className="title"><h1><span className="inline-block">أعوذُ بِٱللَّهِ مِنَ ٱلشَّيۡطَٰنِ ٱلرَّجِيمِ</span>
-<br/><span className="inline-block">بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</span></h1>
+    <div className="title"><h1>﷽</h1>
     </div>
     <Accordion>
       <Alif/>

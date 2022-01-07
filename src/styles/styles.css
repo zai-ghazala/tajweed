@@ -17,8 +17,6 @@
 * {
     box-sizing: border-box;
   }
-  ::-moz-selection { background: yellow; }
-  ::selection { background: yellow; }
 body {
   color: var(--color-text-main) !important;
   font-family: Ubuntu !important;
@@ -415,8 +413,6 @@ button {
   padding: 5vh;
   text-align: center;
   font-weight: normal !important;
-  font-family: 'Noto Sans Arabic' !important;
-  font-size: calc(1em + .25vw)!important;
   line-height: 2;
   letter-spacing: 0 !important
 }
