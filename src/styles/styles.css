@@ -48,7 +48,7 @@ h1 .arabic {
   font-weight: normal
 }
 .accordion-button:hover, .accordion-button:not(.collapsed) {
-  color: yellow !important;
+  opacity: 0.75 !important;
 }
 .alif .accordion-button, .alif .accordion-item hr, .alif .accordion-button:not(.collapsed) {
   background-color: #cc95c0
@@ -415,5 +415,9 @@ button {
   font-weight: normal !important;
   line-height: 2;
   letter-spacing: 0 !important;
-  font-size: 3em
+  font-size: 3em;
+  color: #fff
+}
+.title {
+  background: linear-gradient(var(--color-text-main), #999);
 }
