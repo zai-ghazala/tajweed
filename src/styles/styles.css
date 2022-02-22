@@ -20,7 +20,6 @@
 body {
   color: var(--color-text-main) !important;
   font-family: Ubuntu !important;
-  letter-spacing: 0.5px;
   font-size: calc(1em + 0.25vw) !important;
   overflow-x: hidden;
 }
@@ -31,7 +30,6 @@ body {
 }
 a, strong {
   font-family: Lora;
-  letter-spacing: 1.5px;
   font-variant: small-caps;
   font-size: 1.2em;
   text-decoration: none !important;
@@ -316,7 +314,6 @@ b, a:hover {
 }
 h1 {
   margin: auto;
-  letter-spacing: 1.5px;
   font-variant: small-caps
 }
 .return {
@@ -354,7 +351,6 @@ h1 {
 }
 .arabic {
   font-family: 'Noto Sans Arabic';
-  letter-spacing: 0 !important
 }
 .rhap_container {
   background-color: transparent !important;
@@ -370,7 +366,6 @@ button {
   border: 1px solid #8885;
   padding: 3px 7.5px;
   background-color: #cc95c0;
-  letter-spacing: 0.5px;
 }
 .button button {
     background: none;
@@ -380,7 +375,6 @@ button {
     cursor: pointer;
     outline: inherit;
     font-family: Lora;
-    letter-spacing: 1.5px;
     font-variant: small-caps;
     font-size: 1.5em;
     line-height: 6vh;
@@ -414,7 +408,6 @@ button {
   text-align: center;
   font-weight: normal !important;
   line-height: 2;
-  letter-spacing: 0 !important;
   font-size: 3em;
   color: #fff
 }
