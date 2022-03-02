@@ -11,15 +11,15 @@
   src: url('/assets/fonts/Lora-VariableFont_wght.ttf');
 }
 @font-face {
-  font-family: Ubuntu;
-  src: url('/assets/fonts/Ubuntu-Regular.ttf');
+  font-family: Circular;
+  src: url("/assets/fonts/CircularStd-Book.otf");
 }
 * {
     box-sizing: border-box;
   }
 body {
   color: var(--color-text-main) !important;
-  font-family: Ubuntu !important;
+  font-family: Circular !important;
   font-size: calc(1em + 0.25vw) !important;
   overflow-x: hidden;
 }
@@ -399,7 +399,7 @@ button {
 }
 .nav-content a.email {
   color: var(--color-text-main) !important;
-  font-family: Ubuntu;
+  font-family: Circular;
   font-variant: normal;
   font-size: 1em
 }
