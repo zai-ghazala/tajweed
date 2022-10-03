@@ -414,3 +414,6 @@ button {
 .title {
   background: linear-gradient(var(--color-text-main), #999);
 }
+.monospace {
+  font-family: monospace
+}

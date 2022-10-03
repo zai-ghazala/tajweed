@@ -62,7 +62,7 @@ export default function Home() {
     return (
       <>
         <div className="button"><button onClick={handleShow}>
-        <span style="font-family: monospace">ℹ</span>
+        <span className="monospace">ℹ</span>
         </button></div>
   
         <Offcanvas show={show} onHide={handleClose}>
