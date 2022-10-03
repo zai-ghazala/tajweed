@@ -7,8 +7,8 @@
   font-weight: 500
 }
 @font-face {
-  font-family: Lora;
-  src: url('/assets/fonts/Lora-VariableFont_wght.ttf');
+  font-family: Epilogue;
+  src: url('/assets/fonts/Epilogue-VariableFont_wght.ttf');
 }
 @font-face {
   font-family: Circular;
@@ -19,7 +19,7 @@
   }
 body {
   color: var(--color-text-main) !important;
-  font-family: Circular !important;
+  font-family: Epilogue !important;
   font-size: calc(1em + 0.25vw) !important;
   overflow-x: hidden;
 }
@@ -29,7 +29,7 @@ body {
     color: var(--color-text-main) !important;
 }
 a, strong {
-  font-family: Lora;
+  font-family: Epilogue;
   font-variant: small-caps;
   font-size: 1.2em;
   text-decoration: none !important;
@@ -39,7 +39,7 @@ a {
   border-bottom: 2px dotted currentColor
 }
 h1 {
-  font-family: Lora !important;
+  font-family: Epilogue !important;
   font-weight: bold !important
 }
 h1 .arabic {
@@ -374,7 +374,7 @@ button {
     padding-right: 2vw;
     cursor: pointer;
     outline: inherit;
-    font-family: Lora;
+    font-family: Epilogue;
     font-variant: small-caps;
     font-size: 1.5em;
     line-height: 6vh;
@@ -399,7 +399,7 @@ button {
 }
 .nav-content a.email {
   color: var(--color-text-main) !important;
-  font-family: Circular;
+  font-family: Epilogue;
   font-variant: normal;
   font-size: 1em
 }
