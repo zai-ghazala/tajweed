@@ -408,7 +408,7 @@ button {
   text-align: center;
   font-weight: normal !important;
   line-height: 2;
-  font-size: 3em;
+  font-size: calc(2rem + 1vw);
   color: #fff
 }
 .title {

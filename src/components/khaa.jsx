@@ -14,7 +14,7 @@ export default function Khaa() {
         <AudioPlayer
           
           src="/assets/audio/khaa.wav"
-          onPlay={e => console.log("onPlay")}
+          onPlay={e => console.log("onPlay")} muted="true"
           // other props here
         />
 <div className="letter-info">

@@ -15,7 +15,7 @@ export default function Raa() {
         <AudioPlayer
           
           src="/assets/audio/raa.wav"
-          onPlay={e => console.log("onPlay")}
+          onPlay={e => console.log("onPlay")} muted="true"
           // other props here
         />
 <div className="letter-info">

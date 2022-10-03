@@ -15,7 +15,7 @@ export default function Laam() {
         <AudioPlayer
           
           src="/assets/audio/laam.wav"
-          onPlay={e => console.log("onPlay")}
+          onPlay={e => console.log("onPlay")} muted="true"
           // other props here
         />
 <div className="letter-info">

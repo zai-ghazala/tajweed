@@ -14,7 +14,7 @@ export default function Yaa() {
         <AudioPlayer
           
           src="/assets/audio/yaa.wav"
-          onPlay={e => console.log("onPlay")}
+          onPlay={e => console.log("onPlay")} muted="true"
           // other props here
         />
 <div className="letter-info">

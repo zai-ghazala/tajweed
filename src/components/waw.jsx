@@ -15,7 +15,7 @@ export default function Waw() {
         <AudioPlayer
           
           src="/assets/audio/waw.wav"
-          onPlay={e => console.log("onPlay")}
+          onPlay={e => console.log("onPlay")} muted="true"
           // other props here
         />
 <div className="letter-info">

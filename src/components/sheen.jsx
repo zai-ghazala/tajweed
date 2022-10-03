@@ -14,7 +14,7 @@ export default function Sheen() {
         <AudioPlayer
           
           src="/assets/audio/sheen.wav"
-          onPlay={e => console.log("onPlay")}
+          onPlay={e => console.log("onPlay")} muted="true"
           // other props here
         />
 <div className="letter-info">
