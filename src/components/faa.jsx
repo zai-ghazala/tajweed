@@ -20,21 +20,21 @@ export default function Faa() {
 <div className="letter-info">
 <div className="inner-info">
           <p>
-            <Link href="lips">Lip letter</Link> – The edge of the front top teeth
+            <Link href="/lips">Lip letter</Link> – The edge of the front top teeth
             touching the inside lower lip
           </p>
          <p>
-            <Link href="hams"><span className="arabic">الهمس</span> Al Hams</Link>
+            <Link href="/hams"><span className="arabic">الهمس</span> Al Hams</Link>
           </p>
           <hr />
         <p>
-            <Link href="rikawah"><span className="arabic">الرخاوة</span> Al Rikawah</Link>
+            <Link href="/rikawah"><span className="arabic">الرخاوة</span> Al Rikawah</Link>
           </p>
          <p>
-            <Link href="istifal"><span className="arabic">الاستفال</span> Al Istifal</Link>
+            <Link href="/istifal"><span className="arabic">الاستفال</span> Al Istifal</Link>
           </p>
            <p>
-            <Link href="infitah"><span className="arabic">الانفتاح</span> Al Infitah</Link>
+            <Link href="/infitah"><span className="arabic">الانفتاح</span> Al Infitah</Link>
           </p>
           </div>
           <img className="d-block mx-auto articulation-point" src="/assets/diagrams/faa.png"/>

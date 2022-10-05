@@ -21,23 +21,23 @@ export default function Waw() {
 <div className="letter-info">
 <div className="inner-info">
           <p>
-            <Link href="lips">Lip letter</Link> – Lips make a round
+            <Link href="/lips">Lip letter</Link> – Lips make a round
             circle
           </p>
           <p>
-            <Link href="leen"><span className="arabic">اللین</span> Al Leen</Link></p>
+            <Link href="/leen"><span className="arabic">اللین</span> Al Leen</Link></p>
           <hr />
           <p>
-            <Link href="jahr"><span className="arabic">الجھر</span> Al Jahr</Link> 
+            <Link href="/jahr"><span className="arabic">الجھر</span> Al Jahr</Link> 
           </p>
         <p>
-            <Link href="rikawah"><span className="arabic">الرخاوة</span> Al Rikawah</Link>
+            <Link href="/rikawah"><span className="arabic">الرخاوة</span> Al Rikawah</Link>
           </p>
          <p>
-            <Link href="istifal"><span className="arabic">الاستفال</span> Al Istifal</Link>
+            <Link href="/istifal"><span className="arabic">الاستفال</span> Al Istifal</Link>
           </p>
            <p>
-            <Link href="infitah"><span className="arabic">الانفتاح</span> Al Infitah</Link>
+            <Link href="/infitah"><span className="arabic">الانفتاح</span> Al Infitah</Link>
           </p>
           </div>
           <Carousel nextLabel={null} prevLabel={null}>

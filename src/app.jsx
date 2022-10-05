@@ -16,7 +16,6 @@ import "./styles/styles.css";
 
 // Where all of our pages come from
 import PageRouter from "./components/router.jsx";
-import useHashLocation from "./hooks/wouter-hash";
 import { registerSW } from 'virtual:pwa-register'
 
 // The component that adds our Meta tags to the page
@@ -78,7 +77,7 @@ export default function Home() {
   }
   return (
 
-<Router hook={useHashLocation}>
+<Router>
       <Seo />
       <main role="main" className="wrapper">
       <div className="return"><div className="recorder">

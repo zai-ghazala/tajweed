@@ -21,7 +21,7 @@ export default function Suad() {
 <div className="letter-info">
 <div className="inner-info">
           <p>
-            <Link href="tongue">Tongue letter</Link> – Extreme tip of the tongue touching
+            <Link href="/tongue">Tongue letter</Link> – Extreme tip of the tongue touching
             the inner surface at the lower end of the bottom two front teeth
           </p>
           <p>
@@ -29,18 +29,18 @@ export default function Suad() {
             so is heavy and trapped
           </p>
          <p>
-            <Link href="safeer"><span className="arabic">الصفیر</span> As Safeer</Link></p>
+            <Link href="/safeer"><span className="arabic">الصفیر</span> As Safeer</Link></p>
           <hr />
          <p>
-            <Link href="hams"><span className="arabic">الهمس</span> Al Hams</Link>
+            <Link href="/hams"><span className="arabic">الهمس</span> Al Hams</Link>
           </p>
         <p>
-            <Link href="rikawah"><span className="arabic">الرخاوة</span> Al Rikawah</Link>
+            <Link href="/rikawah"><span className="arabic">الرخاوة</span> Al Rikawah</Link>
           </p>
           <p>
-            <Link href="istila"><span className="arabic">الإستــعلاء</span> Al Isti’la</Link></p>
+            <Link href="/istila"><span className="arabic">الإستــعلاء</span> Al Isti’la</Link></p>
         <p>
-            <Link href="itbaq"><span className="arabic">الاطباق</span> Al Itbaq</Link></p>
+            <Link href="/itbaq"><span className="arabic">الاطباق</span> Al Itbaq</Link></p>
             </div>
           <img className="d-block mx-auto articulation-point" src="/assets/diagrams/suad.png" />
           </div>

@@ -21,7 +21,7 @@ export default function Raa() {
 <div className="letter-info">
 <div className="inner-info">
           <p>
-            <Link href="tongue">Tongue letter</Link> – Tip of the tongue
+            <Link href="/tongue">Tongue letter</Link> – Tip of the tongue
           </p>
           <p>
             From the tip of the tongue, to what is opposite it, of the gums by
@@ -43,20 +43,20 @@ export default function Raa() {
             middle to make sound heavy
           </p>
            <p>
-            <Link href="inharaf"><span className="arabic">الانحراف</span> Al Inharaf</Link>
+            <Link href="/inharaf"><span className="arabic">الانحراف</span> Al Inharaf</Link>
           </p>
           <hr />
           <p>
-            <Link href="jahr"><span className="arabic">الجھر</span> Al Jahr</Link> 
+            <Link href="/jahr"><span className="arabic">الجھر</span> Al Jahr</Link> 
           </p>
           <p>
-            <Link href="tawassut"><span className="arabic">التوسط</span> Al Tawassut / <span className="arabic">البينية</span> Al Bayniyyah</Link>
+            <Link href="/tawassut"><span className="arabic">التوسط</span> Al Tawassut / <span className="arabic">البينية</span> Al Bayniyyah</Link>
           </p>
   <p>
-            <Link href="istifal"><span className="arabic">الاستفال</span> Al Istifal</Link>
+            <Link href="/istifal"><span className="arabic">الاستفال</span> Al Istifal</Link>
           </p>
            <p>
-            <Link href="infitah"><span className="arabic">الانفتاح</span> Al Infitah</Link>
+            <Link href="/infitah"><span className="arabic">الانفتاح</span> Al Infitah</Link>
           </p>
           </div>
           <div>

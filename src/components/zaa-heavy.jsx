@@ -20,7 +20,7 @@ export default function ZaaHeavy() {
 <div className="letter-info">
 <div className="inner-info">
           <p>
-            <Link href="tongue">Tongue letter</Link> – Tip of the tongue touching the
+            <Link href="/tongue">Tongue letter</Link> – Tip of the tongue touching the
             bottom edges of the front two teeth
           </p>
           <p>
@@ -29,15 +29,15 @@ export default function ZaaHeavy() {
           </p>
           <hr />
           <p>
-            <Link href="jahr"><span className="arabic">الجھر</span> Al Jahr</Link> 
+            <Link href="/jahr"><span className="arabic">الجھر</span> Al Jahr</Link> 
           </p>
         <p>
-            <Link href="rikawah"><span className="arabic">الرخاوة</span> Al Rikawah</Link>
+            <Link href="/rikawah"><span className="arabic">الرخاوة</span> Al Rikawah</Link>
           </p>
           <p>
-            <Link href="istila"><span className="arabic">الإستــعلاء</span> Al Isti’la</Link></p>
+            <Link href="/istila"><span className="arabic">الإستــعلاء</span> Al Isti’la</Link></p>
         <p>
-            <Link href="itbaq"><span className="arabic">الاطباق</span> Al Itbaq</Link></p>
+            <Link href="/itbaq"><span className="arabic">الاطباق</span> Al Itbaq</Link></p>
             </div>
           <img className="d-block mx-auto articulation-point" src="/assets/diagrams/zaa-heavy.png"/>
           </div>

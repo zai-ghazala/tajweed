@@ -20,22 +20,22 @@ export default function Qaaf() {
 <div className="letter-info">
 <div className="inner-info">
           <p>
-            <Link href="tongue">Tongue letter</Link> – Back of the tongue touching the
+            <Link href="/tongue">Tongue letter</Link> – Back of the tongue touching the
             soft fleshy part of roof of the mouth
           </p>
           <p>The tongue is dipped in the middle</p>
  <p>
-            <Link href="qalqala"><span className="arabic">القلقلة</span> Al Qalqala</Link></p>
+            <Link href="/qalqala"><span className="arabic">القلقلة</span> Al Qalqala</Link></p>
           <hr />
           <p>
-            <Link href="jahr"><span className="arabic">الجھر</span> Al Jahr</Link> 
+            <Link href="/jahr"><span className="arabic">الجھر</span> Al Jahr</Link> 
           </p>
           <p>
-            <Link href="shiddah"><span className="arabic">الشدۃ</span> Al Shiddah</Link></p>
+            <Link href="/shiddah"><span className="arabic">الشدۃ</span> Al Shiddah</Link></p>
           <p>
-            <Link href="istila"><span className="arabic">الإستــعلاء</span> Al Isti’la</Link></p>
+            <Link href="/istila"><span className="arabic">الإستــعلاء</span> Al Isti’la</Link></p>
            <p>
-            <Link href="infitah"><span className="arabic">الانفتاح</span> Al Infitah</Link>
+            <Link href="/infitah"><span className="arabic">الانفتاح</span> Al Infitah</Link>
           </p>
           </div>
           <img className="d-block mx-auto articulation-point" src="/assets/diagrams/qaaf.png" />

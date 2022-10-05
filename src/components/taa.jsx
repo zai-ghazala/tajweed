@@ -20,7 +20,7 @@ export default function Taa() {
 <div className="letter-info">
 <div className="inner-info">
           <p>
-            <Link href="tongue">Tongue letter</Link> – Where the extreme tip of the tongue
+            <Link href="/tongue">Tongue letter</Link> – Where the extreme tip of the tongue
             touches the roots of the top front teeth
           </p>
           <p>Tongue relaxed as normal</p>
@@ -28,15 +28,15 @@ export default function Taa() {
           <hr />
 
          <p>
-            <Link href="hams"><span className="arabic">الهمس</span> Al Hams</Link>
+            <Link href="/hams"><span className="arabic">الهمس</span> Al Hams</Link>
           </p>
  <p>
-            <Link href="shiddah"><span className="arabic">الشدۃ</span> Al Shiddah</Link></p>
+            <Link href="/shiddah"><span className="arabic">الشدۃ</span> Al Shiddah</Link></p>
          <p>
-            <Link href="istifal"><span className="arabic">الاستفال</span> Al Istifal</Link>
+            <Link href="/istifal"><span className="arabic">الاستفال</span> Al Istifal</Link>
           </p>
            <p>
-            <Link href="infitah"><span className="arabic">الانفتاح</span> Al Infitah</Link>
+            <Link href="/infitah"><span className="arabic">الانفتاح</span> Al Infitah</Link>
           </p>
           </div>
           <img className="d-block mx-auto articulation-point" src="/assets/diagrams/taa.png" />

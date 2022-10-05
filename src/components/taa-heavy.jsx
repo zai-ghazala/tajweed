@@ -20,7 +20,7 @@ export default function TaaHeavy() {
 <div className="letter-info">
 <div className="inner-info">
           <p>
-            <Link href="tongue">Tongue letter</Link> – Where the extreme tip of the tongue
+            <Link href="/tongue">Tongue letter</Link> – Where the extreme tip of the tongue
             touches the roots of the top front teeth
           </p>
           <p>
@@ -28,17 +28,17 @@ export default function TaaHeavy() {
             so is heavy and trapped
           </p>
  <p>
-            <Link href="qalqala"><span className="arabic">القلقلة</span> Al Qalqala</Link></p>
+            <Link href="/qalqala"><span className="arabic">القلقلة</span> Al Qalqala</Link></p>
           <hr />
           <p>
-            <Link href="jahr"><span className="arabic">الجھر</span> Al Jahr</Link> 
+            <Link href="/jahr"><span className="arabic">الجھر</span> Al Jahr</Link> 
           </p>
  <p>
-            <Link href="shiddah"><span className="arabic">الشدۃ</span> Al Shiddah</Link></p>
+            <Link href="/shiddah"><span className="arabic">الشدۃ</span> Al Shiddah</Link></p>
           <p>
-            <Link href="istila"><span className="arabic">الإستــعلاء</span> Al Isti’la</Link></p>
+            <Link href="/istila"><span className="arabic">الإستــعلاء</span> Al Isti’la</Link></p>
         <p>
-            <Link href="itbaq"><span className="arabic">الاطباق</span> Al Itbaq</Link></p>
+            <Link href="/itbaq"><span className="arabic">الاطباق</span> Al Itbaq</Link></p>
             </div>
           <img className="d-block mx-auto articulation-point" src="/assets/diagrams/taa-heavy.png" />
           </div>

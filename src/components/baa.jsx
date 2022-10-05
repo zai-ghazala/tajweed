@@ -20,24 +20,24 @@ export default function Baa() {
 <div className="letter-info">
 <div className="inner-info">
           <p>
-            <Link href="lips">Lip letter</Link> – Lips come together then move apart for{" "}
+            <Link href="/lips">Lip letter</Link> – Lips come together then move apart for{" "}
             <span className="arabic">ب</span>{" "}creating a bounce
           </p>
           <p>Tongue relaxed as normal</p>
  <p>
-            <Link href="qalqala"><span className="arabic">القلقلة</span> Al Qalqala</Link></p>
+            <Link href="/qalqala"><span className="arabic">القلقلة</span> Al Qalqala</Link></p>
           <hr />
           <p>
-            <Link href="jahr"><span className="arabic">الجھر</span> Al Jahr</Link> 
+            <Link href="/jahr"><span className="arabic">الجھر</span> Al Jahr</Link> 
           </p>
  <p>
-            <Link href="shiddah"><span className="arabic">الشدۃ</span> Al Shiddah</Link></p>
+            <Link href="/shiddah"><span className="arabic">الشدۃ</span> Al Shiddah</Link></p>
          <p>
-            <Link href="istifal"><span className="arabic">الاستفال</span> Al Istifal</Link>
+            <Link href="/istifal"><span className="arabic">الاستفال</span> Al Istifal</Link>
           </p>
 
            <p>
-            <Link href="infitah"><span className="arabic">الانفتاح</span> Al Infitah</Link>
+            <Link href="/infitah"><span className="arabic">الانفتاح</span> Al Infitah</Link>
           </p>
           </div>
           <img className="d-block mx-auto articulation-point" src="/assets/diagrams/baa.png"/>

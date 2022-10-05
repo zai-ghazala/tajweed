@@ -20,7 +20,7 @@ export default function Khaa() {
 <div className="letter-info">
 <div className="inner-info">
           <p>
-            <Link href="throat">Throat letter</Link> – Closest to the mouth
+            <Link href="/throat">Throat letter</Link> – Closest to the mouth
           </p>
           <p>
             Note that the tongue is dipped in the middle so the sound is
@@ -28,15 +28,15 @@ export default function Khaa() {
           </p>
           <hr />
          <p>
-            <Link href="hams"><span className="arabic">الهمس</span> Al Hams</Link>
+            <Link href="/hams"><span className="arabic">الهمس</span> Al Hams</Link>
           </p>
         <p>
-            <Link href="rikawah"><span className="arabic">الرخاوة</span> Al Rikawah</Link>
+            <Link href="/rikawah"><span className="arabic">الرخاوة</span> Al Rikawah</Link>
           </p>
           <p>
-            <Link href="istila"><span className="arabic">الإستــعلاء</span> Al Isti’la</Link></p>
+            <Link href="/istila"><span className="arabic">الإستــعلاء</span> Al Isti’la</Link></p>
            <p>
-            <Link href="infitah"><span className="arabic">الانفتاح</span> Al Infitah</Link>
+            <Link href="/infitah"><span className="arabic">الانفتاح</span> Al Infitah</Link>
           </p>
           </div>
           <img className="d-block mx-auto articulation-point" src="/assets/diagrams/khaa.png" />

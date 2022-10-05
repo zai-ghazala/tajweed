@@ -20,23 +20,23 @@ export default function Sheen() {
 <div className="letter-info">
 <div className="inner-info">
           <p>
-            <Link href="tongue">Tongue letter</Link> – Middle of the tongue with the
+            <Link href="/tongue">Tongue letter</Link> – Middle of the tongue with the
             middle of the roof of the mouth
           </p>
           <p>
-            <Link href="tafashi"><span className="arabic">التفشي</span> Al Tafashi</Link></p>
+            <Link href="/tafashi"><span className="arabic">التفشي</span> Al Tafashi</Link></p>
           <hr />
          <p>
-            <Link href="hams"><span className="arabic">الهمس</span> Al Hams</Link>
+            <Link href="/hams"><span className="arabic">الهمس</span> Al Hams</Link>
           </p>
         <p>
-            <Link href="rikawah"><span className="arabic">الرخاوة</span> Al Rikawah</Link>
+            <Link href="/rikawah"><span className="arabic">الرخاوة</span> Al Rikawah</Link>
           </p>
          <p>
-            <Link href="istifal"><span className="arabic">الاستفال</span> Al Istifal</Link>
+            <Link href="/istifal"><span className="arabic">الاستفال</span> Al Istifal</Link>
           </p>
            <p>
-            <Link href="infitah"><span className="arabic">الانفتاح</span> Al Infitah</Link>
+            <Link href="/infitah"><span className="arabic">الانفتاح</span> Al Infitah</Link>
           </p>
           </div>
           <img className="d-block mx-auto articulation-point" src="/assets/diagrams/sheen.jpg" />

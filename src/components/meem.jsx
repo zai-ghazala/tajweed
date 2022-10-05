@@ -20,7 +20,7 @@ export default function Meem() {
 <div className="letter-info">
 <div className="inner-info">
           <p>
-            <Link href="lips">Lip letter</Link> – Lips come together
+            <Link href="/lips">Lip letter</Link> – Lips come together
           </p>
           <p>Hold lips for longer than{" "}<span className="arabic">ب</span></p>
           <p>
@@ -29,20 +29,20 @@ export default function Meem() {
           </p>
           <p>Tongue relaxed as normal</p>
           <p>
-            <Link href="ghunna"><span className="arabic">الغنھ</span> Al Ghunna</Link> 
+            <Link href="/ghunna"><span className="arabic">الغنھ</span> Al Ghunna</Link> 
           </p>
           <hr />
           <p>
-            <Link href="jahr"><span className="arabic">الجھر</span> Al Jahr</Link> 
+            <Link href="/jahr"><span className="arabic">الجھر</span> Al Jahr</Link> 
           </p>
           <p>
-            <Link href="tawassut"><span className="arabic">التوسط</span> Al Tawassut / <span className="arabic">البينية</span> Al Bayniyyah</Link>
+            <Link href="/tawassut"><span className="arabic">التوسط</span> Al Tawassut / <span className="arabic">البينية</span> Al Bayniyyah</Link>
           </p>
          <p>
-            <Link href="istifal"><span className="arabic">الاستفال</span> Al Istifal</Link>
+            <Link href="/istifal"><span className="arabic">الاستفال</span> Al Istifal</Link>
           </p>
            <p>
-            <Link href="infitah"><span className="arabic">الانفتاح</span> Al Infitah</Link>
+            <Link href="/infitah"><span className="arabic">الانفتاح</span> Al Infitah</Link>
           </p>
           </div>
           <img className="d-block mx-auto articulation-point" src="/assets/diagrams/meem.png" />

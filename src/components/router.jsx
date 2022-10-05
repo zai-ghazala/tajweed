@@ -33,24 +33,24 @@ import Tawassut from "../pages/tawassut";
 export default () => (
   <Switch>
     <Route path="/" component={Home} />
-    <Route path="throat" component={Throat} />
-    <Route path="tongue" component={Tongue} />
-    <Route path="lips" component={Lips} />
-    <Route path="ghunna" component={Ghunna} />
-    <Route path="hams" component={Hams} />
-    <Route path="infitah" component={Infitah} />
-    <Route path="inharaf" component={Inharaf} />
-    <Route path="istifal" component={Istifal} />
-    <Route path="istila" component={Istila} />
-    <Route path="istitaala" component={Istitaala} />
-    <Route path="itbaq" component={Itbaq} />
-    <Route path="jahr" component={Jahr} />
-    <Route path="leen" component={Leen} />
-    <Route path="qalqala" component={Qalqala} />
-    <Route path="rikawah" component={Rikawah} />
-    <Route path="safeer" component={Safeer} />
-    <Route path="shiddah" component={Shiddah} />
-    <Route path="tafashi" component={Tafashi} />
-    <Route path="tawassut" component={Tawassut} />
+    <Route path="/throat" component={Throat} />
+    <Route path="/tongue" component={Tongue} />
+    <Route path="/lips" component={Lips} />
+    <Route path="/ghunna" component={Ghunna} />
+    <Route path="/hams" component={Hams} />
+    <Route path="/infitah" component={Infitah} />
+    <Route path="/inharaf" component={Inharaf} />
+    <Route path="/istifal" component={Istifal} />
+    <Route path="/istila" component={Istila} />
+    <Route path="/istitaala" component={Istitaala} />
+    <Route path="/itbaq" component={Itbaq} />
+    <Route path="/jahr" component={Jahr} />
+    <Route path="/leen" component={Leen} />
+    <Route path="/qalqala" component={Qalqala} />
+    <Route path="/rikawah" component={Rikawah} />
+    <Route path="/safeer" component={Safeer} />
+    <Route path="/shiddah" component={Shiddah} />
+    <Route path="/tafashi" component={Tafashi} />
+    <Route path="/tawassut" component={Tawassut} />
   </Switch>
 );

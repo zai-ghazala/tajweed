@@ -21,7 +21,7 @@ export default function Suad() {
 <div className="letter-info">
 <div className="inner-info">
           <p>
-            <Link href="tongue">Tongue letter</Link> – Sides of the tongue
+            <Link href="/tongue">Tongue letter</Link> – Sides of the tongue
           </p>
           <p>
             Touch the edge of tongue with the hard palate in front of the top
@@ -37,18 +37,18 @@ export default function Suad() {
           </p>
           <p>Pressure on both sides, but if not possible, then one side</p>
      <p>
-            <Link href="istitaala"><span className="arabic">الاستطال</span> Al Istitaala</Link></p>
+            <Link href="/istitaala"><span className="arabic">الاستطال</span> Al Istitaala</Link></p>
           <hr />
           <p>
-            <Link href="jahr"><span className="arabic">الجھر</span> Al Jahr</Link> 
+            <Link href="/jahr"><span className="arabic">الجھر</span> Al Jahr</Link> 
           </p>
         <p>
-            <Link href="rikawah"><span className="arabic">الرخاوة</span> Al Rikawah</Link>
+            <Link href="/rikawah"><span className="arabic">الرخاوة</span> Al Rikawah</Link>
           </p>
           <p>
-            <Link href="istila"><span className="arabic">الإستــعلاء</span> Al Isti’la</Link></p>
+            <Link href="/istila"><span className="arabic">الإستــعلاء</span> Al Isti’la</Link></p>
         <p>
-            <Link href="itbaq"><span className="arabic">الاطباق</span> Al Itbaq</Link></p>
+            <Link href="/itbaq"><span className="arabic">الاطباق</span> Al Itbaq</Link></p>
             </div>
           <Carousel nextLabel={null} prevLabel={null}>
             <Carousel.Item>

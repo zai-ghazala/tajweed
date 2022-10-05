@@ -21,7 +21,7 @@ export default function Laam() {
 <div className="letter-info">
 <div className="inner-info">
           <p>
-            <Link href="tongue">Tongue letter</Link> – Front edge
+            <Link href="/tongue">Tongue letter</Link> – Front edge
           </p>
           <p>
             Touch the edge of tongue with the hard palate in front of the top
@@ -34,20 +34,20 @@ export default function Laam() {
           <p>The sound is directed up</p>
           <p>The tongue is dipped in the middle</p>
            <p>
-            <Link href="inharaf"><span className="arabic">الانحراف</span> Al Inharaf</Link>
+            <Link href="/inharaf"><span className="arabic">الانحراف</span> Al Inharaf</Link>
           </p>
           <hr />
           <p>
-            <Link href="jahr"><span className="arabic">الجھر</span> Al Jahr</Link> 
+            <Link href="/jahr"><span className="arabic">الجھر</span> Al Jahr</Link> 
           </p>
           <p>
-            <Link href="tawassut"><span className="arabic">التوسط</span> Al Tawassut / <span className="arabic">البينية</span> Al Bayniyyah</Link>
+            <Link href="/tawassut"><span className="arabic">التوسط</span> Al Tawassut / <span className="arabic">البينية</span> Al Bayniyyah</Link>
           </p>
          <p>
-            <Link href="istifal"><span className="arabic">الاستفال</span> Al Istifal</Link>
+            <Link href="/istifal"><span className="arabic">الاستفال</span> Al Istifal</Link>
           </p>
            <p>
-            <Link href="infitah"><span className="arabic">الانفتاح</span> Al Infitah</Link>
+            <Link href="/infitah"><span className="arabic">الانفتاح</span> Al Infitah</Link>
           </p>
           </div>
           <Carousel nextLabel={null} prevLabel={null}>
