@@ -12,7 +12,7 @@ import { Router, Link } from "wouter";
  */
 
 // Import and apply CSS stylesheet
-import "./styles/styles.css";
+
 
 // Where all of our pages come from
 import PageRouter from "./components/router.jsx";
@@ -23,6 +23,7 @@ import Seo from "./components/seo.jsx";
 
 import Offcanvas from "react-bootstrap/Offcanvas";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "./styles/styles.scss";
 
 import NavContent from "./components/nav-content.jsx";
 import useRecorder from './components/use-recorder';
@@ -61,7 +62,7 @@ export default function Home() {
     return (
       <>
         <div className="button"><button onClick={handleShow}>
-        <span className="monospace">ℹ</span>
+        ℹ
         </button></div>
   
         <Offcanvas show={show} onHide={handleClose}>

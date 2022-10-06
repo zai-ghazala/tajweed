@@ -18,35 +18,35 @@
     box-sizing: border-box;
   }
 body {
-  color: var(--color-text-main) !important;
-  font-family: Epilogue !important;
-  font-size: calc(1em + 0.25vw) !important;
+  color: var(--color-text-main) ;
+  font-family: Epilogue ;
+  font-size: calc(1em + 0.25vw) ;
   overflow-x: hidden;
 }
 .accordion-button {
-    font-family: 'Noto Sans Arabic' !important;
-    font-size: calc(2em + 1vw) !important;
-    color: var(--color-text-main) !important;
+    font-family: 'Noto Sans Arabic' ;
+    font-size: calc(2em + 1vw) ;
+    color: var(--color-text-main) ;
 }
 a, strong {
   font-family: Epilogue;
   font-variant: small-caps;
   font-size: 1.2em;
-  text-decoration: none !important;
-  font-weight: bold !important
+  text-decoration: none ;
+  font-weight: bold 
 }
 a {
   border-bottom: 2px dotted currentColor
 }
 h1 {
-  font-family: Epilogue !important;
-  font-weight: bold !important
+  font-family: Epilogue ;
+  font-weight: bold 
 }
 h1 .arabic {
   font-weight: normal
 }
 .accordion-button:hover, .accordion-button:not(.collapsed) {
-  opacity: 0.75 !important;
+  opacity: 0.75 ;
 }
 .alif .accordion-button, .alif .accordion-item hr, .alif .accordion-button:not(.collapsed) {
   background-color: #cc95c0
@@ -143,14 +143,14 @@ h1 .arabic {
   filter: invert(100%);
 }
 .carousel-caption {  
-  position: relative !important;
-  left: auto !important;
-  right: auto !important;
-  padding-top: 2.25rem !important;
-  color: var(--color-text-main) !important
+  position: relative ;
+  left: auto ;
+  right: auto ;
+  padding-top: 2.25rem ;
+  color: var(--color-text-main) 
 }
 .carousel-indicators {
-  display: none !important;
+  display: none ;
 }
 .accordion-body img {
   width: 75vw
@@ -164,7 +164,7 @@ h1 .arabic {
 }
 hr {
   border: none;
-  height: 2px !important;
+  height: 2px ;
 }
 @media (min-width: 481px) { 
   .accordion-body img {
@@ -336,15 +336,15 @@ h1 {
   top: 12vh
 }
 .return a {
-  text-decoration: none !important;
-  border-bottom: none !important;
+  text-decoration: none ;
+  border-bottom: none ;
 }
 .return img {
   width: 6vh;
   height: 6vh;
 }
 .accordion-button:not(.collapsed):after {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e") !important;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e") ;
 }
 .except {
   color: red
@@ -353,10 +353,10 @@ h1 {
   font-family: 'Noto Sans Arabic';
 }
 .rhap_container {
-  background-color: transparent !important;
+  background-color: transparent ;
   opacity: 0.75;
   margin-bottom: 1rem;
-  box-shadow: initial !important
+  box-shadow: initial 
 }
 .return .menu {
   display: flex;
@@ -378,19 +378,19 @@ button {
     font-variant: small-caps;
     font-size: 1.5em;
     line-height: 6vh;
-    text-decoration: none !important;
-    font-weight: bold !important;
+    text-decoration: none ;
+    font-weight: bold ;
     color: #FFF;
 }
 .recorder button {
-  line-height: 6vh !important;
+  line-height: 6vh ;
   width: 40px
 }
 .offcanvas {
-  background-color:  #cc95c0 !important
+  background-color:  #cc95c0 
 }
 .offcanvas-header {
-  justify-content: right !important
+  justify-content: right 
 }
 .sources {
   position: absolute;
@@ -398,7 +398,7 @@ button {
   font-size: 0.75em
 }
 .nav-content a.email {
-  color: var(--color-text-main) !important;
+  color: var(--color-text-main) ;
   font-family: Epilogue;
   font-variant: normal;
   font-size: 1em
@@ -406,14 +406,11 @@ button {
 .title h1 {
   padding: 5vh;
   text-align: center;
-  font-weight: normal !important;
+  font-weight: normal ;
   line-height: 2;
   font-size: calc(2rem + 1vw);
   color: #fff
 }
 .title {
   background: linear-gradient(var(--color-text-main), #999);
-}
-.monospace {
-  font-family: monospace
 }

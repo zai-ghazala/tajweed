@@ -9,7 +9,7 @@ export default function NavContent() {
 <p>Feel free to contact me at <a className="email" href="mailto:zainabismail024@gmail.com">zainabismail024@gmail.com</a> with any corrections or suggestions</p>
             <p><b>Add to home screen</b></p>
 <p><b>On iOS</b> click the share button then ‘add to home screen’</p>
-<p><b>On Android</b> click the <span className="monospace">ℹ</span> menu button then ‘install app’</p>
+<p><b>On Android</b> click the ℹ menu button then ‘install app’</p>
 <p>This app also works offline</p>
             <p><b>Sources</b></p>
             <p>Illustrations by Eman Atef</p>
