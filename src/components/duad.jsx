@@ -14,7 +14,7 @@ export default function Suad() {
         <Accordion.Body>
         <AudioPlayer autoPlay 
           
-          src="/assets/audio/duad.wav"
+          src="/assets/audio/duad.mp3"
           onPlay={e => console.log("onPlay")} 
           // other props here
         />

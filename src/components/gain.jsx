@@ -13,7 +13,7 @@ export default function Gain() {
         <Accordion.Body>
         <AudioPlayer autoPlay 
           
-          src="/assets/audio/gain.wav"
+          src="/assets/audio/gain.mp3"
           onPlay={e => console.log("onPlay")} 
           // other props here
         />

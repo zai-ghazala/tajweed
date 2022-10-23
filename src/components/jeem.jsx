@@ -14,7 +14,7 @@ export default function Jeem() {
       <Accordion.Body>
       <AudioPlayer autoPlay 
           
-          src="/assets/audio/jeem.wav"
+          src="/assets/audio/jeem.mp3"
           onPlay={e => console.log("onPlay")} 
           // other props here
         />

@@ -13,7 +13,7 @@ export default function Qaaf() {
         <Accordion.Body>
         <AudioPlayer autoPlay 
           
-          src="/assets/audio/qaaf.wav"
+          src="/assets/audio/qaaf.mp3"
           onPlay={e => console.log("onPlay")} 
           // other props here
         />

@@ -13,7 +13,7 @@ export default function ZaaHeavy() {
         <Accordion.Body>
         <AudioPlayer autoPlay 
           
-          src="/assets/audio/zaa-heavy.wav"
+          src="/assets/audio/zaa-heavy.mp3"
           onPlay={e => console.log("onPlay")} 
           // other props here
         />

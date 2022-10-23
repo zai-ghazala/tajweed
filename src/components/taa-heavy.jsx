@@ -13,7 +13,7 @@ export default function TaaHeavy() {
         <Accordion.Body>
         <AudioPlayer autoPlay 
           
-          src="/assets/audio/taa-heavy.wav"
+          src="/assets/audio/taa-heavy.mp3"
           onPlay={e => console.log("onPlay")} 
           // other props here
         />

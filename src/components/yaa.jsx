@@ -13,7 +13,7 @@ export default function Yaa() {
         <Accordion.Body>
         <AudioPlayer autoPlay 
           
-          src="/assets/audio/yaa.wav"
+          src="/assets/audio/yaa.mp3"
           onPlay={e => console.log("onPlay")} 
           // other props here
         />

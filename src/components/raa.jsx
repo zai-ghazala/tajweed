@@ -13,7 +13,7 @@ export default function Raa() {
         <Accordion.Body>
         <AudioPlayer autoPlay 
           
-          src="/assets/audio/raa.wav"
+          src="/assets/audio/raa.mp3"
           onPlay={e => console.log("onPlay")} 
           // other props here
         />

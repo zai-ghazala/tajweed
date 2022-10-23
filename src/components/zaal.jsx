@@ -13,7 +13,7 @@ export default function Zaal() {
         <Accordion.Body>
         <AudioPlayer autoPlay 
           
-          src="/assets/audio/zaal.wav"
+          src="/assets/audio/zaal.mp3"
           onPlay={e => console.log("onPlay")} 
           // other props here
         />

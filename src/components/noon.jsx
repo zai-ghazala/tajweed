@@ -13,7 +13,7 @@ export default function Noon() {
         <Accordion.Body>
         <AudioPlayer autoPlay 
           
-          src="/assets/audio/noon.wav"
+          src="/assets/audio/noon.mp3"
           onPlay={e => console.log("onPlay")} 
           // other props here
         />

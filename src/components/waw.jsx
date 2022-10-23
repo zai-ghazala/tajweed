@@ -14,7 +14,7 @@ export default function Waw() {
         <Accordion.Body>
         <AudioPlayer autoPlay 
           
-          src="/assets/audio/waw.wav"
+          src="/assets/audio/waw.mp3"
           onPlay={e => console.log("onPlay")} 
           // other props here
         />

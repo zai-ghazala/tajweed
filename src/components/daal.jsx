@@ -13,7 +13,7 @@ export default function Daal() {
         <Accordion.Body>
         <AudioPlayer autoPlay 
           
-          src="/assets/audio/daal.wav"
+          src="/assets/audio/daal.mp3"
           onPlay={e => console.log("onPlay")} 
           // other props here
         />

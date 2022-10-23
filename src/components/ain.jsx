@@ -13,7 +13,7 @@ export default function Ain() {
         <Accordion.Body>
         <AudioPlayer autoPlay 
           
-          src="/assets/audio/ain.wav"
+          src="/assets/audio/ain.mp3"
           onPlay={e => console.log("onPlay")} 
           // other props here
         />

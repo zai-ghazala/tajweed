@@ -13,7 +13,7 @@ export default function Faa() {
         <Accordion.Body>
         <AudioPlayer autoPlay 
           
-          src="/assets/audio/faa.wav"
+          src="/assets/audio/faa.mp3"
           onPlay={e => console.log("onPlay")} 
           // other props here
         />

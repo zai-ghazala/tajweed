@@ -14,7 +14,7 @@ export default function Laam() {
         <Accordion.Body>
         <AudioPlayer autoPlay 
           
-          src="/assets/audio/laam.wav"
+          src="/assets/audio/laam.mp3"
           onPlay={e => console.log("onPlay")} 
           // other props here
         />

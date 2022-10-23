@@ -13,7 +13,7 @@ export default function Seen() {
         <Accordion.Body>
         <AudioPlayer autoPlay 
           
-          src="/assets/audio/seen.wav"
+          src="/assets/audio/seen.mp3"
           onPlay={e => console.log("onPlay")} 
           // other props here
         />

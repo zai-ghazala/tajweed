@@ -14,7 +14,7 @@ export default function Kaaf() {
         <Accordion.Body>
         <AudioPlayer autoPlay 
           
-          src="/assets/audio/kaaf.wav"
+          src="/assets/audio/kaaf.mp3"
           onPlay={e => console.log("onPlay")} 
           // other props here
         />

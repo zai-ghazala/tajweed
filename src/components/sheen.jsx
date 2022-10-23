@@ -13,7 +13,7 @@ export default function Sheen() {
         <Accordion.Body>
         <AudioPlayer autoPlay 
           
-          src="/assets/audio/sheen.wav"
+          src="/assets/audio/sheen.mp3"
           onPlay={e => console.log("onPlay")} 
           // other props here
         />
