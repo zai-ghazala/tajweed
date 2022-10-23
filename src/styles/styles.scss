@@ -1,6 +1,9 @@
 :root {
   --color-text-main: #111;
+  --accent: hotpink
 }
+$rhap_font-family: inherit;   // Font family of current time and duration
+
 @font-face {
   font-family: 'Noto Sans Arabic';
   src: url("/assets/fonts/NotoSansArabic-VariableFont_wdth,wght.ttf");
@@ -26,7 +29,15 @@ body {
 .accordion-button {
     font-family: 'Noto Sans Arabic' ;
     font-size: calc(2em + 1vw) ;
-    color: var(--color-text-main) ;
+    color: var(--color-text-main);
+
+    &:not(.collapsed) {
+      color: var(--accent);
+    }
+    &:focus {
+      border-color: rgba(255, 105, 180, 0.5);
+      box-shadow: 0 0 0 0.25rem rgba(255, 105, 180, 0.5);
+  }
 }
 a, strong {
   font-family: Epilogue;

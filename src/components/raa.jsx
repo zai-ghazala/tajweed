@@ -1,10 +1,9 @@
 import * as React from "react";
 import Accordion from "react-bootstrap/Accordion";
-import Carousel from "react-bootstrap/Carousel";
 import { Link } from "wouter";
 
-import AudioPlayer from 'react-h5-audio-player';
-import 'react-h5-audio-player/lib/styles.css';
+import AudioPlayer from '@wzhonggo/react-h5-audio-player';
+import '@wzhonggo/react-h5-audio-player/lib/styles.css';
 
 export default function Raa() {
   return (
