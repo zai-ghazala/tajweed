@@ -12,7 +12,7 @@ export default function Laam() {
       <Accordion.Item eventKey="22">
         <Accordion.Header>ل</Accordion.Header>
         <Accordion.Body>
-        <AudioPlayer autoPlay 
+        <AudioPlayer   
           
           src="/assets/audio/laam.mp3"
           onPlay={e => console.log("onPlay")} 

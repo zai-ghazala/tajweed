@@ -12,7 +12,7 @@ export default function Kaaf() {
       <Accordion.Item eventKey="21">
         <Accordion.Header>ك</Accordion.Header>
         <Accordion.Body>
-        <AudioPlayer autoPlay 
+        <AudioPlayer   
           
           src="/assets/audio/kaaf.mp3"
           onPlay={e => console.log("onPlay")} 

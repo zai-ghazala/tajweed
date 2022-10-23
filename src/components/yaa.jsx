@@ -11,7 +11,7 @@ export default function Yaa() {
       <Accordion.Item eventKey="28">
         <Accordion.Header>ي</Accordion.Header>
         <Accordion.Body>
-        <AudioPlayer autoPlay 
+        <AudioPlayer   
           
           src="/assets/audio/yaa.mp3"
           onPlay={e => console.log("onPlay")} 

@@ -11,7 +11,7 @@ export default function Faa() {
       <Accordion.Item eventKey="19">
         <Accordion.Header>ف</Accordion.Header>
         <Accordion.Body>
-        <AudioPlayer autoPlay 
+        <AudioPlayer   
           
           src="/assets/audio/faa.mp3"
           onPlay={e => console.log("onPlay")} 

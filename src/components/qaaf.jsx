@@ -11,7 +11,7 @@ export default function Qaaf() {
       <Accordion.Item eventKey="20">
         <Accordion.Header>ق</Accordion.Header>
         <Accordion.Body>
-        <AudioPlayer autoPlay 
+        <AudioPlayer   
           
           src="/assets/audio/qaaf.mp3"
           onPlay={e => console.log("onPlay")} 

@@ -11,7 +11,7 @@ export default function Taa() {
       <Accordion.Item eventKey="2">
         <Accordion.Header>ت</Accordion.Header>
         <Accordion.Body>
-        <AudioPlayer autoPlay 
+        <AudioPlayer   
           
           src="/assets/audio/taa.mp3"
           onPlay={e => console.log("onPlay")} 

@@ -12,7 +12,7 @@ export default function Hamzah() {
       <Accordion.Item eventKey="27">
         <Accordion.Header>ء</Accordion.Header>
         <Accordion.Body>
-        <AudioPlayer autoPlay 
+        <AudioPlayer   
           
           src="/assets/audio/hamzah.mp3"
           onPlay={e => console.log("onPlay")} 

@@ -12,7 +12,7 @@ export default function Waw() {
       <Accordion.Item eventKey="25">
         <Accordion.Header>و</Accordion.Header>
         <Accordion.Body>
-        <AudioPlayer autoPlay 
+        <AudioPlayer   
           
           src="/assets/audio/waw.mp3"
           onPlay={e => console.log("onPlay")} 

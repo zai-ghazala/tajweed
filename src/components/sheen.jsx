@@ -11,7 +11,7 @@ export default function Sheen() {
       <Accordion.Item eventKey="12">
         <Accordion.Header>ش</Accordion.Header>
         <Accordion.Body>
-        <AudioPlayer autoPlay 
+        <AudioPlayer   
           
           src="/assets/audio/sheen.mp3"
           onPlay={e => console.log("onPlay")} 

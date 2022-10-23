@@ -11,7 +11,7 @@ export default function Meem() {
      <Accordion.Item eventKey="23">
         <Accordion.Header>م</Accordion.Header>
         <Accordion.Body>
-        <AudioPlayer autoPlay 
+        <AudioPlayer   
           
           src="/assets/audio/meem.mp3"
           onPlay={e => console.log("onPlay")} 

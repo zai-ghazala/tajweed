@@ -11,7 +11,7 @@ export default function Seen() {
       <Accordion.Item eventKey="11">
         <Accordion.Header>س</Accordion.Header>
         <Accordion.Body>
-        <AudioPlayer autoPlay 
+        <AudioPlayer   
           
           src="/assets/audio/seen.mp3"
           onPlay={e => console.log("onPlay")} 

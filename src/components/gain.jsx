@@ -11,7 +11,7 @@ export default function Gain() {
       <Accordion.Item eventKey="18">
         <Accordion.Header>غ</Accordion.Header>
         <Accordion.Body>
-        <AudioPlayer autoPlay 
+        <AudioPlayer   
           
           src="/assets/audio/gain.mp3"
           onPlay={e => console.log("onPlay")} 

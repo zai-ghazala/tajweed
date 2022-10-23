@@ -11,7 +11,7 @@ export default function TaaHeavy() {
       <Accordion.Item eventKey="15">
         <Accordion.Header>ط</Accordion.Header>
         <Accordion.Body>
-        <AudioPlayer autoPlay 
+        <AudioPlayer   
           
           src="/assets/audio/taa-heavy.mp3"
           onPlay={e => console.log("onPlay")} 

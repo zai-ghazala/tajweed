@@ -12,7 +12,7 @@ export default function Jeem() {
      <Accordion.Item eventKey="4">
       <Accordion.Header>ج</Accordion.Header>
       <Accordion.Body>
-      <AudioPlayer autoPlay 
+      <AudioPlayer   
           
           src="/assets/audio/jeem.mp3"
           onPlay={e => console.log("onPlay")} 

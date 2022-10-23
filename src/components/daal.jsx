@@ -11,7 +11,7 @@ export default function Daal() {
       <Accordion.Item eventKey="7">
         <Accordion.Header>د</Accordion.Header>
         <Accordion.Body>
-        <AudioPlayer autoPlay 
+        <AudioPlayer   
           
           src="/assets/audio/daal.mp3"
           onPlay={e => console.log("onPlay")} 
