@@ -12,7 +12,7 @@ export default function Suad() {
       <Accordion.Item eventKey="14">
         <Accordion.Header>ض</Accordion.Header>
         <Accordion.Body>
-        <AudioPlayer
+        <AudioPlayer autoPlay 
           
           src="/assets/audio/duad.wav"
           onPlay={e => console.log("onPlay")} 

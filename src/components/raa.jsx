@@ -11,7 +11,7 @@ export default function Raa() {
       <Accordion.Item eventKey="9">
         <Accordion.Header>ر</Accordion.Header>
         <Accordion.Body>
-        <AudioPlayer
+        <AudioPlayer autoPlay 
           
           src="/assets/audio/raa.wav"
           onPlay={e => console.log("onPlay")} 

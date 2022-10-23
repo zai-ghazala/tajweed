@@ -11,7 +11,7 @@ export default function Zaal() {
       <Accordion.Item eventKey="8">
         <Accordion.Header>ذ</Accordion.Header>
         <Accordion.Body>
-        <AudioPlayer
+        <AudioPlayer autoPlay 
           
           src="/assets/audio/zaal.wav"
           onPlay={e => console.log("onPlay")} 

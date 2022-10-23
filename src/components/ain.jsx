@@ -11,7 +11,7 @@ export default function Ain() {
       <Accordion.Item eventKey="17">
         <Accordion.Header>ع</Accordion.Header>
         <Accordion.Body>
-        <AudioPlayer
+        <AudioPlayer autoPlay 
           
           src="/assets/audio/ain.wav"
           onPlay={e => console.log("onPlay")} 

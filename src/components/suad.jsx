@@ -12,7 +12,7 @@ export default function Suad() {
       <Accordion.Item eventKey="13">
         <Accordion.Header>ص</Accordion.Header>
         <Accordion.Body>
-        <AudioPlayer
+        <AudioPlayer autoPlay 
           
           src="/assets/audio/suad.wav"
           onPlay={e => console.log("onPlay")} 

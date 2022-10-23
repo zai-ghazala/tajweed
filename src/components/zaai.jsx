@@ -11,7 +11,7 @@ export default function Zaai() {
       <Accordion.Item eventKey="10">
         <Accordion.Header>ز</Accordion.Header>
         <Accordion.Body>
-        <AudioPlayer
+        <AudioPlayer autoPlay 
           
           src="/assets/audio/zaai.wav"
           onPlay={e => console.log("onPlay")} 

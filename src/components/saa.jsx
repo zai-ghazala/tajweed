@@ -11,7 +11,7 @@ export default function Saa() {
       <Accordion.Item eventKey="3">
       <Accordion.Header>ث</Accordion.Header>
       <Accordion.Body>
-      <AudioPlayer
+      <AudioPlayer autoPlay 
           
           src="/assets/audio/saa.wav"
           onPlay={e => console.log("onPlay")} 

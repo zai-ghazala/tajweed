@@ -12,7 +12,7 @@ export default function SmallHaa() {
      <Accordion.Item eventKey="26">
         <Accordion.Header>ه</Accordion.Header>
         <Accordion.Body>
-        <AudioPlayer
+        <AudioPlayer autoPlay 
           
           src="/assets/audio/small-haa.wav"
           onPlay={e => console.log("onPlay")} 

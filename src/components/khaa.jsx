@@ -11,7 +11,7 @@ export default function Khaa() {
       <Accordion.Item eventKey="6">
         <Accordion.Header>خ</Accordion.Header>
         <Accordion.Body>
-        <AudioPlayer
+        <AudioPlayer autoPlay 
           
           src="/assets/audio/khaa.wav"
           onPlay={e => console.log("onPlay")} 

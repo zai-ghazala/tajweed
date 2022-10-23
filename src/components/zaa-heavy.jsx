@@ -11,7 +11,7 @@ export default function ZaaHeavy() {
       <Accordion.Item eventKey="16">
         <Accordion.Header>ظ</Accordion.Header>
         <Accordion.Body>
-        <AudioPlayer
+        <AudioPlayer autoPlay 
           
           src="/assets/audio/zaa-heavy.wav"
           onPlay={e => console.log("onPlay")} 

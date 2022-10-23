@@ -11,7 +11,7 @@ export default function Noon() {
       <Accordion.Item eventKey="24">
         <Accordion.Header>ن</Accordion.Header>
         <Accordion.Body>
-        <AudioPlayer
+        <AudioPlayer autoPlay 
           
           src="/assets/audio/noon.wav"
           onPlay={e => console.log("onPlay")} 
