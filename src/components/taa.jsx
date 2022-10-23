@@ -14,7 +14,7 @@ export default function Taa() {
         <AudioPlayer
           
           src="/assets/audio/taa.wav"
-          onPlay={e => console.log("onPlay")} muted="true"
+          onPlay={e => console.log("onPlay")} 
           // other props here
         />
 <div className="letter-info">

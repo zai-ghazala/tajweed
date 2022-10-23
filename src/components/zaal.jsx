@@ -14,7 +14,7 @@ export default function Zaal() {
         <AudioPlayer
           
           src="/assets/audio/zaal.wav"
-          onPlay={e => console.log("onPlay")} muted="true"
+          onPlay={e => console.log("onPlay")} 
           // other props here
         />
 <div className="letter-info">

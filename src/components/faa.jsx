@@ -14,7 +14,7 @@ export default function Faa() {
         <AudioPlayer
           
           src="/assets/audio/faa.wav"
-          onPlay={e => console.log("onPlay")} muted="true"
+          onPlay={e => console.log("onPlay")} 
           // other props here
         />
 <div className="letter-info">
