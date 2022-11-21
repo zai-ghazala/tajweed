@@ -21,7 +21,7 @@ export default function Haa() {
 <div className="inner-info">
           <p>
             <Link href="/throat">Throat letter</Link> – Middle of the throat, epiglottis,
-            what stops food going into our windpipe when we eat
+            which stops food going into our windpipe when we eat
           </p>
 
           <p>Tongue is flat</p>
