@@ -14,15 +14,15 @@ $rhap_font-family: inherit;   // Font family of current time and duration
   src: url('/assets/fonts/Epilogue-VariableFont_wght.ttf');
 }
 @font-face {
-  font-family: Circular;
-  src: url("/assets/fonts/CircularStd-Book.otf");
+  font-family: Times;
+  src: url("/assets/fonts/TIMESR.ttf");
 }
 * {
     box-sizing: border-box;
   }
 body {
   color: var(--color-text-main) ;
-  font-family: Epilogue ;
+  font-family: Times;
   font-size: calc(1em + 0.25vw) ;
   overflow-x: hidden;
 }
@@ -410,7 +410,7 @@ button {
 }
 .nav-content a.email {
   color: var(--color-text-main) ;
-  font-family: Epilogue;
+  font-family: Times;
   font-variant: normal;
   font-size: 1em
 }
