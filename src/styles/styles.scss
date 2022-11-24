@@ -1,6 +1,5 @@
 :root {
   --color-text-main: #555;
-  --accent: hotpink
 }
 $rhap_font-family: inherit;   // Font family of current time and duration
 
@@ -29,7 +28,7 @@ body {
     color: var(--color-text-main);
 
     &:not(.collapsed) {
-      color: var(--accent);
+      color: #000;
     }
     &:focus {
       border-color: rgba(255, 105, 180, 0.5);
