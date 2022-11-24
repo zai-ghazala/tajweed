@@ -326,7 +326,7 @@ h1 {
 }
 .return {
   text-align: right;
-  background-color: var(--color-text-main);
+  background-color: #000;
   position: fixed;
   height: 12vh;
   width: 100vw;
@@ -420,5 +420,5 @@ button {
   color: #fff
 }
 .title {
-  background: linear-gradient(var(--color-text-main), #999);
+  background: linear-gradient(#000, #999);
 }
