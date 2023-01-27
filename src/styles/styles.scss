@@ -12,13 +12,17 @@ $rhap_font-family: inherit;   // Font family of current time and duration
   font-family: Epilogue;
   src: url('/assets/fonts/Epilogue-VariableFont_wght.ttf');
 }
+@font-face {
+  font-family: JUSTSans;
+  src: url('/assets/fonts/JUSTSans-Regular.otf');
+}
 
 * {
     box-sizing: border-box;
   }
 body {
   color: var(--color-text-main) ;
-	font-family: Georgia, serif;
+	font-family: JUSTSans, sans-serif;
   font-size: calc(1em + 0.25vw) ;
   overflow-x: hidden;
 }
@@ -409,7 +413,7 @@ button {
 }
 .nav-content a.email {
   color: var(--color-text-main) ;
-	font-family: Georgia, serif;
+	font-family: JUSTSans, sans-serif;
   font-variant: normal;
   font-size: 1em
 }

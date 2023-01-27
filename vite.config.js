@@ -7,10 +7,11 @@ export default defineConfig({
   plugins: [
     reactRefresh(),
     VitePWA({
-      workbox: {
-        maximumFileSizeToCacheInBytes: 30 * 1024 * 1024,
-      },
       registerType: 'autoUpdate',
+      workbox: {
+        clientsClaim: true,
+        skipWaiting: true
+      },
       includeAssets: [
         "icons/favicon.ico",
         "robots.txt",
@@ -18,7 +19,8 @@ export default defineConfig({
         "assets/fonts/*.ttf", 
         "assets/images/*.{png,jpeg}", 
         "assets/diagrams/*.png", 
-        "assets/audio/*.mp3"],
+        "assets/audio/*.mp3",
+        "pwaicons/*.png"],
       manifest: {
         short_name: "Tajweed",
         name: "Tajweed",
