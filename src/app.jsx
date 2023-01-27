@@ -36,10 +36,6 @@ export default function Home() {
     new Audio(audioURL).play();
   };
 
-  const updateSW = registerSW({
-    onOfflineReady() {},
-  })
-
   function goBack() {
     window.history.back()
   }
