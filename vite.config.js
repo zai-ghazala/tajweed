@@ -13,7 +13,6 @@ export default defineConfig({
         skipWaiting: true
       },
       includeAssets: [
-        "/icons/favicon.ico",
         "assets/fonts/*.ttf", 
         "assets/images/*.{png,jpeg}", 
         "assets/diagrams/*.png", 
