@@ -30,6 +30,9 @@ import useRecorder from './components/use-recorder';
 
 // Home function that is reflected across the site
 export default function Home() {
+
+  registerSW({ immediate: true })
+  
   let [audioURL, isRecording, startRecording, stopRecording] = useRecorder();
 
   const playAudio = () => {
