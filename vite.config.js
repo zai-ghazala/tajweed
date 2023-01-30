@@ -13,8 +13,8 @@ export default defineConfig({
         skipWaiting: true
       },
       includeAssets: [
-        "assets/fonts/*.ttf", 
-        "assets/images/*.{png,jpeg}", 
+        "assets/fonts/*.{ttf,otf}", 
+        "assets/images/*.{png,jpg}", 
         "assets/diagrams/*.png", 
         "assets/audio/*.mp3",
         "/icons/pwaicons/*.png"],

@@ -48,8 +48,8 @@ export default function Home() {
   }
 
   function historyButtons() {
-    return <><div class="button"><button onClick={goBack}>‹</button></div>
-    <div class="button"><button onClick={goForward}>›</button></div></>
+    return <><div className="button"><button onClick={goBack}>‹</button></div>
+    <div className="button"><button onClick={goForward}>›</button></div></>
   }
 
   function Menu() {
