@@ -14,8 +14,8 @@ export default defineConfig({
       },
       includeAssets: [
         "assets/fonts/*.{ttf,otf}", 
-        "assets/images/*.{png,jpg}", 
-        "assets/diagrams/*.png", 
+        "assets/images/*.{jpeg}", 
+        "assets/diagrams/*.{png,jpg}", 
         "assets/audio/*.mp3",
         "/icons/pwaicons/*.png"],
       manifest: {
