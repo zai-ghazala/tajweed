@@ -17,7 +17,7 @@ export default defineConfig({
         "assets/images/*.{jpeg}", 
         "assets/diagrams/*.{png,jpg}", 
         "assets/audio/*.mp3",
-        "/icons/pwaicons/*.{png,jpg}"],
+        "icons/pwaicons/*.{png,jpg}"],
       manifest: {
         short_name: "Tajweed",
         name: "Tajweed",
